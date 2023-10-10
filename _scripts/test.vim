@@ -14,7 +14,11 @@ try
 	endif
 
 	if has('vim9script') == 1
-		import 'SchemaStore.vim'
+		if has('patch-8.2.4019') == 1
+			import 'SchemaStore.vim'
+		else
+			import * as SchemaStore from 'SchemaStore.vim'
+		endif
 		if assert_equal(s:schemata, s:SchemaStore.schemata) == 0 && assert_equal(s:schemata, s:SchemaStore.schemas) == 0
 			echo 'Imported SchemaStore fields are working correctly.'
 		endif

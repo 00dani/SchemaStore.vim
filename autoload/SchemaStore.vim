@@ -14,7 +14,15 @@ if !has('vim9script')
 endif
 
 vim9script
-import '../import/SchemaStore.vim'
+
+# The syntax for :import was changed by patch 8.2.4019. The Vim bundled in
+# Ubuntu LTS does't have that patch, so it's kinda important to support the
+# older syntax too.
+if has('patch-8.2.4019')
+  import '../import/SchemaStore.vim'
+else
+  import * as SchemaStore from '../import/SchemaStore.vim'
+endif
 
 export def Schemata(): list<dict<any>>
   return SchemaStore.schemata
