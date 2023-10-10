@@ -8,14 +8,14 @@ set runtimepath=.
 let v:errors = []
 
 try
-	const schemata = json_decode(join(readfile(expand('<script>:h:h') .. '/data/schemata.json'), "\n"))
-	if assert_equal(schemata, SchemaStore#Schemata()) == 0 && assert_equal(schemata, SchemaStore#Schemas()) == 0
+	const s:schemata = json_decode(join(readfile(expand('<sfile>:h:h') .. '/data/schemata.json'), "\n"))
+	if assert_equal(s:schemata, SchemaStore#Schemata()) == 0 && assert_equal(s:schemata, SchemaStore#Schemas()) == 0
 		echo 'Autoloaded SchemaStore functions are working correctly.'
 	endif
 
 	if has('vim9script') == 1
 		import 'SchemaStore.vim'
-		if assert_equal(schemata, s:SchemaStore.schemata) == 0 && assert_equal(schemata, s:SchemaStore.schemas) == 0
+		if assert_equal(s:schemata, s:SchemaStore.schemata) == 0 && assert_equal(s:schemata, s:SchemaStore.schemas) == 0
 			echo 'Imported SchemaStore fields are working correctly.'
 		endif
 	else
