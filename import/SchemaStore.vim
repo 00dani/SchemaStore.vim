@@ -6722,6 +6722,14 @@ export const schemata =
       "*.visivo.yml",
       "*.visivo.yaml"
     ]
+  },
+  {
+    "url": "https://enduricastorage.blob.core.windows.net/public/endurica-cl-schema.json",
+    "description": "Endurica Input File",
+    "name": "Endurica",
+    "fileMatch": [
+      "*.ki.json"
+    ]
   }
 ]
 export const schemas = schemata
