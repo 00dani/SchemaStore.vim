@@ -24,9 +24,20 @@ else
 	import * as SchemaStore from '../import/SchemaStore.vim'
 endif
 
-export def Schemata(): list<dict<any>>
-	return SchemaStore.schemata
-enddef
-export def Schemas(): list<dict<any>>
-	return SchemaStore.schemata
-enddef
+# The syntax for defining autoloaded functions in Vim9 script was also
+# changed, by patch 8.2.4050. I like the newer syntax a lot more.
+if has('patch-8.2.4050')
+	export def Schemata(): list<dict<any>>
+		return SchemaStore.schemata
+	enddef
+	export def Schemas(): list<dict<any>>
+		return SchemaStore.schemata
+	enddef
+else
+	export def g:SchemaStore#Schemata(): list<dict<any>>
+		return SchemaStore.schemata
+	enddef
+	export def g:SchemaStore#Schemas(): list<dict<any>>
+		return SchemaStore.schemata
+	enddef
+endif
