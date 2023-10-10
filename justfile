@@ -4,5 +4,5 @@ run := vim + ' --clean ' + headless + ' -u'
 
 generate:
 	{{ run }} ./_scripts/generate.vim
-test vim='vim':
+test:
 	{{ run }} ./_scripts/test.vim
