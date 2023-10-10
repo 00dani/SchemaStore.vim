@@ -1,2 +1,2 @@
 schemata:
-	vim -u NONE -c "set runtimepath=. | call schema_store#generator#Generate() | q"
+	vim --clean --not-a-term -u ./_scripts/generate.vim
