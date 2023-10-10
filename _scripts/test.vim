@@ -10,7 +10,7 @@ let v:errors = []
 try
 	const schemata = json_decode(join(readfile(expand('<script>:h:h') .. '/data/schemata.json'), "\n"))
 	if assert_equal(schemata, SchemaStore#Schemata()) == 0 && assert_equal(schemata, SchemaStore#Schemas()) == 0
-		echo 'Autoloaded schema_store functions are working correctly.'
+		echo 'Autoloaded SchemaStore functions are working correctly.'
 	endif
 
 	if has('vim9script') == 1
