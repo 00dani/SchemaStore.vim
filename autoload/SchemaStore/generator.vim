@@ -37,7 +37,7 @@ def WriteJson(schemata: list<dict<any>>): void
 enddef
 
 def WriteVim9Script(schemata: list<dict<any>>): void
-	const path = $'{pluginPath}/import/schema_store.vim'
+	const path = $'{pluginPath}/import/SchemaStore.vim'
 	EnsureContainingDir(path)
 	schemata->ToVim9Script()->writefile(path)
 	echo $'Wrote {len(schemata)} schemata as Vim9 script to {path}'

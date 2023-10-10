@@ -4,21 +4,21 @@
 " Vim9 script than to syntactically valid legacy Vimscript. ¯\_(ツ)_/¯
 if !has('vim9script')
   let s:schemata = json_decode(join(readfile(expand('<sfile>:h:h') .. '/data/schemata.json'), "\n"))
-  function! schema_store#Schemata()
+  function! SchemaStore#Schemata()
     return s:schemata
   endfunction
-  function! schema_store#Schemas()
+  function! SchemaStore#Schemas()
     return s:schemata
   endfunction
   finish
 endif
 
 vim9script
-import '../import/schema_store.vim'
+import '../import/SchemaStore.vim'
 
 export def Schemata(): list<dict<any>>
-  return schema_store.schemata
+  return SchemaStore.schemata
 enddef
 export def Schemas(): list<dict<any>>
-  return schema_store.schemata
+  return SchemaStore.schemata
 enddef

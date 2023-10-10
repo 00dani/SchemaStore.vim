@@ -12,15 +12,15 @@ well as with Neovim.
 
 ## Install
 
-Add `00dani/schema_store.vim` to your Vim plugins in whatever way you prefer.
+Add `00dani/SchemaStore.vim` to your Vim plugins in whatever way you prefer.
 For example, with [vim-plug](https://github.com/junegunn/vim-plug):
 ```vim
-Plug '00dani/schema_store.vim'
+Plug '00dani/SchemaStore.vim'
 ```
 
 Or with [minpac](https://github.com/k-takata/minpac):
 ```vim
-call minpac#add('00dani/schema_store.vim')
+call minpac#add('00dani/SchemaStore.vim')
 ```
 
 ## Usage
@@ -28,17 +28,17 @@ call minpac#add('00dani/schema_store.vim')
 You can retrieve the SchemaStore.org catalog from your vimrc by calling either
 of these autoload functions (they're synonyms):
 ```vim
-let g:schemata = schema_store#Schemata()
-let g:schemas  = schema_store#Schemas()
+let g:schemata = SchemaStore#Schemata()
+let g:schemas  = SchemaStore#Schemas()
 ```
 
 Alternatively, if you're using Vim9 script and would prefer to use an `import`,
 that's supported too:
 ```vim
 vim9script
-import "schema_store.vim"
-const schemata = schema_store.schemata
-const schemas  = schema_store.schemas
+import "SchemaStore.vim"
+const schemata = SchemaStore.schemata
+const schemas  = SchemaStore.schemas
 ```
 Note that the importable module is written in Vim9 script and will *not* work
 on Vims lacking support for it, even if they support the `import` syntax. If
@@ -58,7 +58,7 @@ g:LspAddServer([{
     workspaceConfig: {json: {
       format: {enable: true},
       validate: {enable: true},
-      schemas: g:schema_store#Schemata(),
+      schemas: g:SchemaStore#Schemata(),
     }},
 }])
 ```

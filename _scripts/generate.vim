@@ -6,7 +6,7 @@ set shortmess+=F
 set runtimepath=.
 
 try
-	call schema_store#generator#Generate()
+	call SchemaStore#generator#Generate()
 catch
 	echo v:exception
 	cquit
