@@ -3,14 +3,14 @@
 " it's much easier to convert a complex JSON structure to syntatically valid
 " Vim9 script than to syntactically valid legacy Vimscript. ¯\_(ツ)_/¯
 if !has('vim9script')
-  let s:schemata = json_decode(join(readfile(expand('<sfile>:h:h') .. '/data/schemata.json'), "\n"))
-  function! SchemaStore#Schemata()
-    return s:schemata
-  endfunction
-  function! SchemaStore#Schemas()
-    return s:schemata
-  endfunction
-  finish
+	let s:schemata = json_decode(join(readfile(expand('<sfile>:h:h') .. '/data/schemata.json'), "\n"))
+	function! SchemaStore#Schemata()
+		return s:schemata
+	endfunction
+	function! SchemaStore#Schemas()
+		return s:schemata
+	endfunction
+	finish
 endif
 
 vim9script
@@ -19,14 +19,14 @@ vim9script
 # Ubuntu LTS does't have that patch, so it's kinda important to support the
 # older syntax too.
 if has('patch-8.2.4019')
-  import '../import/SchemaStore.vim'
+	import '../import/SchemaStore.vim'
 else
-  import * as SchemaStore from '../import/SchemaStore.vim'
+	import * as SchemaStore from '../import/SchemaStore.vim'
 endif
 
 export def Schemata(): list<dict<any>>
-  return SchemaStore.schemata
+	return SchemaStore.schemata
 enddef
 export def Schemas(): list<dict<any>>
-  return SchemaStore.schemata
+	return SchemaStore.schemata
 enddef
