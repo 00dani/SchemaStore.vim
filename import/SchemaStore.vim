@@ -5082,7 +5082,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/vtestunit-schema.json",
-    "description": "Test unit description for Vector CANoe4SW Server Edition or Vector Test Unit Runner",
+    "description": "Vector test unit description",
     "name": "vtestunit.yaml",
     "fileMatch": [
       "*.vtestunit.yaml",
