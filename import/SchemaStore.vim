@@ -2219,6 +2219,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/gaspar-1.0.json",
+    "description": "Configuration for Gaspar",
+    "name": "Gaspar",
+    "fileMatch": [
+      "gaspar.config.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/cloudtoid/gateway-core/master/src/Cloudtoid.GatewayCore/Options/Schema/2021-07.json",
     "description": "Cloudtoid GatewayCore API Gateway and Reverse Proxy",
     "name": "GatewayCore API Gateway",
@@ -2882,6 +2890,14 @@ export const schemata =
     "url": "https://raw.githubusercontent.com/siemens/kas/master/kas/schema-kas.json",
     "description": "Configuration for the Kas setup tool",
     "name": "Kas"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/derailed/k9s/master/plugins/schema.json",
+    "description": "k9s CLI plugin.yml file : https://k9scli.io/topics/plugins",
+    "name": "k9s plugin.yml",
+    "fileMatch": [
+      "**/k9s/plugin.yml"
+    ]
   },
   {
     "url": "https://www.krakend.io/schema/krakend.json",
