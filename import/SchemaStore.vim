@@ -6003,6 +6003,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/scikit-build.json",
+    "description": "Pyproject configuration for scikit-build-core",
+    "name": "scikit-build",
+    "fileMatch": []
+  },
+  {
     "url": "https://download.stackhawk.com/hawk/jsonschema/hawkconfig.json",
     "description": "StackHawk Scanner configuration files",
     "name": "StackHawk Scanner Configuration",
