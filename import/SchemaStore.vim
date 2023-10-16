@@ -503,6 +503,30 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/buf.json",
+    "description": "buf.yaml is used to define a module. It's the primary configuration file, and is responsible for the module's name, dependencies, and lint and breaking configuration",
+    "name": "buf.yaml",
+    "fileMatch": [
+      "buf.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/buf.gen.json",
+    "description": "buf.gen.yaml is a configuration file used by the buf generate command to generate integration code for the languages of your choice",
+    "name": "buf.gen.yaml",
+    "fileMatch": [
+      "buf.gen.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/buf.work.json",
+    "description": "buf.work.yaml is used to define a workspace, which is an advanced local development feature. Workspaces make it possible to consolidate one or more modules into a single buildable unit. They also allow users to run buf operations across multiple modules with a single execution (such as buf lint)",
+    "name": "buf.work.yaml",
+    "fileMatch": [
+      "buf.work.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/hexagonkt/codecv/master/cv.schema.json",
     "description": "CV format specification",
     "name": "CodeCV",
@@ -4747,10 +4771,12 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/tmlanguage.json",
-    "description": "Language grammar description files in Textmate and compatible editors",
-    "name": "tmLanguage",
+    "description": "Language grammar description files for TextMate and compatible editors",
+    "name": "TextMate Grammar",
     "fileMatch": [
-      "*.tmLanguage.json"
+      "*.tmLanguage.json",
+      "*.tmLanguage.yaml",
+      "*.tmLanguage.yml"
     ]
   },
   {
