@@ -3780,6 +3780,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/poetry.json",
+    "description": "Poetry, a Python packaging tool",
+    "name": "Poetry",
+    "fileMatch": []
+  },
+  {
     "url": "https://json.schemastore.org/plagiarize.json",
     "description": "Yaml Plagiarize",
     "name": "plagiarize.yaml",
@@ -4885,6 +4891,14 @@ export const schemata =
       "*.tson.yaml",
       "*.tson.yml",
       "*.tson.json"
+    ]
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/tsup/schema.json",
+    "description": "Configuration options for tsup",
+    "name": "tsup",
+    "fileMatch": [
+      "tsup.config.json"
     ]
   },
   {
