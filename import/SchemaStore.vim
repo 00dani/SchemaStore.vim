@@ -1542,7 +1542,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/composer/composer/main/res/composer-schema.json",
+    "url": "https://getcomposer.org/schema.json",
     "description": "PHP Composer configuration file",
     "name": "composer.json",
     "fileMatch": [
@@ -4440,6 +4440,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/setuptools.json",
+    "description": "Setuptools, the classic Python buildsystem",
+    "name": "Setuptools",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/hardisgroupcom/sfdx-hardis/main/config/sfdx-hardis.jsonschema.json",
     "description": "Configuration file for sfdx-hardis Salesforce DX plugin",
     "name": "sfdx-hardis configuration",
@@ -4599,6 +4605,15 @@ export const schemata =
     "name": "Azure Static Web Apps CLI configuration file",
     "fileMatch": [
       "swa-cli.config.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/stackblitzrc.json",
+    "description": "WebContainer project configuration",
+    "name": "StackBlitz",
+    "fileMatch": [
+      ".stackblitzrc",
+      "**/.stackblitz/config.json"
     ]
   },
   {
