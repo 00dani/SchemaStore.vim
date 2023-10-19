@@ -2139,6 +2139,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/GoogleChrome/related-website-sets/main/SCHEMA.json",
+    "description": "Google Chrome Related Website Sets (formerly First Party Sets)",
+    "name": "Google Chrome Related Website Sets",
+    "fileMatch": [
+      "**/.well-known/first-party-set.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/first-timers.json",
     "description": "A bot that helps onboarding new open-source contributors",
     "name": "first-timers-bot",
