@@ -4234,6 +4234,21 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/sinaatalay/rendercv/main/schema.json",
+    "description": "RenderCV input file",
+    "fileMatch": [
+      "*_CV.yml",
+      "*_CV.yaml",
+      "*_CV.json",
+      "*_CV.json5",
+      "*_cv.yml",
+      "*_cv.yaml",
+      "*_cv.json",
+      "*_cv.json5"
+    ],
+    "name": "RenderCV"
+  },
+  {
     "url": "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/3.0.schema.json",
     "description": "Spiral Roadrunner config file",
     "name": "RoadRunner",
@@ -5571,6 +5586,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/hatch.json",
+    "description": "Python package build tool",
+    "name": "Hatch",
+    "fileMatch": [
+      "hatch.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/helmfile.json",
     "description": "Helmfile is a declarative spec for deploying helm charts",
     "name": "helmfile",
@@ -6209,14 +6232,31 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.updatecli.io/schema/latest/config.json",
-    "description": "Updatecli manifest",
-    "name": "Updatecli",
+    "url": "https://www.updatecli.io/schema/latest/compose/config.json",
+    "description": "Updatecli Compose file",
+    "name": "Updatecli Compose",
+    "fileMatch": [
+      "update-compose.yaml"
+    ]
+  },
+  {
+    "url": "https://www.updatecli.io/schema/latest/policy/manifest/config.json",
+    "description": "Updatecli Policy Manifest",
+    "name": "Updatecli Policy Manifest",
     "fileMatch": [
       "**/updatecli.d/**/*.yaml",
       "**/updatecli.d/**/*.yml",
+      "**/updatecli.d/**/*.json",
       "updatecli.yml",
       "updatecli.yaml"
+    ]
+  },
+  {
+    "url": "https://www.updatecli.io/schema/latest/policy/metadata/config.json",
+    "description": "Updatecli Policy Metadata",
+    "name": "Updatecli Policy Metadata",
+    "fileMatch": [
+      "**/updatecli/**/Policy.yaml"
     ]
   },
   {
