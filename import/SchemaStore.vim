@@ -1350,6 +1350,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "description": "vcpkg manifest file",
+    "name": "vcpkg manifest file",
+    "fileMatch": [
+      "vcpkg.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg-configuration.schema.json",
+    "description": "vcpkg configuration file",
+    "name": "vcpkg configuration file",
+    "fileMatch": [
+      "vcpkg-configuration.json"
+    ]
+  },
+  {
     "url": "https://openapi.vercel.sh/vercel.json",
     "description": "Vercel configuration file",
     "name": "Vercel",
