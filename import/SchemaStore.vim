@@ -6582,6 +6582,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/sublime-syntax.json",
+    "description": "Sublime Text/Merge syntax highlighting definition",
+    "fileMatch": [
+      "*.sublime-syntax"
+    ],
+    "name": "Sublime Syntax"
+  },
+  {
     "url": "https://raw.githubusercontent.com/dahag-ag/keycloak-openapi/main/OpenApiDefinitions/keycloak-19.0.0.json",
     "description": "REST API Keycloak Admin",
     "name": "Keycloak REST API",
