@@ -3602,6 +3602,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/openutau-character.json",
+    "description": "OpenUtau voicebank configuration file, character.yaml",
+    "name": "OpenUtau character yaml",
+    "fileMatch": [
+      "character.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/LeShaunJ/ops-schema/main/ops.schema.json",
     "description": "Ops configuration file (ops.yaml)",
     "name": "ops.yaml",
@@ -4748,6 +4756,15 @@ export const schemata =
     "fileMatch": [
       "task.json",
       "tasks.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/budimanjojo/talhelper/master/pkg/config/schemas/talconfig.json",
+    "description": "A helper tool to help creating Talos Kubernetes cluster",
+    "name": "Talhelper",
+    "fileMatch": [
+      "talconfig.yaml",
+      "talconfig.yml"
     ]
   },
   {
@@ -6878,6 +6895,15 @@ export const schemata =
     "name": "Endurica",
     "fileMatch": [
       "*.ki.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/tunnelhub.json",
+    "description": "TunnelHub Automation Configuration File",
+    "name": "TunnelHub",
+    "fileMatch": [
+      "tunnelhub.yml",
+      "tunnelhub.yaml"
     ]
   }
 ]
