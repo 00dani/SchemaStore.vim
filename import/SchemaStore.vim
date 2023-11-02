@@ -2820,13 +2820,14 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://json.schemastore.org/jreleaser-1.8.0.json",
+    "url": "https://json.schemastore.org/jreleaser-1.9.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
       "1.6.0": "https://json.schemastore.org/jreleaser-1.6.0.json",
       "1.8.0": "https://json.schemastore.org/jreleaser-1.8.0.json",
-      "1.7.0": "https://json.schemastore.org/jreleaser-1.7.0.json"
+      "1.7.0": "https://json.schemastore.org/jreleaser-1.7.0.json",
+      "1.9.0": "https://json.schemastore.org/jreleaser-1.9.0.json"
     },
     "fileMatch": [
       "jreleaser.yml",
@@ -3355,6 +3356,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/software-t-rex/monospace/main/apps/monospace/schemas/monospace.schema.json",
+    "description": "MonoSpace configuration file",
+    "name": "monospace.yml",
+    "fileMatch": [
+      "monospace.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/compomics/ms2rescore/main/ms2rescore/package_data/config_schema.json",
     "description": "MS2Rescore configuration file",
     "name": "MS2Rescore Configuration",
@@ -3607,6 +3616,14 @@ export const schemata =
     "name": "OpenUtau character yaml",
     "fileMatch": [
       "character.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/openutau-ustx.json",
+    "description": "OpenUtau project file, ustx",
+    "name": "OpenUtau ustx",
+    "fileMatch": [
+      "*.ustx"
     ]
   },
   {
