@@ -6097,7 +6097,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/woodpecker-ci/woodpecker/master/pipeline/schema/schema.json",
+    "url": "https://raw.githubusercontent.com/woodpecker-ci/woodpecker/main/pipeline/frontend/yaml/linter/schema/schema.json",
     "description": "YAML configuring Woodpecker CI",
     "name": "Woodpecker pipeline config",
     "fileMatch": [
