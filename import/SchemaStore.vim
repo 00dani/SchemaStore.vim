@@ -4093,9 +4093,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/rancher-fleet.json",
+    "url": "https://json.schemastore.org/rancher-fleet-0.8.json",
     "description": "Rancher Fleet fleet.yaml configuration file",
     "name": "Rancher Fleet",
+    "versions": {
+      "0.5": "https://json.schemastore.org/rancher-fleet-0.5.json",
+      "0.8": "https://json.schemastore.org/rancher-fleet-0.8.json"
+    },
     "fileMatch": [
       "fleet.yaml"
     ]
