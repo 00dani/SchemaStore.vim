@@ -4986,6 +4986,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://tstyche.org/schemas/config.json",
+    "description": "TSTyche configuration file",
+    "name": "TSTyche",
+    "fileMatch": [
+      "tstyche.config.json"
+    ]
+  },
+  {
     "url": "https://cdn.jsdelivr.net/npm/tsup/schema.json",
     "description": "Configuration options for tsup",
     "name": "tsup",
