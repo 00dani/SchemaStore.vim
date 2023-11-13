@@ -1099,6 +1099,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/jetpack-io/devbox/main/.schema/devbox.schema.json",
+    "description": "Configuration for a Devbox shell environment",
+    "name": "Devbox Config",
+    "fileMatch": [
+      "devbox.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/drupal-breakpoints.json",
     "description": "Drupal configuration for breakpoints",
     "name": "Drupal Breakpoints",
