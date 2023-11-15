@@ -2171,6 +2171,21 @@ export const schemata =
     ]
   },
   {
+    "url": "https://gitlab.cern.ch/steam/fiqus/-/raw/master/docs/schema.json",
+    "description": "FiQuS input file",
+    "name": "FiQuS",
+    "fileMatch": [
+      "*_fiqus.json",
+      "*_fiqus.json5",
+      "*_fiqus.yaml",
+      "*_fiqus.yml",
+      "*_FiQuS.json",
+      "*_FiQuS.json5",
+      "*_FiQuS.yaml",
+      "*_FiQuS.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/first-timers.json",
     "description": "A bot that helps onboarding new open-source contributors",
     "name": "first-timers-bot",
@@ -6713,11 +6728,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/pantsbuild-2.17.0.json",
+    "url": "https://json.schemastore.org/pantsbuild-2.18.0.json",
     "description": "Pantsbuild configuration file",
     "name": "Pantsbuild",
     "versions": {
       "2.16.0": "https://json.schemastore.org/pantsbuild-2.16.0.json",
+      "2.18.0": "https://json.schemastore.org/pantsbuild-2.18.0.json",
       "2.15.0": "https://json.schemastore.org/pantsbuild-2.15.0.json",
       "2.17.0": "https://json.schemastore.org/pantsbuild-2.17.0.json",
       "2.14.0": "https://json.schemastore.org/pantsbuild-2.14.0.json"
