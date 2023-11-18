@@ -2712,7 +2712,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/img-catapult-psp-1.0.0.json",
-    "description": "Imagination Techologies Catapult platform support pack contents",
+    "description": "Imagination Technologies Catapult platform support pack contents",
     "name": "IMG Catapult PSP",
     "versions": {
       "1.0.0": "https://json.schemastore.org/img-catapult-psp-1.0.0.json"
@@ -6752,7 +6752,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/es6importsorterrc.json",
-    "description": "The configuration file used for ES6 Import Sorter - a vscode extention",
+    "description": "The configuration file used for ES6 Import Sorter - a vscode extension",
     "name": ".es6importsorterrc.json",
     "fileMatch": [
       ".es6importsorterrc.json"
@@ -6958,6 +6958,12 @@ export const schemata =
       "tunnelhub.yml",
       "tunnelhub.yaml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/problem-object-rfc9457.json",
+    "description": "Problem object per RFC 9457",
+    "name": "Problem object RFC9457",
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
