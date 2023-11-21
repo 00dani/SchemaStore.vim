@@ -3379,6 +3379,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/microsoft/MLOS/main/mlos_bench/mlos_bench/config/schemas/mlos-bench-config-schema.json",
+    "description": "Config files for the mlos_bench utility in MLOS",
+    "name": "MLOS Configs",
+    "fileMatch": [
+      "*.mlos.jsonc",
+      "*.mlos.json",
+      "*.mlos.yaml",
+      "*.mlos.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/software-t-rex/monospace/main/apps/monospace/schemas/monospace.schema.json",
     "description": "MonoSpace configuration file",
     "name": "monospace.yml",
@@ -6964,6 +6975,32 @@ export const schemata =
     "description": "Problem object per RFC 9457",
     "name": "Problem object RFC9457",
     "fileMatch": []
+  },
+  {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/apko/main/pkg/build/types/schema.json",
+    "description": "apko (apk-based OCI image builder) config",
+    "name": "apko",
+    "fileMatch": [
+      "apko.json",
+      "*.apko.json",
+      "apko.yaml",
+      "*.apko.yaml",
+      "apko.yml",
+      "*.apko.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/melange/main/pkg/config/schema.json",
+    "description": "Melange pipeline config",
+    "name": "Melange",
+    "fileMatch": [
+      "melange.json",
+      "*.melange.json",
+      "melange.yaml",
+      "*.melange.yaml",
+      "melange.yml",
+      "*.melange.yml"
+    ]
   }
 ]
 export const schemas = schemata
