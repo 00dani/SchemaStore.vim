@@ -3098,6 +3098,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/liferay/liferay-portal/master/modules/sdk/gradle-plugins-workspace/src/main/resources/schemas/client-extension.schema.json",
+    "description": "Liferay Client Extension Definition File",
+    "name": "Liferay client-extension.yaml",
+    "fileMatch": [
+      "client-extension.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/linkinator-config.json",
     "description": "Linkinator config file",
     "name": "linkinator.config.json",
@@ -4741,6 +4749,15 @@ export const schemata =
     "fileMatch": [
       "**/resources/blueprints/**/*.yml",
       "**/resources/blueprints/**/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Shravan-1908/stellapy/master/schema.json",
+    "description": "Configuration file for stella. See https://github.com/Shravan-1908/stellapy",
+    "name": "Stella configuration file",
+    "fileMatch": [
+      "stella.yml",
+      "stella.json"
     ]
   },
   {
