@@ -5152,6 +5152,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/evg4b/uncors/main/schema.json",
+    "description": "Configuration file for UNCORS reverse proxy",
+    "name": "UNCORS configuration",
+    "fileMatch": [
+      "*.uncors.yml",
+      "*.uncors.yaml",
+      ".uncors.yml",
+      ".uncors.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/vega.json",
     "description": "Vega visualization specification file",
     "name": "vega.json",
