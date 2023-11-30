@@ -7029,6 +7029,16 @@ export const schemata =
       "melange.yml",
       "*.melange.yml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/minecraft-custom-main-menu-mod.json",
+    "description": "Minecraft 1.12 Forge mod 'Custom Main Menu' config",
+    "name": "Minecraft Custom Main Menu Mod",
+    "fileMatch": [
+      "mainmenu.yml",
+      "mainmenu.yaml",
+      "mainmenu.json"
+    ]
   }
 ]
 export const schemas = schemata
