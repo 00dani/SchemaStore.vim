@@ -6900,7 +6900,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/lazygit.json",
+    "url": "https://raw.githubusercontent.com/jesseduffield/lazygit/master/schema/config.json",
     "description": "Lazy Git settings",
     "name": "lazygit",
     "fileMatch": [
