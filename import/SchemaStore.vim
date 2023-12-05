@@ -3465,9 +3465,9 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/netascode/nac-validate/main/schema.json",
-    "description": "Cisco Nexus-as-Code Data Model",
-    "name": "Nexus-as-Code Data Model",
+    "url": "https://raw.githubusercontent.com/netascode/schema/main/schema.json",
+    "description": "Cisco Network-as-Code Data Model",
+    "name": "Network-as-Code Data Model",
     "fileMatch": [
       "*.nac.yml",
       "*.nac.yaml",
