@@ -1107,6 +1107,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/jetpack-io/devbox/main/.schema/devbox-plugin.schema.json",
+    "description": "Configuration for a Devbox plugin specification",
+    "name": "Devbox Plugin",
+    "fileMatch": [
+      "devbox-plugin.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/drupal-breakpoints.json",
     "description": "Drupal configuration for breakpoints",
     "name": "Drupal Breakpoints",
@@ -5876,13 +5884,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json",
+    "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
     "description": "Gradle Enterprise configuration",
     "name": "Gradle Enterprise",
     "versions": {
       "3.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-3.json",
       "5.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-5.json",
       "7.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-7.json",
+      "9.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
       "2.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json",
       "4.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-4.json",
       "6.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-6.json",
