@@ -2980,6 +2980,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/hits-mbm-dev/kimmdy/main/src/kimmdy/kimmdy-yaml-schema.json",
+    "description": "KIMMDY config file, see: hits-mbm-dev.github.io/kimmdy",
+    "name": "KIMMDY config file",
+    "fileMatch": [
+      "kimmdy.yml",
+      "kimmdy.yaml"
+    ]
+  },
+  {
     "url": "https://www.krakend.io/schema/krakend.json",
     "description": "KrakenD API Gateway configuration file",
     "name": "KrakenD",
@@ -4241,6 +4250,15 @@ export const schemata =
       ".rehyperc.json",
       ".rehyperc.yaml",
       ".rehyperc.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/MarcoIeni/release-plz/main/.schema/latest.json",
+    "description": "Release-plz configuration file",
+    "name": "release-plz.toml",
+    "fileMatch": [
+      "release-plz.toml",
+      ".release-plz.toml"
     ]
   },
   {
