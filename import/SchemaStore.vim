@@ -519,6 +519,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/buf.plugin.json",
+    "description": "A `buf.plugin.yaml` file captures metadata about the plugin. It includes mandatory and optional fields that are displayed on the individual plugin page and the BSR plugin homepage at https://buf.build/plugins",
+    "name": "buf.plugin.yaml",
+    "fileMatch": [
+      "buf.plugin.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/buf.work.json",
     "description": "buf.work.yaml is used to define a workspace, which is an advanced local development feature. Workspaces make it possible to consolidate one or more modules into a single buildable unit. They also allow users to run buf operations across multiple modules with a single execution (such as buf lint)",
     "name": "buf.work.yaml",
