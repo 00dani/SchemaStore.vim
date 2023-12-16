@@ -3711,6 +3711,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/one-changelog-schema-0.1.json",
+    "description": "ONe's changelog entry",
+    "name": "ONe's changelog entry",
+    "fileMatch": [
+      "**/changelogs/*.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/openfin.json",
     "description": "OpenFin application configuration file",
     "name": "openfin.json"
