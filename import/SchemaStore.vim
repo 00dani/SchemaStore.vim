@@ -1083,6 +1083,14 @@ export const schemata =
     "name": "Commandbox Server.json"
   },
   {
+    "url": "https://raw.githubusercontent.com/SFDO-Tooling/CumulusCI/main/cumulusci/schema/cumulusci.jsonschema.json",
+    "description": "cumulusci.yml file for configuring CumulusCI, a Salesforce automation framework",
+    "name": "CumulusCI Config",
+    "fileMatch": [
+      "cumulusci.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/dbt_project.json",
     "description": "dbt project configurations",
     "name": "dbt Project",
@@ -4606,6 +4614,14 @@ export const schemata =
       ".sfdx-hardis.yaml",
       "**/branches/.sfdx-hardis.*.yml",
       "**/branches/.sfdx-hardis.*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SigmaHQ/sigma-specification/main/sigma-schema.json",
+    "description": "The Sigma detection format. More info at https://github.com/SigmaHQ/sigma-specification and https://github.com/SigmaHQ/sigma",
+    "name": "Sigma",
+    "fileMatch": [
+      "**/sigma/**/*.yml"
     ]
   },
   {
