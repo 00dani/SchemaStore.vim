@@ -615,16 +615,16 @@ export const schemata =
     "name": "Freifunk.de Community API",
     "versions": {
       "0.5.2": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.2.json",
+      "0.4.13": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.13.json",
       "0.4.14": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.14.json",
       "0.4.16": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.16.json",
-      "development": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/development.json",
       "0.4.10": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.10.json",
       "0.4.11": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.11.json",
       "0.1": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.1.json",
-      "0.4.13": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.13.json",
+      "0.4.12": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.12.json",
       "0.4.9": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.9.json",
       "0.4.15": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.15.json",
-      "0.4.12": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.12.json",
+      "development": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/development.json",
       "0.5.0": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.0.json",
       "0.5.1": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.1.json",
       "0.2.0": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.2.0.json"
@@ -3479,6 +3479,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/partial-mypy.json",
+    "description": "mypy, a Python type checker",
+    "name": "mypy",
+    "fileMatch": []
+  },
+  {
     "url": "https://github.com/napari/npe2/releases/latest/download/schema.json",
     "description": "a napari plugin manifest",
     "name": "napari plugin manifest",
@@ -4373,6 +4379,7 @@ export const schemata =
   {
     "url": "https://raw.githubusercontent.com/sinaatalay/rendercv/main/schema.json",
     "description": "RenderCV input file",
+    "name": "RenderCV",
     "fileMatch": [
       "*_CV.yml",
       "*_CV.yaml",
@@ -4382,8 +4389,7 @@ export const schemata =
       "*_cv.yaml",
       "*_cv.json",
       "*_cv.json5"
-    ],
-    "name": "RenderCV"
+    ]
   },
   {
     "url": "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/3.0.schema.json",
@@ -6370,6 +6376,12 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://json.schemastore.org/hugo-theme.json",
+    "description": "Hugo theme config file",
+    "name": "Hugo Theme",
+    "fileMatch": []
+  },
+  {
     "url": "https://json.schemastore.org/hugo.json",
     "description": "Hugo static site generator config file",
     "name": "Hugo",
@@ -6751,10 +6763,10 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/sublime-syntax.json",
     "description": "Sublime Text/Merge syntax highlighting definition",
+    "name": "Sublime Syntax",
     "fileMatch": [
       "*.sublime-syntax"
-    ],
-    "name": "Sublime Syntax"
+    ]
   },
   {
     "url": "https://raw.githubusercontent.com/dahag-ag/keycloak-openapi/main/OpenApiDefinitions/keycloak-19.0.0.json",
@@ -6843,10 +6855,10 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/all-contributors.json",
     "description": "The configuration file used by the All Contributors CLI and GitHub bot",
+    "name": "All Contributors configuration file",
     "fileMatch": [
       ".all-contributorsrc"
-    ],
-    "name": "All Contributors configuration file"
+    ]
   },
   {
     "url": "https://json.schemastore.org/es6importsorterrc.json",
