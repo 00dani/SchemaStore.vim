@@ -111,6 +111,21 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/aiconfig-1.0.json",
+    "description": "AIConfig that is used to store generative AI prompts, models and model parameters",
+    "name": "AIConfig",
+    "fileMatch": [
+      "aiconfig.json",
+      "aiconfig.jsonc",
+      "*.aiconfig.json",
+      "*.aiconfig.jsonc",
+      "aiconfig.yml",
+      "aiconfig.yaml",
+      "*.aiconfig.yml",
+      "*.aiconfig.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/airlock-microgateway-3.2.json",
     "description": "Airlock Microgateway configuration",
     "name": "Airlock Microgateway",
@@ -3882,6 +3897,20 @@ export const schemata =
       "transcend-pathfinder.yml",
       "transcend-pathfinder.yaml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/pdm.json",
+    "description": "A modern Python package and dependency manager supporting the latest PEP standard (pdm.toml config file)",
+    "name": "PDM",
+    "fileMatch": [
+      "pdm.toml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/partial-pdm.json",
+    "description": "A modern Python package and dependency manager supporting the latest PEP standard (pyproject.toml tool.pdm table)",
+    "name": "PDM Partial",
+    "fileMatch": []
   },
   {
     "url": "https://json.schemastore.org/pgap_yaml_input_reader.json",
