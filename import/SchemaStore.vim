@@ -1050,6 +1050,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/partial-cibuildwheel.json",
+    "description": "cibuildwheel, a Python redistributable wheel builder",
+    "name": "partial-cibuildwheel",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/cityjson/specs/master/schemas/cityjson.min.schema.json",
     "description": "the representation of 3D city models",
     "name": "CityJSON"
@@ -2504,6 +2510,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/gorder-r06.json",
+    "description": "Gorder configuration",
+    "name": "Gorder",
+    "versions": {
+      "r06": "https://json.schemastore.org/gorder-r06.json"
+    },
+    "fileMatch": [
+      "gorder.json"
+    ]
+  },
+  {
     "url": "https://goreleaser.com/static/schema.json",
     "description": "Goreleaser configuration file",
     "name": "Goreleaser",
@@ -3953,6 +3970,12 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://json.schemastore.org/partial-poetry.json",
+    "description": "Poetry, a Python packaging tool",
+    "name": "Partial-poetry",
+    "fileMatch": []
+  },
+  {
     "url": "https://json.schemastore.org/plagiarize.json",
     "description": "Yaml Plagiarize",
     "name": "plagiarize.yaml",
@@ -4638,6 +4661,12 @@ export const schemata =
     "url": "https://json.schemastore.org/setuptools.json",
     "description": "Setuptools, the classic Python buildsystem",
     "name": "Setuptools",
+    "fileMatch": []
+  },
+  {
+    "url": "https://json.schemastore.org/partial-setuptools.json",
+    "description": "Setuptools, the classic Python buildsystem",
+    "name": "Partial-Setuptools",
     "fileMatch": []
   },
   {
@@ -6310,6 +6339,12 @@ export const schemata =
     "url": "https://json.schemastore.org/scikit-build.json",
     "description": "Pyproject configuration for scikit-build-core",
     "name": "scikit-build",
+    "fileMatch": []
+  },
+  {
+    "url": "https://json.schemastore.org/partial-scikit-build.json",
+    "description": "Pyproject configuration for scikit-build-core",
+    "name": "partial-scikit-build",
     "fileMatch": []
   },
   {
