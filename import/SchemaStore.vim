@@ -2323,6 +2323,18 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/partial-fusion-pack-metadata.json",
+    "description": "Fusion properties for Minecraft resource pack metadata",
+    "name": "Fusion resource pack metadata",
+    "fileMatch": []
+  },
+  {
+    "url": "https://json.schemastore.org/partial-fusion-texture-metadata.json",
+    "description": "Fusion properties for Minecraft texture metadata",
+    "name": "Fusion texture metadata",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json",
     "description": "defining mappings for Python-based grapheme-to-phoneme engine 'g2p'",
     "name": "G2P Mapping Configuration",
@@ -2899,12 +2911,13 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://json.schemastore.org/jreleaser-1.9.0.json",
+    "url": "https://json.schemastore.org/jreleaser-1.10.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
       "1.6.0": "https://json.schemastore.org/jreleaser-1.6.0.json",
       "1.8.0": "https://json.schemastore.org/jreleaser-1.8.0.json",
+      "1.10.0": "https://json.schemastore.org/jreleaser-1.10.0.json",
       "1.7.0": "https://json.schemastore.org/jreleaser-1.7.0.json",
       "1.9.0": "https://json.schemastore.org/jreleaser-1.9.0.json"
     },
@@ -7173,6 +7186,19 @@ export const schemata =
       "mainmenu.yml",
       "mainmenu.yaml",
       "mainmenu.json"
+    ]
+  },
+  {
+    "url": "https://rivet.gg/rivet.schema.json",
+    "description": "Rivet game configuration file",
+    "name": "rivet.yaml",
+    "fileMatch": [
+      "rivet.yaml",
+      "rivet.*.yaml",
+      "rivet.toml",
+      "rivet.*.toml",
+      "rivet.json",
+      "rivet.*.json"
     ]
   }
 ]
