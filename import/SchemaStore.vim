@@ -7200,6 +7200,15 @@ export const schemata =
       "rivet.json",
       "rivet.*.json"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/rudder-techniques.json",
+    "description": "Rudder techniques",
+    "name": "Rudder techniques",
+    "fileMatch": [
+      "technique.yml",
+      "technique.ids.yml"
+    ]
   }
 ]
 export const schemas = schemata
