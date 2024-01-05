@@ -4384,16 +4384,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://rtx.pub/schema/rtx.json",
-    "description": "rtx config, a polyglot dev tool manager",
-    "name": "rtx",
-    "fileMatch": [
-      ".rtx.toml",
-      ".rtx.*.toml",
-      "**/rtx/config.toml"
-    ]
-  },
-  {
     "url": "https://json.schemastore.org/ruff.json",
     "description": "Ruff, a fast Python linter",
     "name": "Ruff",
@@ -5672,6 +5662,16 @@ export const schemata =
     "name": "mirrord config",
     "fileMatch": [
       "*.mirrord.+(toml|json|y?(a)ml)"
+    ]
+  },
+  {
+    "url": "https://mise.jdx.dev/schema/mise.json",
+    "description": "mise config, a polyglot dev tool manager",
+    "name": "mise",
+    "fileMatch": [
+      ".mise.toml",
+      ".mise.*.toml",
+      "**/mise/config.toml"
     ]
   },
   {
