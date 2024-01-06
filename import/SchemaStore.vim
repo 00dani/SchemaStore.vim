@@ -3160,6 +3160,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://cdn.jsdelivr.net/npm/liblab@latest/liblab.config.schema.json",
+    "description": "Liblab configuration file",
+    "name": "liblab.config.json",
+    "fileMatch": [
+      "liblab.config.json",
+      "*.liblab.config.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/libman.json",
     "description": "client-side library config files",
     "name": "libman.json",
