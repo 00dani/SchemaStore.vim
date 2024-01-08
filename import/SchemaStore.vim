@@ -5684,6 +5684,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://mise.jdx.dev/schema/settings.json",
+    "description": "mise settings, a polyglot dev tool manager",
+    "name": "mise-settings",
+    "fileMatch": [
+      "**/mise/settings.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/mta.json",
     "description": "A MTA projects v3.3",
     "name": "mta.yaml",
@@ -7217,6 +7225,15 @@ export const schemata =
     "fileMatch": [
       "technique.yml",
       "technique.ids.yml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/skypilot-task.json",
+    "description": "SkyPilot Task JSON to specify a task (resource requirements, setup commands, run commands, file mounts, storage mounts, and so on)",
+    "name": "SkyPilot Task JSON",
+    "fileMatch": [
+      "skypilot-task.yml",
+      "skypilot-task.yaml"
     ]
   }
 ]
