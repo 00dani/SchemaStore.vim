@@ -5187,6 +5187,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/rliebz/tusk/main/tusk.schema.json",
+    "description": "tusk CLI configuration file",
+    "name": "tusk.yml",
+    "fileMatch": [
+      "tusk.yml",
+      "tusk.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/typewiz.json",
     "description": "Typewiz configuration file",
     "name": "typewiz.json",
