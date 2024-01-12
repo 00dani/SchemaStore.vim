@@ -99,11 +99,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/aiproj-1.1.json",
+    "url": "https://json.schemastore.org/aiproj-1.2.json",
     "description": "Settings for project analysis by the Application Inspector",
     "name": ".aiproj.json",
     "versions": {
       "1.1": "https://json.schemastore.org/aiproj-1.1.json",
+      "1.2": "https://json.schemastore.org/aiproj-1.2.json",
       "1.0": "https://json.schemastore.org/aiproj-1.0.json"
     },
     "fileMatch": [
@@ -565,6 +566,15 @@ export const schemata =
       "*.cv.yaml",
       "*.cv.yml",
       "*.cv.toml"
+    ]
+  },
+  {
+    "url": "https://github.com/cmhughes/latexindent.pl/raw/main/documentation/latexindent-yaml-schema.json",
+    "description": "Configuration file for latexindent",
+    "name": "latexindent configuration",
+    "fileMatch": [
+      "latexindent.yaml",
+      ".latexindent.yaml"
     ]
   },
   {
@@ -6411,7 +6421,8 @@ export const schemata =
     "name": "Alacritty Configuration",
     "fileMatch": [
       ".alacritty.yml",
-      "alacritty.yml"
+      "alacritty.yml",
+      "alacritty.toml"
     ]
   },
   {
