@@ -444,6 +444,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/azure-containerapp-template.json",
+    "description": "Azure Container App template for defining an immutable revision",
+    "name": "Azure Container App template for defining an immutable revision",
+    "fileMatch": [
+      "*.containerapp-template.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/azure-deviceupdate-import-manifest-5.0.json",
     "description": "Azure Device Update for IoT Hub import manifest",
     "name": "Azure Device Update for IoT Hub import manifest",
