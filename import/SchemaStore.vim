@@ -398,6 +398,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/bergercookie/asm-lsp/master/asm-lsp_config_schema.json",
+    "description": "Configuration file for asm-lsp",
+    "name": "asm-lsp",
+    "fileMatch": [
+      ".asm-lsp.toml",
+      "asm-lsp.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/asconfig-schema.json",
     "description": "AssemblyScript is TypeScript-like language that is compiled to WebAssembly (wasm)",
     "name": "AssemblyScript",
@@ -422,6 +431,12 @@ export const schemata =
     "fileMatch": [
       ".asyncapi-tool"
     ]
+  },
+  {
+    "url": "https://atmos.tools/schemas/atmos/atmos-manifest/1.0/atmos-manifest.json",
+    "description": "Atmos Stack Manifests. https://atmos.tools",
+    "name": "Atmos Manifests",
+    "fileMatch": []
   },
   {
     "url": "https://json.schemastore.org/aurora-1.0.json",
