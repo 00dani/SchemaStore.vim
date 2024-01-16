@@ -1991,6 +1991,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/dotnet-tools.json",
+    "description": ".NET tools manifest file",
+    "name": "dotnet-tools.json",
+    "fileMatch": [
+      "dotnet-tools.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/dotnetcli.host.json",
     "description": ".NET CLI template host files",
     "name": "dotnetcli.host.json",
