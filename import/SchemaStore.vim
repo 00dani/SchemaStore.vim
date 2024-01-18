@@ -4353,6 +4353,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/partial-pyright.json",
+    "description": "Pyright Configuration",
+    "name": "Pyright Partial",
+    "fileMatch": []
+  },
+  {
     "url": "https://www.qgoda.net/schemas/qgoda.json",
     "description": "Qgoda static site generator configuration file format",
     "name": "Qgoda",
