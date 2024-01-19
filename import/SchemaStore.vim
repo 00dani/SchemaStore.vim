@@ -2209,6 +2209,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/partial-eslint-plugins.json",
+    "description": "Extracted from the most popular ESLint plugins",
+    "name": "ESLint Plugin Partial",
+    "fileMatch": []
+  },
+  {
     "url": "https://www.facets.cloud/assets/fsdl/application.schema.json",
     "description": "Facets Stack Definition Language for Applications",
     "name": "Facets - FSDL - Application",
