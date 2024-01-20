@@ -634,11 +634,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/open-feature/schemas/main/json/flagd-definitions.json",
+    "url": "https://flagd.dev/schema/v0/flags.json",
     "description": "Flag configuration for the OpenFeature spec compliant flagd provider",
     "name": "flagd flag configuration",
     "versions": {
-      "0.1.1": "https://raw.githubusercontent.com/open-feature/schemas/json/json-schema-v0.1.1/json/flagd-definitions.json"
+      "0.1.1": "https://raw.githubusercontent.com/open-feature/flagd-schemas/json/json-schema-v0.1.1/json/flagd-definitions.json",
+      "0.2.0": "https://raw.githubusercontent.com/open-feature/flagd-schemas/json/json-schema-v0.2.0/json/flags.json"
     },
     "fileMatch": [
       "flagd.json",
@@ -1071,6 +1072,15 @@ export const schemata =
     "name": "Catalog Info Backstage",
     "fileMatch": [
       "catalog-info.yaml"
+    ]
+  },
+  {
+    "url": "https://gitlab.com/chromaway/core-tools/chromia-cli/-/raw/dev/chromia-build-tools/src/main/resources/chromia-model-schema.json",
+    "description": "Chromia Model Config File",
+    "name": "Chromia Model",
+    "fileMatch": [
+      "chromia.yml",
+      "chromia.yaml"
     ]
   },
   {
