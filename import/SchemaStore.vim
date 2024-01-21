@@ -7292,6 +7292,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/nix-community/nixd/main/nixd/docs/nixd-schema.json",
+    "description": "Configuration file for nixd",
+    "name": "nixd configuration",
+    "fileMatch": [
+      ".nixd.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/rudder-techniques.json",
     "description": "Rudder techniques",
     "name": "Rudder techniques",
