@@ -881,6 +881,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/browsh-org/browsh/master/webext/assets/browsh-schema.json",
+    "description": "Configuration file for browsh",
+    "name": "browsh configuration",
+    "fileMatch": [
+      "**/browsh/config.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
     "description": "BuckleScript configuration file",
     "name": "bucklescript",
@@ -7316,6 +7324,15 @@ export const schemata =
       "skypilot-task.yml",
       "skypilot-task.yaml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/uxp-manifest-5.json",
+    "description": "Plug-in manifest for Adobe's Unified Extensibility Platform",
+    "name": "Adobe UXP Manifest",
+    "versions": {
+      "5": "https://json.schemastore.org/uxp-manifest-5.json"
+    },
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
