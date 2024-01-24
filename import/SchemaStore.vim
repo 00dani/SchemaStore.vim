@@ -4541,6 +4541,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/canonical/rockcraft/main/schema/rockcraft.json",
+    "description": "rockcraft project (https://canonical-rockcraft.readthedocs-hosted.com)",
+    "name": "rockcraft",
+    "fileMatch": [
+      "rockcraft.yaml",
+      "rockcraft.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/rustfmt.json",
     "description": "fustfmt, a tool to format Rust code",
     "name": "rustfmt",
