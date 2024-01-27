@@ -4300,6 +4300,10 @@ export const schemata =
     "url": "https://json.schemastore.org/pull-request-labeler.json",
     "description": "A GitHub Action for automatically labelling pull requests",
     "name": "Pull Request Labeler",
+    "versions": {
+      "4": "https://json.schemastore.org/pull-request-labeler.json",
+      "5": "https://json.schemastore.org/pull-request-labeler-5.json"
+    },
     "fileMatch": [
       "**/.github/labeler.yml"
     ]
@@ -7022,7 +7026,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/pantsbuild-2.18.0.json",
+    "url": "https://json.schemastore.org/pantsbuild-2.19.0.json",
     "description": "Pantsbuild configuration file",
     "name": "Pantsbuild",
     "versions": {
@@ -7030,6 +7034,7 @@ export const schemata =
       "2.18.0": "https://json.schemastore.org/pantsbuild-2.18.0.json",
       "2.15.0": "https://json.schemastore.org/pantsbuild-2.15.0.json",
       "2.17.0": "https://json.schemastore.org/pantsbuild-2.17.0.json",
+      "2.19.0": "https://json.schemastore.org/pantsbuild-2.19.0.json",
       "2.14.0": "https://json.schemastore.org/pantsbuild-2.14.0.json"
     },
     "fileMatch": [
