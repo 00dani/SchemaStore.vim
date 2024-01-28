@@ -5596,6 +5596,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://github.com/cloudflare/workers-sdk/files/12887590/wrangler.schema.json",
+    "description": "Experimental JSON config",
+    "name": "Wrangler CLI",
+    "fileMatch": [
+      "wrangler.json"
+    ]
+  },
+  {
     "url": "https://json-stat.org/format/schema/2.0/",
     "description": "JSON-stat 2.0",
     "name": "JSON-stat 2.0"
