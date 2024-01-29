@@ -7355,6 +7355,17 @@ export const schemata =
       "5": "https://json.schemastore.org/uxp-manifest-5.json"
     },
     "fileMatch": []
+  },
+  {
+    "url": "https://cdn.subsquid.io/schemas/squid_manifest.json",
+    "description": "Squid manifest for Subsquid Cloud deployments",
+    "name": "Subsquid squid manifest",
+    "fileMatch": [
+      "squid.yaml",
+      "*.squid.yaml",
+      "squid.yml",
+      "*.squid.yml"
+    ]
   }
 ]
 export const schemas = schemata
