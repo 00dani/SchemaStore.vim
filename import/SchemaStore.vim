@@ -2,18 +2,6 @@ vim9script
 export const schemata =
 [
   {
-    "url": "https://json.schemastore.org/base.json",
-    "description": "",
-    "name": "Common types for all schemas",
-    "fileMatch": []
-  },
-  {
-    "url": "https://json.schemastore.org/base-04.json",
-    "description": "Common types for draft-04-based schemas",
-    "name": "base-04",
-    "fileMatch": []
-  },
-  {
     "url": "https://developer.1password.com/schema/ssh-agent-config.json",
     "description": "Configuration file for the 1Password SSH agent",
     "name": "1Password SSH Agent Config",
@@ -434,7 +422,7 @@ export const schemata =
   },
   {
     "url": "https://atmos.tools/schemas/atmos/atmos-manifest/1.0/atmos-manifest.json",
-    "description": "Atmos Stack Manifests. https://atmos.tools",
+    "description": "Atmos Stack Manifests. Documentation: https://atmos.tools",
     "name": "Atmos Manifests",
     "fileMatch": []
   },
@@ -559,7 +547,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/buf.plugin.json",
-    "description": "A `buf.plugin.yaml` file captures metadata about the plugin. It includes mandatory and optional fields that are displayed on the individual plugin page and the BSR plugin homepage at https://buf.build/plugins",
+    "description": "A `buf.plugin.yaml` file captures metadata about the plugin. It includes mandatory and optional fields that are displayed on the individual plugin page and the BSR plugin. Documentation: https://buf.build/plugins",
     "name": "buf.plugin.yaml",
     "fileMatch": [
       "buf.plugin.yaml"
@@ -660,7 +648,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.2.json",
-    "description": "Freifunk.de Community API. See more details https://github.com/freifunk/directory.api.freifunk.net",
+    "description": "Freifunk.de Community API. Documentation: https://github.com/freifunk/directory.api.freifunk.net",
     "name": "Freifunk.de Community API",
     "versions": {
       "0.5.2": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.2.json",
@@ -1099,12 +1087,6 @@ export const schemata =
       "cibuildwheel.toml",
       ".cibuildwheel.toml"
     ]
-  },
-  {
-    "url": "https://json.schemastore.org/partial-cibuildwheel.json",
-    "description": "cibuildwheel, a Python redistributable wheel builder",
-    "name": "partial-cibuildwheel",
-    "fileMatch": []
   },
   {
     "url": "https://raw.githubusercontent.com/cityjson/specs/master/schemas/cityjson.min.schema.json",
@@ -1696,7 +1678,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/crowdin.json",
-    "description": "Crowdin, a crowd-translation platform. See https://support.crowdin.com/configuration-file/",
+    "description": "Crowdin, a crowd-translation platform. Documentation: https://support.crowdin.com/configuration-file/",
     "name": "crowdin.yml",
     "fileMatch": [
       "**/crowdin.yml"
@@ -1748,8 +1730,8 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json",
-    "description": "cspell configuration file",
-    "name": "cspell",
+    "description": "CSpell configuration file",
+    "name": "CSpell (cspell.json)",
     "fileMatch": [
       ".cspell.json",
       "cspell.json",
@@ -1765,7 +1747,7 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/csscomb.json",
     "description": "CSS Comb's configuration file",
-    "name": ".csscomb.json",
+    "name": "CSS Comb (.csscomb.json)",
     "fileMatch": [
       ".csscomb.json"
     ]
@@ -1773,7 +1755,7 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/csslintrc.json",
     "description": "CSS Lint's configuration file",
-    "name": ".csslintrc",
+    "name": "CSS Lint (.csslintrc)",
     "fileMatch": [
       ".csslintrc"
     ]
@@ -1781,12 +1763,12 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/dart-build.json",
     "description": "Configuration for Dart's build system",
-    "name": "Dart build configuration"
+    "name": "Dart Build Config (dart-build.json)"
   },
   {
     "url": "https://json.schemastore.org/dart-test.json",
     "description": "Configuration for Dart's test package",
-    "name": "Dart test config",
+    "name": "Dart Test Config (dart-test.json)",
     "fileMatch": [
       "dart_test.yaml"
     ]
@@ -1794,7 +1776,7 @@ export const schemata =
   {
     "url": "https://raw.githubusercontent.com/socialgouv/dashlord/main/schema.json",
     "description": "Configuration for DashLord",
-    "name": "DashLord configuration",
+    "name": "DashLord Configuration",
     "fileMatch": [
       "dashlord.yaml",
       "dashlord.yml"
@@ -1856,7 +1838,7 @@ export const schemata =
   {
     "url": "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json",
     "description": "A JSON representation of a Deno configuration file",
-    "name": "Deno",
+    "name": "Deno Config (deno.json)",
     "fileMatch": [
       "deno.json",
       "deno.jsonc"
@@ -1864,7 +1846,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/dependabot.json",
-    "description": "A the Dependabot config.yml files",
+    "description": "Dependabot config.yml files",
     "name": "dependabot.json",
     "fileMatch": [
       "**/.dependabot/config.yml"
@@ -1872,7 +1854,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/dependabot-2.0.json",
-    "description": "A the GitHub Action's dependabot.yml files",
+    "description": "GitHub Action's dependabot.yml files",
     "name": "dependabot-v2.json",
     "fileMatch": [
       "**/.github/dependabot.yml",
@@ -1891,7 +1873,7 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/detekt-1.22.0.json",
     "description": "Detekt Configuration File",
-    "name": "detekt.yml",
+    "name": "Detekt Config (detekt.yml)",
     "versions": {
       "1.22.0": "https://json.schemastore.org/detekt-1.22.0.json",
       "1.14.1": "https://json.schemastore.org/detekt-1.14.1.json"
@@ -1917,7 +1899,7 @@ export const schemata =
   },
   {
     "url": "https://gitlab.com/sbenv/veroxis/docker-seq/-/raw/HEAD/docker-seq.schema.json",
-    "description": "docker-seq.\n\nSee at: https://gitlab.com/sbenv/veroxis/docker-seq",
+    "description": "docker-seq. Documentation: https://gitlab.com/sbenv/veroxis/docker-seq",
     "name": "docker sequencer",
     "fileMatch": [
       "docker-seq.yaml",
@@ -1931,14 +1913,14 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/docfx.json",
     "description": "A DocFx configuration files",
-    "name": "docfx.json",
+    "name": "DocFx Config (docfx.json)",
     "fileMatch": [
       "docfx.json"
     ]
   },
   {
     "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/v5.0.0/Schemas/Artifacts.Configuration/artifacts.json",
-    "description": "A a Dolittle bounded context's artifacts",
+    "description": "A Dolittle bounded context's artifacts",
     "name": "Dolittle Artifacts",
     "fileMatch": [
       "**/.dolittle/artifacts.json"
@@ -2136,6 +2118,15 @@ export const schemata =
     "name": "eksctl"
   },
   {
+    "url": "https://json.schemastore.org/elgato-stream-deck-plugin.json",
+    "description": "Elgato Stream Deck plugin manifest file",
+    "name": "Elgato Stream Deck",
+    "fileMatch": [
+      "elgato-stream-deck-plugin.yml",
+      "elgato-stream-deck-plugin.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/esmrc.json",
     "description": "Configuration files for the esm module/package in Node.js",
     "name": ".esmrc.json",
@@ -2207,7 +2198,7 @@ export const schemata =
   },
   {
     "url": "https://gitlab.com/sbenv/veroxis/ezd-rs/-/raw/HEAD/ezd.schema.json",
-    "description": "ezd task runner.\n\nSee at: https://gitlab.com/sbenv/veroxis/ezd-rs",
+    "description": "ezd task runner. Documentation: https://gitlab.com/sbenv/veroxis/ezd-rs",
     "name": "ezd task runner",
     "fileMatch": [
       "ezd.yaml",
@@ -2225,12 +2216,6 @@ export const schemata =
       ".eslintrc.yml",
       ".eslintrc.yaml"
     ]
-  },
-  {
-    "url": "https://json.schemastore.org/partial-eslint-plugins.json",
-    "description": "Extracted from the most popular ESLint plugins",
-    "name": "ESLint Plugin Partial",
-    "fileMatch": []
   },
   {
     "url": "https://www.facets.cloud/assets/fsdl/application.schema.json",
@@ -2388,18 +2373,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/partial-fusion-pack-metadata.json",
-    "description": "Fusion properties for Minecraft resource pack metadata",
-    "name": "Fusion resource pack metadata",
-    "fileMatch": []
-  },
-  {
-    "url": "https://json.schemastore.org/partial-fusion-texture-metadata.json",
-    "description": "Fusion properties for Minecraft texture metadata",
-    "name": "Fusion texture metadata",
-    "fileMatch": []
-  },
-  {
     "url": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json",
     "description": "defining mappings for Python-based grapheme-to-phoneme engine 'g2p'",
     "name": "G2P Mapping Configuration",
@@ -2458,11 +2431,6 @@ export const schemata =
     "fileMatch": [
       "**/.well-known/gpc.json"
     ]
-  },
-  {
-    "url": "https://json.schemastore.org/geojson.json",
-    "description": "GeoJSON format for representing geographic data",
-    "name": "geojson.json"
   },
   {
     "url": "https://raw.githubusercontent.com/GitTools/GitVersion/main/schemas/6.0/GitVersion.configuration.json",
@@ -2741,7 +2709,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/deepset-ai/haystack-json-schema/main/json-schema/haystack-pipeline.schema.json",
-    "description": "Haystack Pipeline YAML file describing the nodes of the pipelines. For more info read the docs at: https://haystack.deepset.ai/components/pipelines#yaml-file-definitions",
+    "description": "Haystack Pipeline YAML file describing the nodes of the pipelines. Documentation: https://haystack.deepset.ai/components/pipelines#yaml-file-definitions",
     "name": "Haystack Pipeline",
     "fileMatch": [
       "*.haystack-pipeline.yml"
@@ -2972,7 +2940,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/jovo-language-model.json",
-    "description": "Jovo language Models (https://www.jovo.tech/docs/model)",
+    "description": "Jovo language Models. Documentation: https://www.jovo.tech/docs/model",
     "name": "Jovo Language Models"
   },
   {
@@ -3099,7 +3067,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/derailed/k9s/master/plugins/schema.json",
-    "description": "k9s CLI plugin.yml file : https://k9scli.io/topics/plugins",
+    "description": "k9s CLI plugin.yml file. Documentation: https://k9scli.io/topics/plugins",
     "name": "k9s plugin.yml",
     "fileMatch": [
       "**/k9s/plugin.yml"
@@ -3273,7 +3241,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/rocksdanister/lively/core-separation/schemas/livelyPropertiesSchema.json",
-    "description": "Lively Wallpaper configuration file. More info at https://github.com/rocksdanister/lively/wiki/Web-Guide-IV-:-Interaction#lively-properties",
+    "description": "Lively Wallpaper configuration file. Documentation: https://github.com/rocksdanister/lively/wiki/Web-Guide-IV-:-Interaction#lively-properties",
     "name": "Lively Properties",
     "fileMatch": [
       "LivelyProperties.json"
@@ -3281,7 +3249,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/loobin-1.0.json",
-    "description": "LOOBins macOS binaries. More info at https://github.com/infosecB/LOOBins",
+    "description": "LOOBins macOS binaries. Documentation: https://github.com/infosecB/LOOBins",
     "name": "LOOBin",
     "fileMatch": [
       "**/LOOBins/*.yml"
@@ -3305,7 +3273,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/localazy/cli-schema/master/localazy.json",
-    "description": "Localazy CLI configuration file. More info at https://localazy.com/docs/cli",
+    "description": "Localazy CLI configuration file. Documentation: https://localazy.com/docs/cli",
     "name": "localazy.json",
     "fileMatch": [
       "localazy.json"
@@ -3598,12 +3566,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/partial-mypy.json",
-    "description": "mypy, a Python type checker",
-    "name": "mypy",
-    "fileMatch": []
-  },
-  {
     "url": "https://github.com/napari/npe2/releases/latest/download/schema.json",
     "description": "a napari plugin manifest",
     "name": "napari plugin manifest",
@@ -3643,7 +3605,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/ninjs-2.0.json",
-    "description": "A ninjs by the IPTC. News and publishing information. See https://iptc.org/standards/ninjs/",
+    "description": "A ninjs by the IPTC. News and publishing information. Documentation: https://iptc.org/standards/ninjs/",
     "name": "ninjs (News in JSON) 2.0",
     "versions": {
       "2.0": "https://json.schemastore.org/ninjs-2.0.json"
@@ -3651,7 +3613,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/ninjs-1.3.json",
-    "description": "A ninjs by the IPTC. News and publishing information. See https://iptc.org/standards/ninjs/",
+    "description": "A ninjs by the IPTC. News and publishing information. Documentation: https://iptc.org/standards/ninjs/",
     "name": "ninjs (News in JSON) 1.3",
     "versions": {
       "1.1": "https://json.schemastore.org/ninjs-1.1.json",
@@ -3747,7 +3709,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/Avanade/NTangle/main/schemas/ntangle.json",
-    "description": "NTangle (https://github.com/Avanade/ntangle) CDC code-generation configuration",
+    "description": "NTangle CDC code-generation configuration. Documentation: https://github.com/Avanade/ntangle",
     "name": "ntangle",
     "fileMatch": [
       "ntangle.yaml",
@@ -3799,7 +3761,7 @@ export const schemata =
   },
   {
     "url": "https://meta.open-rpc.org/",
-    "description": "A OpenRPC documents. See https://open-rpc.org for more information",
+    "description": "A OpenRPC documents. Documentation: https://open-rpc.org for more information",
     "name": "openrpc.json",
     "fileMatch": [
       "openrpc.json",
@@ -4011,12 +3973,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/partial-pdm.json",
-    "description": "A modern Python package and dependency manager supporting the latest PEP standard (pyproject.toml tool.pdm table)",
-    "name": "PDM Partial",
-    "fileMatch": []
-  },
-  {
     "url": "https://json.schemastore.org/pgap_yaml_input_reader.json",
     "description": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP) input metadata (submol) JSON/YAML configuration file",
     "name": "pgap_yaml_input_reader",
@@ -4049,18 +4005,6 @@ export const schemata =
     "fileMatch": [
       "plugin.yml"
     ]
-  },
-  {
-    "url": "https://json.schemastore.org/poetry.json",
-    "description": "Poetry, a Python packaging tool",
-    "name": "Poetry",
-    "fileMatch": []
-  },
-  {
-    "url": "https://json.schemastore.org/partial-poetry.json",
-    "description": "Poetry, a Python packaging tool",
-    "name": "Partial-poetry",
-    "fileMatch": []
   },
   {
     "url": "https://json.schemastore.org/plagiarize.json",
@@ -4381,12 +4325,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/partial-pyright.json",
-    "description": "Pyright Configuration",
-    "name": "Pyright Partial",
-    "fileMatch": []
-  },
-  {
     "url": "https://www.qgoda.net/schemas/qgoda.json",
     "description": "Qgoda static site generator configuration file format",
     "name": "Qgoda",
@@ -4502,7 +4440,7 @@ export const schemata =
   },
   {
     "url": "https://docs.renovatebot.com/renovate-schema.json",
-    "description": "Renovate configuration file (https://docs.renovatebot.com/configuration-options/)",
+    "description": "Renovate configuration file. Documentation: https://docs.renovatebot.com/configuration-options",
     "name": "Renovate",
     "fileMatch": [
       "renovate.json",
@@ -4546,7 +4484,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/canonical/rockcraft/main/schema/rockcraft.json",
-    "description": "rockcraft project (https://canonical-rockcraft.readthedocs-hosted.com)",
+    "description": "rockcraft project. Documentation: https://canonical-rockcraft.readthedocs-hosted.com",
     "name": "rockcraft",
     "fileMatch": [
       "rockcraft.yaml",
@@ -4754,18 +4692,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/setuptools.json",
-    "description": "Setuptools, the classic Python buildsystem",
-    "name": "Setuptools",
-    "fileMatch": []
-  },
-  {
-    "url": "https://json.schemastore.org/partial-setuptools.json",
-    "description": "Setuptools, the classic Python buildsystem",
-    "name": "Partial-Setuptools",
-    "fileMatch": []
-  },
-  {
     "url": "https://raw.githubusercontent.com/hardisgroupcom/sfdx-hardis/main/config/sfdx-hardis.jsonschema.json",
     "description": "Configuration file for sfdx-hardis Salesforce DX plugin",
     "name": "sfdx-hardis configuration",
@@ -4778,7 +4704,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/SigmaHQ/sigma-specification/main/sigma-schema.json",
-    "description": "The Sigma detection format. More info at https://github.com/SigmaHQ/sigma-specification and https://github.com/SigmaHQ/sigma",
+    "description": "The Sigma detection format. Documentation: https://github.com/SigmaHQ/sigma-specification and https://github.com/SigmaHQ/sigma",
     "name": "Sigma",
     "fileMatch": [
       "**/sigma/**/*.yml"
@@ -4840,7 +4766,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/snapcore/snapcraft/master/schema/snapcraft.json",
-    "description": "snapcraft project  (https://snapcraft.io)",
+    "description": "snapcraft project. Documentation: https://snapcraft.io",
     "name": "snapcraft",
     "fileMatch": [
       ".snapcraft.yaml",
@@ -4882,7 +4808,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/specif-1.1.json",
-    "description": "The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. See https://specif.de and https://github.com/GfSE",
+    "description": "The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. Documentation: https://specif.de and https://github.com/GfSE",
     "name": "SpecIF",
     "versions": {
       "1.1": "https://json.schemastore.org/specif-1.1.json",
@@ -4946,7 +4872,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/stale.json",
-    "description": "Configuration file for Stale for closing abandoned issues and pull requests. See https://probot.github.io/apps/stale/",
+    "description": "Configuration file for Stale for closing abandoned issues and pull requests. Documentation: https://probot.github.io/apps/stale/",
     "name": "Stale",
     "fileMatch": [
       "**/.github/stale.yml"
@@ -4954,7 +4880,7 @@ export const schemata =
   },
   {
     "url": "https://starship.rs/config-schema.json",
-    "description": "Configuration file for Starship. See https://starship.rs",
+    "description": "Configuration file for Starship. Documentation: https://starship.rs",
     "name": "Starship",
     "fileMatch": [
       "starship.toml"
@@ -4971,7 +4897,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/Shravan-1908/stellapy/master/schema.json",
-    "description": "Configuration file for stella. See https://github.com/Shravan-1908/stellapy",
+    "description": "Configuration file for stella. Documentation: https://github.com/Shravan-1908/stellapy",
     "name": "Stella configuration file",
     "fileMatch": [
       "stella.yml",
@@ -4996,7 +4922,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/stryker-mutator/stryker/master/packages/api/schema/stryker-core.json",
-    "description": "Configuration file for Stryker Mutator, the mutation testing framework for JavaScript and friends. See https://stryker-mutator.io",
+    "description": "Configuration file for Stryker Mutator, the mutation testing framework for JavaScript and friends. Documentation: https://stryker-mutator.io",
     "name": "Stryker Mutator",
     "fileMatch": [
       "stryker.conf.json",
@@ -5014,7 +4940,7 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/stylelintrc.json",
     "description": "Configuration file for stylelint",
-    "name": ".stylelintrc",
+    "name": "Stylelint (.stylelintrc)",
     "fileMatch": [
       ".stylelintrc",
       ".stylelintrc.yml",
@@ -5024,7 +4950,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/SymphonyPlatformSolutions/symphony-wdk/master/workflow-language/src/main/resources/swadl-schema-1.0.json",
-    "description": "Symphony Workflow Automation Definition Language. See https://developers.symphony.com/",
+    "description": "Symphony Workflow Automation Definition Language. Documentation: https://developers.symphony.com/",
     "name": "SWADL",
     "fileMatch": [
       "*.swadl.yaml",
@@ -5156,7 +5082,7 @@ export const schemata =
   },
   {
     "url": "https://turborepo.org/schema.json",
-    "description": "TurboRepo, a tool for managing monorepos",
+    "description": "Turborepo, a tool for managing monorepos",
     "name": "Turborepo",
     "fileMatch": [
       "turbo.json"
@@ -5165,7 +5091,7 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/travis.json",
     "description": "Travis CI configuration file",
-    "name": ".travis.yml",
+    "name": "Travis CI (.travis.yml)",
     "fileMatch": [
       ".travis.yml"
     ]
@@ -5195,7 +5121,7 @@ export const schemata =
   },
   {
     "url": "https://static.trunk.io/pub/trunk-yaml-schema.json",
-    "description": "Configuration trunk, a powerful linter runner - https://docs.trunk.io",
+    "description": "Configuration trunk, a powerful linter runner. Documentation: https://docs.trunk.io",
     "name": "trunk.yaml",
     "fileMatch": [
       "trunk.yaml"
@@ -5366,7 +5292,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/utam-page-object.json",
-    "description": "UI Test Automation Model page object - https://utam.dev/",
+    "description": "UI Test Automation Model page object. Documentation: https://utam.dev/",
     "name": "UTAM Page Object",
     "versions": {
       "2.0.3": "https://json.schemastore.org/utam-page-object-2.0.3.json",
@@ -5758,7 +5684,7 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/lintstagedrc.schema.json",
     "description": "lint-staged config",
-    "name": ".lintstagedrc",
+    "name": "lint-staged (.lintstagedrc)",
     "fileMatch": [
       ".lintstagedrc",
       ".lintstagedrc.json",
@@ -5890,7 +5816,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/Neotys-Labs/neoload-cli/master/resources/as-code.latest.schema.json",
-    "description": "Neotys as-code load test specification, more at: https://github.com/Neotys-Labs/neoload-cli",
+    "description": "Neotys as-code load test specification. Documentation: https://github.com/Neotys-Labs/neoload-cli",
     "name": "neoload",
     "fileMatch": [
       ".nl.yaml",
@@ -6035,7 +5961,7 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/commitlintrc.json",
     "description": "commitlint configuration files",
-    "name": ".commitlintrc",
+    "name": "commitlint (.commitlintrc)",
     "fileMatch": [
       ".commitlintrc",
       ".commitlintrc.json"
@@ -6166,8 +6092,8 @@ export const schemata =
   },
   {
     "url": "https://yarnpkg.com/configuration/yarnrc.json",
-    "description": "Yarnrc files",
-    "name": ".yarnrc.yml",
+    "description": "Yarnrc configuration files",
+    "name": "Yarn Config (.yarnrc.yml)",
     "fileMatch": [
       ".yarnrc.yml"
     ]
@@ -6298,7 +6224,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/Cloud-Pipelines/component_spec_schema/stable/component_spec.json_schema.json",
-    "description": "YAML the Kubeflow Pipelines' component.yaml files which describe a pipeline components. Component consists of input/output definitions and the description of the implementation which can either be a containerized command line program or a interconnected graph of tasks. See https://cloud-pipelines.github.io/links/component_authoring_documentation",
+    "description": "YAML the Kubeflow Pipelines' component.yaml files which describe a pipeline components. Component consists of input/output definitions and the description of the implementation which can either be a containerized command line program or a interconnected graph of tasks. Documentation: https://cloud-pipelines.github.io/links/component_authoring_documentation",
     "name": "Pipeline component",
     "fileMatch": [
       "component.yaml",
@@ -6308,7 +6234,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v3.json",
-    "description": "the skaffold.yaml configuration file for Skaffold (https://skaffold.dev/)",
+    "description": "the skaffold.yaml configuration file for Skaffold. Documentation: https://skaffold.dev",
     "name": "skaffold.yaml",
     "versions": {
       "v3": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v3.json",
@@ -6467,18 +6393,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/scikit-build.json",
-    "description": "Pyproject configuration for scikit-build-core",
-    "name": "scikit-build",
-    "fileMatch": []
-  },
-  {
-    "url": "https://json.schemastore.org/partial-scikit-build.json",
-    "description": "Pyproject configuration for scikit-build-core",
-    "name": "partial-scikit-build",
-    "fileMatch": []
-  },
-  {
     "url": "https://download.stackhawk.com/hawk/jsonschema/hawkconfig.json",
     "description": "StackHawk Scanner configuration files",
     "name": "StackHawk Scanner Configuration",
@@ -6549,7 +6463,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/qodana-1.0.json",
-    "description": "A standard qodana.yaml (or qodana.yml) format for Qodana (https://jetbrains.com/qodana) configuration",
+    "description": "A standard qodana.yaml (or qodana.yml) format for Qodana configuration. Documentation: https://jetbrains.com/qodana",
     "name": "Qodana",
     "fileMatch": [
       "qodana.yaml",
@@ -6599,7 +6513,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/deployed.json",
-    "description": "the deployed cli config file. \n\nSee also: https://hyhello.github.io/deployed\n\n",
+    "description": "the deployed cli config file. Documentation: https://hyhello.github.io/deployed",
     "name": "deployed-cli",
     "fileMatch": [
       ".deployedrc",
@@ -6658,14 +6572,14 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/clang-format.json",
     "description": "yaml clang-format config",
-    "name": ".clang-format",
+    "name": "clang-format (.clang-format)",
     "fileMatch": [
       ".clang-format"
     ]
   },
   {
     "url": "https://raw.githubusercontent.com/estuary/flow/master/flow.schema.json",
-    "description": "Flow catalog files. See: https://github.com/estuary/flow",
+    "description": "Flow catalog files. Documentation: https://github.com/estuary/flow",
     "name": "Estuary Flow Catalog",
     "fileMatch": [
       "flow.yaml",
@@ -6763,7 +6677,7 @@ export const schemata =
   },
   {
     "url": "https://datahubproject.io/schemas/datahub_ingestion_schema.json",
-    "description": "Datahub Ingestion recipe. \n\nSee also at https://datahubproject.io/docs/metadata-ingestion\n\n",
+    "description": "Datahub Ingestion recipe. Documentation: https://datahubproject.io/docs/metadata-ingestion",
     "name": "Datahub Ingestion Recipe",
     "fileMatch": [
       "*.dhub.yml",
@@ -6889,7 +6803,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/safebox-schema-v1.0.0.json",
-    "description": "https://github.com/monebag/safebox",
+    "description": "Documentation: https://github.com/monebag/safebox",
     "name": "Safebox Config",
     "fileMatch": [
       "*safebox*.yaml",
@@ -6898,7 +6812,7 @@ export const schemata =
   },
   {
     "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.BatchJob.json",
-    "description": "StrmPrivacy batch job\nhttps://docs.strmprivacy.io/docs/latest/concepts/data-processing/batch-jobs/",
+    "description": "StrmPrivacy batch job. Documentation: https://docs.strmprivacy.io/docs/latest/concepts/data-processing/batch-jobs/",
     "name": "StrmPrivacy batch job configuration file",
     "versions": {
       "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.BatchJob.json"
@@ -6910,7 +6824,7 @@ export const schemata =
   },
   {
     "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Schema.SimpleSchemaDefinition.json",
-    "description": "StrmPrivacy SimpleSchema\nhttps://docs.strmprivacy.io/docs/latest/quickstart/data-contracts/simple-schema/",
+    "description": "StrmPrivacy SimpleSchema. Documentation: https://docs.strmprivacy.io/docs/latest/quickstart/data-contracts/simple-schema/",
     "name": "StrmPrivacy SimpleSchema",
     "versions": {
       "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Schema.SimpleSchemaDefinition.json"
@@ -6922,7 +6836,7 @@ export const schemata =
   },
   {
     "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Stream.json",
-    "description": "StrmPrivacy Stream\nhttps://docs.strmprivacy.io/docs/latest/quickstart/streaming/creating-streams/",
+    "description": "StrmPrivacy Stream. Documentation: https://docs.strmprivacy.io/docs/latest/quickstart/streaming/creating-streams/",
     "name": "StrmPrivacy Stream",
     "versions": {
       "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Stream.json"
@@ -6934,7 +6848,7 @@ export const schemata =
   },
   {
     "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataConnector.json",
-    "description": "StrmPrivacy Data Connector\nhttps://docs.strmprivacy.io/docs/latest/concepts/data-connectors/",
+    "description": "StrmPrivacy Data Connector. Documentation: https://docs.strmprivacy.io/docs/latest/concepts/data-connectors/",
     "name": "StrmPrivacy Data Connector",
     "versions": {
       "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataConnector.json"
@@ -6946,7 +6860,7 @@ export const schemata =
   },
   {
     "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataContract.json",
-    "description": "StrmPrivacy Data Contract\nhttps://docs.strmprivacy.io/docs/latest/concepts/data-contracts/",
+    "description": "StrmPrivacy Data Contract. Documentation: https://docs.strmprivacy.io/docs/latest/concepts/data-contracts/",
     "name": "StrmPrivacy Data Contract",
     "versions": {
       "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataContract.json"
@@ -7059,8 +6973,8 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/es6importsorterrc.json",
-    "description": "The configuration file used for ES6 Import Sorter - a vscode extension",
-    "name": ".es6importsorterrc.json",
+    "description": "The configuration file used for ES6 Import Sorter, a VSCode extension",
+    "name": "ES6 Import Sorter (.es6importsorterrc.json)",
     "fileMatch": [
       ".es6importsorterrc.json"
     ]
@@ -7077,7 +6991,7 @@ export const schemata =
   {
     "url": "https://raw.githubusercontent.com/DannyBen/madness/master/schemas/madness.json",
     "description": "Madness settings",
-    "name": "madness.yml",
+    "name": "Madness (madness.yml)",
     "fileMatch": [
       "madness.yml",
       "madness.yaml"
@@ -7086,7 +7000,7 @@ export const schemata =
   {
     "url": "https://raw.githubusercontent.com/DannyBen/bashly/master/schemas/bashly.json",
     "description": "Bashly CLI",
-    "name": "bashly.yml",
+    "name": "Bashly (bashly.yml)",
     "fileMatch": [
       "bashly.yml",
       "bashly.yaml"
@@ -7095,7 +7009,7 @@ export const schemata =
   {
     "url": "https://raw.githubusercontent.com/DannyBen/bashly/master/schemas/settings.json",
     "description": "Bashly settings",
-    "name": "bashly-settings.yml",
+    "name": "Bashly Settings (bashly-settings.yml)",
     "fileMatch": [
       "bashly-settings.yml",
       "bashly-settings.yaml"
@@ -7154,7 +7068,7 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/aliases.json",
     "description": "Dynamic Bash aliases",
-    "name": ".aliases",
+    "name": "Dynamic Bash Aliases (.aliases)",
     "fileMatch": [
       ".aliases"
     ]
@@ -7162,14 +7076,14 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/micro-syntax.json",
     "description": "Micro Editor syntaxes",
-    "name": "syntax",
+    "name": "Micro Editor Syntax",
     "fileMatch": [
       "**/micro/runtime/syntax/*.yaml"
     ]
   },
   {
     "url": "https://raw.githubusercontent.com/jesseduffield/lazygit/master/schema/config.json",
-    "description": "Lazy Git settings",
+    "description": "lazygit settings",
     "name": "lazygit",
     "fileMatch": [
       "**/lazygit/config.yml"
@@ -7177,7 +7091,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/lazydocker.json",
-    "description": "Lazy Docker settings",
+    "description": "lazydocker settings",
     "name": "lazydocker",
     "fileMatch": [
       "**/lazydocker/config.yml"
@@ -7230,6 +7144,11 @@ export const schemata =
     "fileMatch": [
       "**/.databricks.yml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/schema-draft-v4.json",
+    "description": "Meta-validation JSON Schema Draft 7 (unofficial with '$ref' and 'format')",
+    "name": "JSON Schema Draft 4 (unofficial with '$ref' and 'format')"
   },
   {
     "url": "https://json.schemastore.org/metaschema-draft-07-unofficial-strict.json",
