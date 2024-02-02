@@ -530,6 +530,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json",
+    "description": "Configuration file for bottom",
+    "name": "bottom configuration",
+    "fileMatch": [
+      "bottom.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/buf.json",
     "description": "buf.yaml is used to define a module. It's the primary configuration file, and is responsible for the module's name, dependencies, and lint and breaking configuration",
     "name": "buf.yaml",
@@ -850,6 +858,12 @@ export const schemata =
       "behat.yml",
       "*.behat.yml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/partial-black.json",
+    "description": "black, a Python formatter",
+    "name": "partial-black.json",
+    "fileMatch": []
   },
   {
     "url": "https://json.schemastore.org/bozr.json",
