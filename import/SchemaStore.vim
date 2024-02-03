@@ -2493,7 +2493,11 @@ export const schemata =
     "name": "GitHub issue forms",
     "fileMatch": [
       "**/.github/ISSUE_TEMPLATE/**.yml",
-      "**/.github/ISSUE_TEMPLATE/**.yaml"
+      "**/.github/ISSUE_TEMPLATE/**.yaml",
+      "**/.gitea/ISSUE_TEMPLATE/**.yml",
+      "**/.gitea/ISSUE_TEMPLATE/**.yaml",
+      "**/.forgejo/ISSUE_TEMPLATE/**.yml",
+      "**/.forgejo/ISSUE_TEMPLATE/**.yaml"
     ]
   },
   {
@@ -2502,7 +2506,11 @@ export const schemata =
     "name": "GitHub Issue Template configuration",
     "fileMatch": [
       "**/.github/ISSUE_TEMPLATE/config.yml",
-      "**/.github/ISSUE_TEMPLATE/config.yaml"
+      "**/.github/ISSUE_TEMPLATE/config.yaml",
+      "**/.gitea/ISSUE_TEMPLATE/config.yml",
+      "**/.gitea/ISSUE_TEMPLATE/config.yaml",
+      "**/.forgejo/ISSUE_TEMPLATE/config.yml",
+      "**/.forgejo/ISSUE_TEMPLATE/config.yaml"
     ]
   },
   {
@@ -2511,7 +2519,11 @@ export const schemata =
     "name": "GitHub Workflow",
     "fileMatch": [
       "**/.github/workflows/*.yml",
-      "**/.github/workflows/*.yaml"
+      "**/.github/workflows/*.yaml",
+      "**/.gitea/workflows/*.yml",
+      "**/.gitea/workflows/*.yaml",
+      "**/.forgejo/workflows/*.yml",
+      "**/.forgejo/workflows/*.yaml"
     ]
   },
   {
