@@ -530,9 +530,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json",
+    "url": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v1.0/bottom.json",
     "description": "Configuration file for bottom",
     "name": "bottom configuration",
+    "versions": {
+      "nightly": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json",
+      "1.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v1.0/bottom.json"
+    },
     "fileMatch": [
       "bottom.toml"
     ]
