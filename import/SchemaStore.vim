@@ -427,10 +427,11 @@ export const schemata =
     "fileMatch": []
   },
   {
-    "url": "https://json.schemastore.org/aurora-1.0.json",
-    "description": "Aurora Agile Meta-Framework",
+    "url": "https://json.schemastore.org/aurora-1.1.json",
+    "description": "Yaml for Aurora Agile Meta-Framework",
     "name": "Aurora Agile Meta-Framework",
     "versions": {
+      "1.1": "https://json.schemastore.org/aurora-1.1.json",
       "1.0": "https://json.schemastore.org/aurora-1.0.json"
     },
     "fileMatch": [
