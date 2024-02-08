@@ -7316,6 +7316,14 @@ export const schemata =
       "squid.yml",
       "*.squid.yml"
     ]
+  },
+  {
+    "url": "https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/raw/master/pkg/agentcfg/agentcfg_schemas/ConfigurationFile.json",
+    "description": "GitLab Agent for Kubernetes configuration file",
+    "name": "GitLab Agent for Kubernetes configuration",
+    "fileMatch": [
+      "**/.gitlab/agents/*/config.yaml"
+    ]
   }
 ]
 export const schemas = schemata
