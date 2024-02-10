@@ -1180,6 +1180,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/sverweij/dependency-cruiser/main/src/schema/configuration.schema.json",
+    "description": "Configuration file for Dependency cruiser",
+    "name": "Dependency cruiser",
+    "fileMatch": [
+      "dependency-cruiser.config.json"
+    ]
+  },
+  {
     "url": "https://deta.space/assets/spacefile.schema.json",
     "description": "Configuration file for Space Apps",
     "name": "Deta Spacefile",
