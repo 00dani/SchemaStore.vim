@@ -2636,6 +2636,14 @@ export const schemata =
     "name": "Grafana 5.x Dashboard"
   },
   {
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/cli/src/generate/grammar-schema.json",
+    "description": "tree-sitter grammar.json",
+    "name": "tree-sitter grammar.json",
+    "fileMatch": [
+      "grammar.json"
+    ]
+  },
+  {
     "url": "https://unpkg.com/@graphql-mesh/types/esm/config-schema.json",
     "description": "GraphQL Mesh config file",
     "name": "GraphQL Mesh",
