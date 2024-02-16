@@ -7340,6 +7340,20 @@ export const schemata =
     "fileMatch": [
       "**/.gitlab/agents/*/config.yaml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/codevasp-lab/IVMS101/main/json-schema.json",
+    "description": "IVMS101 format from interVASP by CODE Protocol",
+    "name": "IVMS101 by CODE Protocol",
+    "fileMatch": []
+  },
+  {
+    "url": "https://json.schemastore.org/glazewm.json",
+    "description": "GlazeWM settings",
+    "name": "GlazeWM settings",
+    "fileMatch": [
+      "**/.glaze-wm/config.yaml"
+    ]
   }
 ]
 export const schemas = schemata
