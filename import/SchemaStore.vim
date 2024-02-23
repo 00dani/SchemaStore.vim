@@ -7109,7 +7109,7 @@ export const schemata =
     "description": "auto api case",
     "name": "AutoAPICase",
     "fileMatch": [
-      "**/test_data/*.yml"
+      "**/test_data/**/*.yml"
     ]
   },
   {
@@ -7362,6 +7362,14 @@ export const schemata =
     "name": "GlazeWM settings",
     "fileMatch": [
       "**/.glaze-wm/config.yaml"
+    ]
+  },
+  {
+    "url": "https://www.cardgamesimulator.com/schema/CardGameDef.json",
+    "description": "Card Game Simulator (CGS) custom card game specification",
+    "name": "CGS Custom Card Game (CardGameDef.json)",
+    "fileMatch": [
+      "CardGameDef.json"
     ]
   }
 ]
