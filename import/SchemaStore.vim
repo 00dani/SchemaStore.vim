@@ -7371,6 +7371,23 @@ export const schemata =
     "fileMatch": [
       "CardGameDef.json"
     ]
+  },
+  {
+    "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_machine.json",
+    "description": "Custom machinery machine specification (Minecraft mod)",
+    "name": "Custom Machinery Machine",
+    "fileMatch": [
+      "**/data/*/machines/*.json",
+      "**/data/*/machine/*.json"
+    ]
+  },
+  {
+    "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_recipe.json",
+    "description": "Custom machinery recipes specification (Minecraft mod)",
+    "name": "Custom Machinery Recipe",
+    "fileMatch": [
+      "**/data/*/recipes/**/*.json"
+    ]
   }
 ]
 export const schemas = schemata
