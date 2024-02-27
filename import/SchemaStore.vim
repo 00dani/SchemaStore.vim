@@ -7388,6 +7388,15 @@ export const schemata =
     "fileMatch": [
       "**/data/*/recipes/**/*.json"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Nuitka/Nuitka/develop/misc/nuitka-package-config-schema.json",
+    "description": "Nuitka Package Configuration",
+    "name": "Nuitka.yaml",
+    "fileMatch": [
+      "*.nuitka-package.config.yml",
+      "*.nuitka-package.config.yaml"
+    ]
   }
 ]
 export const schemas = schemata
