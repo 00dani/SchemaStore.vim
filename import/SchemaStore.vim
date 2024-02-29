@@ -3390,6 +3390,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/metricshub-connector.json",
+    "description": "MetricsHub connector configuration file",
+    "name": "MetricsHub Connector Configuration",
+    "fileMatch": [
+      "**/metricshub/connectors/**/*.yaml",
+      "**/metricshub/connectors/**/*.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/band-manifest.json",
     "description": "Microsoft Band Web Tile manifest file",
     "name": "Microsoft Band Web Tile"
