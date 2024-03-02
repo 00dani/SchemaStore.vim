@@ -5443,6 +5443,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/conventional-changelog/conventional-changelog-config-spec/master/versions/2.2.0/schema.json",
+    "description": "Conventional Changelog Configuration file",
+    "name": ".versionrc.json",
+    "versions": {
+      "2.2.0": "https://raw.githubusercontent.com/conventional-changelog/conventional-changelog-config-spec/master/versions/2.2.0/schema.json",
+      "2.1.0": "https://raw.githubusercontent.com/conventional-changelog/conventional-changelog-config-spec/master/versions/2.1.0/schema.json",
+      "1.0.0": "https://raw.githubusercontent.com/conventional-changelog/conventional-changelog-config-spec/master/versions/1.0.0/schema.json",
+      "2.0.0": "https://raw.githubusercontent.com/conventional-changelog/conventional-changelog-config-spec/master/versions/2.0.0/schema.json"
+    },
+    "fileMatch": [
+      ".versionrc",
+      ".versionrc.json",
+      ".versionrc.js"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/vim-addon-info.json",
     "description": "vim plugin addon-info.json metadata files",
     "name": "vim-addon-info",
