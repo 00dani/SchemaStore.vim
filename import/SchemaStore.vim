@@ -2154,6 +2154,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://enterprisecontract.dev/enterprise-contract-controller/schema/policy_spec.json",
+    "description": "Policy file for use with Enterprise Contract",
+    "name": "Enterprise Contract Policy Spec"
+  },
+  {
     "url": "https://json.schemastore.org/esmrc.json",
     "description": "Configuration files for the esm module/package in Node.js",
     "name": ".esmrc.json",
@@ -2621,7 +2626,7 @@ export const schemata =
     "name": "Goreleaser Pro"
   },
   {
-    "url": "https://github.com/goss-org/goss/raw/master/docs/goss-json-schema.yaml",
+    "url": "https://github.com/goss-org/goss/raw/master/docs/schema.yaml",
     "description": "Goss - Quick and Easy server validation",
     "name": "Goss",
     "fileMatch": [
