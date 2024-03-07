@@ -1818,8 +1818,14 @@ export const schemata =
       "datacontract.yml",
       "*-datacontract.yaml",
       "*-datacontract.yml",
+      "*.datacontract.yaml",
+      "*.datacontract.yml",
       "datacontract-*.yaml",
-      "datacontract-*.yml"
+      "datacontract-*.yml",
+      "**/datacontract/*.yml",
+      "**/datacontract/*.yaml",
+      "**/datacontracts/*.yml",
+      "**/datacontracts/*.yaml"
     ]
   },
   {
