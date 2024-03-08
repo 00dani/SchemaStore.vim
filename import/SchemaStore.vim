@@ -3019,6 +3019,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://jsr.io/schema/config-file.v1.json",
+    "description": "JSR package configuration file",
+    "name": "JSR Package Config (jsr.json)",
+    "fileMatch": [
+      "jsr.json",
+      "jsr.jsonc"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/jsbeautifyrc.json",
     "description": "js-beautify configuration file",
     "name": ".jsbeautifyrc",
