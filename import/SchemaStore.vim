@@ -2605,17 +2605,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/gorder-r06.json",
-    "description": "Gorder configuration",
-    "name": "Gorder",
-    "versions": {
-      "r06": "https://json.schemastore.org/gorder-r06.json"
-    },
-    "fileMatch": [
-      "gorder.json"
-    ]
-  },
-  {
     "url": "https://goreleaser.com/static/schema.json",
     "description": "Goreleaser configuration file",
     "name": "Goreleaser",
@@ -3415,8 +3404,8 @@ export const schemata =
     "description": "MetricsHub connector configuration file",
     "name": "MetricsHub Connector Configuration",
     "fileMatch": [
-      "**/metricshub/connectors/**/*.yaml",
-      "**/metricshub/connectors/**/*.yml"
+      "**/*[Mm]etrics[Hh]ub*/**/connector*/**/*.yaml",
+      "**/*[Mm]etrics[Hh]ub*/**/connector*/**/*.yml"
     ]
   },
   {
@@ -3609,6 +3598,18 @@ export const schemata =
     "name": "monospace.yml",
     "fileMatch": [
       "monospace.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/monoweave/monoweave/main/packages/types/schema.json",
+    "description": "Monoweave configuration file (Yarn package publishing)",
+    "name": "Monoweave Configuration",
+    "fileMatch": [
+      "monoweave.config.json",
+      "monoweave.config.jsonc",
+      "monoweave.config.json5",
+      "monoweave.config.yaml",
+      "monoweave.config.yml"
     ]
   },
   {
