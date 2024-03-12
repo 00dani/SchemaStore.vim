@@ -1164,6 +1164,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/job.schema.json",
+    "description": "DataYoga job configurations",
+    "name": "DataYoga Job",
+    "fileMatch": [
+      "*.dy.yaml",
+      "*.dy.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/dbt_project.json",
     "description": "dbt project configurations",
     "name": "dbt Project",
