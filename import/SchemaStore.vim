@@ -7453,6 +7453,12 @@ export const schemata =
       "*.nuitka-package.config.yml",
       "*.nuitka-package.config.yaml"
     ]
+  },
+  {
+    "url": "https://bioimage-io.github.io/spec-bioimage-io/bioimageio_schema_latest.json",
+    "description": "Bioimage.io community specifications json, may be produced or consumed by bioimage.io-compatible consumers",
+    "name": "bioimageio json",
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
