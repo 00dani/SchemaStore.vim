@@ -1164,12 +1164,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/connections.schema.json",
+    "description": "Collection of defined source and target connections used within DataYoga jobs",
+    "name": "DataYoga Connections",
+    "fileMatch": [
+      "connections.dy.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/job.schema.json",
-    "description": "DataYoga job configurations",
+    "description": "Declarative definition of sequential pipeline steps within a DataYoga job",
     "name": "DataYoga Job",
     "fileMatch": [
-      "*.dy.yaml",
-      "*.dy.yml"
+      "**/jobs/*.dy.yaml"
     ]
   },
   {
@@ -2592,14 +2599,23 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/golangci-lint.json",
+    "url": "https://golangci-lint.run/jsonschema/golangci.jsonschema.json",
     "description": "golangci-lint configuration file",
-    "name": "golangci-lint Configuration",
+    "name": "Golangci-lint Configuration",
     "fileMatch": [
       ".golangci.yml",
       ".golangci.yaml",
       ".golangci.toml",
       ".golangci.json"
+    ]
+  },
+  {
+    "url": "https://golangci-lint.run/jsonschema/custom-gcl.jsonschema.json",
+    "description": "golangci-lint custom plugins configuration file",
+    "name": "Golangci-lint Custom Plugins Configuration",
+    "fileMatch": [
+      ".custom-gcl.yml",
+      ".custom-gcl.yaml"
     ]
   },
   {
