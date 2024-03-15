@@ -1176,7 +1176,7 @@ export const schemata =
     "description": "Declarative definition of sequential pipeline steps within a DataYoga job",
     "name": "DataYoga Job",
     "fileMatch": [
-      "**/jobs/*.dy.yaml"
+      "**/jobs/**/*.dy.yaml"
     ]
   },
   {
