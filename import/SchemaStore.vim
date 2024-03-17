@@ -7484,9 +7484,12 @@ export const schemata =
   },
   {
     "url": "https://bioimage-io.github.io/spec-bioimage-io/bioimageio_schema_latest.json",
-    "description": "Bioimage.io community specifications json, may be produced or consumed by bioimage.io-compatible consumers",
-    "name": "bioimageio json",
-    "fileMatch": []
+    "description": "Bioimage.io resource descriptions may be produced or consumed by bioimage.io-compatible software",
+    "name": "bioimageio resource description",
+    "fileMatch": [
+      "bioimageio.yaml",
+      "*.bioimageio.yaml"
+    ]
   }
 ]
 export const schemas = schemata
