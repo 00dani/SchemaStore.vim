@@ -2512,6 +2512,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/gitea-issue-forms.json",
+    "description": "YAML Gitea issue forms",
+    "name": "Gitea Issue Template forms",
+    "fileMatch": [
+      "**/.gitea/ISSUE_TEMPLATE/**.yml",
+      "**/.gitea/ISSUE_TEMPLATE/**.yaml",
+      "**/.forgejo/ISSUE_TEMPLATE/**.yml",
+      "**/.forgejo/ISSUE_TEMPLATE/**.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/github-action.json",
     "description": "YAML GitHub Actions",
     "name": "GitHub Action",
@@ -2542,14 +2553,10 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/github-issue-forms.json",
     "description": "YAML GitHub issue forms",
-    "name": "GitHub issue forms",
+    "name": "GitHub Issue Template forms",
     "fileMatch": [
       "**/.github/ISSUE_TEMPLATE/**.yml",
-      "**/.github/ISSUE_TEMPLATE/**.yaml",
-      "**/.gitea/ISSUE_TEMPLATE/**.yml",
-      "**/.gitea/ISSUE_TEMPLATE/**.yaml",
-      "**/.forgejo/ISSUE_TEMPLATE/**.yml",
-      "**/.forgejo/ISSUE_TEMPLATE/**.yaml"
+      "**/.github/ISSUE_TEMPLATE/**.yaml"
     ]
   },
   {
@@ -3679,6 +3686,17 @@ export const schemata =
     "name": ".modernizrrc",
     "fileMatch": [
       ".modernizrrc"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/monade-stack-config.json",
+    "description": "The configuration file to get a local stack up and running with Monade CLI",
+    "name": "Monade CLI Stack Configuration",
+    "fileMatch": [
+      "monade.yaml",
+      "monade.yml",
+      ".monade.yaml",
+      ".monade.yml"
     ]
   },
   {
@@ -5244,6 +5262,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/osfans/trime/develop/doc/trime-schema.json",
+    "description": "trime configuration file",
+    "name": "trime.yaml",
+    "fileMatch": [
+      "trime.yaml",
+      "trime.yml",
+      "*.trime.yaml",
+      "*.trime.yml"
+    ]
+  },
+  {
     "url": "https://static.trunk.io/pub/trunk-yaml-schema.json",
     "description": "Configuration trunk, a powerful linter runner. Documentation: https://docs.trunk.io",
     "name": "trunk.yaml",
@@ -5419,6 +5448,7 @@ export const schemata =
     "description": "UI Test Automation Model page object. Documentation: https://utam.dev/",
     "name": "UTAM Page Object",
     "versions": {
+      "2.2.0": "https://json.schemastore.org/utam-page-object-2.2.0.json",
       "2.0.3": "https://json.schemastore.org/utam-page-object-2.0.3.json",
       "current": "https://json.schemastore.org/utam-page-object.json",
       "1.5.0": "https://json.schemastore.org/utam-page-object-1.5.0.json"
