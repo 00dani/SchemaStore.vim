@@ -1192,7 +1192,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/dbt_project.json",
+    "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_project-latest.json",
     "description": "dbt project configurations",
     "name": "dbt Project",
     "fileMatch": [
