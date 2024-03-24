@@ -1125,6 +1125,14 @@ export const schemata =
     "name": "CityJSON"
   },
   {
+    "url": "https://raw.githubusercontent.com/conda-forge/conda-smithy/main/conda_smithy/data/conda-forge.json",
+    "description": "Conda-forge configuration file",
+    "name": "conda-forge",
+    "fileMatch": [
+      "conda-forge.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/palantir/conjure/master/conjure.schema.json",
     "description": "Conjure Human-Readable Format",
     "name": "Conjure",
@@ -4133,6 +4141,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/prefix-dev/pixi/main/schema/schema.json",
+    "description": "Pixi configuration file",
+    "name": "pixi.toml",
+    "fileMatch": [
+      "pixi.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/pmbot-io/config/master/pmbot.yml.schema.json",
     "description": "Pmbot configuration file",
     "name": ".pmbot.yml",
@@ -4480,6 +4496,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/prefix-dev/recipe-format/main/schema.json",
+    "description": "Rattler-build recipe",
+    "name": "Rattler-build",
+    "fileMatch": [
+      "recipe.yaml",
+      "recipe.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json",
     "description": "Red-DiscordBot Cog metadata file",
     "name": "Red-DiscordBot Cog",
@@ -4771,6 +4796,33 @@ export const schemata =
     "fileMatch": [
       "**/bucket/**.json"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/structure-message/tools/schemas/2.0.0/sdmx-json-structure-schema.json",
+    "description": "Statistical Data and Metadata eXchange (ISO 17369) structure message",
+    "name": "SDMX structure message",
+    "versions": {
+      "2.0.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/structure-message/tools/schemas/2.0.0/sdmx-json-structure-schema.json",
+      "1.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/structure-message/tools/schemas/1.0/sdmx-json-structure-schema.json"
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/metadata-message/tools/schemas/2.0.0/sdmx-json-metadata-schema.json",
+    "description": "Statistical Data and Metadata eXchange (ISO 17369) metadata message",
+    "name": "SDMX metadata message",
+    "versions": {
+      "2.0.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/metadata-message/tools/schemas/2.0.0/sdmx-json-metadata-schema.json",
+      "1.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/metadata-message/tools/schemas/1.0/sdmx-json-metadata-schema.json"
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/data-message/tools/schemas/2.0.0/sdmx-json-data-schema.json",
+    "description": "Statistical Data and Metadata eXchange (ISO 17369) data message",
+    "name": "SDMX data message",
+    "versions": {
+      "2.0.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/data-message/tools/schemas/2.0.0/sdmx-json-data-schema.json",
+      "1.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/data-message/tools/schemas/1.0/sdmx-json-data-schema.json"
+    }
   },
   {
     "url": "https://cdn.sdf.com/schemas/sdf-schema-1.1.json",
@@ -6353,6 +6405,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://render.com/schema/render.yaml.json",
+    "description": "Blueprints are Render’s infrastructure-as-code model for defining, deploying, and managing multiple resources with a single YAML file",
+    "name": "Render Blueprints",
+    "fileMatch": [
+      "**/*render.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/dcermak/vscode-rke-cluster-config/main/schemas/cluster.yml.json",
     "description": "the cluster.yml configuration file for RKE",
     "name": "RKE Cluster Configuration YAML",
@@ -6488,11 +6548,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/markdown-lint-check.json",
-    "description": "markdown-lint-check",
-    "name": "markdown-lint-check",
+    "url": "https://json.schemastore.org/markdown-link-check.json",
+    "description": "markdown-link-check",
+    "name": "markdown-link-check",
     "fileMatch": [
-      ".markdown-lint-check.json"
+      ".markdown-link-check.json"
     ]
   },
   {
