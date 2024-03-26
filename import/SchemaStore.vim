@@ -1184,6 +1184,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/clawject/clawject/main/packages/clawject/src/compile-time/config/schema.json",
+    "description": "Clawject configuration file",
+    "name": "Clawject config",
+    "fileMatch": [
+      ".clawjectrc",
+      ".clawjectrc.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/connections.schema.json",
     "description": "Collection of defined source and target connections used within DataYoga jobs",
     "name": "DataYoga Connections",
@@ -4660,7 +4669,7 @@ export const schemata =
   },
   {
     "url": "https://json.schemastore.org/rustfmt.json",
-    "description": "fustfmt, a tool to format Rust code",
+    "description": "rustfmt, a tool to format Rust code",
     "name": "rustfmt",
     "fileMatch": [
       "rustfmt.toml"
@@ -7579,6 +7588,22 @@ export const schemata =
     "fileMatch": [
       "bioimageio.yaml",
       "*.bioimageio.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/common-workflow-lab/cwl-ts-auto/main/json_schemas/cwl_schema.json",
+    "description": "The Common Workflow Language Configuration",
+    "name": "CWL",
+    "fileMatch": [
+      "*.cwl"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/crystal-lang/shards/master/docs/shard.yml.schema.json",
+    "description": "Shards configuration file",
+    "name": "shard.yml",
+    "fileMatch": [
+      "shard.yml"
     ]
   }
 ]
