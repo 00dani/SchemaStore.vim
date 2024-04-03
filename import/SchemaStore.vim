@@ -7592,6 +7592,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/onflow/flow-cli/master/flowkit/schema.json",
+    "description": "Project configuration for Cadence projects on Flow Blockchain",
+    "name": "Flow.json Configurations",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/common-workflow-lab/cwl-ts-auto/main/json_schemas/cwl_schema.json",
     "description": "The Common Workflow Language Configuration",
     "name": "CWL",
@@ -7605,6 +7611,36 @@ export const schemata =
     "name": "shard.yml",
     "fileMatch": [
       "shard.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/erda-project/erda/master/.erda/schemas/pipeline.yaml.json",
+    "description": "Erda Pipeline Configuration File",
+    "name": "Erda Pipeline",
+    "fileMatch": [
+      "pipeline.yaml",
+      "pipeline.yml",
+      "**/.erda/pipelines/*.yaml",
+      "**/.erda/pipelines/*.yml",
+      "**/.dice/pipelines/*.yaml",
+      "**/.dice/pipelines/*.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/erda-project/erda/master/.erda/schemas/dice.yaml.json",
+    "description": "Erda Runtime Configuration File",
+    "name": "Erda Runtime",
+    "fileMatch": [
+      "dice.yaml",
+      "erda.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kaitai-io/ksy_schema/master/ksy_schema.json",
+    "description": "Kaitai Struct format description file",
+    "name": "KSY",
+    "fileMatch": [
+      "*.ksy"
     ]
   }
 ]
