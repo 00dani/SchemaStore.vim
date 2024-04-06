@@ -2613,10 +2613,13 @@ export const schemata =
   },
   {
     "url": "https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json",
-    "description": "configuring Gitlab CI",
+    "description": "GitLab CI Configuration file",
     "name": "gitlab-ci",
     "fileMatch": [
-      "*.gitlab-ci.yml"
+      "**/.gitlab-ci.yml",
+      "**/.gitlab-ci.yaml",
+      "**/*.gitlab-ci.yml",
+      "**/*.gitlab-ci.yaml"
     ]
   },
   {
