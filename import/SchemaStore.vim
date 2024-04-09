@@ -4261,6 +4261,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/phrase.json",
+    "description": "Phrase configuration file",
+    "name": ".phrase.yml",
+    "fileMatch": [
+      ".phrase.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/phraseapp.json",
     "description": "PhraseApp configuration file",
     "name": ".phraseapp.yml",
