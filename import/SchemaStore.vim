@@ -1242,7 +1242,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/jetpack-io/devbox/main/.schema/devbox.schema.json",
+    "url": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox.schema.json",
     "description": "Configuration for a Devbox shell environment",
     "name": "Devbox Config",
     "fileMatch": [
@@ -1250,7 +1250,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/jetpack-io/devbox/main/.schema/devbox-plugin.schema.json",
+    "url": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox-plugin.schema.json",
     "description": "Configuration for a Devbox plugin specification",
     "name": "Devbox Plugin",
     "fileMatch": [
@@ -2530,6 +2530,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/gitea-issue-config.json",
+    "description": "YAML configuring Gitea Issue Templates",
+    "name": "Gitea Issue Template configuration",
+    "fileMatch": [
+      "**/.gitea/ISSUE_TEMPLATE/config.yml",
+      "**/.gitea/ISSUE_TEMPLATE/config.yaml",
+      "**/.forgejo/ISSUE_TEMPLATE/config.yml",
+      "**/.forgejo/ISSUE_TEMPLATE/config.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/gitea-issue-forms.json",
     "description": "YAML Gitea issue forms",
     "name": "Gitea Issue Template forms",
@@ -2583,11 +2594,7 @@ export const schemata =
     "name": "GitHub Issue Template configuration",
     "fileMatch": [
       "**/.github/ISSUE_TEMPLATE/config.yml",
-      "**/.github/ISSUE_TEMPLATE/config.yaml",
-      "**/.gitea/ISSUE_TEMPLATE/config.yml",
-      "**/.gitea/ISSUE_TEMPLATE/config.yaml",
-      "**/.forgejo/ISSUE_TEMPLATE/config.yml",
-      "**/.forgejo/ISSUE_TEMPLATE/config.yaml"
+      "**/.github/ISSUE_TEMPLATE/config.yaml"
     ]
   },
   {
@@ -4846,11 +4853,12 @@ export const schemata =
     }
   },
   {
-    "url": "https://cdn.sdf.com/schemas/sdf-schema-1.1.json",
+    "url": "https://cdn.sdf.com/schemas/sdf-schema-1.2.json",
     "description": "SDF blocks",
     "name": "Semantic Data Fabric (SDF) file",
     "versions": {
       "1.1": "https://cdn.sdf.com/schemas/sdf-schema-1.1.json",
+      "1.2": "https://cdn.sdf.com/schemas/sdf-schema-1.2.json",
       "1.0": "https://cdn.sdf.com/schemas/sdf-schema-1.0.json"
     },
     "fileMatch": [
