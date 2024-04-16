@@ -3698,6 +3698,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Mergifyio/docs/main/public/mergify-configuration-schema.json",
+    "description": "Mergify configuration file",
+    "name": "Mergify Configuration",
+    "fileMatch": [
+      ".mergify.yml",
+      "**/.github/mergify.yml",
+      "**/.mergify/config.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/mocharc.json",
     "description": "MochaJS configuration files",
     "name": ".mocharc",
@@ -5773,11 +5783,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://github.com/cloudflare/workers-sdk/files/12887590/wrangler.schema.json",
-    "description": "Experimental JSON config",
+    "url": "https://www.unpkg.com/wrangler/config-schema.json",
+    "description": "Wrangler is a command-line tool for building with Cloudflare developer products",
     "name": "Wrangler CLI",
     "fileMatch": [
-      "wrangler.json"
+      "wrangler.json",
+      "wrangler.toml"
     ]
   },
   {
