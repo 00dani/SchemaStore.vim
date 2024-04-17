@@ -1194,6 +1194,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/cycleplatform/api-spec/main/stackspec/stackspec.json",
+    "description": "A Cycle.io stack file for environments as code",
+    "name": "Cycle Stack File",
+    "fileMatch": [
+      "cycle.json",
+      "cycle.yml",
+      "cycle.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/connections.schema.json",
     "description": "Collection of defined source and target connections used within DataYoga jobs",
     "name": "DataYoga Connections",
@@ -2835,7 +2845,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://hazelcast.com/schema/config/hazelcast-config-5.3.json",
+    "url": "https://hazelcast.com/schema/config/hazelcast-config-5.4.json",
     "description": "YAML configuring Hazelcast 5 Platform (member and client)",
     "name": "Hazelcast 5 Configuration",
     "fileMatch": [
@@ -3422,7 +3432,7 @@ export const schemata =
     "description": "A micro editor config",
     "name": "A micro editor config",
     "fileMatch": [
-      "*.settings.json"
+      "settings.json"
     ]
   },
   {
