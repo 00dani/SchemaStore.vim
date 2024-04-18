@@ -3432,7 +3432,7 @@ export const schemata =
     "description": "A micro editor config",
     "name": "A micro editor config",
     "fileMatch": [
-      "settings.json"
+      "**/micro/settings.json"
     ]
   },
   {
