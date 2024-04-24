@@ -7693,6 +7693,12 @@ export const schemata =
     "fileMatch": [
       "*.ksy"
     ]
+  },
+  {
+    "url": "https://www.json-wf.org.uk/json-wf-schema-1.0.json",
+    "description": "A blogroll interchange format",
+    "name": "JSON-WF",
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
