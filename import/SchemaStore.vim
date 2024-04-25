@@ -1896,6 +1896,25 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/datamesh-architecture/dataproduct-specification/main/dataproduct.schema.json",
+    "description": "Data Product Specification file",
+    "name": "Data Product Specification",
+    "fileMatch": [
+      "dataproduct.yaml",
+      "dataproduct.yml",
+      "*-dataproduct.yaml",
+      "*-dataproduct.yml",
+      "*.dataproduct.yaml",
+      "*.dataproduct.yml",
+      "dataproduct-*.yaml",
+      "dataproduct-*.yml",
+      "**/dataproduct/*.yml",
+      "**/dataproduct/*.yaml",
+      "**/dataproducts/*.yml",
+      "**/dataproducts/*.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/datalogic-scan2deploy-android.json",
     "description": "Datalogic Scan2Deploy Android file",
     "name": "datalogic-scan2deploy-android",
