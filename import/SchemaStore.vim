@@ -3879,6 +3879,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/BookkeepersMC/notebook-schemas/master/notebook.mod.json/schemas/main.json",
+    "description": "Metadata file for notebook mods",
+    "name": "notebook.mod.json",
+    "fileMatch": [
+      "notebook.mod.json"
+    ]
+  },
+  {
     "url": "https://noxorg.dev/schemas/NoxConfiguration.json",
     "description": "NOX service definition",
     "name": "NOX Framework (Service)",
