@@ -28,7 +28,7 @@ jobs:
           neovim: ${{ matrix.neo }}
 
       - name: Setup Just
-        uses: extractions/setup-just@v1
+        uses: extractions/setup-just@v2
         with:
           just-version: 1.14
 
