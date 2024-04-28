@@ -622,6 +622,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/loki.json",
+    "description": "Like Prometheus, but for logs",
+    "name": "Loki",
+    "fileMatch": [
+      "loki.yml",
+      "loki.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json",
     "description": "Azure Pipelines YAML pipelines definition",
     "name": "Azure Pipelines",
