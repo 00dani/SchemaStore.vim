@@ -7735,6 +7735,12 @@ export const schemata =
     "description": "A blogroll interchange format",
     "name": "JSON-WF",
     "fileMatch": []
+  },
+  {
+    "url": "https://json.schemastore.org/cloudfoundry-application-manifest.json",
+    "description": "A manifest describes a Cloud Foundry application and can be used to deploy it to a Foundation",
+    "name": "Cloud Foundry Application Manifest",
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
