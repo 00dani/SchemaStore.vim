@@ -3112,13 +3112,14 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://json.schemastore.org/jreleaser-1.11.0.json",
+    "url": "https://json.schemastore.org/jreleaser-1.12.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
       "1.6.0": "https://json.schemastore.org/jreleaser-1.6.0.json",
       "1.8.0": "https://json.schemastore.org/jreleaser-1.8.0.json",
       "1.10.0": "https://json.schemastore.org/jreleaser-1.10.0.json",
+      "1.12.0": "https://json.schemastore.org/jreleaser-1.12.0.json",
       "1.7.0": "https://json.schemastore.org/jreleaser-1.7.0.json",
       "1.9.0": "https://json.schemastore.org/jreleaser-1.9.0.json",
       "1.11.0": "https://json.schemastore.org/jreleaser-1.11.0.json"
@@ -7275,7 +7276,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/pantsbuild-2.19.0.json",
+    "url": "https://json.schemastore.org/pantsbuild-2.20.0.json",
     "description": "Pantsbuild configuration file",
     "name": "Pantsbuild",
     "versions": {
@@ -7284,6 +7285,7 @@ export const schemata =
       "2.15.0": "https://json.schemastore.org/pantsbuild-2.15.0.json",
       "2.17.0": "https://json.schemastore.org/pantsbuild-2.17.0.json",
       "2.19.0": "https://json.schemastore.org/pantsbuild-2.19.0.json",
+      "2.20.0": "https://json.schemastore.org/pantsbuild-2.20.0.json",
       "2.14.0": "https://json.schemastore.org/pantsbuild-2.14.0.json"
     },
     "fileMatch": [
@@ -7741,6 +7743,17 @@ export const schemata =
     "description": "A manifest describes a Cloud Foundry application and can be used to deploy it to a Foundation",
     "name": "Cloud Foundry Application Manifest",
     "fileMatch": []
+  },
+  {
+    "url": "https://raw.githubusercontent.com/loft-sh/vcluster/main/chart/values.schema.json",
+    "description": "vCluster configuration",
+    "name": "vcluster",
+    "fileMatch": [
+      "vCluster.yml",
+      "vCluster.yaml",
+      "vcluster.yaml",
+      "vcluster.yml"
+    ]
   }
 ]
 export const schemas = schemata
