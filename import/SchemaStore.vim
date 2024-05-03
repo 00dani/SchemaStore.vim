@@ -7745,6 +7745,21 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://json.schemastore.org/omletrc.json",
+    "description": "Configuration file for @omlet/cli",
+    "name": ".omletrc",
+    "fileMatch": [
+      ".omletrc",
+      ".omletrc.json",
+      ".omletrc.yaml",
+      ".omletrc.yml",
+      "omletrc",
+      "omletrc.json",
+      "omletrc.yaml",
+      "omletrc.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/loft-sh/vcluster/main/chart/values.schema.json",
     "description": "vCluster configuration",
     "name": "vcluster",
