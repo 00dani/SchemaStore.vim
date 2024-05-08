@@ -2946,6 +2946,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://hyperfoil.io/schema.json",
+    "description": "Benchmark definition format for the Hyperfoil HTTP benchmark framework",
+    "name": "Hyperfoil benchmark configuration",
+    "fileMatch": [
+      "*.hf.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.0.0.json",
     "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
     "name": "IBM Zapp document",
@@ -4614,6 +4622,55 @@ export const schemata =
     "fileMatch": [
       "recipe.yaml",
       "recipe.yml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/rc3-auth-0.0.3.json",
+    "description": "RC auth that can be stored at Collection, Folder, or Request levels",
+    "name": "rc3 auth",
+    "fileMatch": [
+      "rc-auth.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/rc3-collection-0.0.3.json",
+    "description": "RC collection information",
+    "name": "rc3 collection",
+    "fileMatch": [
+      "rc-collection.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/rc3-environment-0.0.3.json",
+    "description": "RC environment for both Global and per Collection environments",
+    "name": "rc3 environment",
+    "fileMatch": [
+      "**/environments/*.json",
+      "rc-global.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/rc3-folder-0.0.3.json",
+    "description": "RC folder information",
+    "name": "rc3 folder",
+    "fileMatch": [
+      "rc-folder.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/rc3-request-0.0.3.json",
+    "description": "RC request information",
+    "name": "rc3 request",
+    "fileMatch": [
+      "**/*.request"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/rc3-settings-0.0.3.json",
+    "description": "RC settings stored in the users RC_HOME directory",
+    "name": "rc3 settings",
+    "fileMatch": [
+      "rc-settings.json"
     ]
   },
   {
