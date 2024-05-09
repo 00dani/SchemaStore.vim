@@ -128,6 +128,18 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
+    "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
+    "name": "ABCSupplyPlan",
+    "versions": {
+      "1.0.0": "https://json.schemastore.org/abc-supply-plan-1.0.0.json"
+    },
+    "fileMatch": [
+      "abc-supply-plan-1.0.0.yml",
+      "abc-supply-plan-1.0.0.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/aiconfig-1.0.json",
     "description": "AIConfig that is used to store generative AI prompts, models and model parameters",
     "name": "AIConfig",
@@ -5689,6 +5701,14 @@ export const schemata =
       "*.uncors.yaml",
       ".uncors.yml",
       ".uncors.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/uv.json",
+    "description": "uv, a fast Python package installer",
+    "name": "uv",
+    "fileMatch": [
+      "uv.toml"
     ]
   },
   {
