@@ -1242,6 +1242,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/CVEProject/cve-schema/master/schema/docs/CVE_Record_Format_bundled.json",
+    "description": "CVE record format to describe security vulnerabilities",
+    "name": "CVE Record Format",
+    "fileMatch": [
+      "CVE-*.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/cycleplatform/api-spec/main/stackspec/stackspec.json",
     "description": "A Cycle.io stack file for environments as code",
     "name": "Cycle Stack File",
