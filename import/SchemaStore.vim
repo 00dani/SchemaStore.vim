@@ -2704,6 +2704,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/github-release-config.json",
+    "description": "YAML GitHub automatically generated release notes config",
+    "name": "GitHub automatically generated release notes configuration",
+    "fileMatch": [
+      "**/.github/release.yml"
+    ]
+  },
+  {
     "url": "https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json",
     "description": "GitLab CI Configuration file",
     "name": "gitlab-ci",
@@ -3000,10 +3008,29 @@ export const schemata =
     ]
   },
   {
-    "url": "https://ifstate.net/schema/ifstate.conf.schema.json",
+    "url": "https://ifstate.net/schema/1/ifstate.conf.schema.json",
     "description": "IfState configuration file",
     "name": "ifstate.conf",
+    "versions": {
+      "0.6": "https://ifstate.net/schema/0.6/ifstate.conf.schema.json",
+      "0.7": "https://ifstate.net/schema/0.7/ifstate.conf.schema.json",
+      "0.8": "https://ifstate.net/schema/0.8/ifstate.conf.schema.json",
+      "0.9": "https://ifstate.net/schema/0.9/ifstate.conf.schema.json",
+      "1.10": "https://ifstate.net/schema/1.10/ifstate.conf.schema.json",
+      "1.11": "https://ifstate.net/schema/1.11/ifstate.conf.schema.json",
+      "1.0": "https://ifstate.net/schema/1.0/ifstate.conf.schema.json",
+      "1.1": "https://ifstate.net/schema/1.1/ifstate.conf.schema.json",
+      "1.2": "https://ifstate.net/schema/1.2/ifstate.conf.schema.json",
+      "1.3": "https://ifstate.net/schema/1.3/ifstate.conf.schema.json",
+      "1.4": "https://ifstate.net/schema/1.4/ifstate.conf.schema.json",
+      "1.5": "https://ifstate.net/schema/1.5/ifstate.conf.schema.json",
+      "1.6": "https://ifstate.net/schema/1.6/ifstate.conf.schema.json",
+      "1.7": "https://ifstate.net/schema/1.7/ifstate.conf.schema.json",
+      "1.8": "https://ifstate.net/schema/1.8/ifstate.conf.schema.json",
+      "1.9": "https://ifstate.net/schema/1.9/ifstate.conf.schema.json"
+    },
     "fileMatch": [
+      "ifstate.yml",
       "**/ifstate/config.yml"
     ]
   },
