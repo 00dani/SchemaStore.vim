@@ -3072,6 +3072,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://schema.infrahub.app/infrahub/schema/latest.json",
+    "description": "Model definition for Infrahub by OpsMill",
+    "name": "Infrahub",
+    "fileMatch": [
+      "*.infrahub.yml",
+      "*.infrahub.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/ioBroker/ioBroker.js-controller/master/schemas/iobroker.json",
     "description": "The configuration file of an ioBroker installation",
     "name": "ioBroker Configuration",
@@ -3379,6 +3388,17 @@ export const schemata =
     "name": "kontinuous-config.yaml",
     "fileMatch": [
       "**/.kontinuous/config.yaml"
+    ]
+  },
+  {
+    "url": "https://kubri.dev/schema.json",
+    "description": "Kubri configuration file",
+    "name": "Kubri Configuration",
+    "fileMatch": [
+      ".kubri.yaml",
+      ".kubri.yml",
+      "kubri.yaml",
+      "kubri.yml"
     ]
   },
   {
