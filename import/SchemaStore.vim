@@ -1497,6 +1497,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/clang-tidy.json",
+    "description": "clang-tidy linter from LLVM",
+    "name": "clang-tidy",
+    "fileMatch": [
+      ".clang-tidy",
+      "clang-tidy.yml",
+      "clang-tidy.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/clib.json",
     "description": "C package manager-ish",
     "name": "clib",
@@ -3072,12 +3082,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://schema.infrahub.app/infrahub/schema/latest.json",
-    "description": "Model definition for Infrahub by OpsMill",
+    "url": "https://schema.infrahub.app/python-sdk/repository-config/latest.json",
+    "description": "Repository config definition for Infrahub by OpsMill",
     "name": "Infrahub",
     "fileMatch": [
-      "*.infrahub.yml",
-      "*.infrahub.yaml"
+      ".infrahub.yml",
+      ".infrahub.yaml"
     ]
   },
   {
@@ -3927,19 +3937,12 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/ninjs-2.0.json",
     "description": "A ninjs by the IPTC. News and publishing information. Documentation: https://iptc.org/standards/ninjs/",
-    "name": "ninjs (News in JSON) 2.0",
-    "versions": {
-      "2.0": "https://json.schemastore.org/ninjs-2.0.json"
-    }
-  },
-  {
-    "url": "https://json.schemastore.org/ninjs-1.3.json",
-    "description": "A ninjs by the IPTC. News and publishing information. Documentation: https://iptc.org/standards/ninjs/",
-    "name": "ninjs (News in JSON) 1.3",
+    "name": "ninjs (News in JSON)",
     "versions": {
       "1.1": "https://json.schemastore.org/ninjs-1.1.json",
       "1.2": "https://json.schemastore.org/ninjs-1.2.json",
       "1.3": "https://json.schemastore.org/ninjs-1.3.json",
+      "2.0": "https://json.schemastore.org/ninjs-2.0.json",
       "1.0": "https://json.schemastore.org/ninjs-1.0.json"
     }
   },
@@ -7927,6 +7930,14 @@ export const schemata =
       "fursona.json",
       "**/.well-known/fursona",
       "**/.well-known/fursona.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nekitdev/changelogging/main/changelogging.schema.json",
+    "description": "changelogging configuration file",
+    "name": "changelogging",
+    "fileMatch": [
+      "**/changelogging.toml"
     ]
   }
 ]
