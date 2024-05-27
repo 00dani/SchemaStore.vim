@@ -1405,6 +1405,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/drupal-recipe.json",
+    "description": "Drupal configuration for recipe",
+    "name": "Drupal Recipe",
+    "fileMatch": [
+      "drupal-recipe.yml",
+      "drupal-recipe.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/drupal-routing.json",
     "description": "Drupal configuration for routing",
     "name": "Drupal Routing",
