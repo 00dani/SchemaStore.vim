@@ -5100,6 +5100,11 @@ export const schemata =
     "url": "https://json.schemastore.org/semgrep.json",
     "description": "Semgrep code scanning patterns and rules",
     "name": "Semgrep Rule",
+    "versions": {
+      "v1.73.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.73.0/rule_schema_v1.yaml",
+      "v1.72.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.72.0/rule_schema_v1.yaml",
+      "v1.74.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.74.0/rule_schema_v1.yaml"
+    },
     "fileMatch": [
       "**/.semgrep/**.yaml",
       "**/.semgrep/**.yml",
@@ -7947,6 +7952,24 @@ export const schemata =
     "name": "changelogging",
     "fileMatch": [
       "**/changelogging.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/configu/configu/main/packages/schema/.cfgu.json",
+    "description": "A human-readable format for declaring configurations and their characteristics",
+    "name": "Configu .cfgu files",
+    "fileMatch": [
+      "*.cfgu.json",
+      "*.cfgu.yaml",
+      "*.cfgu.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/configu/configu/main/packages/schema/.configu.json",
+    "description": "An optional configuration file used by the various Configu interfaces to customize its behavior",
+    "name": "Configu .configu file",
+    "fileMatch": [
+      ".configu"
     ]
   }
 ]
