@@ -7971,6 +7971,14 @@ export const schemata =
     "fileMatch": [
       ".configu"
     ]
+  },
+  {
+    "url": "https://download.qt.io/official_releases/qtcreator/latest/installer_source/jsonschemas/project.json",
+    "description": "Qt Creator project json file",
+    "name": "Qt Creator workspace file",
+    "fileMatch": [
+      "**/.qtcreator/project.json"
+    ]
   }
 ]
 export const schemas = schemata
