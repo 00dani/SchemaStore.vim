@@ -6819,8 +6819,8 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/mason-registry.json",
-    "description": "Mason, a package manager for Neovim",
+    "url": "https://github.com/mason-org/registry-schema/releases/latest/download/package.schema.json",
+    "description": "Package definitions for Mason, a package manager for Neovim",
     "name": "Mason Registry",
     "fileMatch": [
       "**/packages/*/package.yaml"
