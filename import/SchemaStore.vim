@@ -2385,6 +2385,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/expo/eas-cli/main/packages/eas-json/schema/eas.schema.json",
+    "description": "The EAS config (eas.json) validation and documentation",
+    "name": "EAS config",
+    "fileMatch": [
+      "eas.json"
+    ]
+  },
+  {
     "url": "https://gitlab.com/sbenv/veroxis/ezd-rs/-/raw/HEAD/ezd.schema.json",
     "description": "ezd task runner. Documentation: https://gitlab.com/sbenv/veroxis/ezd-rs",
     "name": "ezd task runner",
@@ -3951,6 +3959,7 @@ export const schemata =
       "1.1": "https://json.schemastore.org/ninjs-1.1.json",
       "1.2": "https://json.schemastore.org/ninjs-1.2.json",
       "1.3": "https://json.schemastore.org/ninjs-1.3.json",
+      "1.4": "https://json.schemastore.org/ninjs-1.4.json",
       "2.0": "https://json.schemastore.org/ninjs-2.0.json",
       "1.0": "https://json.schemastore.org/ninjs-1.0.json"
     }
