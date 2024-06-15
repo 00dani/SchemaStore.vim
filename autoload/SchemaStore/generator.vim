@@ -10,7 +10,7 @@ def Fetch(): dict<any>
 	if executable('curl') != 1
 		throw 'curl is required to fetch SchemaStore.org catalog.'
 	endif
-	return system('curl -s https://www.schemastore.org/api/json/catalog.json')->json_decode()
+	return system('curl -sL https://www.schemastore.org/api/json/catalog.json')->json_decode()
 enddef
 
 def ToVim9Script(schemata: list<dict<any>>): list<string>
