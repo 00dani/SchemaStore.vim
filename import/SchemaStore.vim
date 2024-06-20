@@ -3485,8 +3485,8 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/hits-mbm-dev/kimmdy/main/src/kimmdy/kimmdy-yaml-schema.json",
-    "description": "KIMMDY config file, see: hits-mbm-dev.github.io/kimmdy",
+    "url": "https://raw.githubusercontent.com/graeter-group/kimmdy/main/src/kimmdy/kimmdy-yaml-schema.json",
+    "description": "KIMMDY config file, see: graeter-group.github.io/kimmdy",
     "name": "KIMMDY config file",
     "fileMatch": [
       "kimmdy.yml",
@@ -7260,7 +7260,8 @@ export const schemata =
     "description": "CICS region tagging in IBM CICS Transaction Server for z/OS",
     "name": "CICS TS region tagging",
     "fileMatch": [
-      "cicstags.yaml"
+      "cicstags.yaml",
+      "cicstags.yml"
     ]
   },
   {
