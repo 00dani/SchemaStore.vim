@@ -1193,6 +1193,12 @@ export const schemata =
     "name": "CityJSON"
   },
   {
+    "url": "https://raw.githubusercontent.com/cloudevents/spec/master/cloudevents/formats/cloudevents.json",
+    "description": "A specification for describing event data in a common way. Documentation: https://cloudevents.io",
+    "name": "CloudEvents specification",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/conda-forge/conda-smithy/main/conda_smithy/data/conda-forge.json",
     "description": "Conda-forge configuration file",
     "name": "conda-forge",
@@ -7592,12 +7598,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/pantsbuild-2.20.0.json",
+    "url": "https://json.schemastore.org/pantsbuild-2.21.0.json",
     "description": "Pantsbuild configuration file",
     "name": "Pantsbuild",
     "versions": {
       "2.16.0": "https://json.schemastore.org/pantsbuild-2.16.0.json",
       "2.18.0": "https://json.schemastore.org/pantsbuild-2.18.0.json",
+      "2.21.0": "https://json.schemastore.org/pantsbuild-2.21.0.json",
       "2.15.0": "https://json.schemastore.org/pantsbuild-2.15.0.json",
       "2.17.0": "https://json.schemastore.org/pantsbuild-2.17.0.json",
       "2.19.0": "https://json.schemastore.org/pantsbuild-2.19.0.json",
