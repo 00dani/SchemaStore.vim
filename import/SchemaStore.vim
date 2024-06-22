@@ -572,6 +572,36 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/architecture_definition.json",
+    "description": "Azure Landing Zones Library architecture definition",
+    "name": "Azure Landing Zones Library architecture definition",
+    "fileMatch": [
+      "*.alz_architecture_definition.json",
+      "*.alz_architecture_definition.yaml",
+      "*.alz_architecture_definition.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/archetype_definition.json",
+    "description": "Azure Landing Zones Library architecture definition",
+    "name": "Azure Landing Zones Library archetype definition",
+    "fileMatch": [
+      "*.alz_archetype_definition.json",
+      "*.alz_archetype_definition.yaml",
+      "*.alz_archetype_definition.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/archetype_override.json",
+    "description": "Azure Landing Zones Library archetype override",
+    "name": "Azure Landing Zones Library archetype override",
+    "fileMatch": [
+      "*.alz_archetype_override.json",
+      "*.alz_archetype_override.yaml",
+      "*.alz_archetype_override.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v1.0/bottom.json",
     "description": "Configuration file for bottom",
     "name": "bottom configuration",
