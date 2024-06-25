@@ -5259,12 +5259,13 @@ export const schemata =
     }
   },
   {
-    "url": "https://cdn.sdf.com/schemas/sdf-schema-1.2.json",
+    "url": "https://cdn.sdf.com/schemas/sdf-schema-1.3.json",
     "description": "SDF blocks",
     "name": "Semantic Data Fabric (SDF) file",
     "versions": {
       "1.1": "https://cdn.sdf.com/schemas/sdf-schema-1.1.json",
       "1.2": "https://cdn.sdf.com/schemas/sdf-schema-1.2.json",
+      "1.3": "https://cdn.sdf.com/schemas/sdf-schema-1.3.json",
       "1.0": "https://cdn.sdf.com/schemas/sdf-schema-1.0.json"
     },
     "fileMatch": [
@@ -8177,6 +8178,12 @@ export const schemata =
       "mprocs.yaml",
       "mprocs.yml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/any.json",
+    "description": "Valid for any JSON file",
+    "name": "Any",
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
