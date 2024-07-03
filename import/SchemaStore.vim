@@ -8231,6 +8231,23 @@ export const schemata =
     "description": "Valid for any JSON file",
     "name": "Any",
     "fileMatch": []
+  },
+  {
+    "url": "https://api.app-prg1.zerops.io/api/rest/public/settings/zerops-yml-json-schema.json",
+    "description": "zerops.io, dev-first cloud platform - https://zerops.io, configuration YAML file",
+    "name": "zerops.yml",
+    "fileMatch": [
+      "zerops.yml"
+    ]
+  },
+  {
+    "url": "https://api.app-prg1.zerops.io/api/rest/public/settings/import-project-yml-json-schema.json",
+    "description": "zerops.io, dev-first cloud platform - https://zerops.io, infrastructure-as-code import YAML file",
+    "name": "zerops.io import file",
+    "fileMatch": [
+      "zerops-import.yml",
+      "zerops-*-import.yml"
+    ]
   }
 ]
 export const schemas = schemata
