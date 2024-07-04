@@ -3588,13 +3588,23 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/version.schema.json",
+    "url": "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/service.schema.json",
     "description": "Datadog Service Definition file",
     "name": "Datadog Service Definition",
     "fileMatch": [
       "service.datadog.yaml",
       "service.datadog.yml",
       "service.datadog.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/entity.schema.json",
+    "description": "Datadog Software Catalog Definition file",
+    "name": "Datadog Software Catalog",
+    "fileMatch": [
+      "entity.datadog.yaml",
+      "entity.datadog.yml",
+      "entity.datadog.json"
     ]
   },
   {
@@ -8247,6 +8257,15 @@ export const schemata =
     "fileMatch": [
       "zerops-import.yml",
       "zerops-*-import.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spiceai/spiceai/trunk/.schema/spicepod.schema.json",
+    "description": "Spice.ai OSS Spicepod Manifest file",
+    "name": "spicepod.yaml",
+    "fileMatch": [
+      "spicepod.yml",
+      "spicepod.yaml"
     ]
   }
 ]
