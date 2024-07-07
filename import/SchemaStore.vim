@@ -8237,6 +8237,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/language-configuration.json",
+    "description": "Configuration file for language features in VS Code and Visual Studio",
+    "name": "Language configuration",
+    "fileMatch": [
+      "language-configuration.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/any.json",
     "description": "Valid for any JSON file",
     "name": "Any",
