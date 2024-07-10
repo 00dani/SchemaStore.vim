@@ -7275,10 +7275,11 @@ export const schemata =
   },
   {
     "url": "https://www.updatecli.io/schema/latest/compose/config.json",
-    "description": "Updatecli Compose file",
+    "description": "Updatecli Compose file, more information on https://www.updatecli.io/docs/core/compose/",
     "name": "Updatecli Compose",
     "fileMatch": [
-      "update-compose.yaml"
+      "update-compose.yaml",
+      "updatecli-compose.yaml"
     ]
   },
   {
@@ -8265,6 +8266,23 @@ export const schemata =
     "fileMatch": [
       "zerops-import.yml",
       "zerops-*-import.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/RulesEngine/main/schema/workflow-schema.json",
+    "description": "Microsoft RulesEngine workflow rules definition https://github.com/microsoft/RulesEngine",
+    "name": "Microsoft RulesEngine workflow rules",
+    "fileMatch": [
+      "*.workflow-rules.json",
+      "**/workflow-rules/*.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/RulesEngine/main/schema/workflow-list-schema.json",
+    "description": "Microsoft RulesEngine workflow list definition https://github.com/microsoft/RulesEngine",
+    "name": "Microsoft RulesEngine workflow rules list",
+    "fileMatch": [
+      "*.workflow-rules-list.json"
     ]
   },
   {
