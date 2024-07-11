@@ -2777,9 +2777,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/gaspar-1.0.json",
+    "url": "https://json.schemastore.org/gaspar-3.0.json",
     "description": "Configuration for Gaspar",
     "name": "Gaspar",
+    "versions": {
+      "3.0": "https://json.schemastore.org/gaspar-3.0.json",
+      "1.0": "https://json.schemastore.org/gaspar-1.0.json"
+    },
     "fileMatch": [
       "gaspar.config.json"
     ]
