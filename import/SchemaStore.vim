@@ -8297,6 +8297,19 @@ export const schemata =
       "spicepod.yml",
       "spicepod.yaml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/amithkb/concord-json-schema/main/.schema/concord.json",
+    "description": "Concord - https://github.com/walmartlabs/concord,  workflow orcehstrator",
+    "name": "Concord",
+    "fileMatch": [
+      "*.concord.yaml",
+      "*.concord.yml",
+      ".concord.yml",
+      ".concord.yaml",
+      "concord.yml",
+      "concord.yaml"
+    ]
   }
 ]
 export const schemas = schemata
