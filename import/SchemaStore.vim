@@ -956,6 +956,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/boyka-config.json",
+    "description": "Boyka Framework config file",
+    "name": "Boyka Framework",
+    "fileMatch": [
+      "boyka-config.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/behat.json",
     "description": "Behat configuration file",
     "name": "behat.yml",
