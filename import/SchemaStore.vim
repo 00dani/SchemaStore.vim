@@ -8307,7 +8307,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/amithkb/concord-json-schema/main/.schema/concord.json",
+    "url": "https://repo1.maven.org/maven2/com/walmartlabs/concord/runtime/v2/concord-runtime-model-v2/2.14.0/concord-runtime-model-v2-2.14.0-schema.json",
     "description": "Concord - https://github.com/walmartlabs/concord,  workflow orcehstrator",
     "name": "Concord",
     "fileMatch": [
@@ -8316,7 +8316,9 @@ export const schemata =
       ".concord.yml",
       ".concord.yaml",
       "concord.yml",
-      "concord.yaml"
+      "concord.yaml",
+      "**/*.concord.yaml",
+      "**/*.concord.yml"
     ]
   }
 ]
