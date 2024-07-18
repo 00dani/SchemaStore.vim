@@ -3861,6 +3861,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main/metadata.schema.json",
+    "description": "Metadata file for a Bazel module",
+    "name": "Metadata for a Bazel module",
+    "fileMatch": [
+      "**/modules/*/metadata.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/metricshub.json",
     "description": "MetricsHub configuration file",
     "name": "MetricsHub Configuration",
