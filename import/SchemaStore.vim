@@ -199,133 +199,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/execution-environment.json",
-    "description": "Ansible execution-environment.yml file",
-    "name": "Ansible Execution Environment",
-    "fileMatch": [
-      "**/execution-environment.yml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/meta.json",
-    "description": "Ansible meta/main.yml file",
-    "name": "Ansible Meta",
-    "fileMatch": [
-      "**/meta/main.yml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/meta-runtime.json",
-    "description": "Ansible meta/runtime.yml file",
-    "name": "Ansible Meta Runtime",
-    "fileMatch": [
-      "**/meta/runtime.yml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/role-arg-spec.json",
-    "description": "Ansible meta/argument_specs.yml file",
-    "name": "Ansible Argument Specs",
-    "fileMatch": [
-      "**/meta/argument_specs.yml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/requirements.json",
-    "description": "Ansible requirements file",
-    "name": "Ansible Requirements",
-    "fileMatch": [
-      "requirements.yml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/vars.json",
-    "description": "Ansible variables File",
-    "name": "Ansible Vars File",
-    "fileMatch": [
-      "**/vars/*.yml",
-      "**/vars/*.yaml",
-      "**/defaults/*.yml",
-      "**/defaults/*.yaml",
-      "**/host_vars/*.yml",
-      "**/host_vars/*.yaml",
-      "**/group_vars/*.yml",
-      "**/group_vars/*.yaml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/tasks",
-    "description": "Ansible tasks file",
-    "name": "Ansible Tasks File",
-    "fileMatch": [
-      "**/tasks/*.yml",
-      "**/tasks/*.yaml",
-      "**/handlers/*.yml",
-      "**/handlers/*.yaml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/playbook",
-    "description": "Ansible playbook files",
-    "name": "Ansible Playbook",
-    "fileMatch": [
-      "playbook.yml",
-      "playbook.yaml",
-      "site.yml",
-      "site.yaml",
-      "**/playbooks/*.yml",
-      "**/playbooks/*.yaml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-rulebook/main/ansible_rulebook/schema/ruleset_schema.json",
-    "description": "Ansible rulebook files",
-    "name": "Ansible Rulebook",
-    "fileMatch": [
-      "**/rulebooks/*.yml",
-      "**/rulebooks/*.yaml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/inventory.json",
-    "description": "Ansible inventory files",
-    "name": "Ansible Inventory",
-    "fileMatch": [
-      "inventory.yml",
-      "inventory.yaml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/galaxy.json",
-    "description": "Ansible Collection Galaxy metadata",
-    "name": "Ansible Collection Galaxy",
-    "fileMatch": [
-      "galaxy.yml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible-lint-config.json",
-    "description": "Ansible-lint Configuration",
-    "name": "Ansible-lint Configuration",
-    "fileMatch": [
-      ".ansible-lint",
-      "**/.config/ansible-lint.yml"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/ansible/ansible-navigator/main/src/ansible_navigator/data/ansible-navigator.json",
-    "description": "Ansible Navigator Configuration",
-    "name": "Ansible Navigator Configuration",
-    "fileMatch": [
-      ".ansible-navigator.json",
-      ".ansible-navigator.yaml",
-      ".ansible-navigator.yml",
-      "ansible-navigator.json",
-      "ansible-navigator.yaml",
-      "ansible-navigator.yml"
-    ]
-  },
-  {
     "url": "https://json.schemastore.org/apple-app-site-association.json",
     "description": "Apple Universal Link, App Site Association",
     "name": "apple-app-site-association",
@@ -2963,6 +2836,133 @@ export const schemata =
     "name": "Gitpod Configuration",
     "fileMatch": [
       ".gitpod.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/execution-environment.json",
+    "description": "Ansible execution-environment.yml file",
+    "name": "Ansible Execution Environment",
+    "fileMatch": [
+      "**/execution-environment.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/meta.json",
+    "description": "Ansible meta/main.yml file",
+    "name": "Ansible Meta",
+    "fileMatch": [
+      "**/meta/main.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/meta-runtime.json",
+    "description": "Ansible meta/runtime.yml file",
+    "name": "Ansible Meta Runtime",
+    "fileMatch": [
+      "**/meta/runtime.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/role-arg-spec.json",
+    "description": "Ansible meta/argument_specs.yml file",
+    "name": "Ansible Argument Specs",
+    "fileMatch": [
+      "**/meta/argument_specs.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/requirements.json",
+    "description": "Ansible requirements file",
+    "name": "Ansible Requirements",
+    "fileMatch": [
+      "requirements.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/vars.json",
+    "description": "Ansible variables File",
+    "name": "Ansible Vars File",
+    "fileMatch": [
+      "**/vars/*.yml",
+      "**/vars/*.yaml",
+      "**/defaults/*.yml",
+      "**/defaults/*.yaml",
+      "**/host_vars/*.yml",
+      "**/host_vars/*.yaml",
+      "**/group_vars/*.yml",
+      "**/group_vars/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/tasks",
+    "description": "Ansible tasks file",
+    "name": "Ansible Tasks File",
+    "fileMatch": [
+      "**/tasks/*.yml",
+      "**/tasks/*.yaml",
+      "**/handlers/*.yml",
+      "**/handlers/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/playbook",
+    "description": "Ansible playbook files",
+    "name": "Ansible Playbook",
+    "fileMatch": [
+      "playbook.yml",
+      "playbook.yaml",
+      "site.yml",
+      "site.yaml",
+      "**/playbooks/*.yml",
+      "**/playbooks/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-rulebook/main/ansible_rulebook/schema/ruleset_schema.json",
+    "description": "Ansible rulebook files",
+    "name": "Ansible Rulebook",
+    "fileMatch": [
+      "**/rulebooks/*.yml",
+      "**/rulebooks/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/inventory.json",
+    "description": "Ansible inventory files",
+    "name": "Ansible Inventory",
+    "fileMatch": [
+      "inventory.yml",
+      "inventory.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/galaxy.json",
+    "description": "Ansible Collection Galaxy metadata",
+    "name": "Ansible Collection Galaxy",
+    "fileMatch": [
+      "galaxy.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible-lint-config.json",
+    "description": "Ansible-lint Configuration",
+    "name": "Ansible-lint Configuration",
+    "fileMatch": [
+      ".ansible-lint",
+      "**/.config/ansible-lint.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ansible/ansible-navigator/main/src/ansible_navigator/data/ansible-navigator.json",
+    "description": "Ansible Navigator Configuration",
+    "name": "Ansible Navigator Configuration",
+    "fileMatch": [
+      ".ansible-navigator.json",
+      ".ansible-navigator.yaml",
+      ".ansible-navigator.yml",
+      "ansible-navigator.json",
+      "ansible-navigator.yaml",
+      "ansible-navigator.yml"
     ]
   },
   {
