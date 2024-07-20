@@ -1390,7 +1390,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/helm-unittest/helm-unittest/v0.3.3/schema/helm-testsuite.json",
+    "url": "https://raw.githubusercontent.com/helm-unittest/helm-unittest/v0.5.1/schema/helm-testsuite.json",
     "description": "A Helm Unittest Test Suite file",
     "name": "Helm Unittest Test Suite",
     "fileMatch": [
@@ -8327,6 +8327,21 @@ export const schemata =
       "concord.yaml",
       "**/*.concord.yaml",
       "**/*.concord.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dipdup-io/dipdup/next/schemas/dipdup-3.0.json",
+    "description": "DipDup project configuration file",
+    "name": "DipDup",
+    "versions": {
+      "3.0": "https://raw.githubusercontent.com/dipdup-io/dipdup/next/schemas/dipdup-3.0.json",
+      "2.0": "https://raw.githubusercontent.com/dipdup-io/dipdup/next/schemas/dipdup-2.0.json"
+    },
+    "fileMatch": [
+      "**/dipdup.yaml",
+      "**/dipdup.yml",
+      "**/dipdup.*.yaml",
+      "**/dipdup.*.yml"
     ]
   }
 ]
