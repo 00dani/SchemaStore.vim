@@ -5170,6 +5170,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/simonwhitaker/runny/main/schema/runny.schema.json",
+    "description": "runny, a rool for running things",
+    "name": "runny",
+    "fileMatch": [
+      ".runny.yaml",
+      ".runny.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/rustfmt.json",
     "description": "rustfmt, a tool to format Rust code",
     "name": "rustfmt",
@@ -8342,6 +8351,15 @@ export const schemata =
       "**/dipdup.yml",
       "**/dipdup.*.yaml",
       "**/dipdup.*.yml"
+    ]
+  },
+  {
+    "url": "https://deployments.allegrogroup.com/tycho/schema",
+    "description": "Tycho.yaml file",
+    "name": "Tycho",
+    "fileMatch": [
+      "**/*/tycho.yml",
+      "**/*/tycho.yaml"
     ]
   }
 ]
