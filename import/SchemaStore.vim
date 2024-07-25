@@ -8325,7 +8325,7 @@ export const schemata =
   },
   {
     "url": "https://repo1.maven.org/maven2/com/walmartlabs/concord/runtime/v2/concord-runtime-model-v2/2.14.0/concord-runtime-model-v2-2.14.0-schema.json",
-    "description": "Concord - https://github.com/walmartlabs/concord,  workflow orcehstrator",
+    "description": "Concord - https://github.com/walmartlabs/concord,  workflow orchestrator",
     "name": "Concord",
     "fileMatch": [
       "*.concord.yaml",
@@ -8336,6 +8336,28 @@ export const schemata =
       "concord.yaml",
       "**/*.concord.yaml",
       "**/*.concord.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-tests-schema-v2.1.0.json",
+    "description": "Definition of a test for verifying WAF behavior",
+    "name": "CRS WAF test file",
+    "versions": {
+      "2.1.0": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-tests-schema-v2.1.0.json"
+    },
+    "fileMatch": [
+      "*.waft"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-platform-overrides-schema-v2.1.0.json",
+    "description": "Definition of platform specific overrides for WAF tests",
+    "name": "CRS WAF test platform overrides file",
+    "versions": {
+      "2.1.0": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-platform-overrides-schema-v2.1.0.json"
+    },
+    "fileMatch": [
+      "*.wafto"
     ]
   },
   {
@@ -8358,8 +8380,8 @@ export const schemata =
     "description": "Tycho.yaml file",
     "name": "Tycho",
     "fileMatch": [
-      "**/*/tycho.yml",
-      "**/*/tycho.yaml"
+      "**/tycho.yml",
+      "**/tycho.yaml"
     ]
   }
 ]
