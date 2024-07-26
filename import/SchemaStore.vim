@@ -2092,6 +2092,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/docker-bake.json",
+    "description": "Docker Bake configuration file. Documentation: https://docs.docker.com/build/bake/reference",
+    "name": "docker bake",
+    "fileMatch": [
+      "docker-bake.json",
+      "docker-bake.override.json"
+    ]
+  },
+  {
     "url": "https://gitlab.com/sbenv/veroxis/docker-seq/-/raw/HEAD/docker-seq.schema.json",
     "description": "docker-seq. Documentation: https://gitlab.com/sbenv/veroxis/docker-seq",
     "name": "docker sequencer",
