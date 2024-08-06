@@ -8349,22 +8349,22 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-tests-schema-v2.1.0.json",
+    "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/main/spec/v2.1.0/waf-tests-schema-v2.1.0.json",
     "description": "Definition of a test for verifying WAF behavior",
     "name": "CRS WAF test file",
     "versions": {
-      "2.1.0": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-tests-schema-v2.1.0.json"
+      "2.1.0": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/main/spec/v2.1.0/waf-tests-schema-v2.1.0.json"
     },
     "fileMatch": [
       "*.waft"
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-platform-overrides-schema-v2.1.0.json",
+    "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.1.0/waf-platform-overrides-schema-v2.1.0.json",
     "description": "Definition of platform specific overrides for WAF tests",
     "name": "CRS WAF test platform overrides file",
     "versions": {
-      "2.1.0": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-platform-overrides-schema-v2.1.0.json"
+      "2.1.0": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.1.0/waf-platform-overrides-schema-v2.1.0.json"
     },
     "fileMatch": [
       "*.wafto"
