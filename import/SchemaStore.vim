@@ -1213,11 +1213,43 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dependencies-latest.json",
+    "description": "dbt's dependencies.yml file for external packages and cross-project refs",
+    "name": "dbt Dependencies",
+    "fileMatch": [
+      "**/*dbt*/dependencies.{yaml,yml}"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_project-latest.json",
-    "description": "dbt project configurations",
+    "description": "dbt's project configuration file",
     "name": "dbt Project",
     "fileMatch": [
-      "dbt_project.yml"
+      "dbt_project.{yaml,yml}"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/packages-latest.json",
+    "description": "dbt's packages.yml file for external packages",
+    "name": "dbt Packages",
+    "fileMatch": [
+      "**/*dbt*/packages.{yaml,yml}"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/selectors-latest.json",
+    "description": "dbt's selectors.yml file for configuring YAML selectors",
+    "name": "dbt Selectors",
+    "fileMatch": [
+      "**/*dbt*/selectors.{yaml,yml}"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_yml_files-latest.json",
+    "description": "dbt YAML files configurations",
+    "name": "dbt YAML files",
+    "fileMatch": [
+      "**/*dbt*/{macros,models,seeds,snapshots}/**/*.{yaml,yml}"
     ]
   },
   {
