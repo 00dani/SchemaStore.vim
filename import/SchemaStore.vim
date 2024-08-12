@@ -8388,7 +8388,9 @@ export const schemata =
       "2.1.0": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/main/spec/v2.1.0/waf-tests-schema-v2.1.0.json"
     },
     "fileMatch": [
-      "*.waft"
+      "*.waft",
+      ".waft.yaml",
+      ".waft.yml"
     ]
   },
   {
@@ -8399,7 +8401,9 @@ export const schemata =
       "2.1.0": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.1.0/waf-platform-overrides-schema-v2.1.0.json"
     },
     "fileMatch": [
-      "*.wafto"
+      "*.wafto",
+      ".wafto.yaml",
+      ".wafto.yml"
     ]
   },
   {
