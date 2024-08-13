@@ -546,6 +546,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/codifyCLI/codify-schemas/main/src/schemastore/codify-schema.json",
+    "description": "Transform your workflow with Codify, the ultimate configuration as code tool designed to manage local user environments",
+    "name": "CodifyCLI",
+    "fileMatch": [
+      "codify.json",
+      "codify.yaml",
+      "*.codify.json",
+      "*.codify.yaml"
+    ]
+  },
+  {
     "url": "https://github.com/cmhughes/latexindent.pl/raw/main/documentation/latexindent-yaml-schema.json",
     "description": "Configuration file for latexindent",
     "name": "latexindent configuration",
@@ -5570,6 +5581,30 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/speakeasy-api/sdk-gen-config/main/schemas/lint.schema.json",
+    "description": "Configuration file for Speakeasy's OpenAPI document linting. Find out more at https://www.speakeasy.com/docs/linting",
+    "name": "Speakeasy Lint Configuration File",
+    "fileMatch": [
+      "**/.speakeasy/lint.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/speakeasy-api/sdk-gen-config/main/schemas/tests.schema.json",
+    "description": "Configuration file for Speakeasy's test generation",
+    "name": "Speakeasy Test Generation Configuration File",
+    "fileMatch": [
+      "**/.speakeasy/tests.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/speakeasy-api/sdk-gen-config/main/schemas/workflow.schema.json",
+    "description": "Workflow configuration file. Read more at https://www.speakeasy.com/docs/workflow-file-reference",
+    "name": "Speakeasy Workflow File",
+    "fileMatch": [
+      "**/.speakeasy/workflow.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/specif-1.1.json",
     "description": "The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. Documentation: https://specif.de and https://github.com/GfSE",
     "name": "SpecIF",
@@ -6404,49 +6439,16 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/cryproj.52.schema.json",
-    "description": "A CRYENGINE projects (.cryproj files)",
-    "name": ".cryproj engine-5.2",
-    "fileMatch": [
-      "*.cryproj"
-    ]
-  },
-  {
-    "url": "https://json.schemastore.org/cryproj.53.schema.json",
-    "description": "A CRYENGINE projects (.cryproj files)",
-    "name": ".cryproj engine-5.3",
-    "fileMatch": [
-      "*.cryproj"
-    ]
-  },
-  {
-    "url": "https://json.schemastore.org/cryproj.54.schema.json",
-    "description": "A CRYENGINE projects (.cryproj files)",
-    "name": ".cryproj engine-5.4",
-    "fileMatch": [
-      "*.cryproj"
-    ]
-  },
-  {
-    "url": "https://json.schemastore.org/cryproj.55.schema.json",
-    "description": "A CRYENGINE projects (.cryproj files)",
-    "name": ".cryproj engine-5.5",
-    "fileMatch": [
-      "*.cryproj"
-    ]
-  },
-  {
-    "url": "https://json.schemastore.org/cryproj.dev.schema.json",
-    "description": "A CRYENGINE projects (.cryproj files)",
-    "name": ".cryproj engine-dev",
-    "fileMatch": [
-      "*.cryproj"
-    ]
-  },
-  {
     "url": "https://json.schemastore.org/cryproj.json",
     "description": "A CRYENGINE projects (.cryproj files)",
     "name": ".cryproj (generic)",
+    "versions": {
+      "dev": "https://json.schemastore.org/cryproj.dev.schema.json",
+      "5.2": "https://json.schemastore.org/cryproj.52.schema.json",
+      "5.3": "https://json.schemastore.org/cryproj.53.schema.json",
+      "5.4": "https://json.schemastore.org/cryproj.54.schema.json",
+      "5.5": "https://json.schemastore.org/cryproj.55.schema.json"
+    },
     "fileMatch": [
       "*.cryproj"
     ]
@@ -6497,7 +6499,7 @@ export const schemata =
     "description": "mirrord",
     "name": "mirrord config",
     "fileMatch": [
-      "*.mirrord.+(toml|json|y?(a)ml)"
+      "*.mirrord.{toml,json,yaml,yml}"
     ]
   },
   {
@@ -6755,7 +6757,7 @@ export const schemata =
     "description": "Windows Package Manager Locale Manifest file, used for detailing locale specific metadata",
     "name": "Windows Package Manager Locale Manifest",
     "fileMatch": [
-      "**/manifests/?/*/*/*/*.*.locale@(.en-US|fr-FR|it-IT|ja-JP|ko-KR|pt-BR|ru-RU|zh-CN|zh-TW).yaml"
+      "**/manifests/?/*/*/*/*.*.locale.{en-US,fr-FR,it-IT,ja-JP,ko-KR,pt-BR,ru-RU,zh-CN,zh-TW}.yaml"
     ]
   },
   {
