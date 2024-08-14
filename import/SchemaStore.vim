@@ -3642,6 +3642,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/kestra-0.18.json",
+    "description": "Kestra Flow definition file, see: kestra.io/docs/workflow-components/flow#flow-sample",
+    "name": "Kestra flow file",
+    "versions": {
+      "0.18": "https://json.schemastore.org/kestra-0.18.json"
+    },
+    "fileMatch": [
+      "**/flows/*.yml"
+    ]
+  },
+  {
     "url": "https://www.krakend.io/schema/krakend.json",
     "description": "KrakenD API Gateway configuration file",
     "name": "KrakenD",
