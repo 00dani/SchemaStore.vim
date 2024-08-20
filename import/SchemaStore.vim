@@ -2384,10 +2384,7 @@ export const schemata =
     "name": ".esmrc.json",
     "fileMatch": [
       ".esmrc",
-      ".esmrc.json",
-      ".esmrc.js",
-      ".esmrc.cjs",
-      ".esmrc.mjs"
+      ".esmrc.json"
     ]
   },
   {
@@ -3104,7 +3101,6 @@ export const schemata =
       ".meshrc.yml",
       ".meshrc.yaml",
       ".meshrc.json",
-      ".meshrc.js",
       ".graphql-mesh.yaml",
       ".graphql-mesh.yml"
     ]
@@ -3115,14 +3111,12 @@ export const schemata =
     "name": "GraphQL Config",
     "fileMatch": [
       "graphql.config.json",
-      "graphql.config.js",
       "graphql.config.yaml",
       "graphql.config.yml",
       ".graphqlrc",
       ".graphqlrc.json",
       ".graphqlrc.yaml",
-      ".graphqlrc.yml",
-      ".graphqlrc.js"
+      ".graphqlrc.yml"
     ]
   },
   {
@@ -3133,11 +3127,9 @@ export const schemata =
       "codegen.yml",
       "codegen.yaml",
       "codegen.json",
-      "codegen.js",
       ".codegen.yml",
       ".codegen.yaml",
-      ".codegen.json",
-      ".codegen.js"
+      ".codegen.json"
     ]
   },
   {
@@ -3642,11 +3634,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/kestra-0.18.json",
+    "url": "https://json.schemastore.org/kestra-0.18.2.json",
     "description": "Kestra Flow definition file, see: kestra.io/docs/workflow-components/flow#flow-sample",
     "name": "Kestra flow file",
     "versions": {
-      "0.18": "https://json.schemastore.org/kestra-0.18.json"
+      "0.18.0": "https://json.schemastore.org/kestra-0.18.0.json",
+      "0.18.1": "https://json.schemastore.org/kestra-0.18.1.json",
+      "0.18.2": "https://json.schemastore.org/kestra-0.18.2.json"
     },
     "fileMatch": [
       "**/flows/*.yml"
@@ -6217,8 +6211,7 @@ export const schemata =
     },
     "fileMatch": [
       ".versionrc",
-      ".versionrc.json",
-      ".versionrc.js"
+      ".versionrc.json"
     ]
   },
   {
@@ -6678,8 +6671,8 @@ export const schemata =
     "description": "JSDoc configuration file",
     "name": "jsdoc",
     "fileMatch": [
-      "conf.js*",
-      "jsdoc.js*"
+      "conf.json",
+      "jsdoc.json"
     ]
   },
   {
@@ -6868,7 +6861,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
+    "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json",
     "description": "Gradle Enterprise configuration",
     "name": "Gradle Enterprise",
     "versions": {
@@ -6877,6 +6870,7 @@ export const schemata =
       "7.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-7.json",
       "9.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
       "2.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json",
+      "10.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json",
       "4.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-4.json",
       "6.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-6.json",
       "8.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json",
@@ -7429,9 +7423,7 @@ export const schemata =
     "fileMatch": [
       ".gherking.json",
       ".gherkingrc",
-      ".gherking.js",
-      "gherking.json",
-      "gherking.js"
+      "gherking.json"
     ]
   },
   {
@@ -8441,6 +8433,14 @@ export const schemata =
     "fileMatch": [
       "**/tycho.yml",
       "**/tycho.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/elm.json",
+    "description": "elm.json file",
+    "name": "Elm",
+    "fileMatch": [
+      "elm.json"
     ]
   }
 ]
