@@ -362,6 +362,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/aws-cdk-appconfig-featureflags-1.0.0.json",
+    "description": "AWS CDK AppConfig Feature Flags",
+    "name": "AWS AppConfig Feature Flags-v1",
+    "fileMatch": [
+      "*.appConfig.featureFlags.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/azure-containerapp-template.json",
     "description": "Azure Container App template for defining an immutable revision",
     "name": "Azure Container App template for defining an immutable revision",
@@ -3940,8 +3948,12 @@ export const schemata =
     "description": "MetricsHub connector configuration file",
     "name": "MetricsHub Connector Configuration",
     "fileMatch": [
-      "**/*[Mm]etrics[Hh]ub*/**/connector*/**/*.yaml",
-      "**/*[Mm]etrics[Hh]ub*/**/connector*/**/*.yml"
+      "**/metricshub/connectors/**/*.yaml",
+      "**/metricshub/connectors/**/*.yml",
+      "**/hardware-connectors/**/*.yaml",
+      "**/hardware-connectors/**/*.yml",
+      "**/metricshub-community-connectors/**/*.yaml",
+      "**/metricshub-community-connectors/**/*.yml"
     ]
   },
   {
