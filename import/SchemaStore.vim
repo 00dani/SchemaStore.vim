@@ -453,6 +453,24 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/library_metadata.json",
+    "description": "Azure Landing Zones Library metadata",
+    "name": "Azure Landing Zones Library metadata",
+    "fileMatch": [
+      "alz_library_metadata.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/default_policy_values.json",
+    "description": "Azure Landing Zones Library policy default values",
+    "name": "Azure Landing Zones Library policy default values",
+    "fileMatch": [
+      "alz_policy_default_values.json",
+      "alz_policy_default_values.yaml",
+      "alz_policy_default_values.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/architecture_definition.json",
     "description": "Azure Landing Zones Library architecture definition",
     "name": "Azure Landing Zones Library architecture definition",
@@ -464,7 +482,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/archetype_definition.json",
-    "description": "Azure Landing Zones Library architecture definition",
+    "description": "Azure Landing Zones Library archetype definition",
     "name": "Azure Landing Zones Library archetype definition",
     "fileMatch": [
       "*.alz_archetype_definition.json",
@@ -8453,6 +8471,15 @@ export const schemata =
     "name": "Elm",
     "fileMatch": [
       "elm.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/cloud-run-v1.json",
+    "description": "Specification for Cloud Run Admin API v1",
+    "name": "Cloud Run Spec v1",
+    "fileMatch": [
+      "cloud-run-v1.yml",
+      "cloud-run-v1.yaml"
     ]
   }
 ]
