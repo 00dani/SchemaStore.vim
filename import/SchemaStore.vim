@@ -980,6 +980,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/bunfig.json",
+    "description": "bunfig.toml file",
+    "name": "bunfig.toml",
+    "fileMatch": [
+      "bunfig.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/bungee-plugin.json",
     "description": "BungeeCord plugin description files",
     "name": "BungeeCord plugin.yml",
@@ -3897,6 +3905,16 @@ export const schemata =
     "fileMatch": [
       "*.lsdl.yaml",
       "*.lsdl.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/mapehr.json",
+    "description": "Mapping for MapEHR.com",
+    "name": "MapEHR Mapping",
+    "fileMatch": [
+      ".map.yml",
+      ".map.yaml",
+      ".map.json"
     ]
   },
   {
