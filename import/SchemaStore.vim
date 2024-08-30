@@ -7951,7 +7951,9 @@ export const schemata =
     "description": "lazygit settings",
     "name": "lazygit",
     "fileMatch": [
-      "**/lazygit/config.yml"
+      "**/lazygit/config.yml",
+      "lazygit.yml",
+      ".lazygit.yml"
     ]
   },
   {
