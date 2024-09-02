@@ -128,10 +128,22 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/abc-supply-plan-3.0.0.json",
+    "url": "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json",
+    "description": "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
+    "name": "ABCInventoryModuleData",
+    "versions": {
+      "1.0.0": "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json"
+    },
+    "fileMatch": [
+      "abc-inventory-module-data-*.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/abc-supply-plan-4.0.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
+      "4.0.0": "https://json.schemastore.org/abc-supply-plan-4.0.0.json",
       "1.0.0": "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
       "2.0.0": "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
       "3.0.0": "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
@@ -3514,7 +3526,7 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://json.schemastore.org/jreleaser-1.13.1.json",
+    "url": "https://json.schemastore.org/jreleaser-1.14.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
@@ -3524,6 +3536,7 @@ export const schemata =
       "1.8.0": "https://json.schemastore.org/jreleaser-1.8.0.json",
       "1.10.0": "https://json.schemastore.org/jreleaser-1.10.0.json",
       "1.12.0": "https://json.schemastore.org/jreleaser-1.12.0.json",
+      "1.14.0": "https://json.schemastore.org/jreleaser-1.14.0.json",
       "1.7.0": "https://json.schemastore.org/jreleaser-1.7.0.json",
       "1.9.0": "https://json.schemastore.org/jreleaser-1.9.0.json",
       "1.11.0": "https://json.schemastore.org/jreleaser-1.11.0.json"
@@ -3668,13 +3681,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/kestra-0.18.2.json",
+    "url": "https://json.schemastore.org/kestra-0.18.3.json",
     "description": "Kestra Flow definition file, see: kestra.io/docs/workflow-components/flow#flow-sample",
     "name": "Kestra flow file",
     "versions": {
       "0.18.0": "https://json.schemastore.org/kestra-0.18.0.json",
       "0.18.1": "https://json.schemastore.org/kestra-0.18.1.json",
-      "0.18.2": "https://json.schemastore.org/kestra-0.18.2.json"
+      "0.18.2": "https://json.schemastore.org/kestra-0.18.2.json",
+      "0.18.3": "https://json.schemastore.org/kestra-0.18.3.json"
     },
     "fileMatch": [
       "**/flows/*.yml"
