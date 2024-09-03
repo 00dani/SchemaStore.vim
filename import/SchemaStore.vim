@@ -6277,6 +6277,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/vhwdebugger-binding-schema.json",
+    "description": "Configuration of the Vector CANoe hardware debugger binding",
+    "name": "vhwdebugger-binding.yaml",
+    "fileMatch": [
+      "vhwdebugger-binding.yaml",
+      "*.vhwdebugger-binding.yaml",
+      "vhwdebugger-binding.yml",
+      "*.vhwdebugger-binding.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/vim-addon-info.json",
     "description": "vim plugin addon-info.json metadata files",
     "name": "vim-addon-info",
