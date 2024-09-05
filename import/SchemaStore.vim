@@ -3316,7 +3316,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.0.0.json",
+    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.1.json",
     "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
     "name": "IBM Zapp document",
     "fileMatch": [
@@ -8525,6 +8525,14 @@ export const schemata =
     "fileMatch": [
       "cloud-run-v1.yml",
       "cloud-run-v1.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/youtrack-app.json",
+    "description": "JetBrains YouTrack App manifest file",
+    "name": "YouTrack App",
+    "fileMatch": [
+      "manifest.json"
     ]
   }
 ]
