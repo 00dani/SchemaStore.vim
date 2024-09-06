@@ -5996,6 +5996,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/truescript.json",
+    "description": "The Ultimate Script Language for monday.com - © 2024 MakeITSimple",
+    "name": "TrueScript for *.tscript files",
+    "versions": {
+      "latest": "https://json.schemastore.org/truescript.json"
+    },
+    "fileMatch": [
+      "*.tscript",
+      "*.tscript.yaml",
+      "*.tscript.yml"
+    ]
+  },
+  {
     "url": "https://static.trunk.io/pub/trunk-yaml-schema.json",
     "description": "Configuration trunk, a powerful linter runner. Documentation: https://docs.trunk.io",
     "name": "trunk.yaml",
@@ -8531,8 +8544,14 @@ export const schemata =
     "url": "https://json.schemastore.org/youtrack-app.json",
     "description": "JetBrains YouTrack App manifest file",
     "name": "YouTrack App",
+    "fileMatch": []
+  },
+  {
+    "url": "https://raw.githubusercontent.com/cinnamon-spice-settings.json",
+    "description": "Settings for Cinnamon desktop environment",
+    "name": "Cinnamon",
     "fileMatch": [
-      "manifest.json"
+      "**/*@*/**/settings-schema.json"
     ]
   }
 ]
