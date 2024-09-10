@@ -128,11 +128,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json",
+    "url": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json",
     "description": "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
     "name": "ABCInventoryModuleData",
     "versions": {
-      "1.0.0": "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json"
+      "1.0.0": "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json",
+      "2.0.0": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json"
     },
     "fileMatch": [
       "abc-inventory-module-data-*.json"
@@ -8548,10 +8549,18 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/cinnamon-spice-settings.json",
-    "description": "Settings for Cinnamon desktop environment",
-    "name": "Cinnamon",
+    "description": "Settings for a Cinnamon spice",
+    "name": "Settings for a Cinnamon spice",
     "fileMatch": [
       "**/*@*/**/settings-schema.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/cinnamon-spice-metadata.json",
+    "description": "Metadata for a Cinnamon spice",
+    "name": "Metadata for a Cinnamon spice",
+    "fileMatch": [
+      "**/*@*/**/metadata.json"
     ]
   }
 ]
