@@ -5495,9 +5495,21 @@ export const schemata =
     "description": "Semgrep code scanning patterns and rules",
     "name": "Semgrep Rule",
     "versions": {
+      "v1.78.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.78.0/rule_schema_v1.yaml",
       "v1.73.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.73.0/rule_schema_v1.yaml",
+      "v1.82.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.82.0/rule_schema_v1.yaml",
+      "v1.76.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.76.0/rule_schema_v1.yaml",
+      "v1.85.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.85.0/rule_schema_v1.yaml",
+      "v1.80.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.80.0/rule_schema_v1.yaml",
+      "v1.79.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.79.0/rule_schema_v1.yaml",
+      "v1.74.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.74.0/rule_schema_v1.yaml",
+      "v1.83.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.83.0/rule_schema_v1.yaml",
+      "v1.77.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.77.0/rule_schema_v1.yaml",
       "v1.72.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.72.0/rule_schema_v1.yaml",
-      "v1.74.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.74.0/rule_schema_v1.yaml"
+      "v1.86.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.86.0/rule_schema_v1.yaml",
+      "v1.81.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.81.0/rule_schema_v1.yaml",
+      "v1.75.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.75.0/rule_schema_v1.yaml",
+      "v1.84.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.84.0/rule_schema_v1.yaml"
     },
     "fileMatch": [
       "**/.semgrep/**.yaml",
@@ -8561,6 +8573,15 @@ export const schemata =
     "name": "Metadata for a Cinnamon spice",
     "fileMatch": [
       "**/*@*/**/metadata.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yandex-cloud/json-schema-store/master/serverless/workflows/yawl.json",
+    "description": "YaWL specification file",
+    "name": "Yandex Workflow Language",
+    "fileMatch": [
+      "*.yawl.yaml",
+      "*.yawl.yml"
     ]
   }
 ]
