@@ -128,12 +128,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json",
+    "url": "https://json.schemastore.org/abc-inventory-module-data-3.0.0.json",
     "description": "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
     "name": "ABCInventoryModuleData",
     "versions": {
       "1.0.0": "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json",
-      "2.0.0": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json"
+      "2.0.0": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json",
+      "3.0.0": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json"
     },
     "fileMatch": [
       "abc-inventory-module-data-*.json"
@@ -6043,6 +6044,14 @@ export const schemata =
     "name": "tsd.json",
     "fileMatch": [
       "tsd.json"
+    ]
+  },
+  {
+    "url": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+    "description": "TSDoc configuration file",
+    "name": "tsdoc.json",
+    "fileMatch": [
+      "tsdoc.json"
     ]
   },
   {
