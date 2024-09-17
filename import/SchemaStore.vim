@@ -8592,6 +8592,22 @@ export const schemata =
       "*.yawl.yaml",
       "*.yawl.yml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/winutil-applications.json",
+    "description": "Application list for a WinUtil",
+    "name": "Application list for a WinUtil",
+    "fileMatch": [
+      "**/*winutil*/config/applications.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/winutil-preset.json",
+    "description": "Preset list for a WinUtil",
+    "name": "Preset list for a WinUtil",
+    "fileMatch": [
+      "**/*winutil*/config/preset.json"
+    ]
   }
 ]
 export const schemas = schemata
