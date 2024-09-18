@@ -8594,7 +8594,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/winutil-applications.json",
+    "url": "https://json.schemastore.org/winutil-applications.json",
     "description": "Application list for a WinUtil",
     "name": "Application list for a WinUtil",
     "fileMatch": [
@@ -8602,11 +8602,27 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/winutil-preset.json",
+    "url": "https://json.schemastore.org/winutil-preset.json",
     "description": "Preset list for a WinUtil",
     "name": "Preset list for a WinUtil",
     "fileMatch": [
       "**/*winutil*/config/preset.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/linutil-tabs.json",
+    "description": "Tab list for a LinUtil",
+    "name": "Tab list for a LinUtil",
+    "fileMatch": [
+      "**/*linutil*/**/tabs.toml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/linutil-tab-data.json",
+    "description": "Tab data for a LinUtil",
+    "name": "Tab data for a LinUtil",
+    "fileMatch": [
+      "**/*linutil*/**/tab_data.toml"
     ]
   }
 ]
