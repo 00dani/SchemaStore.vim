@@ -3666,11 +3666,59 @@ export const schemata =
     "name": "Kas"
   },
   {
-    "url": "https://raw.githubusercontent.com/derailed/k9s/master/plugins/schema.json",
-    "description": "k9s CLI plugin.yml file. Documentation: https://k9scli.io/topics/plugins",
-    "name": "k9s plugin.yml",
+    "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/aliases.json",
+    "description": "k9s CLI aliases.yaml file. Documentation: https://k9scli.io/topics/aliases",
+    "name": "k9s aliases.yaml",
     "fileMatch": [
-      "**/k9s/plugin.yml"
+      "**/k9s/aliases.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/k9s.json",
+    "description": "k9s CLI config.yaml file. Documentation: https://k9scli.io/topics/config",
+    "name": "k9s config.yaml",
+    "fileMatch": [
+      "**/k9s/config.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/context.json",
+    "description": "k9s CLI cluster-config.yaml file. Documentation: https://k9scli.io/topics/config",
+    "name": "k9s cluster-config.yaml",
+    "fileMatch": [
+      "**/k9s/clusters/*/*/config.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/hotkeys.json",
+    "description": "k9s CLI hotkeys.yaml file. Documentation: https://k9scli.io/topics/hotkeys",
+    "name": "k9s hotkeys.yaml",
+    "fileMatch": [
+      "**/k9s/hotkeys.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/plugins.json",
+    "description": "k9s CLI plugins.yaml file. Documentation: https://k9scli.io/topics/plugins",
+    "name": "k9s plugins.yaml",
+    "fileMatch": [
+      "**/k9s/plugins.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/skin.json",
+    "description": "k9s CLI skin.yaml file. Documentation: https://k9scli.io/topics/skins",
+    "name": "k9s skin.yaml",
+    "fileMatch": [
+      "**/k9s/skins/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/views.json",
+    "description": "k9s CLI views.yaml file. Documentation: https://k9scli.io/topics/columns",
+    "name": "k9s views.yaml",
+    "fileMatch": [
+      "**/k9s/views.yaml"
     ]
   },
   {
