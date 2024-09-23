@@ -4813,6 +4813,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Songmu/podbard/main/schema.yaml",
+    "description": "Configuration file for Podbard - a podcast site generator",
+    "name": "podbard.yaml",
+    "fileMatch": [
+      "podbard.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/apideck-libraries/portman/main/src/utils/portman-config-schema.json",
     "description": "Portman's configuration file",
     "name": "portman.json",
