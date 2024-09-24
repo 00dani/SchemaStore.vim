@@ -5614,9 +5614,9 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/SigmaHQ/sigma-specification/main/sigma-schema.json",
-    "description": "The Sigma detection format. Documentation: https://github.com/SigmaHQ/sigma-specification and https://github.com/SigmaHQ/sigma",
-    "name": "Sigma",
+    "url": "https://raw.githubusercontent.com/SigmaHQ/sigma-specification/main/json-schema/sigma-detection-rule-schema.json",
+    "description": "The Sigma detection rule format. Documentation: https://github.com/SigmaHQ/sigma-specification/blob/main/specification/sigma-rules-specification.md and https://github.com/SigmaHQ/sigma",
+    "name": "Sigma Detection Rule",
     "fileMatch": [
       "**/sigma/**/*.yml"
     ]
@@ -5935,6 +5935,15 @@ export const schemata =
       "bzt.yaml",
       "taurus.yml",
       "taurus.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nwithan8/tauticord/master/.schema/config_v2.schema.json",
+    "description": "Tauticord configuration (v2)",
+    "name": "Tauticord",
+    "fileMatch": [
+      "tauticord.yml",
+      "tauticord.yaml"
     ]
   },
   {
