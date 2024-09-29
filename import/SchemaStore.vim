@@ -4643,6 +4643,149 @@ export const schemata =
     ]
   },
   {
+    "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_assessment-plan_schema.json",
+    "description": "NIST Open Security Controls Assessment Language (OSCAL) Assessment Plan. (https://pages.nist.gov/OSCAL-Reference)",
+    "name": "OSCAL Assessment Plan (AP)",
+    "versions": {
+      "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_assessment-plan_schema.json",
+      "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_assessment-plan_schema.json",
+      "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_assessment-plan_schema.json",
+      "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_assessment-plan_schema.json",
+      "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_assessment-plan_schema.json",
+      "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_assessment-plan_schema.json",
+      "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_assessment-plan_schema.json",
+      "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_assessment-plan_schema.json",
+      "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_assessment-plan_schema.json",
+      "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_assessment-plan_schema.json"
+    },
+    "fileMatch": [
+      "oscal*assessment-plan.json",
+      "oscal*assessment_plan.json"
+    ]
+  },
+  {
+    "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_assessment-results_schema.json",
+    "description": "NIST Open Security Controls Assessment Language (OSCAL) Assessment Results. (https://pages.nist.gov/OSCAL-Reference)",
+    "name": "OSCAL Assessment Results (AR)",
+    "versions": {
+      "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_assessment-results_schema.json",
+      "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_assessment-results_schema.json",
+      "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_assessment-results_schema.json",
+      "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_assessment-results_schema.json",
+      "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_assessment-results_schema.json",
+      "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_assessment-results_schema.json",
+      "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_assessment-results_schema.json",
+      "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_assessment-results_schema.json",
+      "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_assessment-results_schema.json",
+      "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_assessment-results_schema.json"
+    },
+    "fileMatch": [
+      "oscal*assessment-results.json",
+      "oscal*assessment_results.json"
+    ]
+  },
+  {
+    "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_catalog_schema.json",
+    "description": "NIST Open Security Controls Assessment Language (OSCAL) Catalog. (https://pages.nist.gov/OSCAL-Reference)",
+    "name": "OSCAL Catalog",
+    "versions": {
+      "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_catalog_schema.json",
+      "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_catalog_schema.json",
+      "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_catalog_schema.json",
+      "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_catalog_schema.json",
+      "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_catalog_schema.json",
+      "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_catalog_schema.json",
+      "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_catalog_schema.json",
+      "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_catalog_schema.json",
+      "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_catalog_schema.json",
+      "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_catalog_schema.json"
+    },
+    "fileMatch": [
+      "oscal*catalog.json"
+    ]
+  },
+  {
+    "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_component_schema.json",
+    "description": "NIST Open Security Controls Assessment Language (OSCAL) Component Definition. (https://pages.nist.gov/OSCAL-Reference)",
+    "name": "OSCAL Component Definition (CDef)",
+    "versions": {
+      "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_component_schema.json",
+      "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_component_schema.json",
+      "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_component_schema.json",
+      "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_component_schema.json",
+      "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_component_schema.json",
+      "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_component_schema.json",
+      "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_component_schema.json",
+      "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_component_schema.json",
+      "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_component_schema.json",
+      "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_component_schema.json"
+    },
+    "fileMatch": [
+      "oscal*component.json",
+      "oscal*cdef.json"
+    ]
+  },
+  {
+    "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_poam_schema.json",
+    "description": "NIST Open Security Controls Assessment Language (OSCAL) Plan of Action and Milestones. (https://pages.nist.gov/OSCAL-Reference)",
+    "name": "OSCAL Plan of Action and Milestones (POA&M)",
+    "versions": {
+      "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_poam_schema.json",
+      "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_poam_schema.json",
+      "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_poam_schema.json",
+      "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_poam_schema.json",
+      "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_poam_schema.json",
+      "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_poam_schema.json",
+      "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_poam_schema.json",
+      "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_poam_schema.json",
+      "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_poam_schema.json",
+      "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_poam_schema.json"
+    },
+    "fileMatch": [
+      "oscal*poam.json"
+    ]
+  },
+  {
+    "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_profile_schema.json",
+    "description": "NIST Open Security Controls Assessment Language (OSCAL) Profile. (https://pages.nist.gov/OSCAL-Reference)",
+    "name": "OSCAL Profile",
+    "versions": {
+      "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_profile_schema.json",
+      "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_profile_schema.json",
+      "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_profile_schema.json",
+      "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_profile_schema.json",
+      "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_profile_schema.json",
+      "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_profile_schema.json",
+      "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_profile_schema.json",
+      "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_profile_schema.json",
+      "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_profile_schema.json",
+      "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_profile_schema.json"
+    },
+    "fileMatch": [
+      "oscal*profile.json"
+    ]
+  },
+  {
+    "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_ssp_schema.json",
+    "description": "NIST Open Security Controls Assessment Language (OSCAL) System Security Plan. (https://pages.nist.gov/OSCAL-Reference)",
+    "name": "OSCAL System Security Plan (SSP)",
+    "versions": {
+      "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_ssp_schema.json",
+      "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_ssp_schema.json",
+      "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_ssp_schema.json",
+      "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_ssp_schema.json",
+      "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_ssp_schema.json",
+      "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_ssp_schema.json",
+      "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_ssp_schema.json",
+      "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_ssp_schema.json",
+      "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_ssp_schema.json",
+      "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_ssp_schema.json"
+    },
+    "fileMatch": [
+      "oscal*ssp.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/ort-configuration-schema.json",
     "description": "ORT's main configuration file",
     "name": "OSS Review Toolkit configuration",
@@ -6686,6 +6829,9 @@ export const schemata =
     "fileMatch": [
       ".mise.toml",
       ".mise.*.toml",
+      "mise.toml",
+      "mise.*.toml",
+      "**/.mise/config.toml",
       "**/mise/config.toml"
     ]
   },
