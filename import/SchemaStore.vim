@@ -141,11 +141,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/abc-supply-plan-4.0.0.json",
+    "url": "https://json.schemastore.org/abc-supply-plan-5.0.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
       "4.0.0": "https://json.schemastore.org/abc-supply-plan-4.0.0.json",
+      "5.0.0": "https://json.schemastore.org/abc-supply-plan-5.0.0.json",
       "1.0.0": "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
       "2.0.0": "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
       "3.0.0": "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
@@ -7942,66 +7943,6 @@ export const schemata =
     "fileMatch": [
       "*safebox*.yaml",
       "*safebox*.yml"
-    ]
-  },
-  {
-    "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.BatchJob.json",
-    "description": "StrmPrivacy batch job. Documentation: https://docs.strmprivacy.io/docs/latest/concepts/data-processing/batch-jobs/",
-    "name": "StrmPrivacy batch job configuration file",
-    "versions": {
-      "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.BatchJob.json"
-    },
-    "fileMatch": [
-      "*batch-job-config*.json",
-      "*batch-job-config*.yaml"
-    ]
-  },
-  {
-    "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Schema.SimpleSchemaDefinition.json",
-    "description": "StrmPrivacy SimpleSchema. Documentation: https://docs.strmprivacy.io/docs/latest/quickstart/data-contracts/simple-schema/",
-    "name": "StrmPrivacy SimpleSchema",
-    "versions": {
-      "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Schema.SimpleSchemaDefinition.json"
-    },
-    "fileMatch": [
-      "*simple-schema*.json",
-      "*simple-schema*.yaml"
-    ]
-  },
-  {
-    "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Stream.json",
-    "description": "StrmPrivacy Stream. Documentation: https://docs.strmprivacy.io/docs/latest/quickstart/streaming/creating-streams/",
-    "name": "StrmPrivacy Stream",
-    "versions": {
-      "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Stream.json"
-    },
-    "fileMatch": [
-      "*stream.json",
-      "*stream.yaml"
-    ]
-  },
-  {
-    "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataConnector.json",
-    "description": "StrmPrivacy Data Connector. Documentation: https://docs.strmprivacy.io/docs/latest/concepts/data-connectors/",
-    "name": "StrmPrivacy Data Connector",
-    "versions": {
-      "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataConnector.json"
-    },
-    "fileMatch": [
-      "*data-connector.json",
-      "*data-connector.yaml"
-    ]
-  },
-  {
-    "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataContract.json",
-    "description": "StrmPrivacy Data Contract. Documentation: https://docs.strmprivacy.io/docs/latest/concepts/data-contracts/",
-    "name": "StrmPrivacy Data Contract",
-    "versions": {
-      "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataContract.json"
-    },
-    "fileMatch": [
-      "*contract.json",
-      "*contract.yaml"
     ]
   },
   {
