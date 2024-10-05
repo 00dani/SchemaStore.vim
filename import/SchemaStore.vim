@@ -6505,6 +6505,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/eliashaeussler/version-bumper/refs/heads/main/res/version-bumper.schema.json",
+    "description": "Configuration for Version Bumper, a Composer plugin to bump project versions during release preparations",
+    "name": "Version Bumper config",
+    "fileMatch": [
+      "version-bumper.json",
+      "version-bumper.yaml",
+      "version-bumper.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json",
     "description": "A project version descriptor file used by Nerdbank.GitVersioning",
     "name": "version.json",
