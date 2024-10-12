@@ -8793,6 +8793,30 @@ export const schemata =
     "fileMatch": [
       "**/*linutil*/**/tab_data.toml"
     ]
+  },
+  {
+    "url": "https://www.eidolonai.com/json_schema/v1/resources/overview.json",
+    "description": "Resource definitions for Eidolon",
+    "name": "Eidolon Resource",
+    "fileMatch": [
+      "*.eidolon.yaml",
+      "*.eidolon.yml",
+      "**/eidolon_resources/**/*.yaml",
+      "**/eidolon_resources/**/*.yml"
+    ]
+  },
+  {
+    "url": "https://waku.ngjx.org/static/schema.json",
+    "description": "Configuration file for the Waku CLI",
+    "name": "Waku Config",
+    "fileMatch": [
+      "**/waku.yml",
+      "**/waku.yaml",
+      "**/waku.json",
+      "**/.waku.yml",
+      "**/.waku.yaml",
+      "**/.waku.json"
+    ]
   }
 ]
 export const schemas = schemata
