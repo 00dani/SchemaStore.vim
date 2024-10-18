@@ -882,6 +882,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/bosh-deploy-config.json",
+    "description": "Deploy config for BOSH CLI",
+    "name": "BOSH Deploy Config"
+  },
+  {
     "url": "https://json.schemastore.org/boyka-config.json",
     "description": "Boyka Framework config file",
     "name": "Boyka Framework",
@@ -8797,6 +8802,14 @@ export const schemata =
     "name": "Tab data for a LinUtil",
     "fileMatch": [
       "**/*linutil*/**/tab_data.toml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/architectfx.json",
+    "description": "Grammar for ArchitectFX's trees",
+    "name": "ArchitectFX",
+    "fileMatch": [
+      "*.jdsl"
     ]
   },
   {
