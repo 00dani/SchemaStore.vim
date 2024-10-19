@@ -4513,6 +4513,24 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/inetis-ch/october-schemas/master/columns.json",
+    "description": "October CMS columns files",
+    "name": "October CMS columns",
+    "fileMatch": [
+      "columns.yaml",
+      "*_columns.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/inetis-ch/october-schemas/master/fields.json",
+    "description": "October CMS fields files",
+    "name": "October CMS fields",
+    "fileMatch": [
+      "fields.yaml",
+      "*_fields.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/omnisharp.json",
     "description": "Omnisharp Configuration file",
     "name": "omnisharp.json",
