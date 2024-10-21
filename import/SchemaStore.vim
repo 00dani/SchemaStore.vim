@@ -8266,7 +8266,8 @@ export const schemata =
     "description": "Databricks Asset Bundles config",
     "name": "Databricks Asset Bundles",
     "fileMatch": [
-      "**/.databricks.yml"
+      "databricks.yml",
+      "databricks.yaml"
     ]
   },
   {
