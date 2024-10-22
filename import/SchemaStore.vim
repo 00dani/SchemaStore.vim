@@ -4539,12 +4539,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json",
+    "url": "https://spec.openapis.org/oas/3.1/schema/2022-10-07",
     "description": "A Open API documentation files",
     "name": "openapi.json",
     "versions": {
-      "3.0": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.0/schema.json",
-      "3.1": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json"
+      "3.0": "https://spec.openapis.org/oas/3.0/schema/2021-09-28",
+      "3.1": "https://spec.openapis.org/oas/3.1/schema/2022-10-07"
     },
     "fileMatch": [
       "openapi.json",
@@ -4622,9 +4622,10 @@ export const schemata =
   {
     "url": "https://raw.githubusercontent.com/bitol-io/open-data-contract-standard/main/schema/odcs-json-schema-latest.json",
     "description": "Open Data Contract Standard contract file",
-    "name": "Open Data Contract Standard (ODCS))",
+    "name": "Open Data Contract Standard (ODCS)",
     "versions": {
-      "v2.2.2": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v2.2.2.json"
+      "v2.2.2": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v2.2.2.json",
+      "v3.0.0": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v3.0.0.json"
     },
     "fileMatch": [
       "*.odcs.yaml",
