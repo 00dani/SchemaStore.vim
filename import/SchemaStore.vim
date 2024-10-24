@@ -187,16 +187,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://api.airplane.dev/v0/schemas/task.json",
-    "description": "Airplane tasks",
-    "name": "Airplane task",
-    "fileMatch": [
-      "*.task.json",
-      "*.task.yaml",
-      "*.task.yml"
-    ]
-  },
-  {
     "url": "https://raw.githubusercontent.com/angular/angular-cli/master/packages/angular/cli/lib/config/workspace-schema.json",
     "description": "Angular configuration file",
     "name": "angular.json",
@@ -1235,7 +1225,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/clawject/clawject/main/packages/clawject/src/compile-time/config/schema.json",
+    "url": "https://raw.githubusercontent.com/clawject/clawject/main/packages/core/src/config/schema.json",
     "description": "Clawject configuration file",
     "name": "Clawject config",
     "fileMatch": [
@@ -2595,14 +2585,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.facets.cloud/assets/fsdl/application.schema.json",
-    "description": "Facets Stack Definition Language for Applications",
-    "name": "Facets - FSDL - Application",
-    "fileMatch": [
-      "**/application/instances/*.json"
-    ]
-  },
-  {
     "url": "https://json.schemastore.org/fabric.mod.json",
     "description": "Metadata file used by the Fabric mod loader",
     "name": "fabric.mod.json",
@@ -3140,7 +3122,7 @@ export const schemata =
     "name": "Grafana 5.x Dashboard"
   },
   {
-    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/cli/src/generate/grammar-schema.json",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/docs/assets/schemas/config.schema.json",
     "description": "tree-sitter grammar.json",
     "name": "tree-sitter grammar.json",
     "fileMatch": [
@@ -4029,14 +4011,6 @@ export const schemata =
       "*meltano.yml",
       "meltano-manifest.json",
       "meltano-manifest.*.json"
-    ]
-  },
-  {
-    "url": "https://raw.githubusercontent.com/meltano/meltano/main/src/meltano/schemas/discovery.schema.json",
-    "description": "Meltano plugin discovery definition file",
-    "name": "Meltano plugin discovery definition",
-    "fileMatch": [
-      "*discovery.yml"
     ]
   },
   {
@@ -5847,7 +5821,7 @@ export const schemata =
     "name": "Slack app manifest"
   },
   {
-    "url": "https://raw.githubusercontent.com/blackbaud/skyux-config/master/skyuxconfig-schema.json",
+    "url": "https://raw.githubusercontent.com/blackbaud/skyux-config/4.x.x/skyuxconfig-schema.json",
     "description": "SKY UX CLI configuration file",
     "name": "skyuxconfig.json",
     "fileMatch": [
@@ -6673,14 +6647,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://webcomponents.dev/assets2/schemas/studio.config.json",
-    "description": "the <div>RIOTS' studio configuration",
-    "name": "<div>RIOTS' studio configuration",
-    "fileMatch": [
-      "studio.config.json"
-    ]
-  },
-  {
     "url": "https://json.schemastore.org/webextension.json",
     "description": "WebExtension manifest files",
     "name": "WebExtensions",
@@ -7231,16 +7197,16 @@ export const schemata =
     "description": "Gradle Enterprise configuration",
     "name": "Gradle Enterprise",
     "versions": {
-      "3.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-3.json",
-      "5.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-5.json",
-      "7.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-7.json",
-      "9.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
-      "2.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json",
-      "10.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json",
-      "4.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-4.json",
-      "6.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-6.json",
-      "8.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json",
-      "1.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json"
+      "3.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-3.json",
+      "5.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-5.json",
+      "7.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-7.json",
+      "9.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-9.json",
+      "2.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-2.json",
+      "10.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-10.json",
+      "4.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-4.json",
+      "6.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-6.json",
+      "8.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-8.json",
+      "1.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-1.json"
     },
     "fileMatch": [
       "*gradle-enterprise.yml",
@@ -7603,14 +7569,15 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.json",
+    "url": "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.yaml",
     "description": "serverless workflows",
     "name": "Serverless Workflow",
     "versions": {
       "v0.5": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.5.x/schema/workflow.json",
       "v0.6": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.6.x/schema/workflow.json",
       "v0.7": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.7.x/schema/workflow.json",
-      "v0.8": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.8.x/schema/workflow.json"
+      "v0.8": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.8.x/schema/workflow.json",
+      "v0.9": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.9.x/schema/workflow.json"
     },
     "fileMatch": [
       "*.sw.json",
@@ -8854,6 +8821,14 @@ export const schemata =
       "**/.waku.yml",
       "**/.waku.yaml",
       "**/.waku.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CCDirectLink/CCModDB/refs/heads/master/ccmod-json-schema.json",
+    "description": "Mod manifset file for the CCLoader mod loader for the game CrossCode",
+    "name": "ccmod.json",
+    "fileMatch": [
+      "ccmod.json"
     ]
   }
 ]
