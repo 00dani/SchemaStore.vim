@@ -8830,6 +8830,14 @@ export const schemata =
     "fileMatch": [
       "ccmod.json"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/moonrepo/moon/master/website/static/schemas/project.json",
+    "description": "Moonrepo project configuration file",
+    "name": "moon.yml",
+    "fileMatch": [
+      "moon.yml"
+    ]
   }
 ]
 export const schemas = schemata
