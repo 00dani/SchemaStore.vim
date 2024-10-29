@@ -5045,6 +5045,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/PrefectHQ/prefect/refs/heads/main/schemas/settings.schema.json",
+    "description": "Prefect configuration file",
+    "name": "prefect.toml",
+    "fileMatch": [
+      "prefect.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/prettierrc.json",
     "description": ".prettierrc configuration file",
     "name": "prettierrc.json",
