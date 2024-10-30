@@ -7606,7 +7606,8 @@ export const schemata =
     "description": "Shopware CLI Extension Store Configuration",
     "name": "Shopware CLI Extension Store Configuration",
     "fileMatch": [
-      ".shopware-extension.yml"
+      ".shopware-extension.yml",
+      ".shopware-extension.yaml"
     ]
   },
   {
@@ -7614,7 +7615,8 @@ export const schemata =
     "description": "Shopware CLI Project Store Configuration",
     "name": "Shopware CLI Project Store Configuration",
     "fileMatch": [
-      ".shopware-project.yml"
+      ".shopware-project.yml",
+      ".shopware-project.yaml"
     ]
   },
   {
