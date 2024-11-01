@@ -3523,17 +3523,18 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://json.schemastore.org/jreleaser-1.14.0.json",
+    "url": "https://json.schemastore.org/jreleaser-1.15.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
       "1.13.0": "https://json.schemastore.org/jreleaser-1.13.0.json",
       "1.13.1": "https://json.schemastore.org/jreleaser-1.13.1.json",
-      "1.6.0": "https://json.schemastore.org/jreleaser-1.6.0.json",
+      "1.15.0": "https://json.schemastore.org/jreleaser-1.15.0.json",
       "1.8.0": "https://json.schemastore.org/jreleaser-1.8.0.json",
       "1.10.0": "https://json.schemastore.org/jreleaser-1.10.0.json",
       "1.12.0": "https://json.schemastore.org/jreleaser-1.12.0.json",
       "1.14.0": "https://json.schemastore.org/jreleaser-1.14.0.json",
+      "1.6.0": "https://json.schemastore.org/jreleaser-1.6.0.json",
       "1.7.0": "https://json.schemastore.org/jreleaser-1.7.0.json",
       "1.9.0": "https://json.schemastore.org/jreleaser-1.9.0.json",
       "1.11.0": "https://json.schemastore.org/jreleaser-1.11.0.json"
