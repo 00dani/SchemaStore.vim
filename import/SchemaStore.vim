@@ -141,12 +141,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/abc-supply-plan-5.0.0.json",
+    "url": "https://json.schemastore.org/abc-supply-plan-6.0.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
       "4.0.0": "https://json.schemastore.org/abc-supply-plan-4.0.0.json",
       "5.0.0": "https://json.schemastore.org/abc-supply-plan-5.0.0.json",
+      "6.0.0": "https://json.schemastore.org/abc-supply-plan-6.0.0.json",
       "1.0.0": "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
       "2.0.0": "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
       "3.0.0": "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
@@ -6491,9 +6492,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/venvironment-schema.json",
+    "url": "https://json.schemastore.org/venvironment-schema-v3.2.0.json",
     "description": "Simulation and test environment for Vector CANoe4SW Server Edition",
     "name": "venvironment.yaml",
+    "versions": {
+      "2.2.0": "https://json.schemastore.org/venvironment-schema-v2.2.0.json",
+      "3.2.0": "https://json.schemastore.org/venvironment-schema-v3.2.0.json"
+    },
     "fileMatch": [
       "venvironment.yaml",
       "*.venvironment.yaml",
@@ -6504,9 +6509,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/venvironment-basic-schema.json",
+    "url": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json",
     "description": "Test environment for Vector Test Unit Runner",
     "name": "venvironment-basic.yaml",
+    "versions": {
+      "2.2.0": "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json",
+      "3.2.0": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json"
+    },
     "fileMatch": [
       "venvironment-basic.yaml",
       "*.venvironment-basic.yaml",
