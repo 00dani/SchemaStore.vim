@@ -4459,6 +4459,18 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/nullstone-io/iac/master/.schema/config.0.1.json",
+    "description": "Nullstone config.yml file",
+    "name": "Nullstone config",
+    "versions": {
+      "0.1": "https://raw.githubusercontent.com/nullstone-io/iac/master/.schema/config.0.1.json"
+    },
+    "fileMatch": [
+      "**/.nullstone/*.yml",
+      "**/.nullstone/*.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/Avanade/NTangle/main/schemas/ntangle.json",
     "description": "NTangle CDC code-generation configuration. Documentation: https://github.com/Avanade/ntangle",
     "name": "ntangle",
