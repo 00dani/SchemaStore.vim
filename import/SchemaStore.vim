@@ -6509,7 +6509,14 @@ export const schemata =
     "name": "venvironment.yaml",
     "versions": {
       "2.2.0": "https://json.schemastore.org/venvironment-schema-v2.2.0.json",
-      "3.2.0": "https://json.schemastore.org/venvironment-schema-v3.2.0.json"
+      "3.2.0": "https://json.schemastore.org/venvironment-schema-v3.2.0.json",
+      "1.1.0": "https://json.schemastore.org/venvironment-schema-v1.1.0.json",
+      "1.1.1": "https://json.schemastore.org/venvironment-schema-v1.1.1.json",
+      "3.1.0": "https://json.schemastore.org/venvironment-schema-v3.1.0.json",
+      "2.1.0": "https://json.schemastore.org/venvironment-schema-v2.1.0.json",
+      "1.0.0": "https://json.schemastore.org/venvironment-schema-v1.0.0.json",
+      "2.0.0": "https://json.schemastore.org/venvironment-schema-v2.0.0.json",
+      "3.0.0": "https://json.schemastore.org/venvironment-schema-v3.0.0.json"
     },
     "fileMatch": [
       "venvironment.yaml",
@@ -6525,8 +6532,12 @@ export const schemata =
     "description": "Test environment for Vector Test Unit Runner",
     "name": "venvironment-basic.yaml",
     "versions": {
-      "2.2.0": "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json",
-      "3.2.0": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json"
+      "3.2.0": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json",
+      "1.1.0": "https://json.schemastore.org/venvironment-basic-schema-v1.1.0.json",
+      "2.1.0": "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json",
+      "1.0.0": "https://json.schemastore.org/venvironment-basic-schema-v1.0.0.json",
+      "2.0.0": "https://json.schemastore.org/venvironment-basic-schema-v2.0.0.json",
+      "3.0.0": "https://json.schemastore.org/venvironment-basic-schema-v3.0.0.json"
     },
     "fileMatch": [
       "venvironment-basic.yaml",
