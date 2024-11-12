@@ -5091,7 +5091,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/problem_package_generators.json",
+    "url": "https://raw.githubusercontent.com/RagnarGrootKoerkamp/BAPCtools/refs/heads/master/support/schemas/generators_yaml_schema.json",
     "description": "Generators for programming tasks in the Kattis/CLICS problem package format",
     "name": "Problem package generators",
     "fileMatch": [
@@ -6753,10 +6753,19 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/CKAN.schema",
-    "description": "Metadata spec for KSP-CKAN",
+    "description": "Metadata spec for CKAN meta files",
     "name": "KSP-CKAN",
     "fileMatch": [
       "*.ckan"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/NetKAN.schema",
+    "description": "Metadata spec for NetKAN files",
+    "name": "KSP-NetKAN",
+    "fileMatch": [
+      "*.netkan",
+      "*.frozen"
     ]
   },
   {
