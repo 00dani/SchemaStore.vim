@@ -8890,6 +8890,15 @@ export const schemata =
     "fileMatch": [
       "moon.yml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/wiremock-stub-mapping.json",
+    "description": "WireMock stub mapping JSON. See https://wiremock.org/docs/stubbing/",
+    "name": "WireMock stub mapping",
+    "fileMatch": [
+      "wiremock-stub-mapping.yml",
+      "wiremock-stub-mapping.yaml"
+    ]
   }
 ]
 export const schemas = schemata
