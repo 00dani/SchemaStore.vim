@@ -1105,6 +1105,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/usecannon/cannon/main/packages/lsp/src/schema.json",
+    "description": "Deployment configuration for Cannon, a DevOps tool for Ethereum",
+    "name": "Cannon TOML",
+    "fileMatch": [
+      "cannonfile.json",
+      "*.cannonfile.json",
+      "cannonfile.yaml",
+      "*.cannonfile.yaml",
+      "cannonfile.toml",
+      "*.cannonfile.toml"
+    ]
+  },
+  {
     "url": "https://carafe.fm/schema/draft-02/bundle.schema.json",
     "description": "Carafe compatible JavaScript Bundles",
     "name": "Carafe",
@@ -6658,9 +6671,16 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/vtesttree-schema.json",
+    "url": "https://json.schemastore.org/vtesttree-schema-v2.3.0.json",
     "description": "Vector test execution tree description",
     "name": "vtesttree.yaml",
+    "versions": {
+      "2.2.0": "https://json.schemastore.org/vtesttree-schema-v2.2.0.json",
+      "2.1.0": "https://json.schemastore.org/vtesttree-schema-v2.1.0.json",
+      "2.3.0": "https://json.schemastore.org/vtesttree-schema-v2.3.0.json",
+      "1.0.0": "https://json.schemastore.org/vtesttree-schema-v1.0.0.json",
+      "2.0.0": "https://json.schemastore.org/vtesttree-schema-v2.0.0.json"
+    },
     "fileMatch": [
       "*.vtesttree.yaml",
       "*.vtesttree.yml",
