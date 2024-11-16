@@ -8596,7 +8596,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/loft-sh/vcluster/main/chart/values.schema.json",
+    "url": "https://raw.githubusercontent.com/loft-sh/vcluster-config/main/vcluster.schema.json",
     "description": "vCluster configuration",
     "name": "vcluster",
     "fileMatch": [
