@@ -2578,6 +2578,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/easyvcr-net.json",
+    "description": "EasyVCR .NET recording file",
+    "name": "EasyVCR .NET",
+    "fileMatch": [
+      "*.easyvcr",
+      "**/cassettes/*.json"
+    ]
+  },
+  {
     "url": "https://gitlab.com/sbenv/veroxis/ezd-rs/-/raw/HEAD/ezd.schema.json",
     "description": "ezd task runner. Documentation: https://gitlab.com/sbenv/veroxis/ezd-rs",
     "name": "ezd task runner",
