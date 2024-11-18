@@ -3444,7 +3444,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/ioBroker/adapter-react-v5/main/schemas/jsonConfig.json",
+    "url": "https://raw.githubusercontent.com/ioBroker/ioBroker.admin/master/packages/jsonConfig/schemas/jsonConfig.json",
     "description": "ioBroker JSON-based admin user interfaces - config, custom and tabs",
     "name": "ioBroker JSON UI",
     "fileMatch": [
