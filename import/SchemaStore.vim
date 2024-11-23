@@ -589,6 +589,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-config.schema.json",
+    "description": "Configuration file for CloudCannon, the Git-based CMS that brings visual editing to your modern tech stack, freeing developers from content tasks while empowering editors to make changes",
+    "name": "CloudCannon Configuration",
+    "fileMatch": [
+      "cloudcannon.config.yml",
+      "cloudcannon.config.yaml",
+      "cloudcannon.config.json",
+      "*.cloudcannon.config.yml",
+      "*.cloudcannon.config.yaml",
+      "*.cloudcannon.config.json"
+    ]
+  },
+  {
     "url": "https://github.com/cmhughes/latexindent.pl/raw/main/documentation/latexindent-yaml-schema.json",
     "description": "Configuration file for latexindent",
     "name": "latexindent configuration",
@@ -5000,6 +5013,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/nwithan8/plex-prerolls/main/.schema/config.schema.json",
+    "description": "Plex Prerolls configuration",
+    "name": "Plex Prerolls",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/Songmu/podbard/main/schema.yaml",
     "description": "Configuration file for Podbard - a podcast site generator",
     "name": "podbard.yaml",
@@ -6927,14 +6946,6 @@ export const schemata =
       "mise.*.toml",
       "**/.mise/config.toml",
       "**/mise/config.toml"
-    ]
-  },
-  {
-    "url": "https://mise.jdx.dev/schema/settings.json",
-    "description": "mise settings, a polyglot dev tool manager",
-    "name": "mise-settings",
-    "fileMatch": [
-      "**/mise/settings.toml"
     ]
   },
   {
