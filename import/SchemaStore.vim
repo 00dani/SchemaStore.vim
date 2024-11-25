@@ -8941,6 +8941,16 @@ export const schemata =
       "wiremock-stub-mapping.yml",
       "wiremock-stub-mapping.yaml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bitmovin/bitmovin-api-sdk-examples/main/bitmovin-encoding-template.json",
+    "description": "An encoding workflow from a single configuration template",
+    "name": "Bitmovin Encoding Template",
+    "fileMatch": [
+      "*.bitmovin.json",
+      "*.bitmovin.yml",
+      "*.bitmovin.yaml"
+    ]
   }
 ]
 export const schemas = schemata
