@@ -6274,7 +6274,7 @@ export const schemata =
     "name": "Traefik v2 File Provider"
   },
   {
-    "url": "https://raw.githubusercontent.com/transcend-io/cli/main/transcend-yml-schema-v4.json",
+    "url": "https://raw.githubusercontent.com/transcend-io/cli/main/transcend-yml-schema-latest.json",
     "description": "Define personal data in code using Transcend",
     "name": "transcend.yml",
     "fileMatch": [
