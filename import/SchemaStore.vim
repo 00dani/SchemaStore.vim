@@ -114,13 +114,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/aiproj-1.3.json",
+    "url": "https://json.schemastore.org/aiproj-1.4.json",
     "description": "Settings for project analysis by the Application Inspector",
     "name": ".aiproj.json",
     "versions": {
       "1.1": "https://json.schemastore.org/aiproj-1.1.json",
       "1.2": "https://json.schemastore.org/aiproj-1.2.json",
       "1.3": "https://json.schemastore.org/aiproj-1.3.json",
+      "1.4": "https://json.schemastore.org/aiproj-1.4.json",
       "1.0": "https://json.schemastore.org/aiproj-1.0.json"
     },
     "fileMatch": [
@@ -4006,6 +4007,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/luaurc.json",
+    "description": "Luau language configuration file",
+    "name": ".luaurc",
+    "fileMatch": [
+      ".luaurc"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/mapehr.json",
     "description": "Mapping for MapEHR.com",
     "name": "MapEHR Mapping",
@@ -4486,6 +4495,12 @@ export const schemata =
     "versions": {
       "3.3.0": "https://json.schemastore.org/nuget-project-3.3.0.json"
     }
+  },
+  {
+    "url": "https://json.schemastore.org/nuejs-site.json",
+    "description": "NueJS site configuration file",
+    "name": "NueJS configuration file",
+    "fileMatch": []
   },
   {
     "url": "https://json.schemastore.org/nswag.json",
