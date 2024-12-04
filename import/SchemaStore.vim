@@ -1047,6 +1047,7 @@ export const schemata =
     "versions": {
       "2.x": "https://json.schemastore.org/bxci.schema-2.x.json",
       "2.0.0": "https://json.schemastore.org/bxci.schema-2.0.0.json",
+      "3.x": "https://json.schemastore.org/bxci.schema-2.x.json",
       "1.0.1": "https://json.schemastore.org/bxci.schema-1.0.1.json",
       "1.0": "https://json.schemastore.org/bxci.schema-1.0.json"
     },
