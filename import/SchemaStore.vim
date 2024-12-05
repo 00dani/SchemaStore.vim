@@ -1041,7 +1041,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/bxci.schema-2.x.json",
+    "url": "https://json.schemastore.org/bxci.schema-3.x.json",
     "description": "CI configuration for Amdocs Bill Experience projects",
     "name": "BX CI",
     "versions": {
