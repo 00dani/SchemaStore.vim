@@ -8967,6 +8967,14 @@ export const schemata =
       "*.bitmovin.yml",
       "*.bitmovin.yaml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/pnpm-workspace.json",
+    "description": "Workspace file for pnpm",
+    "name": "pnpm Workspace (pnpm-workspace.yaml)",
+    "fileMatch": [
+      "pnpm-workspace.yaml"
+    ]
   }
 ]
 export const schemas = schemata
