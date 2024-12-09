@@ -7061,6 +7061,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://nitro.margelo.com/nitro.schema.json",
+    "description": "Nitro Modules configuration file. Documentation: https://margelo.nitro.com",
+    "name": "nitro.json",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/Neotys-Labs/neoload-cli/master/resources/as-code.latest.schema.json",
     "description": "Neotys as-code load test specification. Documentation: https://github.com/Neotys-Labs/neoload-cli",
     "name": "neoload",
