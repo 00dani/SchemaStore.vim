@@ -508,6 +508,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/biomejs/biome/refs/heads/main/packages/%40biomejs/biome/configuration_schema.json",
+    "description": "Configuration file for the Biome formatter",
+    "name": "Biome Formatter Config",
+    "fileMatch": [
+      "biome.json",
+      "biome.jsonc"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.10/bottom.json",
     "description": "Configuration file for bottom",
     "name": "bottom configuration",
@@ -3767,10 +3776,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/kestra-0.18.3.json",
+    "url": "https://json.schemastore.org/kestra-0.19.0.json",
     "description": "Kestra Flow definition file, see: kestra.io/docs/workflow-components/flow#flow-sample",
     "name": "Kestra flow file",
     "versions": {
+      "0.19.0": "https://json.schemastore.org/kestra-0.19.0.json",
       "0.18.0": "https://json.schemastore.org/kestra-0.18.0.json",
       "0.18.1": "https://json.schemastore.org/kestra-0.18.1.json",
       "0.18.2": "https://json.schemastore.org/kestra-0.18.2.json",
@@ -4569,6 +4579,16 @@ export const schemata =
     "fileMatch": [
       "fields.yaml",
       "*_fields.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/okteto/okteto/refs/heads/master/schema.json",
+    "description": "The Okteto Manifest",
+    "name": "Okteto",
+    "fileMatch": [
+      "okteto.yml",
+      "okteto.yaml",
+      "okteto.json"
     ]
   },
   {
@@ -8980,6 +9000,22 @@ export const schemata =
     "name": "pnpm Workspace (pnpm-workspace.yaml)",
     "fileMatch": [
       "pnpm-workspace.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/template-schema.json",
+    "description": "Chamaleon template",
+    "name": "Chamaleon template",
+    "fileMatch": [
+      "**/environments/cha-template.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/environment-schema.json",
+    "description": "Chamaleon environment",
+    "name": "Chamaleon environment",
+    "fileMatch": [
+      "**/environments/*-cha.json"
     ]
   }
 ]
