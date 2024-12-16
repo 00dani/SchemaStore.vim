@@ -508,7 +508,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/biomejs/biome/refs/heads/main/packages/%40biomejs/biome/configuration_schema.json",
+    "url": "https://biomejs.dev/schemas/latest/schema.json",
     "description": "Configuration file for the Biome formatter",
     "name": "Biome Formatter Config",
     "fileMatch": [
@@ -5806,22 +5806,31 @@ export const schemata =
       "v1.73.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.73.0/rule_schema_v1.yaml",
       "v1.87.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.87.0/rule_schema_v1.yaml",
       "v1.82.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.82.0/rule_schema_v1.yaml",
+      "v1.96.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.96.0/rule_schema_v1.yaml",
       "v1.91.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.91.0/rule_schema_v1.yaml",
       "v1.76.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.76.0/rule_schema_v1.yaml",
       "v1.85.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.85.0/rule_schema_v1.yaml",
+      "v1.99.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.99.0/rule_schema_v1.yaml",
       "v1.80.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.80.0/rule_schema_v1.yaml",
+      "v1.94.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.94.0/rule_schema_v1.yaml",
       "v1.79.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.79.0/rule_schema_v1.yaml",
       "v1.74.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.74.0/rule_schema_v1.yaml",
       "v1.88.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.88.0/rule_schema_v1.yaml",
       "v1.83.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.83.0/rule_schema_v1.yaml",
+      "v1.97.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.97.0/rule_schema_v1.yaml",
+      "v1.92.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.92.0/rule_schema_v1.yaml",
       "v1.77.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.77.0/rule_schema_v1.yaml",
       "v1.72.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.72.0/rule_schema_v1.yaml",
       "v1.86.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.86.0/rule_schema_v1.yaml",
       "v1.81.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.81.0/rule_schema_v1.yaml",
+      "v1.95.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.95.0/rule_schema_v1.yaml",
       "v1.90.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.90.0/rule_schema_v1.yaml",
       "v1.75.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.75.0/rule_schema_v1.yaml",
       "v1.89.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.89.0/rule_schema_v1.yaml",
-      "v1.84.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.84.0/rule_schema_v1.yaml"
+      "v1.100.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.100.0/rule_schema_v1.yaml",
+      "v1.84.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.84.0/rule_schema_v1.yaml",
+      "v1.98.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.98.0/rule_schema_v1.yaml",
+      "v1.93.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.93.0/rule_schema_v1.yaml"
     },
     "fileMatch": [
       "**/.semgrep/**.yaml",
@@ -7327,13 +7336,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json",
+    "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-11.json",
     "description": "Gradle Enterprise configuration",
     "name": "Gradle Enterprise",
     "versions": {
       "3.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-3.json",
       "5.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-5.json",
       "7.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-7.json",
+      "11.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-11.json",
       "9.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-9.json",
       "2.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-2.json",
       "10.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-10.json",
