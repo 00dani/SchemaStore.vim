@@ -2248,6 +2248,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/dofigen.json",
+    "description": "Dofigen configuration file. Documentation: https://github.com/lenra-io/dofigen",
+    "name": "Dofigen",
+    "fileMatch": [
+      "dofigen.yaml",
+      "dofigen.json",
+      "dofigen.yml",
+      "*.dofigen.yaml",
+      "*.dofigen.json",
+      "*.dofigen.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/v5.0.0/Schemas/Artifacts.Configuration/artifacts.json",
     "description": "A Dolittle bounded context's artifacts",
     "name": "Dolittle Artifacts",
