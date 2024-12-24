@@ -5597,6 +5597,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/rstudio/renv/refs/heads/main/inst/schema/draft-07.renv.lock.schema.json",
+    "description": "Lockfile for recording R project dependencies with renv package",
+    "name": "renv.lock",
+    "fileMatch": [
+      "renv.lock"
+    ]
+  },
+  {
     "url": "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/3.0.schema.json",
     "description": "Spiral Roadrunner config file",
     "name": "RoadRunner",
