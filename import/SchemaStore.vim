@@ -268,6 +268,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Scandltd/storm-petrel/main/generator/assets/appsettings.StormPetrel.Schema.json",
+    "description": "Scand.StormPetrel.Generator NuGet package appsettings.StormPetrel.json file",
+    "name": "appsettings.StormPetrel.json",
+    "fileMatch": [
+      "appsettings.StormPetrel.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/architect-team/architect-cli/main/src/dependency-manager/schema/architect.schema.json",
     "description": "Architect.io Component",
     "name": "architect.yml",
