@@ -2193,10 +2193,7 @@ export const schemata =
     "url": "https://raw.githubusercontent.com/deployphp/deployer/master/src/schema.json",
     "description": "A Deployer yaml recipes",
     "name": "Deployer Recipe",
-    "fileMatch": [
-      "deploy.yaml",
-      "deploy.yml"
-    ]
+    "fileMatch": []
   },
   {
     "url": "https://json.schemastore.org/detekt-1.22.0.json",
