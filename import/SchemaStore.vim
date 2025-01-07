@@ -1298,6 +1298,24 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.6.schema.json",
+    "description": "CycloneDX Bill of Materials (BOM) file",
+    "name": "CycloneDX",
+    "versions": {
+      "1.3-strict": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.3-strict.schema.json",
+      "1.2": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.2.schema.json",
+      "1.3": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.3.schema.json",
+      "1.2-strict": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.2-strict.schema.json",
+      "1.5": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.5.schema.json",
+      "1.6": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.6.schema.json",
+      "1.4": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.4.schema.json"
+    },
+    "fileMatch": [
+      "bom.json",
+      "*.cdx.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/connections.schema.json",
     "description": "Collection of defined source and target connections used within DataYoga jobs",
     "name": "DataYoga Connections",
@@ -1367,6 +1385,15 @@ export const schemata =
     "name": "Dependency cruiser",
     "fileMatch": [
       "dependency-cruiser.config.json"
+    ]
+  },
+  {
+    "url": "https://cdnx.deploystack.io/schema/config.yml.json",
+    "description": "Configuration for DeployStack applications, supporting app customization and deployment settings",
+    "name": "DeployStack Configuration",
+    "fileMatch": [
+      "**/.deploystack/config.yml",
+      "**/.deploystack/config.yaml"
     ]
   },
   {
@@ -2498,18 +2525,6 @@ export const schemata =
     "name": "epr-manifest.json",
     "fileMatch": [
       "epr-manifest.json"
-    ]
-  },
-  {
-    "url": "https://cdn.jsdelivr.net/gh/tarampampam/error-pages@latest/schemas/config/1.0.schema.json",
-    "description": "Error-Pages configuration file",
-    "name": "Error pages",
-    "versions": {
-      "1.0": "https://cdn.jsdelivr.net/gh/tarampampam/error-pages@latest/schemas/config/1.0.schema.json"
-    },
-    "fileMatch": [
-      "error-pages*.yml",
-      "error-pages*.yaml"
     ]
   },
   {
@@ -3832,6 +3847,18 @@ export const schemata =
     "fileMatch": [
       "**/flows/*.yml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kometa-team/kometa/master/json-schema/config-schema.json",
+    "description": "Kometa (formerly Plex Meta Manager or PMM) configuration file for stable versions",
+    "name": "Kometa config file",
+    "fileMatch": []
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kometa-team/kometa/nightly/json-schema/config-schema.json",
+    "description": "Kometa (formerly Plex Meta Manager or PMM) configuration file for nightly versions",
+    "name": "Kometa (nightly) config file",
+    "fileMatch": []
   },
   {
     "url": "https://www.krakend.io/schema/krakend.json",
@@ -9098,6 +9125,15 @@ export const schemata =
     "name": "ctfd-setup configuration file",
     "fileMatch": [
       ".ctfd.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Jodexx/DCBetterCasinoMenuSchema/refs/heads/main/schema.json",
+    "description": "Configuration file for dcbc addon menus",
+    "name": "DonateCaseBetterCasino menu",
+    "fileMatch": [
+      "*dcbc.yml",
+      "*dcbc.yaml"
     ]
   }
 ]
