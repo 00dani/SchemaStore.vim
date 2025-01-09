@@ -9128,6 +9128,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/amx-muse.json",
+    "description": "A MUSE program descriptor file",
+    "name": "AMX Muse Program Descriptor",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/Jodexx/DCBetterCasinoMenuSchema/refs/heads/main/schema.json",
     "description": "Configuration file for dcbc addon menus",
     "name": "DonateCaseBetterCasino menu",
