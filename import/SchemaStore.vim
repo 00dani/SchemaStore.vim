@@ -3956,7 +3956,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/lefthook.json",
+    "url": "https://raw.githubusercontent.com/evilmartians/lefthook/master/schema.json",
     "description": "Fast and powerful Git hooks manager",
     "name": "Lefthook",
     "fileMatch": [
@@ -4148,6 +4148,15 @@ export const schemata =
     "name": "Metadata for a Bazel module",
     "fileMatch": [
       "**/modules/*/metadata.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/metatypedev/metatype/main/tools/schema/metatype.json",
+    "description": "Metatype configuration file",
+    "name": "Metatype Configuration",
+    "fileMatch": [
+      "metatype.yml",
+      "metatype.yaml"
     ]
   },
   {
@@ -8130,7 +8139,7 @@ export const schemata =
   {
     "url": "https://json.schemastore.org/kode-ci-build-1.0.0.json",
     "description": "yaml kode/ci build",
-    "name": "KoDE/CI build.yaml",
+    "name": "KODE/CI build.yaml",
     "fileMatch": [
       "**/.kode/*.yaml"
     ]
