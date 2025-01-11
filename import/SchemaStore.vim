@@ -6252,6 +6252,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/synadia-io/connect/main/schemas/component.json",
+    "description": "Synadia Connect component definition",
+    "name": "Synadia Connect Component",
+    "fileMatch": [
+      "**/.connect/scanners/*.yml",
+      "**/.connect/sources/*.yml",
+      "**/.connect/sinks/*.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/task.json",
     "description": "VSCode Task file",
     "name": "task.json",
@@ -8728,12 +8738,6 @@ export const schemata =
     "fileMatch": [
       "*.ksy"
     ]
-  },
-  {
-    "url": "https://www.json-wf.org.uk/json-wf-schema-1.0.json",
-    "description": "A blogroll interchange format",
-    "name": "JSON-WF",
-    "fileMatch": []
   },
   {
     "url": "https://json.schemastore.org/cloudfoundry-application-manifest.json",
