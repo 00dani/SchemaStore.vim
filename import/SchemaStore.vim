@@ -5396,6 +5396,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/radiohound-v0.json",
+    "description": "RadioHound data format for spectrum monitoring",
+    "name": "RadioHound",
+    "versions": {
+      "v0": "https://json.schemastore.org/radiohound-v0.json"
+    },
+    "fileMatch": [
+      "*.rh.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/rancher-fleet-0.8.json",
     "description": "Rancher Fleet fleet.yaml configuration file",
     "name": "Rancher Fleet",
