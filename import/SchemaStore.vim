@@ -9165,6 +9165,15 @@ export const schemata =
       "*dcbc.yml",
       "*dcbc.yaml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/gematik-test-patients.json",
+    "description": "A list of health care patients in german telemedicine",
+    "name": "gematik health care patient list",
+    "fileMatch": [
+      "**/testdata/patient/patients.yml",
+      "**/testdata/patient/patients.yaml"
+    ]
   }
 ]
 export const schemas = schemata
