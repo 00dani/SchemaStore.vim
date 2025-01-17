@@ -9174,6 +9174,33 @@ export const schemata =
       "**/testdata/patient/patients.yml",
       "**/testdata/patient/patients.yaml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/gematik-test-hcps.json",
+    "description": "A list of health care providers in german telemedicine",
+    "name": "gematik health care provider list",
+    "fileMatch": [
+      "**/testdata/hcp/hcp.yml",
+      "**/testdata/hcp/hcp.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/gematik-test-hcpis.json",
+    "description": "A list of health care provider institutions in german telemedicine",
+    "name": "gematik health care provider institution list",
+    "fileMatch": [
+      "**/testdata/institution/hcpi.yml",
+      "**/testdata/institution/hcpi.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/gematik-test-hcpis.json",
+    "description": "A list of health care insurances in german telemedicine",
+    "name": "gematik health care insurance list",
+    "fileMatch": [
+      "**/testdata/insurance/insurance.yml",
+      "**/testdata/insurance/insurance.yaml"
+    ]
   }
 ]
 export const schemas = schemata
