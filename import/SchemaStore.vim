@@ -5407,6 +5407,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://pyglotaran-extras.readthedocs.io/en/latest/_static/pygta_config.schema.json",
+    "description": "Configuration file used by pyglotaran and pyglotaran-extras",
+    "name": "PyGTA Config",
+    "fileMatch": [
+      "pygta_config.yaml",
+      "pygta_config.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/rancher-fleet-0.8.json",
     "description": "Rancher Fleet fleet.yaml configuration file",
     "name": "Rancher Fleet",
