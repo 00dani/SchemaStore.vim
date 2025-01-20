@@ -1014,6 +1014,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/bun.lock.json",
+    "description": "bun.lock file",
+    "name": "bun.lock",
+    "fileMatch": [
+      "bun.lock"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/bundleconfig.json",
     "description": "bundleconfig.json files",
     "name": "bundleconfig.json",
@@ -9141,7 +9149,7 @@ export const schemata =
     "description": "Chamaleon template",
     "name": "Chamaleon template",
     "fileMatch": [
-      "**/environments/cha-template.json"
+      "template.chamaleon.json"
     ]
   },
   {
@@ -9149,7 +9157,15 @@ export const schemata =
     "description": "Chamaleon environment",
     "name": "Chamaleon environment",
     "fileMatch": [
-      "**/environments/*-cha.json"
+      "*.environment.chamaleon.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/properties-schema.json",
+    "description": "Chamaleon properties",
+    "name": "Chamaleon properties",
+    "fileMatch": [
+      "properties.chamaleon.json"
     ]
   },
   {
