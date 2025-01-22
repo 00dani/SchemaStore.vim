@@ -4367,6 +4367,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/cppalliance/mrdocs/refs/heads/master/docs/mrdocs.schema.json",
+    "description": "MrDocs configuration file",
+    "name": "mrdocs.yml",
+    "fileMatch": [
+      "mrdocs.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/microsoft/MLOS/main/mlos_bench/mlos_bench/config/schemas/mlos-bench-config-schema.json",
     "description": "Config files for the mlos_bench utility in MLOS",
     "name": "MLOS Configs",
@@ -6444,6 +6452,16 @@ export const schemata =
     "name": "Traefik v2 File Provider"
   },
   {
+    "url": "https://json.schemastore.org/traefik-v3.json",
+    "description": "Traefik v3 YAML configuration file",
+    "name": "Traefik v3"
+  },
+  {
+    "url": "https://json.schemastore.org/traefik-v3-file-provider.json",
+    "description": "Traefik v3 Dynamic Configuration File Provider",
+    "name": "Traefik v3 File Provider"
+  },
+  {
     "url": "https://raw.githubusercontent.com/transcend-io/cli/main/transcend-yml-schema-latest.json",
     "description": "Define personal data in code using Transcend",
     "name": "transcend.yml",
@@ -7523,7 +7541,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/swcrc.json",
+    "url": "https://swc.rs/schema.json",
     "description": "swc configuration files",
     "name": "swcrc",
     "fileMatch": [
