@@ -1014,7 +1014,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/bun.lock.json",
+    "url": "https://json.schemastore.org/bun-lock.json",
     "description": "bun.lock file",
     "name": "bun.lock",
     "fileMatch": [
@@ -2727,6 +2727,15 @@ export const schemata =
       "*_FiQuS.json5",
       "*_FiQuS.yaml",
       "*_FiQuS.yml"
+    ]
+  },
+  {
+    "url": "https://github.com/Flexget/Flexget/releases/latest/download/flexget-config.schema.json",
+    "description": "FlexGet config file",
+    "name": "FlexGet Config",
+    "fileMatch": [
+      "**/.flexget/config.yml",
+      "**/flexget/config.yml"
     ]
   },
   {
@@ -7881,7 +7890,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/extension/shopware-extension-schema.json",
+    "url": "https://raw.githubusercontent.com/shopware/shopware-cli/main/extension/shopware-extension-schema.json",
     "description": "Shopware CLI Extension Store Configuration",
     "name": "Shopware CLI Extension Store Configuration",
     "fileMatch": [
@@ -7890,7 +7899,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/shop/shopware-project-schema.json",
+    "url": "https://raw.githubusercontent.com/shopware/shopware-cli/main/shop/shopware-project-schema.json",
     "description": "Shopware CLI Project Store Configuration",
     "name": "Shopware CLI Project Store Configuration",
     "fileMatch": [
@@ -8691,11 +8700,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.cardgamesimulator.com/schema/CardGameDef.json",
-    "description": "Card Game Simulator (CGS) custom card game specification",
-    "name": "CGS Custom Card Game (CardGameDef.json)",
+    "url": "https://www.cardgamesimulator.com/schema/cgs.json",
+    "description": "Card Game Simulator (CGS) Card Game Specification",
+    "name": "CGS Card Game Specification (cgs.json)",
     "fileMatch": [
-      "CardGameDef.json"
+      "cgs.json"
     ]
   },
   {
@@ -9243,6 +9252,15 @@ export const schemata =
     "fileMatch": [
       "**/testdata/insurance/insurance.yml",
       "**/testdata/insurance/insurance.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/gematik-tiger.json",
+    "description": "A configuration file for the test environment of the gematik Tiger test platform",
+    "name": "gematik tiger test environment configuration",
+    "fileMatch": [
+      "**/tiger.yml",
+      "**/tiger.yaml"
     ]
   }
 ]
