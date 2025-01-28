@@ -9262,6 +9262,14 @@ export const schemata =
       "**/tiger.yml",
       "**/tiger.yaml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TugboatQA/docs/refs/heads/main/static/config-schema.json",
+    "description": "Configuration file for Tugboat QA",
+    "name": "Tugboat QA config.yml",
+    "fileMatch": [
+      "**/.tugboat/config.yml"
+    ]
   }
 ]
 export const schemas = schemata
