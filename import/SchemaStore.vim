@@ -5336,6 +5336,14 @@ export const schemata =
     "name": "project-1.0.0-rc2.json"
   },
   {
+    "url": "https://raw.githubusercontent.com/OWASP/Nest/main/schema/project.json",
+    "description": "OWASP project",
+    "name": "project.owasp.yaml",
+    "fileMatch": [
+      "project.owasp.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/prometheus.json",
     "description": "Prometheus configuration file",
     "name": "prometheus.json",
@@ -6138,6 +6146,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/speakeasy-api/sdk-gen-config/main/schemas/gen.config.schema.json",
+    "description": "Speakeasy generation configuration file. Read more at https://www.speakeasy.com/docs/speakeasy-reference/generation/gen-yaml",
+    "name": "Speakeasy Generation Config File",
+    "fileMatch": [
+      "**/.speakeasy/gen.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/specif-1.1.json",
     "description": "The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. Documentation: https://specif.de and https://github.com/GfSE",
     "name": "SpecIF",
@@ -6735,7 +6751,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://github.com/go-vela/types/releases/latest/download/schema.json",
+    "url": "https://github.com/go-vela/server/releases/latest/download/schema.json",
     "description": "Vela Pipeline Configuration File",
     "name": "Vela Pipeline Configuration",
     "fileMatch": [
