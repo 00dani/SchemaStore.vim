@@ -9286,6 +9286,15 @@ export const schemata =
     "fileMatch": [
       "**/.tugboat/config.yml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SlavaVedernikov/C4InterFlow/refs/heads/master/C4InterFlow/schema.json",
+    "description": "C4InterFlow Architecture as Code file",
+    "name": "C4InterFlow",
+    "fileMatch": [
+      "**/*.c4interflow.yaml",
+      "**/*.c4interflow.json"
+    ]
   }
 ]
 export const schemas = schemata
