@@ -9295,6 +9295,15 @@ export const schemata =
       "**/*.c4interflow.yaml",
       "**/*.c4interflow.json"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Ackee-Blockchain/wake/refs/heads/main/docs/wake-schema.json",
+    "description": "Wake - development, testing, and static analysis framework for Solidity",
+    "name": "Wake",
+    "fileMatch": [
+      "**/*wake.toml",
+      "**/*.wake.toml"
+    ]
   }
 ]
 export const schemas = schemata
