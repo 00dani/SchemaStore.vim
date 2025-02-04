@@ -5518,6 +5518,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://railway.com/railway.schema.json",
+    "description": "Use Railway config as code to define settings for building and deploying your services",
+    "name": "Railway",
+    "fileMatch": [
+      "railway.toml",
+      "railway.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/prefix-dev/recipe-format/main/schema.json",
     "description": "Rattler-build recipe",
     "name": "Rattler-build",
