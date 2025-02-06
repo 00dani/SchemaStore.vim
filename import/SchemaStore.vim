@@ -2823,7 +2823,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://github.com/devantler/ksail/blob/main/schemas/ksail-cluster-schema.json",
+    "url": "https://raw.githubusercontent.com/devantler/ksail/refs/heads/main/schemas/ksail-cluster-schema.json",
     "description": "Configuration for KSail",
     "name": "KSail",
     "fileMatch": [
