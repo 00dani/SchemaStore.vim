@@ -9313,6 +9313,15 @@ export const schemata =
       "**/*wake.toml",
       "**/*.wake.toml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Ackee-Blockchain/trident/refs/heads/master/trident-spec.json",
+    "description": "Trident - Rust-based fuzzing framework for Solana programs to help ship secure code",
+    "name": "Trident",
+    "fileMatch": [
+      "**/*Trident.toml",
+      "**/*.Trident.toml"
+    ]
   }
 ]
 export const schemas = schemata
