@@ -6192,6 +6192,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/spdx/spdx-spec/refs/tags/v2.3/schemas/spdx-schema.json",
+    "description": "System Package Data Exchange (SPDX) definition",
+    "name": "SPDX 2.3",
+    "fileMatch": [
+      "*.spdx.json",
+      "*.spdx.yaml",
+      "*.spdx.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/sqlc-2.0.json",
     "description": "Configuration file for sqlc v2",
     "name": "sqlc configuration",
