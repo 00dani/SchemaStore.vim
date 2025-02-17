@@ -114,6 +114,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://github.com/posit-dev/air/releases/latest/download/air.schema.json",
+    "description": "R formatter and language server",
+    "name": "Air",
+    "fileMatch": [
+      "air.toml",
+      ".air.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/aiproj-1.4.json",
     "description": "Settings for project analysis by the Application Inspector",
     "name": ".aiproj.json",
@@ -3032,6 +3041,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://app.gitpod.io/jsonschema/v1/automations_file.jsonschema.json",
+    "description": "Configuration for Gitpod Automations",
+    "name": "Gitpod Automations",
+    "fileMatch": [
+      "**/.gitpod/automations.json",
+      "**/.gitpod/automations.yaml",
+      "**/.gitpod/automations.yml",
+      "**/.gitpod/automation.yaml"
+    ]
+  },
+  {
     "url": "https://gitpod.io/schemas/gitpod-schema.json",
     "description": "configuring Gitpod.io",
     "name": "Gitpod Configuration",
@@ -5862,6 +5882,14 @@ export const schemata =
     "name": "sarif-external-property-file-2.1.0"
   },
   {
+    "url": "https://raw.githubusercontent.com/Scalingo/developers-documentation/refs/heads/master/scalingo.schema.json",
+    "description": "scalingo.json configuration files",
+    "name": "scalingo.json configuration",
+    "fileMatch": [
+      "scalingo.json"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/schema-catalog.json",
     "description": "JSON Schema catalog files compatible with SchemaStore.org",
     "name": "Schema Catalog"
@@ -6448,6 +6476,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/tombi.json",
+    "description": "Tombi (鳶) is a toolkit for TOML; providing a formatter/linter and language server",
+    "name": "Tombi",
+    "fileMatch": [
+      "tombi.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/tmlanguage.json",
     "description": "Language grammar description files for TextMate and compatible editors",
     "name": "TextMate Grammar",
@@ -6749,6 +6785,16 @@ export const schemata =
     "name": "uv",
     "fileMatch": [
       "uv.toml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/vector.json",
+    "description": "Configuration file for Vector, an observability data pipeline agent and aggregator",
+    "name": "Vector",
+    "fileMatch": [
+      "vector.json",
+      "vector.toml",
+      "vector.yaml"
     ]
   },
   {
@@ -7801,6 +7847,14 @@ export const schemata =
     "name": "markdown-link-check",
     "fileMatch": [
       ".markdown-link-check.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/maturin.json",
+    "description": "Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages",
+    "name": "maturin",
+    "fileMatch": [
+      "maturin.toml"
     ]
   },
   {
@@ -9104,6 +9158,15 @@ export const schemata =
     "name": "Preset list for a WinUtil",
     "fileMatch": [
       "**/*winutil*/config/preset.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/typesafegithub/github-actions-typing/refs/heads/schema-latest/github-actions-typing.schema.json",
+    "description": "Describe types of inputs and outputs for GitHub Actions' actions",
+    "name": "GitHub Actions typing",
+    "fileMatch": [
+      "action-types.yml",
+      "action-types.yaml"
     ]
   },
   {
