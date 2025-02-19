@@ -123,7 +123,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/aiproj-1.4.json",
+    "url": "https://json.schemastore.org/aiproj-1.5.json",
     "description": "Settings for project analysis by the Application Inspector",
     "name": ".aiproj.json",
     "versions": {
@@ -131,6 +131,7 @@ export const schemata =
       "1.2": "https://json.schemastore.org/aiproj-1.2.json",
       "1.3": "https://json.schemastore.org/aiproj-1.3.json",
       "1.4": "https://json.schemastore.org/aiproj-1.4.json",
+      "1.5": "https://json.schemastore.org/aiproj-1.5.json",
       "1.0": "https://json.schemastore.org/aiproj-1.0.json"
     },
     "fileMatch": [
@@ -8423,7 +8424,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/pantsbuild-2.21.0.json",
+    "url": "https://json.schemastore.org/pantsbuild-2.24.0.json",
     "description": "Pantsbuild configuration file",
     "name": "Pantsbuild",
     "versions": {
@@ -8431,6 +8432,7 @@ export const schemata =
       "2.18.0": "https://json.schemastore.org/pantsbuild-2.18.0.json",
       "2.21.0": "https://json.schemastore.org/pantsbuild-2.21.0.json",
       "2.15.0": "https://json.schemastore.org/pantsbuild-2.15.0.json",
+      "2.24.0": "https://json.schemastore.org/pantsbuild-2.24.0.json",
       "2.17.0": "https://json.schemastore.org/pantsbuild-2.17.0.json",
       "2.19.0": "https://json.schemastore.org/pantsbuild-2.19.0.json",
       "2.20.0": "https://json.schemastore.org/pantsbuild-2.20.0.json",
@@ -9398,6 +9400,15 @@ export const schemata =
     "fileMatch": [
       "**/*Trident.toml",
       "**/*.Trident.toml"
+    ]
+  },
+  {
+    "url": "https://docs.restate.dev/schemas/restate-server-configuration-schema.json",
+    "description": "Restate Server configuration file",
+    "name": "Restate",
+    "fileMatch": [
+      "**/restate.toml",
+      "**/restate-server.toml"
     ]
   }
 ]
