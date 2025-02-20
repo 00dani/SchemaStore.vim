@@ -7474,6 +7474,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/winutil-presets.json",
+    "description": "Configuration for files in \"ChrisTitusTech/winutil\"",
+    "name": "Winutil"
+  },
+  {
     "url": "https://json.schemastore.org/commitlintrc.json",
     "description": "commitlint configuration files",
     "name": "commitlint (.commitlintrc)",
@@ -9122,7 +9127,7 @@ export const schemata =
     "fileMatch": []
   },
   {
-    "url": "https://raw.githubusercontent.com/cinnamon-spice-settings.json",
+    "url": "https://json.schemastore.org/cinnamon-spice-settings.json",
     "description": "Settings for a Cinnamon spice",
     "name": "Settings for a Cinnamon spice",
     "fileMatch": [
@@ -9130,7 +9135,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/cinnamon-spice-metadata.json",
+    "url": "https://json.schemastore.org/cinnamon-spice-metadata.json",
     "description": "Metadata for a Cinnamon spice",
     "name": "Metadata for a Cinnamon spice",
     "fileMatch": [
