@@ -1201,6 +1201,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/canonical/charmcraft/main/schema/charmcraft.json",
+    "description": "Charmcraft project. Documentation: https://canonical-charmcraft.readthedocs-hosted.com",
+    "name": "Charmcraft",
+    "fileMatch": [
+      "charmcraft.yaml"
+    ]
+  },
+  {
     "url": "https://gitlab.com/chromaway/core-tools/chromia-cli-tools/-/raw/dev/chromia-build-tools/src/main/resources/chromia-model-schema.json",
     "description": "Chromia Model Config File",
     "name": "Chromia Model",
@@ -2813,7 +2821,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/karakum-team/karakum/master/schema/karakum-schema.json",
+    "url": "https://raw.githubusercontent.com/karakum-team/karakum/master/karakum-schema/karakum-schema.json",
     "description": "configuring Karakum, a converter of TypeScript declaration files to Kotlin declarations",
     "name": "Karakum configuration file",
     "fileMatch": [
@@ -6781,6 +6789,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/USF-org/USF/refs/heads/main/usf.schema.json",
+    "description": "Universal Schedule Format (USF) configuration file",
+    "name": "Universal Schedule Format",
+    "fileMatch": [
+      "usf.yml",
+      "usf.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/uv.json",
     "description": "uv, a fast Python package installer",
     "name": "uv",
@@ -9414,6 +9431,14 @@ export const schemata =
     "fileMatch": [
       "**/restate.toml",
       "**/restate-server.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/commercetools/telefonistka/refs/heads/main/schema/telefonistka.json",
+    "description": "Telefonistka - Safe and Controlled GitOps Promotion Across Environments/Failure-Domains",
+    "name": "Telefonistka",
+    "fileMatch": [
+      "**/telefonistka.yaml"
     ]
   }
 ]
