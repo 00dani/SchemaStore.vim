@@ -152,13 +152,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/abc-supply-plan-6.0.0.json",
+    "url": "https://json.schemastore.org/abc-supply-plan-7.0.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
       "4.0.0": "https://json.schemastore.org/abc-supply-plan-4.0.0.json",
       "5.0.0": "https://json.schemastore.org/abc-supply-plan-5.0.0.json",
       "6.0.0": "https://json.schemastore.org/abc-supply-plan-6.0.0.json",
+      "7.0.0": "https://json.schemastore.org/abc-supply-plan-7.0.0.json",
       "1.0.0": "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
       "2.0.0": "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
       "3.0.0": "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
