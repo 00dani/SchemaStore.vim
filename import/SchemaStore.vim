@@ -7692,6 +7692,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://taskfile.dev/schema-taskrc.json",
+    "description": "Taskfile configuration files",
+    "name": ".taskrc.yaml",
+    "fileMatch": [
+      ".taskrc.yaml",
+      ".taskrc.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/hammerkit.json",
     "description": "hammerkit files",
     "name": "Hammerkit",
