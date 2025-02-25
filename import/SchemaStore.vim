@@ -287,6 +287,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/google/app-resource-bundle/main/schema/arb.json",
+    "description": "Application Resource Bundle",
+    "name": "arb.json",
+    "fileMatch": [
+      "arb.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/architect-team/architect-cli/main/src/dependency-manager/schema/architect.schema.json",
     "description": "Architect.io Component",
     "name": "architect.yml",
