@@ -9458,6 +9458,14 @@ export const schemata =
     "fileMatch": [
       "**/telefonistka.yaml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ljonesfl/bump/refs/heads/master/version-schema.json",
+    "description": "Project version information",
+    "name": "version",
+    "fileMatch": [
+      ".version.json"
+    ]
   }
 ]
 export const schemas = schemata
