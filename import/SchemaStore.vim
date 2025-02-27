@@ -6388,6 +6388,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/gauge-sh/tach/refs/heads/main/public/tach-toml-schema.json",
+    "description": "Tach configuration file",
+    "name": "Tach",
+    "fileMatch": [
+      "tach.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/gauge-sh/tach/refs/heads/main/public/tach-domain-toml-schema.json",
+    "description": "Tach domain configuration file",
+    "name": "Tach Domain",
+    "fileMatch": [
+      "tach.domain.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/task.json",
     "description": "VSCode Task file",
     "name": "task.json",
@@ -9465,6 +9481,14 @@ export const schemata =
     "name": "version",
     "fileMatch": [
       ".version.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TykTechnologies/tyk-schemas/refs/heads/main/JSON/draft-07/schema_tyk.oss.conf",
+    "description": "Tyk Gateway Open Source Configuration File",
+    "name": "Tyk Gateway - Open Source v5.7+",
+    "fileMatch": [
+      "tyk.conf"
     ]
   }
 ]
