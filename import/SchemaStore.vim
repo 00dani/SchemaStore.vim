@@ -6819,8 +6819,16 @@ export const schemata =
     "description": "Universal Schedule Format (USF) configuration file",
     "name": "Universal Schedule Format",
     "fileMatch": [
+      "*.usf",
+      "*.usf.yml",
+      "*.usf.yaml",
+      "*.usf.json",
+      ".usf.yml",
+      ".usf.yaml",
+      ".usf.json",
       "usf.yml",
-      "usf.yaml"
+      "usf.yaml",
+      "usf.json"
     ]
   },
   {
