@@ -1298,6 +1298,14 @@ export const schemata =
     "name": "Commandbox Server.json"
   },
   {
+    "url": "https://cps-org.github.io/cps/cps.schema.json",
+    "description": "A cross-tool mechanism for locating software dependencies",
+    "name": "Common Package Specification",
+    "fileMatch": [
+      "*.cps"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/SFDO-Tooling/CumulusCI/main/cumulusci/schema/cumulusci.jsonschema.json",
     "description": "cumulusci.yml file for configuring CumulusCI, a Salesforce automation framework",
     "name": "CumulusCI Config",
@@ -9499,6 +9507,12 @@ export const schemata =
     "fileMatch": [
       "tyk.conf"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/pep-723.json",
+    "description": "Metadata of a Python script, as defined by PEP 723",
+    "name": "Python script metadata",
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
