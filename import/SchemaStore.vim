@@ -9501,6 +9501,59 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/latest/config.schema.json",
+    "description": "Viash component config file",
+    "name": "Viash Component Config",
+    "versions": {
+      "0.7.5": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.7.5/config.schema.json",
+      "0.8.0": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.0/config.schema.json",
+      "0.8.1": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.1/config.schema.json",
+      "0.8.2": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.2/config.schema.json",
+      "0.8.3": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.3/config.schema.json",
+      "0.8.4": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.4/config.schema.json",
+      "0.8.5": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.5/config.schema.json",
+      "0.8.6": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.6/config.schema.json",
+      "0.9.0": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.0/config.schema.json",
+      "0.9.1": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.1/config.schema.json",
+      "0.9.2": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.2/config.schema.json"
+    },
+    "fileMatch": [
+      "*.vsh.{yml,yaml}"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/latest/package.schema.json",
+    "description": "Viash package config file",
+    "name": "Viash Package Config",
+    "versions": {
+      "0.7.5": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.7.5/package.schema.json",
+      "0.8.0": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.0/package.schema.json",
+      "0.8.1": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.1/package.schema.json",
+      "0.8.2": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.2/package.schema.json",
+      "0.8.3": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.3/package.schema.json",
+      "0.8.4": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.4/package.schema.json",
+      "0.8.5": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.5/package.schema.json",
+      "0.8.6": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.6/package.schema.json",
+      "0.9.0": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.0/package.schema.json",
+      "0.9.1": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.1/package.schema.json",
+      "0.9.2": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.2/package.schema.json"
+    },
+    "fileMatch": [
+      "_viash.{yml,yaml}"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/MultiQC/MultiQC/refs/heads/main/multiqc/utils/config_schema.json",
+    "description": "MultiQC configuration file",
+    "name": "MultiQC",
+    "fileMatch": [
+      "multiqc_config.yaml",
+      "multiqc_config.yml",
+      ".multiqc_config.yaml",
+      ".multiqc_config.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/TykTechnologies/tyk-schemas/refs/heads/main/JSON/draft-07/schema_tyk.oss.conf",
     "description": "Tyk Gateway Open Source Configuration File",
     "name": "Tyk Gateway - Open Source v5.7+",
@@ -9513,6 +9566,17 @@ export const schemata =
     "description": "Metadata of a Python script, as defined by PEP 723",
     "name": "Python script metadata",
     "fileMatch": []
+  },
+  {
+    "url": "https://json.schemastore.org/vtcfg-v19.0.0.json",
+    "description": "Vector VT System Configuration",
+    "name": "vtcfg",
+    "versions": {
+      "19.0.0": "https://json.schemastore.org/vtcfg-v19.0.0.json"
+    },
+    "fileMatch": [
+      "*.vtcfg"
+    ]
   }
 ]
 export const schemas = schemata
