@@ -7544,7 +7544,9 @@ export const schemata =
     "name": "commitlint (.commitlintrc)",
     "fileMatch": [
       ".commitlintrc",
-      ".commitlintrc.json"
+      ".commitlintrc.json",
+      ".commitlintrc.yaml",
+      ".commitlintrc.yml"
     ]
   },
   {
