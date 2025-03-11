@@ -9580,6 +9580,14 @@ export const schemata =
     "fileMatch": [
       "*.vtcfg"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/sake.json",
+    "description": "Configuration for Sake, Swift-based utility for managing project commands",
+    "name": "sake",
+    "fileMatch": [
+      ".sake.yml"
+    ]
   }
 ]
 export const schemas = schemata
