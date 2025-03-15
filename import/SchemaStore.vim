@@ -2863,14 +2863,20 @@ export const schemata =
     "description": "Configuration for KSail",
     "name": "KSail",
     "fileMatch": [
-      "ksail-cluster.yaml",
-      "ksail-cluster.yml",
-      "ksail-config.yaml",
-      "ksail-config.yml",
-      "ksail.yaml",
-      "ksail.yml",
+      "ksail-*.yaml",
+      "ksail-*.yml",
+      "ksail_*.yaml",
+      "ksail_*.yml",
+      "ksail.*.yaml",
+      "ksail.*.yml",
+      "*-ksail.yaml",
+      "*-ksail.yml",
+      "*_ksail.yaml",
+      "*_ksail.yml",
       "*.ksail.yaml",
-      "*.ksail.yml"
+      "*.ksail.yml",
+      "ksail.yaml",
+      "ksail.yml"
     ]
   },
   {
@@ -5553,6 +5559,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/partial-pytest.json",
+    "description": "pytest configuration",
+    "name": "pytest"
+  },
+  {
     "url": "https://www.qgoda.net/schemas/qgoda.json",
     "description": "Qgoda static site generator configuration file format",
     "name": "Qgoda",
@@ -6151,6 +6162,24 @@ export const schemata =
     "fileMatch": [
       ".snapcraft.yaml",
       "snapcraft.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/snowflake-config.json",
+    "description": "Configuration file for Snowflake",
+    "name": "snowflake-config",
+    "fileMatch": [
+      "**/.snowflake/config.toml",
+      "**/snowflake/config.toml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/snowflake-connections.json",
+    "description": "Configuration file for Snowflake connections",
+    "name": "snowflake-connections",
+    "fileMatch": [
+      "**/.snowflake/connections.toml",
+      "**/snowflake/connections.toml"
     ]
   },
   {
