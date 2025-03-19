@@ -3423,6 +3423,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/bastienwirtz/homer/main/.schema/config-schema.json",
+    "description": "Home dashboard configuration file. Documentation: https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md",
+    "name": "Homer dashboard configuration",
+    "fileMatch": []
+  },
+  {
     "url": "https://json.schemastore.org/host.json",
     "description": "Azure Functions host.json files",
     "name": "host.json",
@@ -9616,6 +9622,15 @@ export const schemata =
     "name": "sake",
     "fileMatch": [
       ".sake.yml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/okh.json",
+    "description": "Open Source Hardware project metadata",
+    "name": "Open Know-How",
+    "fileMatch": [
+      "okh.{json,toml,yml,yaml}",
+      "*.okh.{json,toml,yml,yaml}"
     ]
   }
 ]
