@@ -1256,6 +1256,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/convex.json",
+    "description": "Configuration for Convex project settings",
+    "name": "Convex",
+    "fileMatch": [
+      "convex.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/palantir/conjure/master/conjure.schema.json",
     "description": "Conjure Human-Readable Format",
     "name": "Conjure",
@@ -9629,8 +9637,16 @@ export const schemata =
     "description": "Open Source Hardware project metadata",
     "name": "Open Know-How",
     "fileMatch": [
-      "okh.{json,toml,yml,yaml}",
-      "*.okh.{json,toml,yml,yaml}"
+      "?(*.)okh.{json,toml,yml,yaml}"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/contextive-glossary.json",
+    "description": "A Contextive Domain Language Glossary",
+    "name": "Contextive Glossary",
+    "fileMatch": [
+      "**/.contextive/definitions.yml",
+      "*.glossary.yml"
     ]
   }
 ]
