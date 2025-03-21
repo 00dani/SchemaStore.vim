@@ -288,6 +288,26 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/aqua-yaml.json",
+    "description": "aqua configuration file",
+    "name": "aqua.yaml",
+    "fileMatch": [
+      ".aqua.yaml",
+      ".aqua.yml",
+      "aqua.yaml",
+      "aqua.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/policy.json",
+    "description": "aqua policy configuration file",
+    "name": "aqua-policy.yaml",
+    "fileMatch": [
+      ".aqua-policy.yaml",
+      "aqua-policy.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/google/app-resource-bundle/main/schema/arb.json",
     "description": "Application Resource Bundle",
     "name": "arb.json",
@@ -376,11 +396,12 @@ export const schemata =
     "fileMatch": []
   },
   {
-    "url": "https://json.schemastore.org/aurora-1.1.json",
+    "url": "https://json.schemastore.org/aurora-1.2.json",
     "description": "Yaml for Aurora Agile Meta-Framework",
     "name": "Aurora Agile Meta-Framework",
     "versions": {
       "1.1": "https://json.schemastore.org/aurora-1.1.json",
+      "1.2": "https://json.schemastore.org/aurora-1.2.json",
       "1.0": "https://json.schemastore.org/aurora-1.0.json"
     },
     "fileMatch": [
@@ -1889,7 +1910,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json",
+    "url": "https://d1uauaxba7bl26.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json",
     "description": "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment",
     "name": "AWS CloudFormation",
     "fileMatch": [
@@ -2023,6 +2044,14 @@ export const schemata =
     "name": "coffeelint.json",
     "fileMatch": [
       "coffeelint.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/crate-ci/committed/master/config.schema.json",
+    "description": "committed configuration file",
+    "name": "committed.toml",
+    "fileMatch": [
+      "committed.toml"
     ]
   },
   {
@@ -5690,6 +5719,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+    "description": "Release Please manifest configuration file",
+    "name": "release-please-config.json",
+    "fileMatch": [
+      "release-please-config.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/manifest.json",
+    "description": "Release Please manifest versions file",
+    "name": "release-please-manifest.json",
+    "fileMatch": [
+      ".release-please-manifest.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/MarcoIeni/release-plz/main/.schema/latest.json",
     "description": "Release-plz configuration file",
     "name": "release-plz.toml",
@@ -6773,6 +6818,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/crate-ci/typos/master/config.schema.json",
+    "description": "typos configuration file",
+    "name": "typos.toml",
+    "fileMatch": [
+      "typos.toml",
+      "_typos.toml",
+      ".typos.toml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/typings.json",
     "description": "Typings TypeScript definitions manager definition file",
     "name": "typings.json",
@@ -7327,7 +7382,11 @@ export const schemata =
       "mise.toml",
       "mise.*.toml",
       "**/.mise/config.toml",
-      "**/mise/config.toml"
+      "**/.mise/config.*.toml",
+      "**/.mise/conf.d/*.toml",
+      "**/mise/config.toml",
+      "**/mise/config.*.toml",
+      "**/mise/conf.d/*.toml"
     ]
   },
   {
@@ -7391,6 +7450,14 @@ export const schemata =
     "fileMatch": [
       "hemtt.json",
       "hemtt.toml"
+    ]
+  },
+  {
+    "url": "https://nodejs.org/docs/latest/node-config-schema.json",
+    "description": "The Node.js configuration file",
+    "name": "Node.js configuration",
+    "fileMatch": [
+      "node.config.json"
     ]
   },
   {
