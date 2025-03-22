@@ -299,6 +299,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/aqua-generate-registry.json",
+    "description": "aqua generate registry configuration file",
+    "name": "aqua-generate-registry.yaml",
+    "fileMatch": [
+      "aqua-generate-registry.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/policy.json",
     "description": "aqua policy configuration file",
     "name": "aqua-policy.yaml",
@@ -4074,7 +4082,22 @@ export const schemata =
     "description": "Fast and powerful Git hooks manager",
     "name": "Lefthook",
     "fileMatch": [
-      "{.lefthook,lefthook,lefthook-local,.lefthook-local}.{yml,yaml,toml,json}"
+      ".lefthook.json",
+      ".lefthook.toml",
+      ".lefthook.yaml",
+      ".lefthook.yml",
+      ".lefthook-local.json",
+      ".lefthook-local.toml",
+      ".lefthook-local.yaml",
+      ".lefthook-local.yml",
+      "lefthook.json",
+      "lefthook.toml",
+      "lefthook.yaml",
+      "lefthook.yml",
+      "lefthook-local.json",
+      "lefthook-local.toml",
+      "lefthook-local.yaml",
+      "lefthook-local.yml"
     ]
   },
   {
@@ -7369,7 +7392,10 @@ export const schemata =
     "description": "mirrord",
     "name": "mirrord config",
     "fileMatch": [
-      "*.mirrord.{toml,json,yaml,yml}"
+      "*.mirrord.json",
+      "*.mirrord.toml",
+      "*.mirrord.yaml",
+      "*.mirrord.yml"
     ]
   },
   {
@@ -9631,7 +9657,8 @@ export const schemata =
       "0.9.2": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.2/config.schema.json"
     },
     "fileMatch": [
-      "*.vsh.{yml,yaml}"
+      "*.vsh.yaml",
+      "*.vsh.yml"
     ]
   },
   {
@@ -9652,7 +9679,8 @@ export const schemata =
       "0.9.2": "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.2/package.schema.json"
     },
     "fileMatch": [
-      "_viash.{yml,yaml}"
+      "_viash.yaml",
+      "_viash.yml"
     ]
   },
   {
@@ -9714,6 +9742,14 @@ export const schemata =
     "fileMatch": [
       "**/.contextive/definitions.yml",
       "*.glossary.yml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/assetlinks.json",
+    "description": "JSON-encoded statement list in a well-known location on a principal",
+    "name": "Google Digital Assetlinks",
+    "fileMatch": [
+      "assetlinks.json"
     ]
   }
 ]
