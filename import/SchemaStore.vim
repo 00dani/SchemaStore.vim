@@ -1417,7 +1417,8 @@ export const schemata =
     "description": "dbt's dependencies.yml file for external packages and cross-project refs",
     "name": "dbt Dependencies",
     "fileMatch": [
-      "**/*dbt*/dependencies.{yaml,yml}"
+      "**/*dbt*/dependencies.yaml",
+      "**/*dbt*/dependencies.yml"
     ]
   },
   {
@@ -1425,7 +1426,8 @@ export const schemata =
     "description": "dbt's project configuration file",
     "name": "dbt Project",
     "fileMatch": [
-      "dbt_project.{yaml,yml}"
+      "dbt_project.yaml",
+      "dbt_project.yml"
     ]
   },
   {
@@ -1433,7 +1435,8 @@ export const schemata =
     "description": "dbt's packages.yml file for external packages",
     "name": "dbt Packages",
     "fileMatch": [
-      "**/*dbt*/packages.{yaml,yml}"
+      "**/*dbt*/packages.yaml",
+      "**/*dbt*/packages.yml"
     ]
   },
   {
@@ -1441,7 +1444,8 @@ export const schemata =
     "description": "dbt's selectors.yml file for configuring YAML selectors",
     "name": "dbt Selectors",
     "fileMatch": [
-      "**/*dbt*/selectors.{yaml,yml}"
+      "**/*dbt*/selectors.yaml",
+      "**/*dbt*/selectors.yml"
     ]
   },
   {
@@ -1449,7 +1453,14 @@ export const schemata =
     "description": "dbt YAML files configurations",
     "name": "dbt YAML files",
     "fileMatch": [
-      "**/*dbt*/{macros,models,seeds,snapshots}/**/*.{yaml,yml}"
+      "**/*dbt*/macros/**/*.yaml",
+      "**/*dbt*/macros/**/*.yml",
+      "**/*dbt*/models/**/*.yaml",
+      "**/*dbt*/models/**/*.yml",
+      "**/*dbt*/seeds/**/*.yaml",
+      "**/*dbt*/seeds/**/*.yml",
+      "**/*dbt*/snapshots/**/*.yaml",
+      "**/*dbt*/snapshots/**/*.yml"
     ]
   },
   {
@@ -7666,7 +7677,15 @@ export const schemata =
     "description": "Windows Package Manager Locale Manifest file, used for detailing locale specific metadata",
     "name": "Windows Package Manager Locale Manifest",
     "fileMatch": [
-      "**/manifests/?/*/*/*/*.*.locale.{en-US,fr-FR,it-IT,ja-JP,ko-KR,pt-BR,ru-RU,zh-CN,zh-TW}.yaml"
+      "**/manifests/?/*/*/*/*.*.locale.en-US.yaml",
+      "**/manifests/?/*/*/*/*.*.locale.fr-FR.yaml",
+      "**/manifests/?/*/*/*/*.*.locale.it-IT.yaml",
+      "**/manifests/?/*/*/*/*.*.locale.ja-JP.yaml",
+      "**/manifests/?/*/*/*/*.*.locale.ko-KR.yaml",
+      "**/manifests/?/*/*/*/*.*.locale.pt-BR.yaml",
+      "**/manifests/?/*/*/*/*.*.locale.ru-RU.yaml",
+      "**/manifests/?/*/*/*/*.*.locale.zh-CN.yaml",
+      "**/manifests/?/*/*/*/*.*.locale.zh-TW.yaml"
     ]
   },
   {
@@ -9732,7 +9751,14 @@ export const schemata =
     "description": "Open Source Hardware project metadata",
     "name": "Open Know-How",
     "fileMatch": [
-      "?(*.)okh.{json,toml,yml,yaml}"
+      "okh.json",
+      "okh.toml",
+      "okh.yaml",
+      "okh.yml",
+      "*.okh.json",
+      "*.okh.toml",
+      "*.okh.yaml",
+      "*.okh.yml"
     ]
   },
   {
