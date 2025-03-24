@@ -316,6 +316,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/registry.json",
+    "description": "aqua registry configuration file",
+    "name": "registry.yaml",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/google/app-resource-bundle/main/schema/arb.json",
     "description": "Application Resource Bundle",
     "name": "arb.json",
