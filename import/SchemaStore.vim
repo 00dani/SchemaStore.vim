@@ -153,7 +153,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/abc-supply-plan-7.0.0.json",
+    "url": "https://json.schemastore.org/abc-supply-plan-8.0.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
@@ -161,6 +161,7 @@ export const schemata =
       "5.0.0": "https://json.schemastore.org/abc-supply-plan-5.0.0.json",
       "6.0.0": "https://json.schemastore.org/abc-supply-plan-6.0.0.json",
       "7.0.0": "https://json.schemastore.org/abc-supply-plan-7.0.0.json",
+      "8.0.0": "https://json.schemastore.org/abc-supply-plan-8.0.0.json",
       "1.0.0": "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
       "2.0.0": "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
       "3.0.0": "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
@@ -3293,6 +3294,10 @@ export const schemata =
     "url": "https://golangci-lint.run/jsonschema/golangci.jsonschema.json",
     "description": "golangci-lint configuration file",
     "name": "Golangci-lint Configuration",
+    "versions": {
+      "1": "https://golangci-lint.run/jsonschema/golangci.v1.jsonschema.json",
+      "2": "https://golangci-lint.run/jsonschema/golangci.v2.jsonschema.json"
+    },
     "fileMatch": [
       ".golangci.yml",
       ".golangci.yaml",
