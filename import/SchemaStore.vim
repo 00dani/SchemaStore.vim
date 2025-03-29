@@ -5500,12 +5500,14 @@ export const schemata =
     "description": "Prometheus rules file",
     "name": "prometheus.rules.json",
     "fileMatch": [
-      "*.rules.yml",
-      "*.rules.yaml",
-      "*rules.yml",
-      "*rules.yaml",
-      "rules.yml",
-      "rules.yaml"
+      "*.prometheus.rules.yml",
+      "*.prometheus.rules.yaml",
+      "*prometheus-rules.yml",
+      "*prometheus-rules.yaml",
+      "*prometheus_rules.yml",
+      "*prometheus_rules.yaml",
+      "prometheus.rules.yml",
+      "prometheus.rules.yaml"
     ]
   },
   {
@@ -5513,10 +5515,10 @@ export const schemata =
     "description": "Prometheus rules test file",
     "name": "prometheus.rules.test.json",
     "fileMatch": [
-      "*.tests.yml",
-      "*.tests.yaml",
-      "*.test.yml",
-      "*.test.yaml"
+      "*.prometheus.tests.yml",
+      "*.prometheus.tests.yaml",
+      "*.prometheus.test.yml",
+      "*.prometheus.test.yaml"
     ]
   },
   {
