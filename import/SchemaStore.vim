@@ -9791,6 +9791,15 @@ export const schemata =
     "fileMatch": [
       "assetlinks.json"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/pylock.json",
+    "description": "PEP 751 lock file",
+    "name": "Pylock",
+    "fileMatch": [
+      "pylock.toml",
+      "pylock.*.toml"
+    ]
   }
 ]
 export const schemas = schemata
