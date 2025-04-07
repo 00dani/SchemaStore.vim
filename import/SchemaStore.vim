@@ -659,8 +659,12 @@ export const schemata =
     "fileMatch": [
       "codify.json",
       "codify.yaml",
+      "codify.json5",
+      "codify.jsonc",
       "*.codify.json",
-      "*.codify.yaml"
+      "*.codify.yaml",
+      "*.codify.json5",
+      "*.codify.jsonc"
     ]
   },
   {
