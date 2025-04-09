@@ -2,6 +2,43 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://raw.githubusercontent.com/platformsh/platformify/refs/heads/main/validator/schema/upsun.json",
+    "description": "Upsun configuration file",
+    "name": "Upsun config",
+    "fileMatch": [
+      "**/.upsun/config.yml",
+      "**/.upsun/config.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/platformsh/platformify/refs/heads/main/validator/schema/platformsh.application.json",
+    "description": "Platform.sh application configuration file",
+    "name": "Platform.sh application",
+    "fileMatch": [
+      ".platform.app.yml",
+      ".platform.app.yaml",
+      "**/.platform.app.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/platformsh/platformify/refs/heads/main/validator/schema/platformsh.routes.json",
+    "description": "Platform.sh routes configuration file",
+    "name": "Platform.sh routes",
+    "fileMatch": [
+      "**/.platform/routes.yml",
+      "**/.platform/routes.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/platformsh/platformify/refs/heads/main/validator/schema/platformsh.services.json",
+    "description": "Platform.sh services configuration file",
+    "name": "Platform.sh services",
+    "fileMatch": [
+      "**/.platform/services.yml",
+      "**/.platform/services.yaml"
+    ]
+  },
+  {
     "url": "https://developer.1password.com/schema/ssh-agent-config.json",
     "description": "Configuration file for the 1Password SSH agent",
     "name": "1Password SSH Agent Config",
@@ -914,7 +951,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://bitbucket.org/atlassianlabs/intellij-bitbucket-references-plugin/raw/master/src/main/resources/schemas/bitbucket-pipelines.schema.json",
+    "url": "https://api.bitbucket.org/schemas/pipelines-configuration",
     "description": "Bitbucket Pipelines CI/CD manifest",
     "name": "bitbucket-pipelines",
     "fileMatch": [
