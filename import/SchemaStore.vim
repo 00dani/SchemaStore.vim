@@ -9841,6 +9841,15 @@ export const schemata =
       "pylock.toml",
       "pylock.*.toml"
     ]
+  },
+  {
+    "url": "https://json.schemastore.org/stylua.json",
+    "description": "Stylua configuration",
+    "name": "Stylua Config",
+    "fileMatch": [
+      ".stylua.toml",
+      "stylua.toml"
+    ]
   }
 ]
 export const schemas = schemata
