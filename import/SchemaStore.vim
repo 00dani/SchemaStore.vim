@@ -191,7 +191,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/abc-supply-plan-8.0.0.json",
+    "url": "https://json.schemastore.org/abc-supply-plan-9.0.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
@@ -200,6 +200,7 @@ export const schemata =
       "6.0.0": "https://json.schemastore.org/abc-supply-plan-6.0.0.json",
       "7.0.0": "https://json.schemastore.org/abc-supply-plan-7.0.0.json",
       "8.0.0": "https://json.schemastore.org/abc-supply-plan-8.0.0.json",
+      "9.0.0": "https://json.schemastore.org/abc-supply-plan-9.0.0.json",
       "1.0.0": "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
       "2.0.0": "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
       "3.0.0": "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
@@ -9850,6 +9851,15 @@ export const schemata =
     "fileMatch": [
       ".stylua.toml",
       "stylua.toml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/taplo.json",
+    "description": "Taplo configuration file",
+    "name": "Taplo",
+    "fileMatch": [
+      ".taplo.toml",
+      "taplo.toml"
     ]
   }
 ]
