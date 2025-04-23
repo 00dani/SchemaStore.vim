@@ -6909,6 +6909,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/typst.json",
+    "description": "Typst package manifest file (typst.toml)",
+    "name": "Typst Manifest",
+    "fileMatch": [
+      "typst.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/crate-ci/typos/master/config.schema.json",
     "description": "typos configuration file",
     "name": "typos.toml",
