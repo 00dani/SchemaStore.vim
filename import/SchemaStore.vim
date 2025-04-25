@@ -5460,6 +5460,54 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/em-al-wi/proactions-schema/main/schema/ai-kit.schema.json",
+    "description": "Eidosmedia ProActions AI-Kit main configuration file",
+    "name": "ProActions AI-Kit Configuration",
+    "fileMatch": [
+      "*.ai-kit.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/em-al-wi/proactions-schema/main/schema/partial-services.schema.json",
+    "description": "Eidosmedia ProActions AI-Kit services configuration files",
+    "name": "ProActions AI-Kit Configuration for Services",
+    "fileMatch": [
+      "*.ai-kit.serv.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/em-al-wi/proactions-schema/main/schema/partial-floatingMenu.schema.json",
+    "description": "Eidosmedia ProActions AI-Kit menu configuration files",
+    "name": "ProActions AI-Kit Configuration for Menus",
+    "fileMatch": [
+      "*.ai-kit.menu.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/em-al-wi/proactions-schema/main/schema/partial-templates.schema.json",
+    "description": "Eidosmedia ProActions AI-Kit template configuration files",
+    "name": "ProActions AI-Kit Configuration for Templates",
+    "fileMatch": [
+      "*.ai-kit.templ.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/em-al-wi/proactions-schema/main/schema/partial-section.schema.json",
+    "description": "Eidosmedia ProActions AI-Kit section configuration files",
+    "name": "ProActions AI-Kit Configuration for Sections",
+    "fileMatch": [
+      "*.ai-kit.sect.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/em-al-wi/proactions-schema/main/schema/partial-step.schema.json",
+    "description": "Eidosmedia ProActions AI-Kit step configuration files",
+    "name": "ProActions AI-Kit Configuration for Steps",
+    "fileMatch": [
+      "*.ai-kit.step.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/RagnarGrootKoerkamp/BAPCtools/refs/heads/master/support/schemas/generators_yaml_schema.json",
     "description": "Generators for programming tasks in the Kattis/CLICS problem package format",
     "name": "Problem package generators",
