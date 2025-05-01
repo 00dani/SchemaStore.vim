@@ -3816,10 +3816,11 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://json.schemastore.org/jreleaser-1.17.0.json",
+    "url": "https://json.schemastore.org/jreleaser-1.18.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
+      "1.9.0": "https://json.schemastore.org/jreleaser-1.9.0.json",
       "1.13.0": "https://json.schemastore.org/jreleaser-1.13.0.json",
       "1.13.1": "https://json.schemastore.org/jreleaser-1.13.1.json",
       "1.15.0": "https://json.schemastore.org/jreleaser-1.15.0.json",
@@ -3831,7 +3832,7 @@ export const schemata =
       "1.14.0": "https://json.schemastore.org/jreleaser-1.14.0.json",
       "1.6.0": "https://json.schemastore.org/jreleaser-1.6.0.json",
       "1.16.0": "https://json.schemastore.org/jreleaser-1.16.0.json",
-      "1.9.0": "https://json.schemastore.org/jreleaser-1.9.0.json",
+      "1.18.0": "https://json.schemastore.org/jreleaser-1.18.0.json",
       "1.11.0": "https://json.schemastore.org/jreleaser-1.11.0.json"
     },
     "fileMatch": [
@@ -5012,6 +5013,15 @@ export const schemata =
     "fileMatch": [
       "**/database/**/*.outblocks.yaml",
       "**/database/**/*.outblocks.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/eclipse-apoapsis/ort-server/refs/heads/main/integrations/schemas/repository-environment-config.json",
+    "description": "Repository environment configuration to configure infrastructure services, environment variables, and package-manager specific settings",
+    "name": "ORT Server repository environment configuration",
+    "fileMatch": [
+      ".ort.env.yml",
+      ".ort.env.yaml"
     ]
   },
   {
