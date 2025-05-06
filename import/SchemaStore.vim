@@ -8778,12 +8778,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/pantsbuild-2.24.0.json",
+    "url": "https://json.schemastore.org/pantsbuild-2.26.0.json",
     "description": "Pantsbuild configuration file",
     "name": "Pantsbuild",
     "versions": {
       "2.16.0": "https://json.schemastore.org/pantsbuild-2.16.0.json",
       "2.18.0": "https://json.schemastore.org/pantsbuild-2.18.0.json",
+      "2.26.0": "https://json.schemastore.org/pantsbuild-2.26.0.json",
       "2.21.0": "https://json.schemastore.org/pantsbuild-2.21.0.json",
       "2.15.0": "https://json.schemastore.org/pantsbuild-2.15.0.json",
       "2.24.0": "https://json.schemastore.org/pantsbuild-2.24.0.json",
