@@ -4693,6 +4693,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://nfpm.goreleaser.com/static/schema.json",
+    "description": "nFPM configuration file",
+    "name": "nFPM",
+    "fileMatch": [
+      "nfpm.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/nightwatch.json",
     "description": "nightwatch.js config",
     "name": "Nightwatch.js",
@@ -9020,6 +9028,14 @@ export const schemata =
     "fileMatch": [
       "tunnelhub.yml",
       "tunnelhub.yaml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/ty.json",
+    "description": "ty, a fast Python type checker",
+    "name": "ty",
+    "fileMatch": [
+      "ty.toml"
     ]
   },
   {
