@@ -9359,17 +9359,20 @@ export const schemata =
   },
   {
     "url": "https://api.app-prg1.zerops.io/api/rest/public/settings/zerops-yml-json-schema.json",
-    "description": "zerops.io, dev-first cloud platform - https://zerops.io, configuration YAML file",
-    "name": "zerops.yml",
+    "description": "Zerops.io (https://zerops.io) configuration YAML file, for setting how to build and deploy your services",
+    "name": "Zerops.io config",
     "fileMatch": [
+      "zerops.yaml",
       "zerops.yml"
     ]
   },
   {
     "url": "https://api.app-prg1.zerops.io/api/rest/public/settings/import-project-yml-json-schema.json",
-    "description": "zerops.io, dev-first cloud platform - https://zerops.io, infrastructure-as-code import YAML file",
-    "name": "zerops.io import file",
+    "description": "Zerops.io (https://zerops.io) infrastructure-as-code import YAML file",
+    "name": "Zerops.io import",
     "fileMatch": [
+      "zerops-import.yaml",
+      "zerops-*-import.yaml",
       "zerops-import.yml",
       "zerops-*-import.yml"
     ]
@@ -9771,6 +9774,14 @@ export const schemata =
     "fileMatch": [
       "**/*Trident.toml",
       "**/*.Trident.toml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/utcm-monitor.json",
+    "description": "Configuration file for the Unified Tenant Configuration Management (UTCM) Monitor",
+    "name": "Unified Tenant Configuration Management (UTCM) Monitor",
+    "fileMatch": [
+      "*.utcm-monitor.json"
     ]
   },
   {
