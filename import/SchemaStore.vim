@@ -665,6 +665,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/cinnamon-spice.info.json",
+    "description": "The 'info.json' metadata file used in Cinnamon Spice components",
+    "name": "Cinnamon Spice info.json",
+    "fileMatch": []
+  },
+  {
     "url": "https://coderabbit.ai/integrations/schema.v2.json",
     "description": "Supercharge your entire team with AI-driven contextual feedback & smart chat",
     "name": "CodeRabbit",
@@ -1304,6 +1310,22 @@ export const schemata =
     "fileMatch": [
       "chromia.yml",
       "chromia.yaml"
+    ]
+  },
+  {
+    "url": "https://gitlab.com/chromaway/core-tools/rell-toolbox/-/raw/dev/seeder/src/main/resources/chromia-seeder-config-schema.json",
+    "description": "Chromia Seeder Root Config File",
+    "name": "Chromia Seeder Root Config",
+    "fileMatch": [
+      "**/.chromia/seeder/**/seeder.yml"
+    ]
+  },
+  {
+    "url": "https://gitlab.com/chromaway/core-tools/rell-toolbox/-/raw/dev/seeder/src/main/resources/chromia-seeder-module-schema.json",
+    "description": "Chromia Seeder Module Config File",
+    "name": "Chromia Seeder Module Config",
+    "fileMatch": [
+      "**/.chromia/seeder/**/modules/**/*.yml"
     ]
   },
   {
@@ -1979,7 +2001,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://d1uauaxba7bl26.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json",
+    "url": "https://d1uauaxba7bl26.cloudfront.net/latest/CloudFormationResourceSpecification.json",
     "description": "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment",
     "name": "AWS CloudFormation",
     "fileMatch": [
@@ -9954,6 +9976,14 @@ export const schemata =
     "fileMatch": [
       ".taplo.toml",
       "taplo.toml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/aider-0.82.json",
+    "description": "Aider configuration file",
+    "name": "Aider",
+    "fileMatch": [
+      ".aider.conf.yml"
     ]
   }
 ]
