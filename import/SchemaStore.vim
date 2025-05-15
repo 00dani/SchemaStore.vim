@@ -9104,15 +9104,24 @@ export const schemata =
   },
   {
     "url": "https://rivet.gg/rivet.schema.json",
-    "description": "Rivet game configuration file",
-    "name": "rivet.yaml",
+    "description": "Legacy Rivet game configuration file",
+    "name": "rivet.yaml (legacy)",
     "fileMatch": [
       "rivet.yaml",
       "rivet.*.yaml",
       "rivet.toml",
-      "rivet.*.toml",
+      "rivet.*.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/rivet-gg/rivet/refs/heads/main/site/src/content/docs/toolchain-spec.json",
+    "description": "Rivet configuration file",
+    "name": "rivet.json",
+    "fileMatch": [
       "rivet.json",
-      "rivet.*.json"
+      "rivet.*.json",
+      "rivet.jsonc",
+      "rivet.*.jsonc"
     ]
   },
   {
