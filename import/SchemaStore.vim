@@ -3555,6 +3555,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/home-assistant/core/refs/heads/dev/script/json_schemas/manifest_schema.json",
+    "description": "Home Assistant integration manifest file. Documentation: https://developers.home-assistant.io/docs/creating_integration_manifest/",
+    "name": "Home Assistant Integration Manifest",
+    "fileMatch": [
+      "**/homeassistant/components/*/manifest.json",
+      "**/custom_components/*/manifest.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/bastienwirtz/homer/main/.schema/config-schema.json",
     "description": "Home dashboard configuration file. Documentation: https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md",
     "name": "Homer dashboard configuration",
