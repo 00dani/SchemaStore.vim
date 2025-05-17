@@ -10003,6 +10003,16 @@ export const schemata =
     "fileMatch": [
       ".aider.conf.yml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/tektronix/tm_devices/main/src/tm_devices/tm_devices_config_schema.json",
+    "description": "Definition of the configuration file of the tm_devices Python package. Documentation: https://tm-devices.readthedocs.io/stable/configuration/",
+    "name": "tm_devices configuration file",
+    "fileMatch": [
+      "tm_devices.yml",
+      "tm_devices.yaml",
+      "tm_devices.toml"
+    ]
   }
 ]
 export const schemas = schemata
