@@ -1031,7 +1031,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/partial-black.json",
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/partial-black.json",
     "description": "black, a Python formatter",
     "name": "partial-black.json",
     "fileMatch": []
@@ -1329,7 +1329,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/cibuildwheel.json",
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/cibuildwheel.json",
     "description": "cibuildwheel, a Python redistributable wheel builder",
     "name": "cibuildwheel",
     "fileMatch": [
@@ -2001,7 +2001,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://d1uauaxba7bl26.cloudfront.net/latest/CloudFormationResourceSpecification.json",
+    "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json",
     "description": "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment",
     "name": "AWS CloudFormation",
     "fileMatch": [
@@ -5774,7 +5774,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/pyproject.json",
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/pyproject.json",
     "description": "Python project metadata and configuration",
     "name": "PyProject",
     "fileMatch": [
@@ -5790,7 +5790,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/partial-pytest.json",
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/partial-pytest.json",
     "description": "pytest configuration",
     "name": "pytest"
   },
@@ -7135,7 +7135,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/uv.json",
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/uv.json",
     "description": "uv, a fast Python package installer",
     "name": "uv",
     "fileMatch": [
@@ -7180,12 +7180,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/venvironment-schema-v3.2.0.json",
-    "description": "Simulation and test environment for Vector CANoe4SW Server Edition",
+    "url": "https://json.schemastore.org/venvironment-schema-v4.0.0.json",
+    "description": "Simulation and test environment for Vector CANoe Server Editions",
     "name": "venvironment.yaml",
     "versions": {
       "2.2.0": "https://json.schemastore.org/venvironment-schema-v2.2.0.json",
       "3.2.0": "https://json.schemastore.org/venvironment-schema-v3.2.0.json",
+      "4.0.0": "https://json.schemastore.org/venvironment-schema-v4.0.0.json",
       "1.1.0": "https://json.schemastore.org/venvironment-schema-v1.1.0.json",
       "1.1.1": "https://json.schemastore.org/venvironment-schema-v1.1.1.json",
       "3.1.0": "https://json.schemastore.org/venvironment-schema-v3.1.0.json",
@@ -7204,10 +7205,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json",
+    "url": "https://json.schemastore.org/venvironment-basic-schema-v4.0.0.json",
     "description": "Test environment for Vector Test Unit Runner",
     "name": "venvironment-basic.yaml",
     "versions": {
+      "4.0.0": "https://json.schemastore.org/venvironment-basic-schema-v4.0.0.json",
       "3.2.0": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json",
       "1.1.0": "https://json.schemastore.org/venvironment-basic-schema-v1.1.0.json",
       "2.1.0": "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json",
@@ -7222,6 +7224,38 @@ export const schemata =
       "*.venvironment-basic.yml",
       "venvironment-basic.json",
       "*.venvironment-basic.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/venvplus-schema-v1.0.0.json",
+    "description": "venvplus settings of Vector CANoe Server Editions",
+    "name": "venvplus.yaml",
+    "versions": {
+      "1.0.0": "https://json.schemastore.org/venvplus-schema-v1.0.0.json"
+    },
+    "fileMatch": [
+      "venvplus.yaml",
+      "*.venvplus.yaml",
+      "venvplus.yml",
+      "*.venvplus.yml",
+      "venvplus.json",
+      "*.venvplus.json"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/venvplus-basic-schema-v1.0.0.json",
+    "description": "venvplus-basic settings of Vector Test Unit Runner",
+    "name": "venvplus-basic.yaml",
+    "versions": {
+      "1.0.0": "https://json.schemastore.org/venvplus-basic-schema-v1.0.0.json"
+    },
+    "fileMatch": [
+      "venvplus-basic.yaml",
+      "*.venvplus-basic.yaml",
+      "venvplus-basic.yml",
+      "*.venvplus-basic.yml",
+      "venvplus-basic.json",
+      "*.venvplus-basic.json"
     ]
   },
   {
@@ -7339,6 +7373,7 @@ export const schemata =
     "name": "vtesttree.yaml",
     "versions": {
       "2.2.0": "https://json.schemastore.org/vtesttree-schema-v2.2.0.json",
+      "2.4.0": "https://json.schemastore.org/vtesttree-schema-v2.4.0.json",
       "2.1.0": "https://json.schemastore.org/vtesttree-schema-v2.1.0.json",
       "2.3.0": "https://json.schemastore.org/vtesttree-schema-v2.3.0.json",
       "1.0.0": "https://json.schemastore.org/vtesttree-schema-v1.0.0.json",
@@ -7773,7 +7808,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/hatch.json",
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/hatch.json",
     "description": "Python package build tool",
     "name": "Hatch",
     "fileMatch": [
@@ -9913,7 +9948,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/pep-723.json",
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/pep-723.json",
     "description": "Metadata of a Python script, as defined by PEP 723",
     "name": "Python script metadata",
     "fileMatch": []
@@ -9958,7 +9993,8 @@ export const schemata =
     "name": "Contextive Glossary",
     "fileMatch": [
       "**/.contextive/definitions.yml",
-      "*.glossary.yml"
+      "*.glossary.yml",
+      "*.glossary.yaml"
     ]
   },
   {
@@ -10002,6 +10038,36 @@ export const schemata =
     "name": "Aider",
     "fileMatch": [
       ".aider.conf.yml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/ti8m-cdk-environment-definition.json",
+    "description": "ti&m CDK Environment Manager environment definition file",
+    "name": "CDK Environment Manager, environment definition",
+    "fileMatch": [
+      "**/environment-definition.json",
+      "**/environment-definition.yaml",
+      "**/environment-definition.yml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/ti8m-cdk-concrete-environments.json",
+    "description": "ti&m CDK Environment Manager concrete environments definition file",
+    "name": "CDK Environment Manager, concrete environments definition",
+    "fileMatch": [
+      "**/concrete-environments.json",
+      "**/concrete-environments.yaml",
+      "**/concrete-environments.yml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/ti8m-cdk-concrete-environment-config.json",
+    "description": "ti&m CDK Environment Manager concrete environment configuration file",
+    "name": "CDK Environment Manager, concrete environment configuration",
+    "fileMatch": [
+      "**/environment_config/*.json",
+      "**/environment_config/*.yaml",
+      "**/environment_config/*.yml"
     ]
   },
   {
