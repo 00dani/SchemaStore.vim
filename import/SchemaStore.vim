@@ -6053,6 +6053,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/roomodes.json",
+    "description": "Roo Coder custom mode configuration files",
+    "name": "Roo Coder Custom Modes",
+    "fileMatch": [
+      ".roomodes",
+      "*.roomodes",
+      "custom_modes.yaml",
+      "custom_modes.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/simonwhitaker/runny/main/schema/runny.schema.json",
     "description": "runny, a rool for running things",
     "name": "runny",
