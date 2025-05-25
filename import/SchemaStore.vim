@@ -1070,6 +1070,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/jelmore1674/build-changelog/refs/tags/v1/schemas/changlelog.json",
+    "description": "Changelog files for build-changelog action",
+    "name": "build-changelog",
+    "fileMatch": [
+      "**/build-changelog/*.yml",
+      "**/build-changelog/*.yaml",
+      "**/build-changelog/*.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/jfrog/build-info-go/main/buildinfo-schema.json",
     "description": "Build Info is the metadata of a build. It includes all the details about the build broken down into segments that include version history, artifacts, project modules, dependencies, and everything that was required to create the build",
     "name": "Build Info",
