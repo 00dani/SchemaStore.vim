@@ -7389,7 +7389,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/vtesttree-schema-v2.3.0.json",
+    "url": "https://json.schemastore.org/vtesttree-schema-v2.4.0.json",
     "description": "Vector test execution tree description",
     "name": "vtesttree.yaml",
     "versions": {
