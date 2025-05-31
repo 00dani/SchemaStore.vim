@@ -1009,6 +1009,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/bosh-cpi-config.json",
+    "description": "CPI-specific config for BOSH Director",
+    "name": "BOSH CPI Config"
+  },
+  {
     "url": "https://json.schemastore.org/bosh-deploy-config.json",
     "description": "Deploy config for BOSH CLI",
     "name": "BOSH Deploy Config"
@@ -9236,7 +9241,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/raw/master/pkg/agentcfg/agentcfg_schemas/ConfigurationFile.json",
+    "url": "https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/raw/master/pkg/agentcfg/agentcfg_schemas/gitlab.agent.agentcfg.ConfigurationFile.jsonschema.bundle.json",
     "description": "GitLab Agent for Kubernetes configuration file",
     "name": "GitLab Agent for Kubernetes configuration",
     "fileMatch": [
