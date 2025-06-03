@@ -177,11 +177,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://json.schemastore.org/abc-inventory-module-data-4.0.0.json",
+    "url": "https://json.schemastore.org/abc-inventory-module-data-5.1.0.json",
     "description": "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
     "name": "ABCInventoryModuleData",
     "versions": {
       "4.0.0": "https://json.schemastore.org/abc-inventory-module-data-4.0.0.json",
+      "5.1.0": "https://json.schemastore.org/abc-inventory-module-data-5.1.0.json",
       "1.0.0": "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json",
       "2.0.0": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json",
       "3.0.0": "https://json.schemastore.org/abc-inventory-module-data-3.0.0.json"
@@ -10104,6 +10105,17 @@ export const schemata =
       "tm_devices.yml",
       "tm_devices.yaml",
       "tm_devices.toml"
+    ]
+  },
+  {
+    "url": "https://github.com/openstatusHQ/json-schema/releases/download/v1.0.0/schema.json",
+    "description": "OpenStatus configuration file",
+    "name": "OpenStatus",
+    "fileMatch": [
+      "openstatus.json",
+      "openstatus.yml",
+      "openstatus.yaml",
+      "openstatus.toml"
     ]
   }
 ]
