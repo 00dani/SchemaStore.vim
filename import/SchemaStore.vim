@@ -6,8 +6,8 @@ export const schemata =
     "description": "Upsun configuration file",
     "name": "Upsun config",
     "fileMatch": [
-      "**/.upsun/config.yml",
-      "**/.upsun/config.yaml"
+      "**/.upsun/*.yml",
+      "**/.upsun/*.yaml"
     ]
   },
   {
@@ -10123,6 +10123,14 @@ export const schemata =
       "openstatus.yml",
       "openstatus.yaml",
       "openstatus.toml"
+    ]
+  },
+  {
+    "url": "https://json.schemastore.org/powerpages.config.json",
+    "description": "Power Pages configuration file for Bring Your Own Code (BYOC) sites",
+    "name": "Power Pages Configuration",
+    "fileMatch": [
+      "powerpages.config.json"
     ]
   }
 ]
