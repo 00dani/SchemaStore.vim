@@ -3866,6 +3866,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Wykiki/jocker/main/schema.json",
+    "description": "Rust mono-repo binaries runner",
+    "name": "Jocker",
+    "fileMatch": [
+      "jocker.yml",
+      "jocker.yaml",
+      "jocker.override.yml",
+      "jocker.override.yaml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/jovo-language-model.json",
     "description": "Jovo language Models. Documentation: https://www.jovo.tech/docs/model",
     "name": "Jovo Language Models"
@@ -8238,6 +8249,10 @@ export const schemata =
       "v2beta27": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v1/content/en/schemas/v2beta27.json",
       "v2beta28": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v1/content/en/schemas/v2beta28.json",
       "v2beta29": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v1/content/en/schemas/v2beta29.json",
+      "v4beta10": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta10.json",
+      "v4beta11": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta11.json",
+      "v4beta12": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta12.json",
+      "v4beta13": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta13.json",
       "v1alpha1": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v1/content/en/schemas/v1alpha1.json",
       "v1alpha2": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v1/content/en/schemas/v1alpha2.json",
       "v1alpha3": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v1/content/en/schemas/v1alpha3.json",
@@ -8286,7 +8301,11 @@ export const schemata =
       "v4beta2": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta2.json",
       "v4beta3": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta3.json",
       "v4beta4": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta4.json",
-      "v4beta5": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta5.json"
+      "v4beta5": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta5.json",
+      "v4beta6": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta6.json",
+      "v4beta7": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta7.json",
+      "v4beta8": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta8.json",
+      "v4beta9": "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta9.json"
     },
     "fileMatch": [
       "skaffold.yaml",
@@ -10132,6 +10151,17 @@ export const schemata =
     "name": "Power Pages Configuration",
     "fileMatch": [
       "powerpages.config.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ShaitanLyss/these/main/hecate/hecate-json-schema.json",
+    "description": "Input schema for Hecate, for generating PDE simulation code",
+    "name": "Hecate Input Schema",
+    "fileMatch": [
+      "*.hecate.yml",
+      "*.hecate.yaml",
+      "*.hecate",
+      "*.hecate.json"
     ]
   }
 ]
