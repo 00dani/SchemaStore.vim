@@ -1458,6 +1458,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://json.schemastore.org/claude-code-settings.json",
+    "description": "Configuration file for Claude Code",
+    "name": "Claude Code Settings",
+    "fileMatch": [
+      "**/.claude/settings.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/CVEProject/cve-schema/master/schema/docs/CVE_Record_Format_bundled.json",
     "description": "CVE record format to describe security vulnerabilities",
     "name": "CVE Record Format",
