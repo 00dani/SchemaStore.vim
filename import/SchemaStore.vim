@@ -7078,6 +7078,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/eliashaeussler/typo3-vendor-bundler/refs/heads/main/res/typo3-vendor-bundler.schema.json",
+    "description": "Configuration for TYPO3 Vendor Bundler, a Composer library to bundle vendor libraries for TYPO3 extensions in classic mode",
+    "name": "TYPO3 Vendor Bundler config",
+    "fileMatch": [
+      "typo3-vendor-bundler.json",
+      "typo3-vendor-bundler.yaml",
+      "typo3-vendor-bundler.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/typst.json",
     "description": "Typst package manifest file (typst.toml)",
     "name": "Typst Manifest",
