@@ -6020,6 +6020,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.rubyschema.org/rubocop.json",
+    "description": "A Ruby code style checker (linter) and formatter",
+    "name": "Rubocop",
+    "fileMatch": [
+      "*.rubocop.yml"
+    ]
+  },
+  {
     "url": "https://json.schemastore.org/ruff.json",
     "description": "Ruff, a fast Python linter",
     "name": "Ruff",
