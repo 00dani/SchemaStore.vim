@@ -5869,6 +5869,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://github.com/lou-k/qtype/blob/main/schema/qtype.schema.json",
+    "description": "A DSL for rapid prototyping of AI applications",
+    "name": "QType AI DSL",
+    "fileMatch": [
+      "qtype.config.yaml",
+      "*.qtype.yaml"
+    ]
+  },
+  {
     "url": "https://railway.com/railway.schema.json",
     "description": "Use Railway config as code to define settings for building and deploying your services",
     "name": "Railway",
