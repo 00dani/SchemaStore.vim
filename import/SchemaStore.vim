@@ -3918,23 +3918,24 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://www.schemastore.org/jreleaser-1.18.0.json",
+    "url": "https://www.schemastore.org/jreleaser-1.19.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
-      "1.9.0": "https://www.schemastore.org/jreleaser-1.9.0.json",
-      "1.13.0": "https://www.schemastore.org/jreleaser-1.13.0.json",
-      "1.13.1": "https://www.schemastore.org/jreleaser-1.13.1.json",
+      "1.19.0": "https://www.schemastore.org/jreleaser-1.19.0.json",
+      "1.14.0": "https://www.schemastore.org/jreleaser-1.14.0.json",
+      "1.7.0": "https://www.schemastore.org/jreleaser-1.7.0.json",
+      "1.17.0": "https://www.schemastore.org/jreleaser-1.17.0.json",
+      "1.12.0": "https://www.schemastore.org/jreleaser-1.12.0.json",
       "1.15.0": "https://www.schemastore.org/jreleaser-1.15.0.json",
       "1.8.0": "https://www.schemastore.org/jreleaser-1.8.0.json",
-      "1.17.0": "https://www.schemastore.org/jreleaser-1.17.0.json",
       "1.10.0": "https://www.schemastore.org/jreleaser-1.10.0.json",
-      "1.12.0": "https://www.schemastore.org/jreleaser-1.12.0.json",
-      "1.7.0": "https://www.schemastore.org/jreleaser-1.7.0.json",
-      "1.14.0": "https://www.schemastore.org/jreleaser-1.14.0.json",
+      "1.18.0": "https://www.schemastore.org/jreleaser-1.18.0.json",
+      "1.13.0": "https://www.schemastore.org/jreleaser-1.13.0.json",
+      "1.13.1": "https://www.schemastore.org/jreleaser-1.13.1.json",
       "1.6.0": "https://www.schemastore.org/jreleaser-1.6.0.json",
       "1.16.0": "https://www.schemastore.org/jreleaser-1.16.0.json",
-      "1.18.0": "https://www.schemastore.org/jreleaser-1.18.0.json",
+      "1.9.0": "https://www.schemastore.org/jreleaser-1.9.0.json",
       "1.11.0": "https://www.schemastore.org/jreleaser-1.11.0.json"
     },
     "fileMatch": [
@@ -5878,7 +5879,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://github.com/lou-k/qtype/blob/main/schema/qtype.schema.json",
+    "url": "https://raw.githubusercontent.com/lou-k/qtype/refs/heads/main/schema/qtype.schema.json",
     "description": "A DSL for rapid prototyping of AI applications",
     "name": "QType AI DSL",
     "fileMatch": [
