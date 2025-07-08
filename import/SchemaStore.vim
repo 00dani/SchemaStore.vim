@@ -160,7 +160,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/aiproj-1.6.json",
+    "url": "https://www.schemastore.org/aiproj-1.7.json",
     "description": "Settings for project analysis by the Application Inspector",
     "name": ".aiproj.json",
     "versions": {
@@ -170,6 +170,7 @@ export const schemata =
       "1.4": "https://www.schemastore.org/aiproj-1.4.json",
       "1.5": "https://www.schemastore.org/aiproj-1.5.json",
       "1.6": "https://www.schemastore.org/aiproj-1.6.json",
+      "1.7": "https://www.schemastore.org/aiproj-1.7.json",
       "1.0": "https://www.schemastore.org/aiproj-1.0.json"
     },
     "fileMatch": [
@@ -7558,6 +7559,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/wp-cli/wp-cli/refs/heads/main/schemas/wp-cli-config.json",
+    "description": "WP-CLI is the official command-line tool for WordPress",
+    "name": "WP-CLI",
+    "fileMatch": [
+      "wp-cli.local.yml",
+      "wp-cli.yml",
+      "**/.wp-cli/config.yml"
+    ]
+  },
+  {
     "url": "https://www.unpkg.com/wrangler/config-schema.json",
     "description": "Wrangler is a command-line tool for building with Cloudflare developer products",
     "name": "Wrangler CLI",
@@ -9804,12 +9815,16 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/wiremock-stub-mapping.json",
-    "description": "WireMock stub mapping JSON. See https://wiremock.org/docs/stubbing/",
+    "url": "https://raw.githubusercontent.com/wiremock/wiremock/refs/heads/master/schemas/wiremock-stub-mapping-or-mappings.json",
+    "description": "WireMock single or multiple stub mapping JSON. See https://wiremock.org/docs/stubbing/",
     "name": "WireMock stub mapping",
     "fileMatch": [
       "wiremock-stub-mapping.yml",
-      "wiremock-stub-mapping.yaml"
+      "wiremock-stub-mapping.yaml",
+      "stubs.json",
+      "stub-mappings.json",
+      "stubs.yaml",
+      "stub-mappings.yaml"
     ]
   },
   {
@@ -10227,6 +10242,15 @@ export const schemata =
       "*.hecate.yaml",
       "*.hecate",
       "*.hecate.json"
+    ]
+  },
+  {
+    "url": "https://jj-vcs.github.io/jj/latest/config-schema.json",
+    "description": "Jujutsu (jj) configuration file",
+    "name": "Jujutsu (jj) VCS config",
+    "fileMatch": [
+      "**/.jj/repo/config.toml",
+      "**/jj/config.toml"
     ]
   }
 ]
