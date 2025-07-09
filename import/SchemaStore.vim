@@ -6092,7 +6092,8 @@ export const schemata =
       "**/.gitlab/renovate.json",
       "**/.gitlab/renovate.json5",
       ".renovaterc",
-      ".renovaterc.json"
+      ".renovaterc.json",
+      ".renovaterc.json5"
     ]
   },
   {
