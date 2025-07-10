@@ -10253,6 +10253,14 @@ export const schemata =
       "**/.jj/repo/config.toml",
       "**/jj/config.toml"
     ]
+  },
+  {
+    "url": "https://sootyowl.github.io/aws-copilot-schemas/copilot-schema.json",
+    "description": "Manifest YAML files for AWS Copilot services, environments, and pipelines. Documentation: https://aws.github.io/copilot-cli/docs/manifest/overview/",
+    "name": "AWS Copilot Manifest",
+    "fileMatch": [
+      "**/copilot/**/manifest.yml"
+    ]
   }
 ]
 export const schemas = schemata
