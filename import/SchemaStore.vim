@@ -9558,6 +9558,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/libs/cli/schemas/version.schema.json",
+    "description": "LangGraph Platform configuration file",
+    "name": "LangGraph Platform configuration",
+    "fileMatch": [
+      "langgraph.json",
+      "langgraph.*.json",
+      ".langgraph.json",
+      ".langgraph.*.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/any.json",
     "description": "Valid for any JSON file",
     "name": "Any",
