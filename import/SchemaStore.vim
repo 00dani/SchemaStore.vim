@@ -5084,15 +5084,29 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/bitol-io/open-data-contract-standard/main/schema/odcs-json-schema-latest.json",
-    "description": "Open Data Contract Standard contract file",
+    "description": "Open Data Contract Standard contract file, from the Bitol project at The Linux Foundation",
     "name": "Open Data Contract Standard (ODCS)",
     "versions": {
       "v2.2.2": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v2.2.2.json",
-      "v3.0.0": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v3.0.0.json"
+      "v3.0.0": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v3.0.0.json",
+      "v3.0.1": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v3.0.1.json",
+      "v3.0.2": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v3.0.2.json"
     },
     "fileMatch": [
       "*.odcs.yaml",
       "*.odcs.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bitol-io/open-data-product-standard/main/schema/odps-json-schema-latest.json",
+    "description": "Open Data Product Standard descriptor file, from the Bitol project at The Linux Foundation",
+    "name": "Open Data Product Standard (ODPS)",
+    "versions": {
+      "v0.9.0": "https://github.com/bitol-io/open-data-product-standard/blob/main/schema/odps-json-schema-v0.9.0.json"
+    },
+    "fileMatch": [
+      "*.odps.yaml",
+      "*.odps.yml"
     ]
   },
   {
@@ -8111,7 +8125,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-12.json",
+    "url": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-13.json",
     "description": "Gradle Enterprise configuration",
     "name": "Gradle Enterprise",
     "versions": {
@@ -8125,6 +8139,7 @@ export const schemata =
       "10.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-10.json",
       "4.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-4.json",
       "6.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-6.json",
+      "13.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-13.json",
       "8.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-8.json",
       "1.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-1.json"
     },
