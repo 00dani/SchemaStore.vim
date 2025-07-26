@@ -3579,6 +3579,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/vault.json",
+    "description": "HashiCorp's Vault configuration file",
+    "name": "HashiCorp Vault",
+    "fileMatch": [
+      "vault.json",
+      "vault.config.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/HaxeFoundation/haxelib/master/schema.json",
     "description": "Haxelib manifest",
     "name": "haxelib.json",
@@ -4162,6 +4171,14 @@ export const schemata =
       "krakend.yml",
       "krakend.json",
       "krakend.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DataDog/schema/main/datadog-ci/synthetics/test-config.schema.json",
+    "description": "Datadog Continuous Testing Configuration file",
+    "name": "Datadog Continuous Testing",
+    "fileMatch": [
+      "*.synthetics.json"
     ]
   },
   {
@@ -6578,6 +6595,150 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/bootstrap.json",
+    "description": "Spack package manager bootstrap.yaml config file",
+    "name": "Spack bootstrap.yaml",
+    "fileMatch": [
+      "**/*spack/**/bootstrap.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/cdash.json",
+    "description": "Spack package manager cdash.yaml config file",
+    "name": "Spack cdash.yaml",
+    "fileMatch": [
+      "**/*spack/**/cdash.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/ci.json",
+    "description": "Spack package manager ci.yaml config file",
+    "name": "Spack ci.yaml",
+    "fileMatch": [
+      "**/*spack/**/ci.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/compilers.json",
+    "description": "Spack package manager compilers.yaml config file",
+    "name": "Spack compilers.yaml",
+    "fileMatch": [
+      "**/*spack/**/compilers.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/concretizer.json",
+    "description": "Spack package manager concretizer.yaml config file",
+    "name": "Spack concretizer.yaml",
+    "fileMatch": [
+      "**/*spack/**/concretizer.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/config.json",
+    "description": "Spack package manager config.yaml file",
+    "name": "Spack config.yaml",
+    "fileMatch": [
+      "**/*spack/**/config.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/definitions.json",
+    "description": "Spack package manager definitions.yaml config",
+    "name": "Spack definitions.yaml",
+    "fileMatch": [
+      "**/*spack/**/definitions.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/develop.json",
+    "description": "Spack package manager develop.yaml config file",
+    "name": "Spack develop.yaml",
+    "fileMatch": [
+      "**/*spack/**/develop.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/env_vars.json",
+    "description": "Spack package manager env_vars.yaml config file",
+    "name": "Spack env_vars.yaml",
+    "fileMatch": [
+      "**/*spack/**/env_vars.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/include.json",
+    "description": "Spack package manager include.yaml config file",
+    "name": "Spack include.yaml",
+    "fileMatch": [
+      "**/*spack/**/include.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/mirrors.json",
+    "description": "Spack package manager mirrors.yaml config file",
+    "name": "Spack mirrors.yaml",
+    "fileMatch": [
+      "**/*spack/**/mirrors.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/modules.json",
+    "description": "Spack package manager modules.yaml config file",
+    "name": "Spack modules.yaml",
+    "fileMatch": [
+      "**/*spack/**/modules.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/packages.json",
+    "description": "Spack package manager packages.yaml config file",
+    "name": "Spack packages.yaml",
+    "fileMatch": [
+      "**/*spack/**/packages.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/repos.json",
+    "description": "Spack package manager repos.yaml config file",
+    "name": "Spack repos.yaml",
+    "fileMatch": [
+      "**/*spack/**/repos.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/spack.json",
+    "description": "Spack package manager environment file",
+    "name": "Spack environment",
+    "fileMatch": [
+      "spack.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/toolchains.json",
+    "description": "Spack package manager toolchains.yaml config file",
+    "name": "Spack toolchains.yaml",
+    "fileMatch": [
+      "**/*spack/**/toolchains.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/upstreams.json",
+    "description": "Spack package manager upstreams.yaml config file",
+    "name": "Spack upstreams.yaml",
+    "fileMatch": [
+      "**/*spack/**/upstreams.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/view.json",
+    "description": "Spack package manager view.yaml config file",
+    "name": "Spack view.yaml",
+    "fileMatch": [
+      "**/*spack/**/view.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/speakeasy-api/sdk-gen-config/main/schemas/lint.schema.json",
     "description": "Configuration file for Speakeasy's OpenAPI document linting. Find out more at https://www.speakeasy.com/docs/linting",
     "name": "Speakeasy Lint Configuration File",
@@ -7306,7 +7467,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/venvironment-schema-v4.0.0.json",
+    "url": "https://www.schemastore.org/venvironment-schema-v4.1.0.json",
     "description": "Simulation and test environment for Vector CANoe Server Editions",
     "name": "venvironment.yaml",
     "versions": {
@@ -7316,6 +7477,7 @@ export const schemata =
       "1.1.0": "https://www.schemastore.org/venvironment-schema-v1.1.0.json",
       "1.1.1": "https://www.schemastore.org/venvironment-schema-v1.1.1.json",
       "3.1.0": "https://www.schemastore.org/venvironment-schema-v3.1.0.json",
+      "4.1.0": "https://www.schemastore.org/venvironment-schema-v4.1.0.json",
       "2.1.0": "https://www.schemastore.org/venvironment-schema-v2.1.0.json",
       "1.0.0": "https://www.schemastore.org/venvironment-schema-v1.0.0.json",
       "2.0.0": "https://www.schemastore.org/venvironment-schema-v2.0.0.json",
@@ -10018,6 +10180,14 @@ export const schemata =
     "name": "Unified Tenant Configuration Management (UTCM) Monitor",
     "fileMatch": [
       "*.utcm-monitor.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/UpCloudLtd/upcloud-cli/refs/heads/main/docs/upctl.schema.json",
+    "description": "Configuration file for the UpCloud CLI (upctl)",
+    "name": "UpCloud CLI (upctl) configuration",
+    "fileMatch": [
+      "**/upctl.yaml"
     ]
   },
   {
