@@ -2424,7 +2424,7 @@ export const schemata =
   },
   {
     "url": "https://www.schemastore.org/dependabot-2.0.json",
-    "description": "GitHub Action's dependabot.yml files",
+    "description": "GitHub Actions' dependabot.yml files",
     "name": "dependabot-v2.json",
     "fileMatch": [
       "**/.github/dependabot.yml",
@@ -2525,7 +2525,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Events/event-horizons.json",
-    "description": "A a Dolittle bounded context's event horizon configurations",
+    "description": "A Dolittle bounded context's event horizon configurations",
     "name": "Dolittle Event Horizons Configuration",
     "fileMatch": [
       "**/.dolittle/event-horizons.json"
@@ -2533,7 +2533,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/v5.1.0/Schemas/ResourceTypes.Configuration/resources.json",
-    "description": "A a Dolittle bounded context's resource configurations",
+    "description": "A Dolittle bounded context's resource configurations",
     "name": "Dolittle Resources Configuration",
     "fileMatch": [
       "**/.dolittle/resources.json"
@@ -2541,7 +2541,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Server/server.json",
-    "description": "A a Dolittle bounded context's event horizon's interaction server configuration",
+    "description": "A Dolittle bounded context's event horizon's interaction server configuration",
     "name": "Dolittle Server Configuration",
     "fileMatch": [
       "**/.dolittle/server.json"
@@ -2549,7 +2549,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Tenancy/tenants.json",
-    "description": "A a Dolittle bounded context's tenant configuration",
+    "description": "A Dolittle bounded context's tenant configuration",
     "name": "Dolittle Tenants Configuration",
     "fileMatch": [
       "**/.dolittle/tenants.json"
@@ -2557,7 +2557,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/master/Schemas/Tenancy.Configuration/tenant-map.json",
-    "description": "A a Dolittle bounded context's tenant mapping configurations",
+    "description": "A Dolittle bounded context's tenant mapping configurations",
     "name": "Dolittle Tenant Map Configuration",
     "fileMatch": [
       "**/.dolittle/tenant-map.json"
@@ -2565,7 +2565,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/master/Schemas/Applications.Configuration/topology.json",
-    "description": "A a Dolittle bounded context's topology",
+    "description": "A Dolittle bounded context's topology",
     "name": "Dolittle Topology",
     "fileMatch": [
       "**/.dolittle/topology.json"
@@ -5020,7 +5020,7 @@ export const schemata =
   },
   {
     "url": "https://spec.openapis.org/oas/3.1/schema/2022-10-07",
-    "description": "A Open API documentation files",
+    "description": "An OpenAPI documentation file",
     "name": "openapi.json",
     "versions": {
       "3.0": "https://spec.openapis.org/oas/3.0/schema/2021-09-28",
@@ -5034,7 +5034,7 @@ export const schemata =
   },
   {
     "url": "https://meta.open-rpc.org/",
-    "description": "A OpenRPC documents. Documentation: https://open-rpc.org for more information",
+    "description": "An OpenRPC document. Documentation: https://open-rpc.org for more information",
     "name": "openrpc.json",
     "fileMatch": [
       "openrpc.json",
@@ -7941,7 +7941,7 @@ export const schemata =
   },
   {
     "url": "https://motif.land/api/motif.schema.json",
-    "description": "A a Motif config file",
+    "description": "A Motif config file",
     "name": "Motif config",
     "fileMatch": [
       "motif.json"
@@ -8477,7 +8477,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/Cloud-Pipelines/component_spec_schema/stable/component_spec.json_schema.json",
-    "description": "YAML the Kubeflow Pipelines' component.yaml files which describe a pipeline components. Component consists of input/output definitions and the description of the implementation which can either be a containerized command line program or a interconnected graph of tasks. Documentation: https://cloud-pipelines.github.io/links/component_authoring_documentation",
+    "description": "YAML the Kubeflow Pipelines' component.yaml files which describe a pipeline components. Component consists of input/output definitions and the description of the implementation which can either be a containerized command line program or an interconnected graph of tasks. Documentation: https://cloud-pipelines.github.io/links/component_authoring_documentation",
     "name": "Pipeline component",
     "fileMatch": [
       "component.yaml",
