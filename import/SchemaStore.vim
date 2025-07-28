@@ -4450,6 +4450,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-custom-flavor.jsonschema.json",
+    "description": "MegaLinter Custom Flavor definition file",
+    "name": "MegaLinter Custom Flavor",
+    "fileMatch": [
+      "megalinter-custom-flavor.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-descriptor.jsonschema.json",
     "description": "MegaLinter descriptor files (for MegaLinter contributors)",
     "name": "MegaLinter descriptor",
