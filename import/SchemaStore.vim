@@ -2844,7 +2844,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/expo-52.0.0.json",
+    "url": "https://www.schemastore.org/expo-53.0.0.json",
     "description": "Expo SDK app manifest",
     "name": "Expo SDK",
     "versions": {
@@ -2856,6 +2856,7 @@ export const schemata =
       "50.0.0": "https://www.schemastore.org/expo-50.0.0.json",
       "46.0.0": "https://www.schemastore.org/expo-46.0.0.json",
       "52.0.0": "https://www.schemastore.org/expo-52.0.0.json",
+      "53.0.0": "https://www.schemastore.org/expo-53.0.0.json",
       "42.0.0": "https://www.schemastore.org/expo-42.0.0.json"
     },
     "fileMatch": [
