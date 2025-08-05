@@ -1332,6 +1332,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://changie.dev/schema.json",
+    "description": "Changie configuration file",
+    "name": "Changie",
+    "fileMatch": [
+      ".changie.yaml",
+      ".changie.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/canonical/charmcraft/main/schema/charmcraft.json",
     "description": "Charmcraft project. Documentation: https://canonical-charmcraft.readthedocs-hosted.com",
     "name": "Charmcraft",
@@ -7255,6 +7264,7 @@ export const schemata =
     "description": "TSTyche configuration file",
     "name": "TSTyche",
     "fileMatch": [
+      "tstyche.json",
       "tstyche.config.json"
     ]
   },
