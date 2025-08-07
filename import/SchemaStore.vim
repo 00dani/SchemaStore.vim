@@ -629,6 +629,7 @@ export const schemata =
     "name": "bottom configuration",
     "versions": {
       "nightly": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json",
+      "0.11": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.11/bottom.json",
       "0.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.9/bottom.json",
       "0.10": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.10/bottom.json"
     },
@@ -7072,6 +7073,15 @@ export const schemata =
     },
     "fileMatch": [
       "theme.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Threagile/threagile/refs/heads/master/support/schema.json",
+    "description": "Threagile Threat Model file",
+    "name": "Threagile",
+    "fileMatch": [
+      "threagile.yaml",
+      "threat-model.yaml"
     ]
   },
   {
