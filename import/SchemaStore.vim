@@ -10487,6 +10487,15 @@ export const schemata =
     "fileMatch": [
       "**/copilot/**/manifest.yml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/terrateamio/terrateam/refs/heads/main/api_schemas/terrat/config-schema.json",
+    "description": "Terrateam configuration file",
+    "name": "Terrateam config",
+    "fileMatch": [
+      "**/.terrateam/config.yaml",
+      "**/.terrateam/config.yml"
+    ]
   }
 ]
 export const schemas = schemata
