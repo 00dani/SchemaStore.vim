@@ -3230,8 +3230,8 @@ export const schemata =
     "description": "YAML GitHub issue forms",
     "name": "GitHub Issue Template forms",
     "fileMatch": [
-      "**/.github/ISSUE_TEMPLATE/**.yml",
-      "**/.github/ISSUE_TEMPLATE/**.yaml"
+      "**/.github/ISSUE_TEMPLATE/!(config).yml",
+      "**/.github/ISSUE_TEMPLATE/!(config).yaml"
     ]
   },
   {
