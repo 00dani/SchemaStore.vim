@@ -8261,7 +8261,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json",
+    "url": "https://raw.githubusercontent.com/compose-spec/compose-go/master/schema/compose-spec.json",
     "description": "The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications",
     "name": "docker-compose.yml",
     "fileMatch": [
