@@ -7781,6 +7781,7 @@ export const schemata =
     "name": "Wrangler CLI",
     "fileMatch": [
       "wrangler.json",
+      "wrangler.jsonc",
       "wrangler.toml"
     ]
   },
@@ -10495,6 +10496,14 @@ export const schemata =
     "fileMatch": [
       "**/.terrateam/config.yaml",
       "**/.terrateam/config.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/leanprover/lean4/refs/heads/master/src/lake/schemas/lakefile-toml-schema.json",
+    "description": "`lakefile.toml`, the .toml configuration file for Lake, the package manager of the Lean programming language and theorem prover",
+    "name": "Lake configuration file",
+    "fileMatch": [
+      "lakefile.toml"
     ]
   }
 ]
