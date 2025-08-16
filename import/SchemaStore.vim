@@ -1350,6 +1350,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/ChordPro/chordpro/master/lib/ChordPro/res/config/config.schema",
+    "description": "Configuration files for ChordPro",
+    "name": "ChordPro Configuration",
+    "fileMatch": [
+      "*.chordpro.json",
+      "chordpro.json",
+      "*.chordpro.yaml",
+      "*.chordpro.yml",
+      "chordpro.yaml",
+      "chordpro.yml"
+    ]
+  },
+  {
     "url": "https://gitlab.com/chromaway/core-tools/chromia-cli-tools/-/raw/dev/chromia-build-tools/src/main/resources/chromia-model-schema.json",
     "description": "Chromia Model Config File",
     "name": "Chromia Model",
