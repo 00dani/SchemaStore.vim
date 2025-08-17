@@ -1603,6 +1603,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/k1LoW/deck/refs/heads/main/schema.yml",
+    "description": "Deck is a tool for creating presentation using Markdown and Google Slides",
+    "name": "Deck config",
+    "fileMatch": [
+      "**/.config/deck/config.yml",
+      "**/.config/deck/config.yaml",
+      "**/.config/deck/config-*.yml",
+      "**/.config/deck/config-*.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/dein.json",
     "description": "Dein.vim, a Vim/Neovim plugin manager",
     "name": "Dein Config",
@@ -10517,6 +10528,15 @@ export const schemata =
     "name": "Lake configuration file",
     "fileMatch": [
       "lakefile.toml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/zarf.json",
+    "description": "Zarf Packages contain a comprehensive description of system software and all of it's components for declaratively deploying in a disconnected environment",
+    "name": "Zarf Package Configuration",
+    "fileMatch": [
+      "**/zarf.yaml",
+      "**/zarf.yml"
     ]
   }
 ]
