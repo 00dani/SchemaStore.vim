@@ -3177,16 +3177,22 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/GitTools/GitVersion/main/schemas/6.0/GitVersion.configuration.json",
+    "url": "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
     "description": "Configuration file for GitVersion",
     "name": "GitVersion",
     "versions": {
-      "5.12": "https://raw.githubusercontent.com/GitTools/GitVersion/main/schemas/5.12/GitVersion.configuration.json",
-      "6.0": "https://raw.githubusercontent.com/GitTools/GitVersion/main/schemas/6.0/GitVersion.configuration.json"
+      "6.4": "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
+      "5.12": "https://gitversion.net/schemas/5.12/GitVersion.configuration.json",
+      "6.0": "https://gitversion.net/schemas/6.0/GitVersion.configuration.json",
+      "6.1": "https://gitversion.net/schemas/6.1/GitVersion.configuration.json",
+      "6.2": "https://gitversion.net/schemas/6.2/GitVersion.configuration.json",
+      "6.3": "https://gitversion.net/schemas/6.3/GitVersion.configuration.json"
     },
     "fileMatch": [
       "GitVersion.yml",
-      "GitVersion.yaml"
+      "GitVersion.yaml",
+      ".gitversion.yml",
+      ".gitversion.yaml"
     ]
   },
   {
@@ -3632,6 +3638,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/hayagriva.json",
+    "description": "A bibliography management format for the modern age",
+    "name": "Hayagriva"
+  },
+  {
     "url": "https://raw.githubusercontent.com/j2inn/hayson/master/hayson-json-schema.json",
     "description": "Project Haystack data",
     "name": "Hayson",
@@ -3727,7 +3738,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.4.0.json",
+    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.5.0.json",
     "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
     "name": "IBM Zapp document",
     "versions": {
@@ -3735,11 +3746,13 @@ export const schemata =
       "1.4.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.4.0.json",
       "1.1.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.1.0.json",
       "1.3.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.3.0.json",
+      "1.5.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.5.0.json",
       "1.0.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.0.0.json",
       "1.2.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.0.json"
     },
     "fileMatch": [
       "zapp.yaml",
+      "zapp.yml",
       "zapp.json"
     ]
   },
