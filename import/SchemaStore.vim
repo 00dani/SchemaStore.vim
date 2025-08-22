@@ -8461,7 +8461,9 @@ export const schemata =
     "name": ".taskrc.yaml",
     "fileMatch": [
       ".taskrc.yaml",
-      ".taskrc.yml"
+      ".taskrc.yml",
+      "taskrc.yaml",
+      "taskrc.yml"
     ]
   },
   {
