@@ -1329,7 +1329,8 @@ export const schemata =
     "description": "Backstage Catalog Info",
     "name": "Catalog Info Backstage",
     "fileMatch": [
-      "catalog-info.yaml"
+      "catalog-info.yaml",
+      "*.catalog-info.yaml"
     ]
   },
   {
@@ -6936,6 +6937,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/streamlit-config.json",
+    "description": "Streamlit configuration file",
+    "name": "Streamlit configuration file",
+    "fileMatch": [
+      "**/.streamlit/config.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/stripe/stripe-apps/main/schema/stripe-app.schema.json",
     "description": "Stripe Apps manifest file",
     "name": "stripe-app.json",
@@ -7959,6 +7968,17 @@ export const schemata =
       ".lintstagedrc.json",
       ".lintstagedrc.yaml",
       ".lintstagedrc.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/mdxlintrc.json",
+    "description": "An mdxlint configuration file",
+    "name": ".mdxlintrc",
+    "fileMatch": [
+      ".mdxlintrc",
+      ".mdxlintrc.json",
+      ".mdxlintrc.yaml",
+      ".mdxlintrc.yml"
     ]
   },
   {
