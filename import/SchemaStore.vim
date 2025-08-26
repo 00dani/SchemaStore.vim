@@ -3775,9 +3775,9 @@ export const schemata =
     ]
   },
   {
-    "url": "https://ifstate.net/schema/1/ifstate.conf.schema.json",
+    "url": "https://ifstate.net/schema/2/ifstate.conf.schema.json",
     "description": "IfState configuration file",
-    "name": "ifstate.conf",
+    "name": "ifstate.yaml",
     "versions": {
       "0.6": "https://ifstate.net/schema/0.6/ifstate.conf.schema.json",
       "0.7": "https://ifstate.net/schema/0.7/ifstate.conf.schema.json",
@@ -3785,6 +3785,8 @@ export const schemata =
       "0.9": "https://ifstate.net/schema/0.9/ifstate.conf.schema.json",
       "1.10": "https://ifstate.net/schema/1.10/ifstate.conf.schema.json",
       "1.11": "https://ifstate.net/schema/1.11/ifstate.conf.schema.json",
+      "1.12": "https://ifstate.net/schema/1.12/ifstate.conf.schema.json",
+      "1.13": "https://ifstate.net/schema/1.13/ifstate.conf.schema.json",
       "1.0": "https://ifstate.net/schema/1.0/ifstate.conf.schema.json",
       "1.1": "https://ifstate.net/schema/1.1/ifstate.conf.schema.json",
       "1.2": "https://ifstate.net/schema/1.2/ifstate.conf.schema.json",
@@ -3794,10 +3796,11 @@ export const schemata =
       "1.6": "https://ifstate.net/schema/1.6/ifstate.conf.schema.json",
       "1.7": "https://ifstate.net/schema/1.7/ifstate.conf.schema.json",
       "1.8": "https://ifstate.net/schema/1.8/ifstate.conf.schema.json",
-      "1.9": "https://ifstate.net/schema/1.9/ifstate.conf.schema.json"
+      "1.9": "https://ifstate.net/schema/1.9/ifstate.conf.schema.json",
+      "2.0": "https://ifstate.net/schema/2.0/ifstate.conf.schema.json"
     },
     "fileMatch": [
-      "ifstate.yml",
+      "ifstate.yaml",
       "**/ifstate/config.yml"
     ]
   },
