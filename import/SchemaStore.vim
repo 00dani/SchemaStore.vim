@@ -1604,6 +1604,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://salsa.debian.org/debian/debian-json-schemas/-/raw/main/schemas/debian-upstream-metadata/debian-upstream-metadata-latest.json",
+    "description": "Debian packaging file for describing metadata about the upstream project",
+    "name": "Debian Upstream Metadata file",
+    "fileMatch": [
+      "**/debian/upstream/metadata"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/k1LoW/deck/refs/heads/main/schema.yml",
     "description": "Deck is a tool for creating presentation using Markdown and Google Slides",
     "name": "Deck config",
