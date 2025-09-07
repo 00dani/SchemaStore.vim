@@ -193,7 +193,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-supply-plan-10.1.0.json",
+    "url": "https://www.schemastore.org/abc-supply-plan-11.0.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
@@ -203,6 +203,7 @@ export const schemata =
       "7.0.0": "https://www.schemastore.org/abc-supply-plan-7.0.0.json",
       "8.0.0": "https://www.schemastore.org/abc-supply-plan-8.0.0.json",
       "9.0.0": "https://www.schemastore.org/abc-supply-plan-9.0.0.json",
+      "11.0.0": "https://www.schemastore.org/abc-supply-plan-11.0.0.json",
       "10.0.0": "https://www.schemastore.org/abc-supply-plan-10.0.0.json",
       "10.1.0": "https://www.schemastore.org/abc-supply-plan-10.1.0.json",
       "1.0.0": "https://www.schemastore.org/abc-supply-plan-1.0.0.json",
@@ -10584,6 +10585,14 @@ export const schemata =
     "fileMatch": [
       "**/zarf.yaml",
       "**/zarf.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/space-wizards/RobustToolbox/refs/heads/master/Schemas/rsi.json",
+    "description": "Space Station 14 RSI validation",
+    "name": "Robust Station Image",
+    "fileMatch": [
+      "**/*.rsi/meta.json"
     ]
   }
 ]
