@@ -10545,6 +10545,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/gadget-yaml.json",
+    "description": "Revel Digital gadget definition file. See https://developer.reveldigital.com/gadgets for more information",
+    "name": "Revel Digital Gadget Definition File",
+    "fileMatch": [
+      "gadget.yml",
+      "gadget.yaml"
+    ]
+  },
+  {
     "url": "https://jj-vcs.github.io/jj/latest/config-schema.json",
     "description": "Jujutsu (jj) configuration file",
     "name": "Jujutsu (jj) VCS config",
@@ -10593,6 +10602,18 @@ export const schemata =
     "name": "Robust Station Image",
     "fileMatch": [
       "**/*.rsi/meta.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/initiative-online-print/eudr-iop-standard-exchange-format/refs/heads/main/json/schema.json",
+    "description": "structured exchange of data related to the EU Deforestation Regulation (EUDR)",
+    "name": "EUDR IOP Standard Exchange Format (EUDR-X)",
+    "versions": {
+      "1.0.0": "https://raw.githubusercontent.com/initiative-online-print/eudr-iop-standard-exchange-format/refs/tags/v1.0.0/json/schema.json",
+      "2.0.0": "https://raw.githubusercontent.com/initiative-online-print/eudr-iop-standard-exchange-format/refs/tags/v2.0.0/json/schema.json"
+    },
+    "fileMatch": [
+      "*eudr-x.json"
     ]
   }
 ]
