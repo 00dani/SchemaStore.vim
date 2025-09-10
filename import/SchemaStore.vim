@@ -10615,6 +10615,14 @@ export const schemata =
     "fileMatch": [
       "*eudr-x.json"
     ]
+  },
+  {
+    "url": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
+    "description": "For writing connector metadata documents to be used in Azure IoT Operations scenarios",
+    "name": "Azure IoT Operations connector metadata",
+    "versions": {
+      "5.0-preview": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json"
+    }
   }
 ]
 export const schemas = schemata
