@@ -6924,6 +6924,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/veepee-oss/json-schema/refs/heads/main/starfish/1-latest/starfish-schema.json",
+    "description": "Configuration file for Starfish",
+    "name": "Starfish",
+    "fileMatch": [
+      "starfish.yml"
+    ]
+  },
+  {
     "url": "https://starship.rs/config-schema.json",
     "description": "Configuration file for Starship. Documentation: https://starship.rs",
     "name": "Starship",
@@ -7442,8 +7450,8 @@ export const schemata =
     ]
   },
   {
-    "url": "https://sap.github.io/ui5-tooling/schema/ui5.yaml.json",
-    "description": "UI5 Tooling Configuration File (ui5.yaml)",
+    "url": "https://ui5.github.io/cli/schema/ui5.yaml.json",
+    "description": "UI5 CLI Configuration File (ui5.yaml)",
     "name": "ui5.yaml",
     "fileMatch": [
       "ui5.yaml",
@@ -7455,8 +7463,8 @@ export const schemata =
     ]
   },
   {
-    "url": "https://sap.github.io/ui5-tooling/schema/ui5-workspace.yaml.json",
-    "description": "UI5 Tooling Workspace Configuration File (ui5-workspace.yaml)",
+    "url": "https://ui5.github.io/cli/schema/ui5-workspace.yaml.json",
+    "description": "UI5 CLI Workspace Configuration File (ui5-workspace.yaml)",
     "name": "ui5-workspace.yaml",
     "fileMatch": [
       "ui5-workspace.yaml",
