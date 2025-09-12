@@ -1803,7 +1803,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/helm-unittest/helm-unittest/v0.5.1/schema/helm-testsuite.json",
+    "url": "https://raw.githubusercontent.com/helm-unittest/helm-unittest/refs/heads/main/schema/helm-testsuite.json",
     "description": "A Helm Unittest Test Suite file",
     "name": "Helm Unittest Test Suite",
     "fileMatch": [
@@ -3304,7 +3304,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json",
+    "url": "https://gitlab.com/gitlab-org/gitlab-foss/-/raw/master/app/assets/javascripts/editor/schema/ci.json",
     "description": "GitLab CI Configuration file",
     "name": "gitlab-ci",
     "fileMatch": [
@@ -10631,6 +10631,20 @@ export const schemata =
     "versions": {
       "5.0-preview": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json"
     }
+  },
+  {
+    "url": "https://www.schemastore.org/evolving-resolutive-process-notation-1.0.json",
+    "description": "For describing contradiction-based processes with storing changes and authors",
+    "name": "Evolving Resolutive Process notation",
+    "versions": {
+      "1.0": "https://www.schemastore.org/evolving-resolutive-process-notation-1.0.json"
+    },
+    "fileMatch": [
+      "*.erpn.yml",
+      "*.erpn.yaml",
+      "*.erpn.toml",
+      "*.erpn.json"
+    ]
   }
 ]
 export const schemas = schemata
