@@ -3543,6 +3543,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/treefmt.json",
+    "description": "Treefmt configuration file",
+    "name": "Treefmt",
+    "fileMatch": [
+      "treefmt.toml"
+    ]
+  },
+  {
     "url": "https://unpkg.com/@graphql-mesh/types/esm/config-schema.json",
     "description": "GraphQL Mesh config file",
     "name": "GraphQL Mesh",
