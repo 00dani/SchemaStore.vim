@@ -1922,6 +1922,10 @@ export const schemata =
     "description": "codecov.yml files",
     "name": "Codecov configuration files",
     "fileMatch": [
+      "**/.github/.codecov.yml",
+      "**/.github/codecov.yml",
+      "**/dev/.codecov.yml",
+      "**/dev/codecov.yml",
       ".codecov.yml",
       "codecov.yml"
     ]
