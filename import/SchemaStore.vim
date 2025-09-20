@@ -160,7 +160,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/aiproj-1.7.json",
+    "url": "https://www.schemastore.org/aiproj-1.8.json",
     "description": "Settings for project analysis by the Application Inspector",
     "name": ".aiproj.json",
     "versions": {
@@ -171,6 +171,7 @@ export const schemata =
       "1.5": "https://www.schemastore.org/aiproj-1.5.json",
       "1.6": "https://www.schemastore.org/aiproj-1.6.json",
       "1.7": "https://www.schemastore.org/aiproj-1.7.json",
+      "1.8": "https://www.schemastore.org/aiproj-1.8.json",
       "1.0": "https://www.schemastore.org/aiproj-1.0.json"
     },
     "fileMatch": [
@@ -3760,6 +3761,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/xaaha/hulak/refs/heads/main/assets/schema.json",
+    "description": "Hulak API client configuration file",
+    "name": "Hulak Configuration",
+    "fileMatch": [
+      "**/*.hk.yaml",
+      "**/*.hk.yml",
+      "**/*.hk.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.5.0.json",
     "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
     "name": "IBM Zapp document",
@@ -4493,6 +4504,15 @@ export const schemata =
     "name": ".luaurc",
     "fileMatch": [
       ".luaurc"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/akiomik/mado/refs/heads/main/pkg/json-schema/mado.json",
+    "description": "Mado markdown linter configuration file",
+    "name": "Mado configuration",
+    "fileMatch": [
+      ".mado.toml",
+      "mado.toml"
     ]
   },
   {
@@ -10637,11 +10657,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
+    "url": "https://www.schemastore.org/aio-connector-metadata-7.0-preview.json",
     "description": "For writing connector metadata documents to be used in Azure IoT Operations scenarios",
     "name": "Azure IoT Operations connector metadata",
     "versions": {
-      "5.0-preview": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json"
+      "6.0-preview": "https://www.schemastore.org/aio-connector-metadata-6.0-preview.json",
+      "5.0-preview": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
+      "7.0-preview": "https://www.schemastore.org/aio-connector-metadata-7.0-preview.json"
     }
   },
   {
