@@ -10679,6 +10679,20 @@ export const schemata =
       "*.erpn.toml",
       "*.erpn.json"
     ]
+  },
+  {
+    "url": "https://deployah.dev/schemas/v1-alpha.1/manifest.json",
+    "description": "CLI tool that makes Kubernetes deployments effortless—no Helm or K8s expertise required",
+    "name": "Deployah Configuration",
+    "versions": {
+      "v1-alpha.1": "https://deployah.dev/schemas/v1-alpha.1/manifest.json"
+    },
+    "fileMatch": [
+      "deployah.yaml",
+      "deployah.yml",
+      ".deployah.yaml",
+      ".deployah.yml"
+    ]
   }
 ]
 export const schemas = schemata
