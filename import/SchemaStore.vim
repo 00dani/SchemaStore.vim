@@ -5825,7 +5825,7 @@ export const schemata =
     "name": "project-1.0.0-rc2.json"
   },
   {
-    "url": "https://raw.githubusercontent.com/OWASP/Nest/main/schema/project.json",
+    "url": "https://raw.githubusercontent.com/OWASP/nest-schema/main/project.json",
     "description": "OWASP project",
     "name": "project.owasp.yaml",
     "fileMatch": [
