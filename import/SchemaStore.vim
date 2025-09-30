@@ -694,11 +694,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/hexagonkt/codecv/master/cv.schema.json",
+    "url": "https://raw.githubusercontent.com/codecv-co/codecv/master/cv.schema.json",
     "description": "CV format specification",
     "name": "CodeCV",
     "versions": {
-      "0.9.9": "https://raw.githubusercontent.com/hexagonkt/codecv/0.9.9/cv.schema.json"
+      "0.9.24": "https://raw.githubusercontent.com/codecv-co/codecv/0.9.24/cv.schema.json"
     },
     "fileMatch": [
       "cv.json",
