@@ -432,6 +432,30 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/ast-grep/ast-grep/main/schemas/project.json",
+    "description": "ast-grep project config",
+    "name": "ast-grep sgconfig.yml",
+    "fileMatch": [
+      "sgconfig.yml",
+      "sgconfig.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ast-grep/ast-grep/main/schemas/rule.json",
+    "description": "ast-grep rule config",
+    "name": "ast-grep rules",
+    "fileMatch": [
+      "**/.astgrep/rules/**/*.yaml",
+      "**/.astgrep/rules/**/*.yml",
+      "**/.ast-grep/rules/**/*.yaml",
+      "**/.ast-grep/rules/**/*.yml",
+      "**/ast-grep/rules/**/*.yaml",
+      "**/ast-grep/rules/**/*.yml",
+      "**/astgrep/rules/**/*.yaml",
+      "**/astgrep/rules/**/*.yml"
+    ]
+  },
+  {
     "url": "https://www.asyncapi.com/schema-store/all.schema-store.json",
     "description": "AsyncAPI documentation files",
     "name": "AsyncAPI",
@@ -10662,8 +10686,10 @@ export const schemata =
     "name": "Azure IoT Operations connector metadata",
     "versions": {
       "6.0-preview": "https://www.schemastore.org/aio-connector-metadata-6.0-preview.json",
+      "8.0-preview": "https://www.schemastore.org/aio-connector-metadata-8.0-preview.json",
       "5.0-preview": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
-      "7.0-preview": "https://www.schemastore.org/aio-connector-metadata-7.0-preview.json"
+      "7.0-preview": "https://www.schemastore.org/aio-connector-metadata-7.0-preview.json",
+      "9.0-preview": "https://www.schemastore.org/aio-connector-metadata-9.0-preview.json"
     }
   },
   {
