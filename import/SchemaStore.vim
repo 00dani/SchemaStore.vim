@@ -5146,6 +5146,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://app.ona.com/jsonschema/v1/automations_file.jsonschema.json",
+    "description": "Configuration for Ona Automations",
+    "name": "Ona Automations",
+    "fileMatch": [
+      "**/.ona/automations.json",
+      "**/.ona/automations.yaml",
+      "**/.ona/automations.yml",
+      "**/.ona/automation.yaml"
+    ]
+  },
+  {
     "url": "https://spec.openapis.org/oas/3.1/schema/2022-10-07",
     "description": "An OpenAPI documentation file",
     "name": "openapi.json",
