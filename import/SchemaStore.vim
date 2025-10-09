@@ -4940,6 +4940,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/RedHat-UX/next-gen-ui-agent/refs/heads/main/spec/config/agent_config.schema.json",
+    "description": "NextGen UI Agent configuration. Documentation: https://redhat-ux.github.io/next-gen-ui-agent/guide/configuration/",
+    "name": "Next Gen UI Agent Configuration",
+    "fileMatch": [
+      "ngui_*.yaml",
+      "ngui_*.yml",
+      "ngui_*.json"
+    ]
+  },
+  {
     "url": "https://nfpm.goreleaser.com/static/schema.json",
     "description": "nFPM configuration file",
     "name": "nFPM",
@@ -6919,6 +6929,16 @@ export const schemata =
     "fileMatch": [
       "*.specif",
       "*.specif.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/specmatic.json",
+    "description": "Configuration file for Specmatic, a contract-driven testing tool",
+    "name": "Specmatic Configuration",
+    "fileMatch": [
+      "specmatic.json",
+      "specmatic.yaml",
+      "specmatic.yml"
     ]
   },
   {
