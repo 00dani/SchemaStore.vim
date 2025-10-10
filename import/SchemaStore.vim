@@ -10750,6 +10750,14 @@ export const schemata =
       ".deployah.yaml",
       ".deployah.yml"
     ]
+  },
+  {
+    "url": "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json",
+    "description": "",
+    "name": "Azure IoT Operations Wasm Graph Config",
+    "versions": {
+      "1.0.0": "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json"
+    }
   }
 ]
 export const schemas = schemata
