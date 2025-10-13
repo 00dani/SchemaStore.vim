@@ -3935,6 +3935,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://ixpect.net/0.1/schema/ixpect.conf.schema.json",
+    "description": "IXpect configuration file",
+    "name": "ixpect.conf.yaml",
+    "versions": {
+      "0.1": "https://ixpect.net/0.1/schema/ixpect.conf.schema.json"
+    },
+    "fileMatch": [
+      "ixpect.conf.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/jasmine.json",
     "description": "jasmine JSON config file",
     "name": "Jasmine",
@@ -9042,9 +9053,13 @@ export const schemata =
     "name": "GeoJSON.json latest"
   },
   {
-    "url": "https://www.schemastore.org/clang-format.json",
+    "url": "https://www.schemastore.org/clang-format-21.x.json",
     "description": "yaml clang-format config",
     "name": "clang-format (.clang-format)",
+    "versions": {
+      "21.x": "https://www.schemastore.org/clang-format-21.x.json",
+      "18.x": "https://www.schemastore.org/clang-format-18.x.json"
+    },
     "fileMatch": [
       ".clang-format"
     ]
