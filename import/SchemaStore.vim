@@ -6354,6 +6354,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/rvben/rumdl/main/rumdl.schema.json",
+    "description": "Configuration file for rumdl, a fast Markdown linter and formatter",
+    "name": "rumdl",
+    "fileMatch": [
+      ".rumdl.toml",
+      "rumdl.toml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/rustfmt.json",
     "description": "rustfmt, a tool to format Rust code",
     "name": "rustfmt",
