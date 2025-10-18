@@ -3709,7 +3709,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://hazelcast.com/schema/config/hazelcast-config-5.5.json",
+    "url": "https://hazelcast.com/schema/config/hazelcast-config-5.6.json",
     "description": "YAML configuring Hazelcast 5 Platform (member and client)",
     "name": "Hazelcast 5 Configuration",
     "fileMatch": [
