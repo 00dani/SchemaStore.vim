@@ -5538,6 +5538,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/package.json",
+    "description": "PNPM configuration file",
+    "name": "package.yaml",
+    "fileMatch": [
+      "package.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/package.manifest.json",
     "description": "Umbraco package configuration file",
     "name": "package.manifest",
