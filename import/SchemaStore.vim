@@ -1371,7 +1371,7 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/canonical/charmcraft/main/schema/charmcraft.json",
-    "description": "Charmcraft project. Documentation: https://canonical-charmcraft.readthedocs-hosted.com",
+    "description": "Charmcraft project. Documentation: https://documentation.ubuntu.com/charmcraft/stable/",
     "name": "Charmcraft",
     "fileMatch": [
       "charmcraft.yaml"
@@ -6334,11 +6334,10 @@ export const schemata =
   },
   {
     "url": "https://raw.githubusercontent.com/canonical/rockcraft/main/schema/rockcraft.json",
-    "description": "rockcraft project. Documentation: https://canonical-rockcraft.readthedocs-hosted.com",
-    "name": "rockcraft",
+    "description": "Rockcraft project. Documentation: https://documentation.ubuntu.com/rockcraft/stable/",
+    "name": "Rockcraft",
     "fileMatch": [
-      "rockcraft.yaml",
-      "rockcraft.yml"
+      "rockcraft.yaml"
     ]
   },
   {
@@ -6712,9 +6711,9 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/snapcore/snapcraft/master/schema/snapcraft.json",
-    "description": "snapcraft project. Documentation: https://snapcraft.io",
-    "name": "snapcraft",
+    "url": "https://raw.githubusercontent.com/canonical/snapcraft/main/schema/snapcraft.json",
+    "description": "Snapcraft project. Documentation: https://documentation.ubuntu.com/snapcraft/stable/",
+    "name": "Snapcraft",
     "fileMatch": [
       ".snapcraft.yaml",
       "snapcraft.yaml"
