@@ -3796,15 +3796,17 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.5.0.json",
+    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.7.0.json",
     "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
     "name": "IBM Zapp document",
     "versions": {
       "1.2.1": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.1.json",
       "1.4.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.4.0.json",
+      "1.6.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.6.0.json",
       "1.1.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.1.0.json",
       "1.3.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.3.0.json",
       "1.5.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.5.0.json",
+      "1.7.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.7.0.json",
       "1.0.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.0.0.json",
       "1.2.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.0.json"
     },
@@ -5930,6 +5932,15 @@ export const schemata =
       "*.prometheus.tests.yaml",
       "*.prometheus.test.yml",
       "*.prometheus.test.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/prometheus-alertmanager.json",
+    "description": "Prometheus Alertmanager configuration file",
+    "name": "prometheus-alertmanager.json",
+    "fileMatch": [
+      "alertmanager.yml",
+      "alertmanager.yaml"
     ]
   },
   {
