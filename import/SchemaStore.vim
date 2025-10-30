@@ -3919,7 +3919,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/ioBroker/ioBroker.admin/master/packages/jsonConfig/schemas/jsonConfig.json",
+    "url": "https://raw.githubusercontent.com/ioBroker/json-config/main/schemas/jsonConfig.json",
     "description": "ioBroker JSON-based admin user interfaces - config, custom and tabs",
     "name": "ioBroker JSON UI",
     "fileMatch": [
@@ -6655,8 +6655,8 @@ export const schemata =
     "fileMatch": [
       ".sfdx-hardis.yml",
       ".sfdx-hardis.yaml",
-      "**/branches/.sfdx-hardis.*.yml",
-      "**/branches/.sfdx-hardis.*.yaml"
+      ".sfdx-hardis.*.yml",
+      ".sfdx-hardis.*.yaml"
     ]
   },
   {
@@ -10801,6 +10801,26 @@ export const schemata =
     "versions": {
       "1.0.0": "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json"
     }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/airbytehq/airbyte-python-cdk/49c5a482de7bdfbaa3a68373a940b90c0690a56f/airbyte_cdk/sources/declarative/generated/declarative_component_schema.json",
+    "description": "Airbyte Specification for custom connectors",
+    "name": "Airbyte Declarative Connectors Specification (manifest.yaml)",
+    "fileMatch": [
+      "source-*-manifest.yaml",
+      "destination-*-manifest.yaml",
+      "**/source-*/manifest.yaml",
+      "**/destination-*/manifest.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/airbytehq/airbyte/refs/heads/master/airbyte-ci/connectors/metadata_service/lib/metadata_service/models/generated/ConnectorMetadataDefinitionV0.json",
+    "description": "Airbyte Specification for custom connectors",
+    "name": "Airbyte Connector Metadata Specification (metadata.yaml)",
+    "fileMatch": [
+      "**/source-*/metadata.yaml",
+      "**/destination-*/metadata.yaml"
+    ]
   }
 ]
 export const schemas = schemata
