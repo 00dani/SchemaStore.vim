@@ -3686,7 +3686,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/hayagriva.json",
+    "url": "https://jassielof.github.io/json-schemas/docs/hayagriva.schema.json",
     "description": "A bibliography management format for the modern age",
     "name": "Hayagriva"
   },
@@ -4051,7 +4051,7 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://www.schemastore.org/jreleaser-1.20.0.json",
+    "url": "https://www.schemastore.org/jreleaser-1.21.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
@@ -4061,6 +4061,7 @@ export const schemata =
       "1.7.0": "https://www.schemastore.org/jreleaser-1.7.0.json",
       "1.17.0": "https://www.schemastore.org/jreleaser-1.17.0.json",
       "1.12.0": "https://www.schemastore.org/jreleaser-1.12.0.json",
+      "1.21.0": "https://www.schemastore.org/jreleaser-1.21.0.json",
       "1.15.0": "https://www.schemastore.org/jreleaser-1.15.0.json",
       "1.8.0": "https://www.schemastore.org/jreleaser-1.8.0.json",
       "1.10.0": "https://www.schemastore.org/jreleaser-1.10.0.json",
@@ -7516,7 +7517,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/typst.json",
+    "url": "https://jassielof.github.io/json-schemas/docs/typst.schema.json",
     "description": "Typst package manifest file (typst.toml)",
     "name": "Typst Manifest",
     "fileMatch": [
