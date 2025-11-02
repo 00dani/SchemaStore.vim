@@ -3124,6 +3124,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://unpkg.com/knip@5/schema.json",
+    "description": "Knip configuration files",
+    "name": "Knip",
+    "fileMatch": [
+      "knip.json",
+      ".knip.json",
+      "knip.jsonc",
+      ".knip.jsonc",
+      "knip.config.ts",
+      "knip.config.mjs"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/devantler/ksail/refs/heads/main/schemas/ksail-cluster-schema.json",
     "description": "Configuration for KSail",
     "name": "KSail",
