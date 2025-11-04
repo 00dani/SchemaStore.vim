@@ -482,12 +482,13 @@ export const schemata =
     "fileMatch": []
   },
   {
-    "url": "https://www.schemastore.org/aurora-1.2.json",
+    "url": "https://www.schemastore.org/aurora-1.3.json",
     "description": "Yaml for Aurora Agile Meta-Framework",
     "name": "Aurora Agile Meta-Framework",
     "versions": {
       "1.1": "https://www.schemastore.org/aurora-1.1.json",
       "1.2": "https://www.schemastore.org/aurora-1.2.json",
+      "1.3": "https://www.schemastore.org/aurora-1.3.json",
       "1.0": "https://www.schemastore.org/aurora-1.0.json"
     },
     "fileMatch": [
@@ -3132,9 +3133,7 @@ export const schemata =
       "knip.json",
       ".knip.json",
       "knip.jsonc",
-      ".knip.jsonc",
-      "knip.config.ts",
-      "knip.config.mjs"
+      ".knip.jsonc"
     ]
   },
   {
@@ -9053,7 +9052,7 @@ export const schemata =
     "fileMatch": []
   },
   {
-    "url": "https://raw.githubusercontent.com/Relativ-IT/Butane-Schemas/Release/Butane-Schema.json",
+    "url": "https://relativ-it.github.io/Butane-Schemas/Butane-Schema.json",
     "description": "Fedora CoreOS Butane config file",
     "name": "Butane Config",
     "fileMatch": [
