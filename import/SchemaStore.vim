@@ -2,6 +2,15 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://dystroy.org/bacon/.bacon.schema.json",
+    "description": "Bacon configuration file",
+    "name": "Bacon config",
+    "fileMatch": [
+      "bacon.toml",
+      "**/bacon/prefs.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/platformsh/platformify/refs/heads/main/validator/schema/upsun.json",
     "description": "Upsun configuration file",
     "name": "Upsun config",
@@ -3219,6 +3228,16 @@ export const schemata =
     "fileMatch": [
       "metadata.yaml",
       "metadata.display.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google-gemini/gemini-cli/refs/heads/main/schemas/settings.schema.json",
+    "description": "Configuration for Gemini CLI settings files",
+    "name": "Gemini CLI settings",
+    "fileMatch": [
+      "**/.gemini/settings.json",
+      "**/gemini-cli/settings.json",
+      "**/GeminiCli/settings.json"
     ]
   },
   {
