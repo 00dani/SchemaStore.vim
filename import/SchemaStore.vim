@@ -2,6 +2,17 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://raw.githubusercontent.com/teneplaysofficial/release-hub/main/schema/release-hub.schema.json",
+    "description": "Configuration file for Release Hub",
+    "name": "release-hub.json",
+    "fileMatch": [
+      ".release-hub.json",
+      ".release-hub.config.json",
+      "release-hub.json",
+      "release-hub.config.json"
+    ]
+  },
+  {
     "url": "https://dystroy.org/bacon/.bacon.schema.json",
     "description": "Bacon configuration file",
     "name": "Bacon config",
@@ -3254,6 +3265,7 @@ export const schemata =
     "name": "GitVersion",
     "versions": {
       "6.4": "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
+      "6.5": "https://gitversion.net/schemas/6.5/GitVersion.configuration.json",
       "5.12": "https://gitversion.net/schemas/5.12/GitVersion.configuration.json",
       "6.0": "https://gitversion.net/schemas/6.0/GitVersion.configuration.json",
       "6.1": "https://gitversion.net/schemas/6.1/GitVersion.configuration.json",
