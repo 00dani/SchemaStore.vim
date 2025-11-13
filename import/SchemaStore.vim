@@ -3900,7 +3900,8 @@ export const schemata =
       "1.7": "https://ifstate.net/schema/1.7/ifstate.conf.schema.json",
       "1.8": "https://ifstate.net/schema/1.8/ifstate.conf.schema.json",
       "1.9": "https://ifstate.net/schema/1.9/ifstate.conf.schema.json",
-      "2.0": "https://ifstate.net/schema/2.0/ifstate.conf.schema.json"
+      "2.0": "https://ifstate.net/schema/2.0/ifstate.conf.schema.json",
+      "2.1": "https://ifstate.net/schema/2.1/ifstate.conf.schema.json"
     },
     "fileMatch": [
       "ifstate.yaml",
@@ -6135,7 +6136,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/lou-k/qtype/refs/heads/main/schema/qtype.schema.json",
+    "url": "https://raw.githubusercontent.com/bazaarvoice/qtype/refs/heads/main/schema/qtype.schema.json",
     "description": "A DSL for rapid prototyping of AI applications",
     "name": "QType AI DSL",
     "fileMatch": [
@@ -7741,6 +7742,7 @@ export const schemata =
     "versions": {
       "2.2.0": "https://www.schemastore.org/venvironment-schema-v2.2.0.json",
       "3.2.0": "https://www.schemastore.org/venvironment-schema-v3.2.0.json",
+      "4.2.0": "https://www.schemastore.org/venvironment-schema-v4.2.0.json",
       "4.0.0": "https://www.schemastore.org/venvironment-schema-v4.0.0.json",
       "1.1.0": "https://www.schemastore.org/venvironment-schema-v1.1.0.json",
       "1.1.1": "https://www.schemastore.org/venvironment-schema-v1.1.1.json",
@@ -7761,28 +7763,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/venvironment-basic-schema-v4.0.0.json",
-    "description": "Test environment for Vector Test Unit Runner",
-    "name": "venvironment-basic.yaml",
-    "versions": {
-      "4.0.0": "https://www.schemastore.org/venvironment-basic-schema-v4.0.0.json",
-      "3.2.0": "https://www.schemastore.org/venvironment-basic-schema-v3.2.0.json",
-      "1.1.0": "https://www.schemastore.org/venvironment-basic-schema-v1.1.0.json",
-      "2.1.0": "https://www.schemastore.org/venvironment-basic-schema-v2.1.0.json",
-      "1.0.0": "https://www.schemastore.org/venvironment-basic-schema-v1.0.0.json",
-      "2.0.0": "https://www.schemastore.org/venvironment-basic-schema-v2.0.0.json",
-      "3.0.0": "https://www.schemastore.org/venvironment-basic-schema-v3.0.0.json"
-    },
-    "fileMatch": [
-      "venvironment-basic.yaml",
-      "*.venvironment-basic.yaml",
-      "venvironment-basic.yml",
-      "*.venvironment-basic.yml",
-      "venvironment-basic.json",
-      "*.venvironment-basic.json"
-    ]
-  },
-  {
     "url": "https://www.schemastore.org/venvplus-schema-v1.0.0.json",
     "description": "venvplus settings of Vector CANoe Server Editions",
     "name": "venvplus.yaml",
@@ -7796,22 +7776,6 @@ export const schemata =
       "*.venvplus.yml",
       "venvplus.json",
       "*.venvplus.json"
-    ]
-  },
-  {
-    "url": "https://www.schemastore.org/venvplus-basic-schema-v1.0.0.json",
-    "description": "venvplus-basic settings of Vector Test Unit Runner",
-    "name": "venvplus-basic.yaml",
-    "versions": {
-      "1.0.0": "https://www.schemastore.org/venvplus-basic-schema-v1.0.0.json"
-    },
-    "fileMatch": [
-      "venvplus-basic.yaml",
-      "*.venvplus-basic.yaml",
-      "venvplus-basic.yml",
-      "*.venvplus-basic.yml",
-      "venvplus-basic.json",
-      "*.venvplus-basic.json"
     ]
   },
   {
@@ -8564,6 +8528,17 @@ export const schemata =
     "name": "API Builder",
     "fileMatch": [
       "**/api.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/apollo-router-2.8.1.json",
+    "description": "Apollo Router: The runtime for graph-based API orchestration",
+    "name": "Apollo Router",
+    "versions": {
+      "2.8.1": "https://www.schemastore.org/apollo-router-2.8.1.json"
+    },
+    "fileMatch": [
+      "apollo-router-*.json"
     ]
   },
   {
@@ -10303,6 +10278,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://static.wiremock.io/schemas/wiremock.yaml-schema.json",
+    "description": "WireMock CLI and Runner local service config file format",
+    "name": "WireMock CLI local service configuration",
+    "fileMatch": [
+      "wiremock.yaml"
+    ]
+  },
+  {
+    "url": "https://static.wiremock.io/schemas/wiremock-import-config.yaml-schema.json",
+    "description": "WireMock CLI import and record config file format",
+    "name": "WireMock CLI import configuration",
+    "fileMatch": [
+      "wiremock-import-config.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/bitmovin/bitmovin-api-sdk-examples/main/bitmovin-encoding-template.json",
     "description": "An encoding workflow from a single configuration template",
     "name": "Bitmovin Encoding Template",
@@ -10865,6 +10856,14 @@ export const schemata =
     "fileMatch": [
       "**/source-*/metadata.yaml",
       "**/destination-*/metadata.yaml"
+    ]
+  },
+  {
+    "url": "https://github.com/etiennebacher/jarl/releases/latest/download/jarl.schema.json",
+    "description": "Configuration for R linter",
+    "name": "Jarl",
+    "fileMatch": [
+      "jarl.toml"
     ]
   }
 ]
