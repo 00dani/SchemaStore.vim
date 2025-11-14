@@ -6154,6 +6154,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://schema.railpack.com",
+    "description": "Configuration file for Railpack deployment tool",
+    "name": "Railpack",
+    "fileMatch": [
+      "railpack.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/prefix-dev/recipe-format/main/schema.json",
     "description": "Rattler-build recipe",
     "name": "Rattler-build",
