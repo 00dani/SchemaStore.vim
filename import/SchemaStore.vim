@@ -5721,6 +5721,24 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/popxf-1.0.json",
+    "description": "Polynomial Observable Predictions in High-Energy Physics",
+    "name": "POPxf",
+    "fileMatch": [
+      "*.popxf",
+      "*.popxf.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/popxf-corr-1.0.json",
+    "description": "Correlations for Polynomial Observable Predictions in High-Energy Physics",
+    "name": "POPxf Correlations",
+    "fileMatch": [
+      "*.popxf-corr",
+      "*.popxf-corr.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/apideck-libraries/portman/main/src/utils/portman-config-schema.json",
     "description": "Portman's configuration file",
     "name": "portman.json",
@@ -7744,7 +7762,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/venvironment-schema-v4.1.0.json",
+    "url": "https://www.schemastore.org/venvironment-schema-v4.2.0.json",
     "description": "Simulation and test environment for Vector CANoe Server Editions",
     "name": "venvironment.yaml",
     "versions": {
