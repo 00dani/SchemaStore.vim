@@ -10885,6 +10885,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/git-town/git-town/refs/heads/main/docs/git-town.schema.json",
+    "description": "Git Town configuration file",
+    "name": "git-town.toml",
+    "fileMatch": [
+      "git-town.toml"
+    ]
+  },
+  {
     "url": "https://github.com/etiennebacher/jarl/releases/latest/download/jarl.schema.json",
     "description": "Configuration for R linter",
     "name": "Jarl",
