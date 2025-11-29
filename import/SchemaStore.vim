@@ -733,6 +733,17 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://raw.githubusercontent.com/suzuki-shunsuke/cmdx/refs/heads/main/json-schema/cmdx.json",
+    "description": "cmdx configuration file",
+    "name": "cmdx.yaml",
+    "fileMatch": [
+      ".cmdx.yaml",
+      ".cmdx.yml",
+      "cmdx.yaml",
+      "cmdx.yml"
+    ]
+  },
+  {
     "url": "https://coderabbit.ai/integrations/schema.v2.json",
     "description": "Supercharge your entire team with AI-driven contextual feedback & smart chat",
     "name": "CodeRabbit",
@@ -3186,11 +3197,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json",
+    "url": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.3.json",
     "description": "defining mappings for Python-based grapheme-to-phoneme engine 'g2p'",
     "name": "G2P Mapping Configuration",
     "versions": {
-      "2.0": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json"
+      "2.0": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json",
+      "2.1": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.1.json",
+      "2.2": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.2.json",
+      "2.3": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.3.json"
     },
     "fileMatch": [
       "config-g2p.yaml",
@@ -10898,6 +10912,14 @@ export const schemata =
     "name": "Jarl",
     "fileMatch": [
       "jarl.toml"
+    ]
+  },
+  {
+    "url": "https://cscnk52.github.io/json-schemas/zola.schema.json",
+    "description": "A fast static site generator in a single binary with everything built-in",
+    "name": "Zola Configuration",
+    "fileMatch": [
+      "zola.toml"
     ]
   }
 ]
