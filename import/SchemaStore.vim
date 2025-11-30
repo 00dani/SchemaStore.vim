@@ -419,6 +419,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/argoproj/argo-schema-generator/main/schema/argo_cd_kustomize_schema.json",
+    "description": "Argo CD base resources",
+    "name": "Argo CD"
+  },
+  {
     "url": "https://raw.githubusercontent.com/argoproj/argo-events/master/api/jsonschema/schema.json",
     "description": "Argo Events Event Sources and Sensors",
     "name": "Argo Events"
