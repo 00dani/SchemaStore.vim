@@ -5217,6 +5217,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "description": "Oh My Posh configuration file",
+    "name": "Oh My Posh",
+    "fileMatch": [
+      "*.omp.json",
+      "*.omp.toml",
+      "*.omp.yaml",
+      "*.omp.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/okteto/okteto/refs/heads/master/schema.json",
     "description": "The Okteto Manifest",
     "name": "Okteto",
@@ -7400,7 +7411,8 @@ export const schemata =
     "fileMatch": [
       "*.tmLanguage.json",
       "*.tmLanguage.yaml",
-      "*.tmLanguage.yml"
+      "*.tmLanguage.yml",
+      "*.yaml-tmlanguage"
     ]
   },
   {
@@ -10037,7 +10049,9 @@ export const schemata =
     "description": "Configuration file for language features in VS Code and Visual Studio",
     "name": "Language configuration",
     "fileMatch": [
-      "language-configuration.json"
+      "language-configuration.json",
+      "language-configuration.yaml",
+      "language-configuration.yml"
     ]
   },
   {
@@ -10926,6 +10940,46 @@ export const schemata =
     "fileMatch": [
       "zola.toml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1_Task.json",
+    "description": "Defines a sequence of steps (containers) to be executed. It is the smallest configurable unit of execution in Tekton Pipelines",
+    "name": "Tekton Task",
+    "versions": {
+      "v1alpha1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1alpha1_Task.json",
+      "v1beta1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1beta1_Task.json",
+      "v1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1_Task.json"
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1_TaskRun.json",
+    "description": "Instantiates and executes a Task with specific inputs, outputs, and parameters in Tekton Pipelines",
+    "name": "Tekton TaskRun",
+    "versions": {
+      "v1alpha1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1alpha1_TaskRun.json",
+      "v1beta1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1beta1_TaskRun.json",
+      "v1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1_TaskRun.json"
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1_Pipeline.json",
+    "description": "Defines a graph of Tasks that execute sequentially or in parallel to define a CI/CD workflow in Tekton Pipelines",
+    "name": "Tekton Pipeline",
+    "versions": {
+      "v1alpha1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1alpha1_Pipeline.json",
+      "v1beta1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1beta1_Pipeline.json",
+      "v1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1_Pipeline.json"
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1_PipelineRun.json",
+    "description": "Instantiates and executes a Pipeline with specific inputs, outputs, and parameters in Tekton Pipelines",
+    "name": "Tekton PipelineRun",
+    "versions": {
+      "v1alpha1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1alpha1_PipelineRun.json",
+      "v1beta1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1beta1_PipelineRun.json",
+      "v1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1_PipelineRun.json"
+    }
   }
 ]
 export const schemas = schemata
