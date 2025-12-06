@@ -738,6 +738,15 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://workshop.cloud.gov/workshop/workshop-schemas/-/raw/main/cg-workhshop.schema.json",
+    "description": "Configuration for IaC managed resources in Cloud.gov Workshop",
+    "name": "Cloud.gov Workshop Configuration",
+    "fileMatch": [
+      "cg-workshop.yml",
+      "**/cg-workshop/*.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/suzuki-shunsuke/cmdx/refs/heads/main/json-schema/cmdx.json",
     "description": "cmdx configuration file",
     "name": "cmdx.yaml",
@@ -800,6 +809,123 @@ export const schemata =
       "*.cloudcannon.config.yml",
       "*.cloudcannon.config.yaml",
       "*.cloudcannon.config.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-structures.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing Structure definitions",
+    "name": "CloudCannon Configuration (Structures)",
+    "fileMatch": [
+      "cloudcannon.structures.yml",
+      "cloudcannon.structures.yaml",
+      "cloudcannon.structures.json",
+      "*.cloudcannon.structures.yml",
+      "*.cloudcannon.structures.yaml",
+      "*.cloudcannon.structures.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-inputs.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing Input definitions",
+    "name": "CloudCannon Configuration (Inputs)",
+    "fileMatch": [
+      "cloudcannon.inputs.yml",
+      "cloudcannon.inputs.yaml",
+      "cloudcannon.inputs.json",
+      "*.cloudcannon.inputs.yml",
+      "*.cloudcannon.inputs.yaml",
+      "*.cloudcannon.inputs.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-structure-value.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing a single Structure Value definition",
+    "name": "CloudCannon Configuration (Structure Value)",
+    "fileMatch": [
+      "cloudcannon.structure-value.yml",
+      "cloudcannon.structure-value.yaml",
+      "cloudcannon.structure-value.json",
+      "*.cloudcannon.structure-value.yml",
+      "*.cloudcannon.structure-value.yaml",
+      "*.cloudcannon.structure-value.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-snippets.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing Snippet definitions",
+    "name": "CloudCannon Configuration (Snippets)",
+    "fileMatch": [
+      "cloudcannon.snippets.yml",
+      "cloudcannon.snippets.yaml",
+      "cloudcannon.snippets.json",
+      "*.cloudcannon.snippets.yml",
+      "*.cloudcannon.snippets.yaml",
+      "*.cloudcannon.snippets.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-snippets-imports.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing Snippets Imports",
+    "name": "CloudCannon Configuration (Snippets Imports)",
+    "fileMatch": [
+      "cloudcannon.snippets-imports.yml",
+      "cloudcannon.snippets-imports.yaml",
+      "cloudcannon.snippets-imports.json",
+      "*.cloudcannon.snippets-imports.yml",
+      "*.cloudcannon.snippets-imports.yaml",
+      "*.cloudcannon.snippets-imports.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-snippets-definitions.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing Snippets Definitions",
+    "name": "CloudCannon Configuration (Snippets Definitions)",
+    "fileMatch": [
+      "cloudcannon.snippets-definitions.yml",
+      "cloudcannon.snippets-definitions.yaml",
+      "cloudcannon.snippets-definitions.json",
+      "*.cloudcannon.snippets-definitions.yml",
+      "*.cloudcannon.snippets-definitions.yaml",
+      "*.cloudcannon.snippets-definitions.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-editables.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing Editables definitions",
+    "name": "CloudCannon Configuration (Editables)",
+    "fileMatch": [
+      "cloudcannon.editables.yml",
+      "cloudcannon.editables.yaml",
+      "cloudcannon.editables.json",
+      "*.cloudcannon.editables.yml",
+      "*.cloudcannon.editables.yaml",
+      "*.cloudcannon.editables.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-collections.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing Collections configuration",
+    "name": "CloudCannon Configuration (Collections)",
+    "fileMatch": [
+      "cloudcannon.collections.yml",
+      "cloudcannon.collections.yaml",
+      "cloudcannon.collections.json",
+      "*.cloudcannon.collections.yml",
+      "*.cloudcannon.collections.yaml",
+      "*.cloudcannon.collections.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-schemas.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing Collection Structure definitions",
+    "name": "CloudCannon Configuration (Collection Structures)",
+    "fileMatch": [
+      "cloudcannon.schemas.yml",
+      "cloudcannon.schemas.yaml",
+      "cloudcannon.schemas.json",
+      "*.cloudcannon.schemas.yml",
+      "*.cloudcannon.schemas.yaml",
+      "*.cloudcannon.schemas.json"
     ]
   },
   {
@@ -3683,6 +3809,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/nvuillam/npm-groovy-lint/refs/heads/main/docs/groovy-lint.jsonschema.json",
+    "description": "Rules to apply with npm-groovy-lint tool",
+    "name": "GroovyLint configuration",
+    "fileMatch": [
+      ".groovylintrc.json",
+      ".groovylintrc.js",
+      ".groovylintrc.cjs",
+      ".groovylintrc.yml",
+      ".groovylintrc.yaml",
+      ".groovylintrc"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/grunt-copy-task.json",
     "description": "Grunt copy task configuration file",
     "name": "Grunt copy task",
@@ -3859,13 +3998,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.7.0.json",
+    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.8.0.json",
     "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
     "name": "IBM Zapp document",
     "versions": {
       "1.2.1": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.1.json",
       "1.4.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.4.0.json",
       "1.6.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.6.0.json",
+      "1.8.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.8.0.json",
       "1.1.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.1.0.json",
       "1.3.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.3.0.json",
       "1.5.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.5.0.json",
@@ -3971,6 +4111,22 @@ export const schemata =
     "fileMatch": [
       ".infrahub.yml",
       ".infrahub.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/instant-python/instant-python/main/schemas/ipy-schemas.json",
+    "description": "Instant Python Configuration",
+    "name": "instant_python_config",
+    "fileMatch": [
+      "ipy.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/instant-python/instant-python/main/schemas/main-structure-schema.json",
+    "description": "Instant Python Custom Project Structure",
+    "name": "instant_python_custom_project",
+    "fileMatch": [
+      "main_structure.yml"
     ]
   },
   {
@@ -5016,6 +5172,26 @@ export const schemata =
       "*.nac.yaml",
       "*.aac.yml",
       "*.aac.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RedHat-UX/next-gen-ui-agent/refs/heads/main/spec/a2a/a2a_agent_config.schema.json",
+    "description": "Next Gen UI Agent A2A Server configuration. Documentation: https://redhat-ux.github.io/next-gen-ui-agent/spec/a2a/#agent-configuration",
+    "name": "Next Gen UI Agent A2A Server Configuration",
+    "fileMatch": [
+      "ngui-a2a_*.yaml",
+      "ngui-a2a_*.yml",
+      "ngui-a2a_*.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RedHat-UX/next-gen-ui-agent/refs/heads/main/spec/mcp/mcp_agent_config.schema.json",
+    "description": "Next Gen UI Agent MCP Server configuration. Documentation: https://redhat-ux.github.io/next-gen-ui-agent/spec/mcp/#agent-configuration",
+    "name": "Next Gen UI Agent MCP Server Configuration",
+    "fileMatch": [
+      "ngui-mcp_*.yaml",
+      "ngui-mcp_*.yml",
+      "ngui-mcp_*.json"
     ]
   },
   {
@@ -7669,7 +7845,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/SAP/ui5-manifest/master/schema.json",
+    "url": "https://raw.githubusercontent.com/UI5/manifest/main/schema.json",
     "description": "UI5 Manifest (manifest.json)",
     "name": "UI5 Manifest",
     "fileMatch": [
@@ -8588,11 +8764,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/apollo-router-2.8.1.json",
+    "url": "https://www.schemastore.org/apollo-router-2.9.0.json",
     "description": "Apollo Router: The runtime for graph-based API orchestration",
     "name": "Apollo Router",
     "versions": {
-      "2.8.1": "https://www.schemastore.org/apollo-router-2.8.1.json"
+      "2.8.1": "https://www.schemastore.org/apollo-router-2.8.1.json",
+      "2.8.2": "https://www.schemastore.org/apollo-router-2.8.2.json",
+      "2.9.0": "https://www.schemastore.org/apollo-router-2.9.0.json"
     },
     "fileMatch": [
       "apollo-router-*.json"
