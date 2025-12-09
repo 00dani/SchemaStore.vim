@@ -738,7 +738,7 @@ export const schemata =
     "fileMatch": []
   },
   {
-    "url": "https://workshop.cloud.gov/workshop/workshop-schemas/-/raw/main/cg-workhshop.schema.json",
+    "url": "https://workshop.cloud.gov/workshop/workshop-schemas/-/raw/main/cg-workshop.schema.json",
     "description": "Configuration for IaC managed resources in Cloud.gov Workshop",
     "name": "Cloud.gov Workshop Configuration",
     "fileMatch": [
@@ -5433,12 +5433,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://spec.openapis.org/oas/3.1/schema/2022-10-07",
+    "url": "https://spec.openapis.org/oas/3.1/schema/2025-09-15",
     "description": "An OpenAPI documentation file",
     "name": "openapi.json",
     "versions": {
-      "3.0": "https://spec.openapis.org/oas/3.0/schema/2021-09-28",
-      "3.1": "https://spec.openapis.org/oas/3.1/schema/2022-10-07"
+      "3.0": "https://spec.openapis.org/oas/3.0/schema/2024-10-18",
+      "3.1": "https://spec.openapis.org/oas/3.1/schema/2025-09-15",
+      "3.2": "https://spec.openapis.org/oas/3.2/schema/2025-09-17",
+      "2.0": "https://spec.openapis.org/oas/2.0/schema/2017-08-27"
     },
     "fileMatch": [
       "openapi.json",
