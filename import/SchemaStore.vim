@@ -8773,7 +8773,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-13.json",
+    "url": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-14.json",
     "description": "Gradle Enterprise configuration",
     "name": "Gradle Enterprise",
     "versions": {
@@ -8786,8 +8786,9 @@ export const schemata =
       "2.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-2.json",
       "10.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-10.json",
       "4.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-4.json",
+      "14.0": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-14.json",
       "6.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-6.json",
-      "13.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-13.json",
+      "13.0": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-13.json",
       "8.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-8.json",
       "1.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-1.json"
     },
@@ -8797,15 +8798,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://docs.gradle.com/build-cache-node/schema/build-cache-node-config-schema-5.json",
+    "url": "https://docs.gradle.com/downloads/build-cache-node-config-schema/build-cache-node-config-schema-5.json",
     "description": "Gradle Build Cache Node configuration",
     "name": "Gradle Build Cache Node",
     "versions": {
-      "3.0": "https://docs.gradle.com/build-cache-node/schema/build-cache-node-config-schema-3.json",
-      "5.0": "https://docs.gradle.com/build-cache-node/schema/build-cache-node-config-schema-5.json",
-      "2.0": "https://docs.gradle.com/build-cache-node/schema/build-cache-node-config-schema-2.json",
-      "4.0": "https://docs.gradle.com/build-cache-node/schema/build-cache-node-config-schema-4.json",
-      "1.0": "https://docs.gradle.com/build-cache-node/schema/build-cache-node-config-schema-1.json"
+      "5.0": "https://docs.gradle.com/downloads/build-cache-node-config-schema/build-cache-node-config-schema-5.json",
+      "4.0": "https://docs.gradle.com/develocity/build-cache-node/schema/build-cache-node-config-schema-4.json"
     },
     "fileMatch": [
       "*build-cache-node-config.yml",
@@ -9652,7 +9650,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/pantsbuild-2.26.0.json",
+    "url": "https://www.schemastore.org/pantsbuild-2.30.0.json",
     "description": "Pantsbuild configuration file",
     "name": "Pantsbuild",
     "versions": {
@@ -9663,6 +9661,7 @@ export const schemata =
       "2.15.0": "https://www.schemastore.org/pantsbuild-2.15.0.json",
       "2.24.0": "https://www.schemastore.org/pantsbuild-2.24.0.json",
       "2.17.0": "https://www.schemastore.org/pantsbuild-2.17.0.json",
+      "2.30.0": "https://www.schemastore.org/pantsbuild-2.30.0.json",
       "2.19.0": "https://www.schemastore.org/pantsbuild-2.19.0.json",
       "2.20.0": "https://www.schemastore.org/pantsbuild-2.20.0.json",
       "2.14.0": "https://www.schemastore.org/pantsbuild-2.14.0.json"
