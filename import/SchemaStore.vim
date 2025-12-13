@@ -180,7 +180,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/aiproj-1.8.json",
+    "url": "https://www.schemastore.org/aiproj-1.9.json",
     "description": "Settings for project analysis by the Application Inspector",
     "name": ".aiproj.json",
     "versions": {
@@ -192,6 +192,7 @@ export const schemata =
       "1.6": "https://www.schemastore.org/aiproj-1.6.json",
       "1.7": "https://www.schemastore.org/aiproj-1.7.json",
       "1.8": "https://www.schemastore.org/aiproj-1.8.json",
+      "1.9": "https://www.schemastore.org/aiproj-1.9.json",
       "1.0": "https://www.schemastore.org/aiproj-1.0.json"
     },
     "fileMatch": [
