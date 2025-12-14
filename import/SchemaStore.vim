@@ -9490,6 +9490,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/rebaz94/macro_kit/refs/heads/main/macro_schema.json",
+    "description": "Macro configuration file",
+    "name": ".macro.json",
+    "fileMatch": [
+      ".macro.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/monika-config-schema.json",
     "description": "Monika configuration file",
     "name": "Monika Configuration",
