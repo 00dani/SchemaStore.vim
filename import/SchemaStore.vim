@@ -1609,7 +1609,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/convex.json",
+    "url": "https://raw.githubusercontent.com/get-convex/convex-backend/refs/heads/main/npm-packages/convex/schemas/convex.schema.json",
     "description": "Configuration for Convex project settings",
     "name": "Convex",
     "fileMatch": [
