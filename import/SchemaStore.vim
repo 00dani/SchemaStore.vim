@@ -239,6 +239,30 @@ export const schemata =
     ]
   },
   {
+    "url": "https://acp-protocol.dev/schemas/v1/cache.schema.json",
+    "description": "AI Context Protocol cache file format for storing indexed codebase metadata",
+    "name": "ACP Cache File",
+    "fileMatch": [
+      ".acp.cache.json"
+    ]
+  },
+  {
+    "url": "https://acp-protocol.dev/schemas/v1/config.schema.json",
+    "description": "AI Context Protocol configuration file for project-level settings",
+    "name": "ACP Configuration File",
+    "fileMatch": [
+      ".acp.config.json"
+    ]
+  },
+  {
+    "url": "https://acp-protocol.dev/schemas/v1/vars.schema.json",
+    "description": "AI Context Protocol variables file for reusable context variables",
+    "name": "ACP Variables File",
+    "fileMatch": [
+      ".acp.vars.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/aiconfig-1.0.json",
     "description": "AIConfig that is used to store generative AI prompts, models and model parameters",
     "name": "AIConfig",
@@ -389,6 +413,16 @@ export const schemata =
     "description": "aqua registry configuration file",
     "name": "registry.yaml",
     "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/openapi-arazzo-1.X.json",
+    "description": "An OpenAPI Arazzo document",
+    "name": "arazzo.json",
+    "fileMatch": [
+      "arazzo.json",
+      "arazzo.yml",
+      "arazzo.yaml"
+    ]
   },
   {
     "url": "https://raw.githubusercontent.com/google/app-resource-bundle/main/schema/arb.json",
@@ -5441,6 +5475,19 @@ export const schemata =
       "openapi.json",
       "openapi.yml",
       "openapi.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/openapi-overlay-1.X.json",
+    "description": "An OpenAPI Overlay document",
+    "name": "overlay.json",
+    "fileMatch": [
+      "overlay.json",
+      "overlay.yml",
+      "overlay.yaml",
+      "*.overlay.json",
+      "*.overlay.yml",
+      "*.overlay.yaml"
     ]
   },
   {
