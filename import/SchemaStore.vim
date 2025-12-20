@@ -9250,7 +9250,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/shopware/shopware-cli/main/extension/shopware-extension-schema.json",
+    "url": "https://raw.githubusercontent.com/shopware/shopware-cli/main/shopware-extension-schema.json",
     "description": "Shopware CLI Extension Store Configuration",
     "name": "Shopware CLI Extension Store Configuration",
     "fileMatch": [
@@ -9259,7 +9259,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/shopware/shopware-cli/main/shop/shopware-project-schema.json",
+    "url": "https://raw.githubusercontent.com/shopware/shopware-cli/main/shopware-project-schema.json",
     "description": "Shopware CLI Project Store Configuration",
     "name": "Shopware CLI Project Store Configuration",
     "fileMatch": [
