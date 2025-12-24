@@ -3334,7 +3334,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/devantler/ksail/refs/heads/main/schemas/ksail-cluster-schema.json",
+    "url": "https://raw.githubusercontent.com/devantler-tech/ksail/refs/heads/main/schemas/ksail-config.schema.json",
     "description": "Configuration for KSail",
     "name": "KSail",
     "fileMatch": [
