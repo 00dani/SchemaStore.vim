@@ -717,6 +717,7 @@ export const schemata =
     "description": "Configuration file for bottom",
     "name": "bottom configuration",
     "versions": {
+      "0.12.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.12.0/bottom.json",
       "nightly": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json",
       "0.11": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.11/bottom.json",
       "0.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.9/bottom.json",
