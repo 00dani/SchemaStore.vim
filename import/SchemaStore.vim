@@ -11210,6 +11210,14 @@ export const schemata =
       "v1beta1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1beta1_PipelineRun.json",
       "v1": "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1_PipelineRun.json"
     }
+  },
+  {
+    "url": "https://www.schemastore.org/changepacks.json",
+    "description": "Changepacks are a way to package changes to a project",
+    "name": "Changepacks",
+    "fileMatch": [
+      "**/.changepacks/config.json"
+    ]
   }
 ]
 export const schemas = schemata
