@@ -6074,6 +6074,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/PrefectHQ/prefect/refs/heads/main/schemas/prefect.yaml.schema.json",
+    "description": "Prefect deployment configuration file",
+    "name": "prefect.yaml",
+    "fileMatch": [
+      "prefect.yaml",
+      "prefect.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/prettierrc.json",
     "description": ".prettierrc configuration file",
     "name": "prettierrc.json",
@@ -11218,6 +11227,14 @@ export const schemata =
     "name": "Changepacks",
     "fileMatch": [
       "**/.changepacks/config.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/devup.json",
+    "description": "JSX Zero-Runtime UI Styling Library",
+    "name": "Devup",
+    "fileMatch": [
+      "devup.json"
     ]
   }
 ]
