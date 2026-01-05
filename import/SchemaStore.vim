@@ -11222,6 +11222,17 @@ export const schemata =
     }
   },
   {
+    "url": "https://raw.githubusercontent.com/woodruffw/zizmor/main/support/zizmor.schema.json",
+    "description": "Configuration file for zizmor, a static analysis tool for GitHub Actions",
+    "name": "zizmor",
+    "fileMatch": [
+      "**/zizmor.yml",
+      "**/zizmor.yaml",
+      "**/.github/zizmor.yml",
+      "**/.github/zizmor.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/changepacks.json",
     "description": "Changepacks are a way to package changes to a project",
     "name": "Changepacks",
