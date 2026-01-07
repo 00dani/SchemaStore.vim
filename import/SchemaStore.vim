@@ -13,6 +13,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/robgonnella/releasaurus/refs/heads/main/schema/schema.json",
+    "description": "Configuration file for Releasaurus",
+    "name": "Releasaurus Config",
+    "fileMatch": [
+      "releasaurus.toml"
+    ]
+  },
+  {
     "url": "https://dystroy.org/bacon/.bacon.schema.json",
     "description": "Bacon configuration file",
     "name": "Bacon config",
@@ -239,6 +247,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://acp-protocol.dev/schemas/v1/attempts.schema.json",
+    "description": "AI Context Protocol debug session tracking file",
+    "name": "ACP Attempts",
+    "fileMatch": [
+      "**/.acp/acp.attempts.json",
+      "acp.attempts.json"
+    ]
+  },
+  {
     "url": "https://acp-protocol.dev/schemas/v1/cache.schema.json",
     "description": "AI Context Protocol cache file format for storing indexed codebase metadata",
     "name": "ACP Cache File",
@@ -252,6 +269,25 @@ export const schemata =
     "name": "ACP Configuration File",
     "fileMatch": [
       ".acp.config.json"
+    ]
+  },
+  {
+    "url": "https://acp-protocol.dev/schemas/v1/primer.schema.json",
+    "description": "AI Context Protocol primer definition for AI context bootstrapping",
+    "name": "ACP Primer",
+    "fileMatch": [
+      "primer.json",
+      "*.primer.json",
+      "primer.defaults.json"
+    ]
+  },
+  {
+    "url": "https://acp-protocol.dev/schemas/v1/sync.schema.json",
+    "description": "AI Context Protocol tool synchronization configuration",
+    "name": "ACP Sync",
+    "fileMatch": [
+      "**/.acp/acp.sync.json",
+      "acp.sync.json"
     ]
   },
   {
@@ -9550,9 +9586,9 @@ export const schemata =
   {
     "url": "https://raw.githubusercontent.com/rebaz94/macro_kit/refs/heads/main/macro_schema.json",
     "description": "Macro configuration file",
-    "name": ".macro.json",
+    "name": "macro.json",
     "fileMatch": [
-      ".macro.json"
+      "macro.json"
     ]
   },
   {
@@ -11246,6 +11282,34 @@ export const schemata =
     "name": "Devup",
     "fileMatch": [
       "devup.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/vespertide.json",
+    "description": "Vespertide configuration",
+    "name": "Vespertide",
+    "fileMatch": [
+      "**/vespertide.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/vespertide-migration.json",
+    "description": "Vespertide migration file",
+    "name": "Vespertide Migration",
+    "fileMatch": [
+      "**/migrations/**/*.vespertide.json",
+      "**/migrations/**/*.vespertide.yaml",
+      "**/migrations/**/*.vespertide.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/vespertide-model.json",
+    "description": "Vespertide model file",
+    "name": "Vespertide Model",
+    "fileMatch": [
+      "**/models/**/*.vespertide.json",
+      "**/models/**/*.vespertide.yaml",
+      "**/models/**/*.vespertide.yml"
     ]
   }
 ]
