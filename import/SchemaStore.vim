@@ -5542,6 +5542,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://opencode.ai/config.json",
+    "description": "opencode AI coding agent configuration file",
+    "name": "opencode",
+    "fileMatch": [
+      "opencode.json",
+      "opencode.jsonc",
+      "**/.opencode/opencode.json",
+      "**/.opencode/opencode.jsonc"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/openutau-character.json",
     "description": "OpenUtau voicebank configuration file, character.yaml",
     "name": "OpenUtau character yaml",
