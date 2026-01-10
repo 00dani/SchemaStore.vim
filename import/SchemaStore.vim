@@ -6202,12 +6202,39 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/RagnarGrootKoerkamp/BAPCtools/refs/heads/master/support/schemas/generators_yaml_schema.json",
+    "url": "https://raw.githubusercontent.com/RagnarGrootKoerkamp/BAPCtools/refs/heads/main/bapctools/resources/support/schemas/problem_yaml_schema.json",
+    "description": "Problem package metadata for programming tasks in the Kattis/CLICS problem package format",
+    "name": "Problem package format",
+    "fileMatch": [
+      "problem.yml",
+      "problem.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RagnarGrootKoerkamp/BAPCtools/refs/heads/main/bapctools/resources/support/schemas/generators_yaml_schema.json",
     "description": "Generators for programming tasks in the Kattis/CLICS problem package format",
     "name": "Problem package generators",
     "fileMatch": [
       "generators.yml",
       "generators.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RagnarGrootKoerkamp/BAPCtools/refs/heads/main/bapctools/resources/support/schemas/submissions_yaml_schema.json",
+    "description": "Submissions metadata for programming tasks in the Kattis/CLICS problem package format",
+    "name": "Problem package submissions",
+    "fileMatch": [
+      "submissions.yml",
+      "submissions.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RagnarGrootKoerkamp/BAPCtools/refs/heads/main/bapctools/resources/support/schemas/test_group_yaml_schema.json",
+    "description": "Test group metadata for programming tasks in the Kattis/CLICS problem package format",
+    "name": "Problem package test group metadata",
+    "fileMatch": [
+      "test_group.yml",
+      "test_group.yaml"
     ]
   },
   {
@@ -10624,6 +10651,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/wiremock/wiremock/refs/heads/master/schemas/wiremock-message-stub-mapping-or-mappings.json",
+    "description": "WireMock single or multiple async message stub mapping JSON. See https://wiremock.org/docs/messaging/stubbing/",
+    "name": "WireMock message stub mapping",
+    "fileMatch": [
+      "wiremock-message-stub-mapping.yml",
+      "wiremock-message-stub-mapping.yaml",
+      "message-stubs.json",
+      "message-stub-mappings.json",
+      "message-stubs.yaml",
+      "message-stub-mappings.yaml"
+    ]
+  },
+  {
     "url": "https://static.wiremock.io/schemas/wiremock.yaml-schema.json",
     "description": "WireMock CLI and Runner local service config file format",
     "name": "WireMock CLI local service configuration",
@@ -11321,6 +11361,18 @@ export const schemata =
       "**/models/**/*.vespertide.json",
       "**/models/**/*.vespertide.yaml",
       "**/models/**/*.vespertide.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/openhab-5.1.json",
+    "description": "Configuration files for openHAB",
+    "name": "openHAB",
+    "versions": {
+      "5.1": "https://www.schemastore.org/openhab-5.1.json"
+    },
+    "fileMatch": [
+      "**/conf/yaml/**/*.yml",
+      "**/conf/yaml/**/*.yaml"
     ]
   }
 ]
