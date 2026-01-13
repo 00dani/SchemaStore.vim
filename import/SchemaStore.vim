@@ -11374,6 +11374,15 @@ export const schemata =
       "**/conf/yaml/**/*.yml",
       "**/conf/yaml/**/*.yaml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/MirrexOne/unqueryvet/main/schema.json",
+    "description": "Configuration for unqueryvet - a Go linter for SQL queries",
+    "name": "unqueryvet",
+    "fileMatch": [
+      ".unqueryvet.yaml",
+      ".unqueryvet.yml"
+    ]
   }
 ]
 export const schemas = schemata
