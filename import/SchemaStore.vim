@@ -30,7 +30,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/platformsh/platformify/refs/heads/main/validator/schema/upsun.json",
+    "url": "https://meta.upsun.com/schema/upsun",
     "description": "Upsun configuration file",
     "name": "Upsun config",
     "fileMatch": [
