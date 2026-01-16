@@ -3960,11 +3960,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://jassielof.github.io/json-schemas/docs/hayagriva.schema.json",
-    "description": "A bibliography management format for the modern age",
-    "name": "Hayagriva"
-  },
-  {
     "url": "https://raw.githubusercontent.com/j2inn/hayson/master/hayson-json-schema.json",
     "description": "Project Haystack data",
     "name": "Hayson",
@@ -7921,14 +7916,6 @@ export const schemata =
       "typo3-vendor-bundler.json",
       "typo3-vendor-bundler.yaml",
       "typo3-vendor-bundler.yml"
-    ]
-  },
-  {
-    "url": "https://jassielof.github.io/json-schemas/docs/typst.schema.json",
-    "description": "Typst package manifest file (typst.toml)",
-    "name": "Typst Manifest",
-    "fileMatch": [
-      "typst.toml"
     ]
   },
   {
