@@ -11416,6 +11416,15 @@ export const schemata =
       "bento.yml",
       "bento.yaml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/tkcrm/pgxgen/refs/heads/master/schemas/pgxgen-schema.json",
+    "description": "pgxgen configuration file",
+    "name": "pgxgen",
+    "fileMatch": [
+      "pgxgen.yml",
+      "pgxgen.yaml"
+    ]
   }
 ]
 export const schemas = schemata
