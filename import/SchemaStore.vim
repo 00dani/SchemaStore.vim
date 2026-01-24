@@ -6810,7 +6810,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/rvben/rumdl/main/rumdl.schema.json",
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/rumdl.json",
     "description": "Configuration file for rumdl, a fast Markdown linter and formatter",
     "name": "rumdl",
     "fileMatch": [
