@@ -2172,6 +2172,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://developers.openai.com/codex/config-schema.json",
+    "description": "OpenAI Codex configuration file",
+    "name": "Codex",
+    "fileMatch": [
+      "**/.codex/config.toml"
+    ]
+  },
+  {
     "url": "https://codemagic.io/codemagic-schema.json",
     "description": "Codemagic CI/CD file configuration",
     "name": "codemagic",
