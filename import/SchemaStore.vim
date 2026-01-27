@@ -10303,6 +10303,21 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/kya.json",
+    "description": "Know Your Agent (KYA) Manifest for autonomous AI agents (identity, governance, and operational constraints)",
+    "name": "KYA Manifest",
+    "versions": {
+      "development": "https://raw.githubusercontent.com/open-kya/kya-standard/main/schema/kya-manifest.schema.json",
+      "1.0": "https://raw.githubusercontent.com/open-kya/kya-standard/v1.0/schema/kya-manifest.schema.json"
+    },
+    "fileMatch": [
+      "kya-manifest.json",
+      "kya.json",
+      "*.kya.json",
+      "kya-manifest.schema.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/cloudfoundry-application-manifest.json",
     "description": "A manifest describes a Cloud Foundry application and can be used to deploy it to a Foundation",
     "name": "Cloud Foundry Application Manifest",
@@ -11433,6 +11448,16 @@ export const schemata =
       "pgxgen.yml",
       "pgxgen.yaml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/espanso/espanso/refs/heads/dev/schemas/match.schema.json",
+    "description": "define WHAT Espanso does",
+    "name": "Espanso match.yml"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/espanso/espanso/refs/heads/dev/schemas/config.schema.json",
+    "description": "define HOW Espanso acts",
+    "name": "Espanso config.yml"
   }
 ]
 export const schemas = schemata
