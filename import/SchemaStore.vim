@@ -83,6 +83,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://app-protocol.org/schema/app-1.0.json",
+    "description": "Structured JSON format for professional profiles, resumes, and CVs with skills, experience, education, and certifications",
+    "name": "Applicant Profile Protocol",
+    "fileMatch": [
+      "*.app.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/grpc-api-gateway.json",
     "description": "Config file for gRPC API Gateway & OpenAPI v3.1 generation",
     "name": "gRPC API Gateway & OpenAPI Config",
@@ -6750,6 +6758,12 @@ export const schemata =
     "versions": {
       "41": "https://www.schemastore.org/renovate-global-schema-41.json"
     },
+    "fileMatch": []
+  },
+  {
+    "url": "https://docs.renovatebot.com/renovate-inherited-schema.json",
+    "description": "Renovate configuration file (with Inherit Config options). Documentation: https://docs.renovatebot.com/configuration-options",
+    "name": "Renovate inherited configuration",
     "fileMatch": []
   },
   {
