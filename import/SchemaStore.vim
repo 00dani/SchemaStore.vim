@@ -83,6 +83,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/amplify.json",
+    "description": "AWS Amplify Console build settings file",
+    "name": "amplify.yml",
+    "fileMatch": [
+      "amplify.yml",
+      "amplify.yaml"
+    ]
+  },
+  {
     "url": "https://app-protocol.org/schema/app-1.0.json",
     "description": "Structured JSON format for professional profiles, resumes, and CVs with skills, experience, education, and certifications",
     "name": "Applicant Profile Protocol",
@@ -5667,6 +5676,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/opensrm.json",
+    "description": "Open Service Reliability Manifest - Define service reliability requirements as code",
+    "name": "OpenSRM",
+    "fileMatch": [
+      "service.reliability.yaml",
+      "service.reliability.yml",
+      "*.reliability.yaml",
+      "*.reliability.yml",
+      ".opensrm.yaml",
+      ".opensrm.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/outblocks/outblocks-cli/master/schema/schema-project.json",
     "description": "Outblocks project configuration files",
     "name": "Outblocks project configuration",
@@ -6737,6 +6759,7 @@ export const schemata =
     "versions": {
       "40": "https://www.schemastore.org/renovate-40.json",
       "41": "https://www.schemastore.org/renovate-41.json",
+      "42": "https://www.schemastore.org/renovate-42.json",
       "39": "https://www.schemastore.org/renovate-39.json"
     },
     "fileMatch": [
@@ -6756,7 +6779,8 @@ export const schemata =
     "description": "Renovate global self-hosting configuration file options. Documentation: https://docs.renovatebot.com/self-hosted-configuration/",
     "name": "Renovate global configuration",
     "versions": {
-      "41": "https://www.schemastore.org/renovate-global-schema-41.json"
+      "41": "https://www.schemastore.org/renovate-global-schema-41.json",
+      "42": "https://www.schemastore.org/renovate-global-schema-42.json"
     },
     "fileMatch": []
   },
@@ -6764,6 +6788,9 @@ export const schemata =
     "url": "https://docs.renovatebot.com/renovate-inherited-schema.json",
     "description": "Renovate configuration file (with Inherit Config options). Documentation: https://docs.renovatebot.com/configuration-options",
     "name": "Renovate inherited configuration",
+    "versions": {
+      "42": "https://www.schemastore.org/renovate-inherited-schema-42.json"
+    },
     "fileMatch": []
   },
   {
