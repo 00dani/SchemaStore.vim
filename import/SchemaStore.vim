@@ -1791,6 +1791,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/claude-code-keybindings.json",
+    "description": "Keyboard shortcut configuration for Claude Code",
+    "name": "Claude Code Keybindings",
+    "fileMatch": [
+      "**/.claude/keybindings.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/claude-code-settings.json",
     "description": "Configuration file for Claude Code",
     "name": "Claude Code Settings",
