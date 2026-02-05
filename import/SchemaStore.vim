@@ -11507,6 +11507,15 @@ export const schemata =
     "url": "https://raw.githubusercontent.com/espanso/espanso/refs/heads/dev/schemas/config.schema.json",
     "description": "define HOW Espanso acts",
     "name": "Espanso config.yml"
+  },
+  {
+    "url": "https://pitcms.net/schema/pitcms.schema.json",
+    "description": "Configuration file for pitcms - a Git-based headless CMS",
+    "name": "pitcms",
+    "fileMatch": [
+      "pitcms.json",
+      "pitcms.jsonc"
+    ]
   }
 ]
 export const schemas = schemata
