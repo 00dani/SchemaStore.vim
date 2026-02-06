@@ -1179,6 +1179,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/DetachHead/basedpyright/refs/heads/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+    "description": "Basedpyright configuration file",
+    "name": "basedpyright",
+    "fileMatch": [
+      "basedpyrightconfig.json"
+    ]
+  },
+  {
     "url": "https://ide-integration.batect.dev/v1/configSchema.json",
     "description": "Batect configuration file",
     "name": "batect.yml",
@@ -6193,6 +6201,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/prek.json",
+    "description": "Configuration file for prek, a tool for managing git hooks",
+    "name": "prek",
+    "fileMatch": [
+      "prek.toml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/prettierrc.json",
     "description": ".prettierrc configuration file",
     "name": "prettierrc.json",
@@ -10388,7 +10404,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/loft-sh/vcluster-config/main/vcluster.schema.json",
+    "url": "https://raw.githubusercontent.com/loft-sh/vcluster/main/chart/values.schema.json",
     "description": "vCluster configuration",
     "name": "vcluster",
     "fileMatch": [
