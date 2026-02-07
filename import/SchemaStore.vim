@@ -11532,6 +11532,15 @@ export const schemata =
       "pitcms.json",
       "pitcms.jsonc"
     ]
+  },
+  {
+    "url": "https://api.bluebricks.co/docs/schemas/latest/bricks.schema.json",
+    "description": "Bluebricks config for blueprints",
+    "name": "Bluebricks blueprint config",
+    "fileMatch": [
+      "bricks.json",
+      "bricks.yaml"
+    ]
   }
 ]
 export const schemas = schemata
