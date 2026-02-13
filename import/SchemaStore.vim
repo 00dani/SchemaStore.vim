@@ -11541,6 +11541,22 @@ export const schemata =
       "bricks.json",
       "bricks.yaml"
     ]
+  },
+  {
+    "url": "https://www.schemastore.org/mail-servers-config.json",
+    "description": "Configuration for mail servers across different domains",
+    "name": "Mail Servers Configuration",
+    "fileMatch": [
+      "mail-servers-config.json",
+      "mail-servers-config.jsonc",
+      "mail-servers-config.json5",
+      "*.mail-servers-config.json",
+      "*.mail-servers-config.jsonc",
+      "*.mail-servers-config.json5",
+      "**/mail-servers-config.json",
+      "**/mail-servers-config.jsonc",
+      "**/mail-servers-config.json5"
+    ]
   }
 ]
 export const schemas = schemata
