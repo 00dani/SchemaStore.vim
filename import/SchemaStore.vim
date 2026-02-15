@@ -2141,7 +2141,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cirrus.json",
+    "url": "https://raw.githubusercontent.com/cirruslabs/cirrus-cli/main/pkg/parser/testdata/cirrus.json",
     "description": "Cirrus CI configuration files",
     "name": ".cirrus.yml",
     "fileMatch": [
@@ -2835,6 +2835,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/docker-extension-metadata.json",
+    "description": "Docker Desktop extension metadata configuration file. Documentation: https://docs.docker.com/extensions/extensions-sdk/architecture/metadata/",
+    "name": "Docker Desktop extension metadata",
+    "fileMatch": []
+  },
+  {
     "url": "https://www.schemastore.org/docker-bake.json",
     "description": "Docker Bake configuration file. Documentation: https://docs.docker.com/build/bake/reference",
     "name": "docker bake",
@@ -3069,6 +3075,15 @@ export const schemata =
       "ecosystem.config.json",
       "ecosystem.config.yml",
       "ecosystem.config.yaml"
+    ]
+  },
+  {
+    "url": "https://eca.dev/config.json",
+    "description": "ECA AI coding agent configuration file",
+    "name": "ECA - Editor Code Assistant",
+    "fileMatch": [
+      "**/eca/config.json",
+      "**/.eca/config.json"
     ]
   },
   {
@@ -11296,6 +11311,7 @@ export const schemata =
       "8.0-preview": "https://www.schemastore.org/aio-connector-metadata-8.0-preview.json",
       "5.0-preview": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
       "7.0-preview": "https://www.schemastore.org/aio-connector-metadata-7.0-preview.json",
+      "10.0-preview": "https://www.schemastore.org/aio-connector-metadata-10.0-preview.json",
       "9.0-preview": "https://www.schemastore.org/aio-connector-metadata-9.0-preview.json"
     }
   },
