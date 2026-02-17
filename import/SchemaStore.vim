@@ -11573,6 +11573,22 @@ export const schemata =
       "**/mail-servers-config.jsonc",
       "**/mail-servers-config.json5"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxfmt/configuration_schema.json",
+    "description": "Configuration file for Oxfmt, a high-performance formatter for the JavaScript ecosystem",
+    "name": "oxfmt",
+    "fileMatch": [
+      ".oxfmtrc.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxlint/configuration_schema.json",
+    "description": "Configuration file for Oxlint, a high-performance linter for JavaScript and TypeScript built on the Oxc compiler stack",
+    "name": "oxlint",
+    "fileMatch": [
+      ".oxlintrc.json"
+    ]
   }
 ]
 export const schemas = schemata
