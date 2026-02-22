@@ -11523,6 +11523,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/bmml.json",
+    "description": "Business Model Markup Language - a YAML format for describing business models based on Alexander Osterwalder's Business Model Canvas",
+    "name": "BMML",
+    "fileMatch": [
+      "*.bmml",
+      "*.bmml.yaml",
+      "*.bmml.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/tkcrm/pgxgen/refs/heads/master/schemas/pgxgen-schema.json",
     "description": "pgxgen configuration file",
     "name": "pgxgen",
