@@ -34,8 +34,8 @@ export const schemata =
     "description": "Upsun configuration file",
     "name": "Upsun config",
     "fileMatch": [
-      "**/.upsun/*.yml",
-      "**/.upsun/*.yaml"
+      "**/.upsun/config.yml",
+      "**/.upsun/config.yaml"
     ]
   },
   {
@@ -3338,6 +3338,16 @@ export const schemata =
       "*_FiQuS.json5",
       "*_FiQuS.yaml",
       "*_FiQuS.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/flatpak-manifest.json",
+    "description": "flatpak-builder manifest files",
+    "name": "Flatpak Builder Manifest",
+    "fileMatch": [
+      "**/*.flatpak.json",
+      "**/*.flatpak.yaml",
+      "**/*.flatpak.yml"
     ]
   },
   {
@@ -7826,6 +7836,14 @@ export const schemata =
     "fileMatch": [
       "tombi.toml",
       "**/tombi/config.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/tox-dev/tox/main/src/tox/tox.schema.json",
+    "description": "tox configuration for automating Python testing and task management",
+    "name": "tox",
+    "fileMatch": [
+      "tox.toml"
     ]
   },
   {
