@@ -2871,6 +2871,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/speakeasy-api/docs-mcp/refs/heads/main/schemas/docs-mcp.schema.json",
+    "description": "Configuration file for Docs MCP",
+    "name": "Docs MCP Manifest",
+    "fileMatch": [
+      ".docs-mcp.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/dofigen.json",
     "description": "Dofigen configuration file. Documentation: https://github.com/lenra-io/dofigen",
     "name": "Dofigen",
