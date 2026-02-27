@@ -1704,6 +1704,18 @@ export const schemata =
     ]
   },
   {
+    "url": "https://citrusframework.org/schema/json/testcase/citrus-testcase.json",
+    "description": "Citrus test case",
+    "name": "Citrus test case",
+    "fileMatch": [
+      "*.citrus.yaml",
+      "*.citrus.test.yaml",
+      "*.citrus.it.yaml",
+      "*.citrus-test.yaml",
+      "*.citrus-it.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/cityjson/specs/master/schemas/cityjson.min.schema.json",
     "description": "the representation of 3D city models",
     "name": "CityJSON"
@@ -11371,10 +11383,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json",
+    "url": "https://www.schemastore.org/aio-wasm-graph-config-1.1.0.json",
     "description": "",
     "name": "Azure IoT Operations Wasm Graph Config",
     "versions": {
+      "1.1.0": "https://www.schemastore.org/aio-wasm-graph-config-1.1.0.json",
       "1.0.0": "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json"
     }
   },
