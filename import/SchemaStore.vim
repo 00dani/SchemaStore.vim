@@ -1036,8 +1036,8 @@ export const schemata =
     ]
   },
   {
-    "url": "https://4lando.github.io/lando-spec/landofile-spec.json",
-    "description": "The configuration file for a Lando app. Documentation: https://github.com/4lando/lando-spec",
+    "url": "https://lando-community.github.io/lando-spec/landofile-spec.json",
+    "description": "The configuration file for a Lando app. Documentation: https://github.com/lando-community/lando-spec",
     "name": "Lando (landofile)",
     "fileMatch": [
       ".lando.yml",
@@ -5237,6 +5237,21 @@ export const schemata =
       "*.mlos.jsonc",
       "*.mlos.json5",
       "*.mlos.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/getmockd/mockd/main/schema/mockd.schema.json",
+    "description": "mockd multi-protocol API mock server configuration file. See https://mockd.io",
+    "name": "mockd.yaml",
+    "fileMatch": [
+      "mockd.yaml",
+      "mockd.yml",
+      "mockd.json",
+      ".mockd.yaml",
+      ".mockd.yml",
+      ".mockd.json",
+      "mocks.yaml",
+      "mocks.yml"
     ]
   },
   {
