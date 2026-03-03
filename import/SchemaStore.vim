@@ -11655,6 +11655,17 @@ export const schemata =
     "fileMatch": [
       ".oxlintrc.json"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/zeldigas/text2confl/refs/heads/master/docs/config.schema.json",
+    "description": "Configuration file for Text2Confl - tool to publish Markdown and Asciidoctor files to Confluence",
+    "name": "text2confl config",
+    "fileMatch": [
+      "**/.text2confl.yaml",
+      "**/.text2confl.yml",
+      "**/text2confl.yaml",
+      "**/text2confl.yml"
+    ]
   }
 ]
 export const schemas = schemata
