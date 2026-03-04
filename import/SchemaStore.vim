@@ -240,23 +240,35 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-supply-plan-11.2.0.json",
+    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
+    "description": "ABCClinicalDemandForecast defining the structure of clinical trial demand forecasting data in ABC-Plan",
+    "name": "ABCClinicalDemandForecast",
+    "versions": {
+      "1.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json"
+    },
+    "fileMatch": [
+      "abc-clinical-demand-forecast-*.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/abc-supply-plan-11.3.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
-      "4.0.0": "https://www.schemastore.org/abc-supply-plan-4.0.0.json",
-      "5.0.0": "https://www.schemastore.org/abc-supply-plan-5.0.0.json",
-      "6.0.0": "https://www.schemastore.org/abc-supply-plan-6.0.0.json",
       "7.0.0": "https://www.schemastore.org/abc-supply-plan-7.0.0.json",
-      "8.0.0": "https://www.schemastore.org/abc-supply-plan-8.0.0.json",
-      "9.0.0": "https://www.schemastore.org/abc-supply-plan-9.0.0.json",
-      "11.0.0": "https://www.schemastore.org/abc-supply-plan-11.0.0.json",
-      "10.0.0": "https://www.schemastore.org/abc-supply-plan-10.0.0.json",
-      "11.2.0": "https://www.schemastore.org/abc-supply-plan-11.2.0.json",
       "10.1.0": "https://www.schemastore.org/abc-supply-plan-10.1.0.json",
-      "11.1.0": "https://www.schemastore.org/abc-supply-plan-11.1.0.json",
-      "1.0.0": "https://www.schemastore.org/abc-supply-plan-1.0.0.json",
       "2.0.0": "https://www.schemastore.org/abc-supply-plan-2.0.0.json",
+      "6.0.0": "https://www.schemastore.org/abc-supply-plan-6.0.0.json",
+      "11.2.0": "https://www.schemastore.org/abc-supply-plan-11.2.0.json",
+      "1.0.0": "https://www.schemastore.org/abc-supply-plan-1.0.0.json",
+      "5.0.0": "https://www.schemastore.org/abc-supply-plan-5.0.0.json",
+      "11.0.0": "https://www.schemastore.org/abc-supply-plan-11.0.0.json",
+      "9.0.0": "https://www.schemastore.org/abc-supply-plan-9.0.0.json",
+      "11.3.0": "https://www.schemastore.org/abc-supply-plan-11.3.0.json",
+      "4.0.0": "https://www.schemastore.org/abc-supply-plan-4.0.0.json",
+      "10.0.0": "https://www.schemastore.org/abc-supply-plan-10.0.0.json",
+      "8.0.0": "https://www.schemastore.org/abc-supply-plan-8.0.0.json",
+      "11.1.0": "https://www.schemastore.org/abc-supply-plan-11.1.0.json",
       "3.0.0": "https://www.schemastore.org/abc-supply-plan-3.0.0.json"
     },
     "fileMatch": [
@@ -5723,6 +5735,20 @@ export const schemata =
     "name": "OpenRewrite Resource",
     "fileMatch": [
       "**/META-INF/rewrite/*.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.0.0/opentelemetry_configuration.json",
+    "description": "OpenTelemetry declarative configuration for SDKs and instrumentation",
+    "name": "OpenTelemetry Declarative Configuration",
+    "versions": {
+      "1.0.0": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.0.0/opentelemetry_configuration.json"
+    },
+    "fileMatch": [
+      "opentelemetry*.yaml",
+      "opentelemetry*.yml",
+      "otel*.yaml",
+      "otel*.yml"
     ]
   },
   {
