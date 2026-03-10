@@ -5597,6 +5597,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/ogen.json",
+    "description": "ogen code generator configuration, see https://ogen.dev/docs/config",
+    "name": "ogen",
+    "fileMatch": [
+      "ogen.yml",
+      "ogen.yaml",
+      ".ogen.yml",
+      ".ogen.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "description": "Oh My Posh configuration file",
     "name": "Oh My Posh",
@@ -8093,6 +8104,14 @@ export const schemata =
     "fileMatch": [
       "tusk.yml",
       "tusk.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/twee-ts.config.json",
+    "description": "twee-ts compiler configuration file",
+    "name": "twee-ts",
+    "fileMatch": [
+      "twee-ts.config.json"
     ]
   },
   {
