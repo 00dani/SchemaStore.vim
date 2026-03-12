@@ -225,11 +225,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-inventory-module-data-5.1.0.json",
+    "url": "https://www.schemastore.org/abc-inventory-module-data-5.2.0.json",
     "description": "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
     "name": "ABCInventoryModuleData",
     "versions": {
       "4.0.0": "https://www.schemastore.org/abc-inventory-module-data-4.0.0.json",
+      "5.2.0": "https://www.schemastore.org/abc-inventory-module-data-5.2.0.json",
       "5.1.0": "https://www.schemastore.org/abc-inventory-module-data-5.1.0.json",
       "1.0.0": "https://www.schemastore.org/abc-inventory-module-data-1.0.0.json",
       "2.0.0": "https://www.schemastore.org/abc-inventory-module-data-2.0.0.json",
