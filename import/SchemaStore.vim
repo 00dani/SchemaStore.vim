@@ -2,6 +2,16 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://raw.githubusercontent.com/hashgraph-online/skill-publish/main/schemas/skill.schema.json",
+    "description": "Manifest for Hashgraph Online Registry Broker skill packages",
+    "name": "Hashgraph Online Skill Manifest",
+    "fileMatch": [
+      "**/.hol/skill.json",
+      "**/hol/skill.json",
+      "hol-skill.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/teneplaysofficial/release-hub/main/schema/release-hub.schema.json",
     "description": "Configuration file for Release Hub",
     "name": "release-hub.json",
