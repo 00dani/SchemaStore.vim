@@ -3605,12 +3605,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
+    "url": "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
     "description": "Configuration file for GitVersion",
     "name": "GitVersion",
     "versions": {
       "6.4": "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
       "6.5": "https://gitversion.net/schemas/6.5/GitVersion.configuration.json",
+      "6.6": "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
       "5.12": "https://gitversion.net/schemas/5.12/GitVersion.configuration.json",
       "6.0": "https://gitversion.net/schemas/6.0/GitVersion.configuration.json",
       "6.1": "https://gitversion.net/schemas/6.1/GitVersion.configuration.json",
@@ -9571,7 +9572,9 @@ export const schemata =
     "name": "Shopware CLI Project Store Configuration",
     "fileMatch": [
       ".shopware-project.yml",
-      ".shopware-project.yaml"
+      ".shopware-project.yaml",
+      ".shopware-project.local.yml",
+      ".shopware-project.local.yaml"
     ]
   },
   {
