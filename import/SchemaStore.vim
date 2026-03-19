@@ -1903,6 +1903,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/godatadriven/dbt-bouncer/main/schema.json",
+    "description": "dbt-bouncer configuration file for enforcing conventions in dbt projects",
+    "name": "dbt-bouncer",
+    "fileMatch": [
+      "dbt-bouncer.yml",
+      "dbt-bouncer.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dependencies-latest.json",
     "description": "dbt's dependencies.yml file for external packages and cross-project refs",
     "name": "dbt Dependencies",
@@ -6146,6 +6155,12 @@ export const schemata =
     "fileMatch": [
       "pixi.toml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/partial-pixi.json",
+    "description": "Pixi configuration for pyproject.toml",
+    "name": "partial-pixi.json",
+    "fileMatch": []
   },
   {
     "url": "https://raw.githubusercontent.com/pmbot-io/config/master/pmbot.yml.schema.json",
