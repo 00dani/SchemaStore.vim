@@ -1982,6 +1982,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/aouledissa/deep-match/main/schemas/deeplinks.schema.json",
+    "description": "DeepMatch deeplinks YAML configuration file",
+    "name": "DeepMatch deeplinks spec",
+    "fileMatch": [
+      "**/.deeplinks.yml",
+      "**/*.deeplinks.yml",
+      "**/.deeplinks.yaml",
+      "**/*.deeplinks.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/dein.json",
     "description": "Dein.vim, a Vim/Neovim plugin manager",
     "name": "Dein Config",
