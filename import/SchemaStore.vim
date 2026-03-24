@@ -791,6 +791,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Eurobotics-Association/barba-cv/main/schema/barba-cv.schema.json",
+    "description": "Deterministic CV / resume data format",
+    "name": "Barba-CV",
+    "fileMatch": [
+      "barba-cv.json"
+    ]
+  },
+  {
     "url": "https://biomejs.dev/schemas/latest/schema.json",
     "description": "Configuration file for the Biome formatter",
     "name": "Biome Formatter Config",
@@ -4994,6 +5002,17 @@ export const schemata =
     "fileMatch": [
       ".mado.toml",
       "mado.toml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/maestro-flow.json",
+    "description": "Maestro mobile and web UI test flow (YAML)",
+    "name": "Maestro Flow",
+    "fileMatch": [
+      "**/.maestro/**/*.yaml",
+      "**/.maestro/**/*.yml",
+      "**/*.flow.yaml",
+      "**/*.flow.yml"
     ]
   },
   {
@@ -11751,6 +11770,14 @@ export const schemata =
       "**/.text2confl.yml",
       "**/text2confl.yaml",
       "**/text2confl.yml"
+    ]
+  },
+  {
+    "url": "https://cursor.com/schemas/environment.schema.json",
+    "description": "Cursor cloud agent environment configuration",
+    "name": "Cursor Agent Environment",
+    "fileMatch": [
+      "**/.cursor/environment.json"
     ]
   }
 ]
