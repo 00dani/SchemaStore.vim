@@ -23,6 +23,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://goosewobbler.github.io/releasekit/schema.json",
+    "description": "Configuration for ReleaseKit release automation",
+    "name": "ReleaseKit",
+    "fileMatch": [
+      "releasekit.config.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/robgonnella/releasaurus/refs/heads/main/schema/schema.json",
     "description": "Configuration file for Releasaurus",
     "name": "Releasaurus Config",
@@ -6142,17 +6150,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/transcend-io/cli/main/pathfinder-policy-yml-schema.json",
-    "description": "Configuration for Transcend's Pathfinder, a proxy that intercepts calls to AI tools to enable AI governance",
-    "name": "pathfinder.yml",
-    "fileMatch": [
-      "pathfinder.yml",
-      "pathfinder.yaml",
-      "transcend-pathfinder.yml",
-      "transcend-pathfinder.yaml"
-    ]
-  },
-  {
     "url": "https://www.schemastore.org/pdm.json",
     "description": "A modern Python package and dependency manager supporting the latest PEP standard (pdm.toml config file)",
     "name": "PDM",
@@ -8037,8 +8034,8 @@ export const schemata =
     "name": "Traefik v3 File Provider"
   },
   {
-    "url": "https://raw.githubusercontent.com/transcend-io/cli/main/transcend-yml-schema-latest.json",
-    "description": "Define personal data in code using Transcend",
+    "url": "https://raw.githubusercontent.com/transcend-io/tools/refs/heads/main/packages/cli/schema/transcend-yml-schema-latest.json",
+    "description": "Configure as Code for Transcend",
     "name": "transcend.yml",
     "fileMatch": [
       "transcend.yml",
@@ -9174,24 +9171,25 @@ export const schemata =
     ]
   },
   {
-    "url": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-14.json",
+    "url": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-15.json",
     "description": "Gradle Enterprise configuration",
     "name": "Gradle Enterprise",
     "versions": {
-      "3.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-3.json",
-      "12.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-12.json",
       "5.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-5.json",
-      "7.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-7.json",
-      "11.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-11.json",
-      "9.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-9.json",
-      "2.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-2.json",
+      "12.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-12.json",
+      "8.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-8.json",
+      "15.0": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-15.json",
+      "3.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-3.json",
       "10.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-10.json",
-      "4.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-4.json",
-      "14.0": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-14.json",
       "6.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-6.json",
       "13.0": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-13.json",
-      "8.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-8.json",
-      "1.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-1.json"
+      "1.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-1.json",
+      "9.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-9.json",
+      "4.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-4.json",
+      "11.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-11.json",
+      "7.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-7.json",
+      "14.0": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-14.json",
+      "2.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-2.json"
     },
     "fileMatch": [
       "*gradle-enterprise.yml",
@@ -11750,7 +11748,7 @@ export const schemata =
     "description": "Configuration file for Oxfmt, a high-performance formatter for the JavaScript ecosystem",
     "name": "oxfmt",
     "fileMatch": [
-      ".oxfmtrc.json"
+      "**/.oxfmtrc.json"
     ]
   },
   {
@@ -11758,7 +11756,7 @@ export const schemata =
     "description": "Configuration file for Oxlint, a high-performance linter for JavaScript and TypeScript built on the Oxc compiler stack",
     "name": "oxlint",
     "fileMatch": [
-      ".oxlintrc.json"
+      "**/.oxlintrc.json"
     ]
   },
   {
@@ -11778,6 +11776,15 @@ export const schemata =
     "name": "Cursor Agent Environment",
     "fileMatch": [
       "**/.cursor/environment.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nexus-rpc/nexus-rpc-gen/main/schemas/nexus-rpc-gen.json",
+    "description": "nexus-rpc-gen configuration for generating Nexus RPC service stubs",
+    "name": "nexus-rpc-gen",
+    "fileMatch": [
+      "*.nexusrpc.yaml",
+      "*.nexusrpc.yml"
     ]
   }
 ]
