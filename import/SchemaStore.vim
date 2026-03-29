@@ -11786,6 +11786,17 @@ export const schemata =
       "*.nexusrpc.yaml",
       "*.nexusrpc.yml"
     ]
+  },
+  {
+    "url": "https://schema.agentcore.aws.dev/v1/agentcore.json",
+    "description": "Configuration file for Amazon Bedrock AgentCore CLI projects",
+    "name": "AgentCore CLI",
+    "versions": {
+      "1.0": "https://schema.agentcore.aws.dev/v1/agentcore.json"
+    },
+    "fileMatch": [
+      "**/agentcore/agentcore.json"
+    ]
   }
 ]
 export const schemas = schemata
