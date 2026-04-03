@@ -669,6 +669,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json",
+    "description": "Azure Developer CLI (azd) configuration file",
+    "name": "azure.yaml",
+    "versions": {
+      "alpha": "https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/alpha/azure.yaml.json",
+      "1.0": "https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json"
+    },
+    "fileMatch": [
+      "azure.yaml",
+      "azure.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/azure-containerapp-template.json",
     "description": "Azure Container App template for defining an immutable revision",
     "name": "Azure Container App template for defining an immutable revision",
@@ -5293,6 +5306,17 @@ export const schemata =
     },
     "fileMatch": [
       "mkdocs.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ModuleAssembler/ModuleAssembler-Schema/refs/tags/v1.0.0/schema/moduleassembler.schema.json",
+    "description": "ModuleAssembler configuration file",
+    "name": "ModuleAssembler",
+    "versions": {
+      "1.0.0": "https://raw.githubusercontent.com/ModuleAssembler/ModuleAssembler-Schema/refs/tags/v1.0.0/schema/moduleassembler.schema.json"
+    },
+    "fileMatch": [
+      "**/.moduleassembler/moduleproject.json"
     ]
   },
   {
@@ -11798,6 +11822,16 @@ export const schemata =
     "fileMatch": [
       "**/agentcore/agentcore.json"
     ]
+  },
+  {
+    "url": "https://www.schemastore.org/ethereum-erc721.json",
+    "description": "ERC-721 Non-Fungible Token Standard",
+    "name": "Ethereum ERC721"
+  },
+  {
+    "url": "https://www.schemastore.org/ethereum-erc1155.json",
+    "description": "ERC-1155 Multi Token Standard",
+    "name": "Ethereum ERC1155"
   }
 ]
 export const schemas = schemata
