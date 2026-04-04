@@ -7209,6 +7209,14 @@ export const schemata =
     "name": "schema.org - Thing"
   },
   {
+    "url": "https://www.schemastore.org/scarb.json",
+    "description": "Scarb manifest file (Scarb.toml)",
+    "name": "Scarb",
+    "fileMatch": [
+      "Scarb.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
     "description": "Scoop bucket app manifest",
     "name": "Scoop manifest",
