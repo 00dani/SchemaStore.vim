@@ -1881,6 +1881,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://cmakefmt.dev/schemas/latest/schema.json",
+    "description": "Configuration file for cmakefmt, a fast native CMake formatter",
+    "name": "cmakefmt",
+    "fileMatch": [
+      ".cmakefmt.yaml",
+      ".cmakefmt.yml",
+      ".cmakefmt.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/CVEProject/cve-schema/master/schema/docs/CVE_Record_Format_bundled.json",
     "description": "CVE record format to describe security vulnerabilities",
     "name": "CVE Record Format",
@@ -6164,6 +6174,15 @@ export const schemata =
     "name": "Packer",
     "fileMatch": [
       "packer.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/pactspec.json",
+    "description": "AI agent capability declaration (pactspec.dev)",
+    "name": "PactSpec",
+    "fileMatch": [
+      "*.pactspec.json",
+      "*.pactspec.yaml"
     ]
   },
   {
