@@ -11859,6 +11859,14 @@ export const schemata =
     "url": "https://www.schemastore.org/ethereum-erc1155.json",
     "description": "ERC-1155 Multi Token Standard",
     "name": "Ethereum ERC1155"
+  },
+  {
+    "url": "https://www.schemastore.org/qwen-code-settings.json",
+    "description": "Configuration file for Qwen Code",
+    "name": "Qwen Code Settings",
+    "fileMatch": [
+      "**/.qwen/settings.json"
+    ]
   }
 ]
 export const schemas = schemata
