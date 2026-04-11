@@ -877,6 +877,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/buf.policy.json",
+    "description": "buf.policy.yaml defines a policy containing lint, breaking change detection, and plugin configuration that can be shared across BSR modules",
+    "name": "buf.policy.yaml",
+    "fileMatch": [
+      "buf.policy.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/buf.work.json",
     "description": "buf.work.yaml is used to define a workspace, which is an advanced local development feature. Workspaces make it possible to consolidate one or more modules into a single buildable unit. They also allow users to run buf operations across multiple modules with a single execution (such as buf lint)",
     "name": "buf.work.yaml",
@@ -1139,6 +1147,14 @@ export const schemata =
     "name": "FasterCI Configuration",
     "fileMatch": [
       "**/.fasterci/config.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Use-Tusk/fence/refs/heads/main/docs/schema/fence.schema.json",
+    "description": "Configuration file for fence, a lightweight, container-free sandbox for running commands with network and filesystem restrictions",
+    "name": "Fence configuration",
+    "fileMatch": [
+      "fence.json"
     ]
   },
   {
@@ -11866,6 +11882,26 @@ export const schemata =
     "name": "Qwen Code Settings",
     "fileMatch": [
       "**/.qwen/settings.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/8bitAlex/raid/main/schemas/raid-profile.schema.json",
+    "description": "Definition for one or more Raid Profiles",
+    "name": "Raid Profile",
+    "fileMatch": [
+      "*.raid.yaml",
+      "*.raid.yml",
+      "*.raid.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/8bitAlex/raid/main/schemas/raid-repo.schema.json",
+    "description": "Definition for a single repository",
+    "name": "Raid Repo Configuration",
+    "fileMatch": [
+      "raid.yaml",
+      "raid.yml",
+      "raid.json"
     ]
   }
 ]
