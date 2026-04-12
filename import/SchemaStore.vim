@@ -3363,9 +3363,7 @@ export const schemata =
       "53.0.0": "https://www.schemastore.org/expo-53.0.0.json",
       "42.0.0": "https://www.schemastore.org/expo-42.0.0.json"
     },
-    "fileMatch": [
-      "app.json"
-    ]
+    "fileMatch": []
   },
   {
     "url": "https://raw.githubusercontent.com/expo/eas-cli/main/packages/eas-json/schema/eas.schema.json",
@@ -3681,13 +3679,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
+    "url": "https://gitversion.net/schemas/6.7/GitVersion.configuration.json",
     "description": "Configuration file for GitVersion",
     "name": "GitVersion",
     "versions": {
       "6.4": "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
       "6.5": "https://gitversion.net/schemas/6.5/GitVersion.configuration.json",
       "6.6": "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
+      "6.7": "https://gitversion.net/schemas/6.7/GitVersion.configuration.json",
       "5.12": "https://gitversion.net/schemas/5.12/GitVersion.configuration.json",
       "6.0": "https://gitversion.net/schemas/6.0/GitVersion.configuration.json",
       "6.1": "https://gitversion.net/schemas/6.1/GitVersion.configuration.json",
@@ -3876,8 +3875,6 @@ export const schemata =
     "fileMatch": [
       "**/vars/*.yml",
       "**/vars/*.yaml",
-      "**/defaults/*.yml",
-      "**/defaults/*.yaml",
       "**/host_vars/*.yml",
       "**/host_vars/*.yaml",
       "**/group_vars/*.yml",
@@ -4829,6 +4826,16 @@ export const schemata =
       "keto.yml",
       "keto.yaml",
       "keto.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/knowledge-unit.json",
+    "description": "Verified knowledge artifact produced through multi-model deliberation (IETF Internet-Draft: draft-farley-acta-knowledge-units)",
+    "name": "Knowledge Unit",
+    "fileMatch": [
+      "ku-*.json",
+      "knowledge-unit.json",
+      "**/ku/*.json"
     ]
   },
   {
