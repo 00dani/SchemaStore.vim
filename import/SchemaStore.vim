@@ -1440,6 +1440,12 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/partial-fastapi.json",
+    "description": "FastAPI web framework configuration for pyproject.toml",
+    "name": "partial-fastapi.json",
+    "fileMatch": []
+  },
+  {
     "url": "https://www.schemastore.org/bozr.json",
     "description": "Bozr test suite file",
     "name": "bozr.suite.json",
