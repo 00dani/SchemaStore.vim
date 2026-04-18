@@ -3246,6 +3246,15 @@ export const schemata =
     "name": "Esquio"
   },
   {
+    "url": "https://raw.githubusercontent.com/estampo/estampo/main/docs/estampo.schema.json",
+    "description": "Configuration for estampo, the build system for reproducible 3D prints",
+    "name": "estampo.toml",
+    "fileMatch": [
+      "estampo.toml",
+      "estampo.*.toml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/epr-manifest.json",
     "description": "Entry Point Regulation manifest file",
     "name": "epr-manifest.json",
