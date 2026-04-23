@@ -6963,6 +6963,24 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/package/schemas/reposets.config.schema.json",
+    "description": "Configuration for the reposets CLI tool for syncing GitHub repository settings",
+    "name": "reposets Configuration",
+    "fileMatch": [
+      "reposets.config.toml",
+      "reposets.config.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/package/schemas/reposets.credentials.schema.json",
+    "description": "Authentication profiles for the reposets CLI tool",
+    "name": "reposets Credentials",
+    "fileMatch": [
+      "reposets.credentials.toml",
+      "reposets.credentials.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/resjson.json",
     "description": "Windows App localization file",
     "name": "*.resjson",
