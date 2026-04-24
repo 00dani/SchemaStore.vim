@@ -1895,6 +1895,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/claude-code-plugin-manifest.json",
+    "description": "Manifest (.claude-plugin/plugin.json) for a Claude Code plugin",
+    "name": "Claude Code Plugin Manifest",
+    "fileMatch": [
+      "**/.claude-plugin/plugin.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/claude-code-marketplace.json",
+    "description": "Marketplace manifest (.claude-plugin/marketplace.json) listing Claude Code plugins",
+    "name": "Claude Code Plugin Marketplace",
+    "fileMatch": [
+      "**/.claude-plugin/marketplace.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/claude-code-settings.json",
     "description": "Configuration file for Claude Code",
     "name": "Claude Code Settings",
@@ -6324,6 +6340,12 @@ export const schemata =
     "fileMatch": [
       "podbard.yaml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/podman-desktop/podman-desktop/main/schemas/extension-schema.json",
+    "description": "Podman Desktop extension package.json manifest",
+    "name": "Podman Desktop Extension",
+    "fileMatch": []
   },
   {
     "url": "https://www.schemastore.org/popxf-1.0.json",
