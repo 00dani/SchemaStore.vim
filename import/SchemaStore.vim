@@ -6342,12 +6342,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/podman-desktop/podman-desktop/main/schemas/extension-schema.json",
-    "description": "Podman Desktop extension package.json manifest",
-    "name": "Podman Desktop Extension",
-    "fileMatch": []
-  },
-  {
     "url": "https://www.schemastore.org/popxf-1.0.json",
     "description": "Polynomial Observable Predictions in High-Energy Physics",
     "name": "POPxf",
@@ -10387,9 +10381,9 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/databricks-asset-bundles.json",
-    "description": "Databricks Asset Bundles config",
-    "name": "Databricks Asset Bundles",
+    "url": "https://www.schemastore.org/declarative-automation-bundles.json",
+    "description": "Declarative Automation Bundles config",
+    "name": "Declarative Automation Bundles",
     "fileMatch": [
       "databricks.yml",
       "databricks.yaml"
