@@ -2,6 +2,17 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://www.schemastore.org/revola.json",
+    "description": "Configuration file for Revola",
+    "name": "revola.json",
+    "fileMatch": [
+      ".revola.json",
+      ".revola.config.json",
+      "revola.json",
+      "revola.config.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/hashgraph-online/skill-publish/main/schemas/skill.schema.json",
     "description": "Manifest for Hashgraph Online Registry Broker skill packages",
     "name": "Hashgraph Online Skill Manifest",
@@ -3402,6 +3413,14 @@ export const schemata =
     "name": "EAS config",
     "fileMatch": [
       "eas.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/shirakaba/expoot/main/packages/expoot/schemas/expoot-app.schema.json",
+    "description": "The config for creating a React Native Desktop app with best-effort Expo support, used by the expoot CLI",
+    "name": "Expoot app config",
+    "fileMatch": [
+      "expoot-app.json"
     ]
   },
   {
@@ -7166,6 +7185,15 @@ export const schemata =
     "name": "rustfmt",
     "fileMatch": [
       "rustfmt.toml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/ryl.json",
+    "description": "ryl, a fast YAML linter written in Rust",
+    "name": "ryl",
+    "fileMatch": [
+      "ryl.toml",
+      ".ryl.toml"
     ]
   },
   {
