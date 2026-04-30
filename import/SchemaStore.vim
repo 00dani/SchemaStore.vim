@@ -8379,7 +8379,8 @@ export const schemata =
     "description": "Settings file for Ubuntu Autoinstall",
     "name": "Ubuntu Server Autoinstall",
     "fileMatch": [
-      "user-data"
+      "user-data",
+      "autoinstall.yaml"
     ]
   },
   {
@@ -11986,6 +11987,34 @@ export const schemata =
       "raid.yaml",
       "raid.yml",
       "raid.json"
+    ]
+  },
+  {
+    "url": "https://schemas.opendecree.dev/schema/v0.1.0/decree-schema.json",
+    "description": "OpenDecree definition file (https://opendecree.dev) — describes typed configuration fields, constraints, and metadata that the OpenDecree configuration management service serves to applications",
+    "name": "OpenDecree",
+    "versions": {
+      "v0.1.0": "https://schemas.opendecree.dev/schema/v0.1.0/decree-schema.json"
+    },
+    "fileMatch": [
+      "decree.schema.yaml",
+      "decree.schema.yml",
+      "*.decree.schema.yaml",
+      "*.decree.schema.yml"
+    ]
+  },
+  {
+    "url": "https://schemas.opendecree.dev/schema/v0.1.0/decree-config.json",
+    "description": "OpenDecree configuration values file (https://opendecree.dev) — concrete values for fields declared in a paired main decree yaml",
+    "name": "OpenDecree Configuration",
+    "versions": {
+      "v0.1.0": "https://schemas.opendecree.dev/schema/v0.1.0/decree-config.json"
+    },
+    "fileMatch": [
+      "decree.config.yaml",
+      "decree.config.yml",
+      "*.decree.config.yaml",
+      "*.decree.config.yml"
     ]
   }
 ]
