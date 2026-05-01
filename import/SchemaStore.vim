@@ -856,6 +856,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/int-brain-lab/bpod-core/main/.schema/statemachine.json",
+    "description": "Definition of a Bpod Finite-State Machine",
+    "name": "Bpod Finite-State Machine",
+    "fileMatch": [
+      "*.bpod-fsm.json",
+      "*.bpod-fsm.yaml",
+      "*.bpod-fsm.yml",
+      "bpod-fsm.json",
+      "bpod-fsm.yaml",
+      "bpod-fsm.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/buf.json",
     "description": "buf.yaml is used to define a module. It's the primary configuration file, and is responsible for the module's name, dependencies, and lint and breaking configuration",
     "name": "buf.yaml",
@@ -4590,7 +4603,7 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://www.schemastore.org/jreleaser-1.23.0.json",
+    "url": "https://www.schemastore.org/jreleaser-1.24.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
@@ -4605,6 +4618,7 @@ export const schemata =
       "1.15.0": "https://www.schemastore.org/jreleaser-1.15.0.json",
       "1.8.0": "https://www.schemastore.org/jreleaser-1.8.0.json",
       "1.10.0": "https://www.schemastore.org/jreleaser-1.10.0.json",
+      "1.24.0": "https://www.schemastore.org/jreleaser-1.24.0.json",
       "1.18.0": "https://www.schemastore.org/jreleaser-1.18.0.json",
       "1.13.0": "https://www.schemastore.org/jreleaser-1.13.0.json",
       "1.13.1": "https://www.schemastore.org/jreleaser-1.13.1.json",
@@ -9229,6 +9243,18 @@ export const schemata =
     "name": "Uniswap Token List",
     "fileMatch": [
       "*.tokenlist.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/yamlfmt.json",
+    "description": "Configuration file for yamlfmt",
+    "name": "yamlfmt",
+    "fileMatch": [
+      ".yamlfmt",
+      "yamlfmt.yml",
+      "yamlfmt.yaml",
+      ".yamlfmt.yaml",
+      ".yamlfmt.yml"
     ]
   },
   {
