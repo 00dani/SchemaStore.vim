@@ -8782,6 +8782,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://docs.xenforo.com/schema/addon.schema.json",
+    "description": "A manifest describing a XenForo add-on",
+    "name": "XenForo add-on manifest",
+    "fileMatch": []
+  },
+  {
     "url": "https://json-stat.org/format/schema/2.0/",
     "description": "JSON-stat 2.0",
     "name": "JSON-stat 2.0"
@@ -12041,6 +12047,15 @@ export const schemata =
       "decree.config.yml",
       "*.decree.config.yaml",
       "*.decree.config.yml"
+    ]
+  },
+  {
+    "url": "https://schema.openenvelope.org/team/v1.json",
+    "description": "Open standard for AI agent team definitions — declare agents, roles, tools, access policies, and pipelines in a single versioned document",
+    "name": "Envelope Team Definition",
+    "fileMatch": [
+      "*.envelope.json",
+      "team.envelope.json"
     ]
   }
 ]
