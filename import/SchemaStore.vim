@@ -10442,7 +10442,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/declarative-automation-bundles.json",
+    "url": "https://github.com/databricks/cli/releases/latest/download/jsonschema.json",
     "description": "Declarative Automation Bundles config",
     "name": "Declarative Automation Bundles",
     "fileMatch": [
@@ -12056,6 +12056,14 @@ export const schemata =
     "fileMatch": [
       "*.envelope.json",
       "team.envelope.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ton-blockchain/acton/master/crates/acton-config/schemas/acton.schema.json",
+    "description": "Configuration file for Acton projects",
+    "name": "Acton",
+    "fileMatch": [
+      "Acton.toml"
     ]
   }
 ]
