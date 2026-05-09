@@ -3272,6 +3272,15 @@ export const schemata =
     "name": "Enterprise Contract Policy Spec"
   },
   {
+    "url": "https://envilder.com/schema/map-file.v1.json",
+    "description": "Envilder secret mapping file that maps environment variable names to cloud secret paths",
+    "name": "Envilder Map File",
+    "fileMatch": [
+      "envilder.json",
+      "envilder.*.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/esmrc.json",
     "description": "Configuration files for the esm module/package in Node.js",
     "name": ".esmrc.json",
