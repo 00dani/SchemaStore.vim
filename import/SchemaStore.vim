@@ -270,22 +270,25 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
+    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json",
     "description": "ABCClinicalDemandForecast defining the structure of clinical trial demand forecasting data in ABC-Plan",
     "name": "ABCClinicalDemandForecast",
     "versions": {
-      "1.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json"
+      "1.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
+      "2.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-2.0.0.json",
+      "3.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json"
     },
     "fileMatch": [
       "abc-clinical-demand-forecast-*.json"
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-supply-plan-12.0.0.json",
+    "url": "https://www.schemastore.org/abc-supply-plan-13.0.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
       "7.0.0": "https://www.schemastore.org/abc-supply-plan-7.0.0.json",
+      "13.0.0": "https://www.schemastore.org/abc-supply-plan-13.0.0.json",
       "11.4.0": "https://www.schemastore.org/abc-supply-plan-11.4.0.json",
       "10.1.0": "https://www.schemastore.org/abc-supply-plan-10.1.0.json",
       "2.0.0": "https://www.schemastore.org/abc-supply-plan-2.0.0.json",
@@ -5459,6 +5462,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.mock-server.com/schema/expectations.json",
+    "description": "MockServer expectations configuration for defining request matchers and response actions. See https://www.mock-server.com",
+    "name": "MockServer Expectations",
+    "fileMatch": [
+      "mockserverInitialization.json",
+      "*mockserver*Initialization.json",
+      "mockserver*.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/software-t-rex/monospace/main/apps/monospace/schemas/monospace.schema.json",
     "description": "MonoSpace configuration file",
     "name": "monospace.yml",
@@ -6461,6 +6474,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://spec.falsify.dev/schema/prml-v0.1.schema.json",
+    "description": "Pre-Registered ML Manifest — open spec for committing ML evaluation claims to a SHA-256 hash before the run (CC BY 4.0). https://spec.falsify.dev/v0.1",
+    "name": "PRML manifest",
+    "versions": {
+      "v0.2-rfc": "https://spec.falsify.dev/schema/prml-v0.2.schema.json",
+      "v0.1": "https://spec.falsify.dev/schema/prml-v0.1.schema.json"
+    },
+    "fileMatch": [
+      "*.prml.yaml",
+      "*.prml.yml",
+      "manifest.prml.yaml",
+      "prml-manifest.yaml",
+      "prml-manifest.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/phrase.json",
     "description": "Phrase configuration file",
     "name": ".phrase.yml",
@@ -7204,10 +7233,11 @@ export const schemata =
   },
   {
     "url": "https://www.schemastore.org/rustfmt.json",
-    "description": "rustfmt, a tool to format Rust code",
+    "description": "rustfmt, a tool to format Rust code. Documentation: https://rust-lang.github.io/rustfmt",
     "name": "rustfmt",
     "fileMatch": [
-      "rustfmt.toml"
+      "rustfmt.toml",
+      ".rustfmt.toml"
     ]
   },
   {
@@ -11982,6 +12012,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Mearman/agent-permissions/main/agent-permissions.schema.json",
+    "description": "Cross-agent permission policy for AI coding agents",
+    "name": "Agent Permission Policy",
+    "fileMatch": [
+      "**/.agents/permissions.json",
+      "**/.agents/permissions.local.json"
+    ]
+  },
+  {
     "url": "https://schema.agentcore.aws.dev/v1/agentcore.json",
     "description": "Configuration file for Amazon Bedrock AgentCore CLI projects",
     "name": "AgentCore CLI",
@@ -12073,6 +12112,15 @@ export const schemata =
     "name": "Acton",
     "fileMatch": [
       "Acton.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/UladzKha/memnex/main/schema/v0.1/meeting-output.schema.json",
+    "description": "Open specification for portable meeting outputs — transcripts, summaries, action items, and decisions. https://github.com/UladzKha/memnex",
+    "name": "memnex",
+    "fileMatch": [
+      "*.memnex.json",
+      "meeting-output.json"
     ]
   }
 ]
