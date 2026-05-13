@@ -1473,6 +1473,12 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/partial-scheduled.json",
+    "description": "Scheduled job configuration for pyproject.toml",
+    "name": "partial-scheduled.json",
+    "fileMatch": []
+  },
+  {
     "url": "https://www.schemastore.org/bozr.json",
     "description": "Bozr test suite file",
     "name": "bozr.suite.json",
@@ -10895,22 +10901,22 @@ export const schemata =
   },
   {
     "url": "https://api.app-prg1.zerops.io/api/rest/public/settings/zerops-yml-json-schema.json",
-    "description": "Zerops.io (https://zerops.io) configuration YAML file, for setting how to build and deploy your services",
-    "name": "Zerops.io config",
+    "description": "Zerops build, deploy and run configuration YAML file",
+    "name": "zerops.yml",
     "fileMatch": [
-      "zerops.yaml",
-      "zerops.yml"
+      "zerops.yml",
+      "zerops.yaml"
     ]
   },
   {
     "url": "https://api.app-prg1.zerops.io/api/rest/public/settings/import-project-yml-json-schema.json",
-    "description": "Zerops.io (https://zerops.io) infrastructure-as-code import YAML file",
-    "name": "Zerops.io import",
+    "description": "Zerops infrastructure-as-code import YAML file",
+    "name": "Zerops import file",
     "fileMatch": [
-      "zerops-import.yaml",
-      "zerops-*-import.yaml",
       "zerops-import.yml",
-      "zerops-*-import.yml"
+      "zerops-import.yaml",
+      "zerops-*-import.yml",
+      "zerops-*-import.yaml"
     ]
   },
   {
