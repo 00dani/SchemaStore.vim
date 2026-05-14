@@ -12121,9 +12121,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/UladzKha/memnex/main/schema/v0.1/meeting-output.schema.json",
-    "description": "Open specification for portable meeting outputs — transcripts, summaries, action items, and decisions. https://github.com/UladzKha/memnex",
+    "url": "https://memnex.org/schema/v0.2/meeting-output.schema.json",
+    "description": "Open specification for portable meeting outputs — transcripts, summaries, action items, and decisions. https://memnex.org",
     "name": "memnex",
+    "versions": {
+      "0.1": "https://memnex.org/schema/v0.1/meeting-output.schema.json",
+      "0.2": "https://memnex.org/schema/v0.2/meeting-output.schema.json"
+    },
     "fileMatch": [
       "*.memnex.json",
       "meeting-output.json"
