@@ -270,10 +270,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json",
+    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json",
     "description": "ABCClinicalDemandForecast defining the structure of clinical trial demand forecasting data in ABC-Plan",
     "name": "ABCClinicalDemandForecast",
     "versions": {
+      "4.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json",
       "1.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
       "2.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-2.0.0.json",
       "3.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json"
@@ -4261,7 +4262,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://hazelcast.com/schema/config/hazelcast-config-5.6.json",
+    "url": "https://hazelcast.com/schema/config/hazelcast-config-5.7.json",
     "description": "YAML configuring Hazelcast 5 Platform (member and client)",
     "name": "Hazelcast 5 Configuration",
     "fileMatch": [
