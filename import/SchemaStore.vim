@@ -2381,6 +2381,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/codex-hooks.json",
+    "description": "OpenAI Codex hooks configuration file",
+    "name": "Codex Hooks",
+    "fileMatch": [
+      "**/.codex/hooks.json"
+    ]
+  },
+  {
     "url": "https://codemagic.io/codemagic-schema.json",
     "description": "Codemagic CI/CD file configuration",
     "name": "codemagic",
