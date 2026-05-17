@@ -3860,6 +3860,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/github-pages-jekyll.json",
+    "description": "YAML Jekyll configuration for sites built by GitHub Pages",
+    "name": "GitHub Pages Jekyll"
+  },
+  {
     "url": "https://www.schemastore.org/github-workflow.json",
     "description": "YAML GitHub Workflow",
     "name": "GitHub Workflow",
