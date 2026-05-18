@@ -5633,6 +5633,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://nexte.st/schemas/repo-config.json",
+    "description": "Repository configuration for cargo-nextest. Documentation: https://nexte.st/docs/configuration/",
+    "name": "cargo-nextest repository configuration",
+    "fileMatch": [
+      "**/.config/nextest.toml"
+    ]
+  },
+  {
+    "url": "https://nexte.st/schemas/user-config.json",
+    "description": "User configuration for cargo-nextest. Documentation: https://nexte.st/docs/user-config/",
+    "name": "cargo-nextest user configuration",
+    "fileMatch": [
+      "**/nextest/config.toml"
+    ]
+  },
+  {
     "url": "https://nfpm.goreleaser.com/static/schema.json",
     "description": "nFPM configuration file",
     "name": "nFPM",
@@ -9287,11 +9303,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/winutil-presets.json",
-    "description": "Configuration for files in \"ChrisTitusTech/winutil\"",
-    "name": "Winutil"
-  },
-  {
     "url": "https://www.schemastore.org/commitlintrc.json",
     "description": "commitlint configuration files",
     "name": "commitlint (.commitlintrc)",
@@ -10341,7 +10352,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://github.com/DannyBen/completely/blob/master/schemas/completely.json",
+    "url": "https://raw.githubusercontent.com/DannyBen/completely/master/schemas/completely.json",
     "description": "Completely completion",
     "name": "completely.yml",
     "fileMatch": [
@@ -11085,9 +11096,9 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/winutil-preset.json",
+    "url": "https://www.schemastore.org/winutil-presets.json",
     "description": "Preset list for a WinUtil",
-    "name": "Preset list for a WinUtil",
+    "name": "Preset list for a \"ChrisTitusTech/winutil\"",
     "fileMatch": [
       "**/*winutil*/config/preset.json"
     ]
