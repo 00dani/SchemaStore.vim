@@ -3299,6 +3299,240 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/enonic-xp-api-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Universal and Harmonized APIs",
+    "name": "Enonic XP API descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-api-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-api-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/apis/*/*.yaml",
+      "**/src/main/resources/apis/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Admin Extensions",
+    "name": "Enonic XP Admin Extension descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/admins/extensions/*/*.yaml",
+      "**/src/main/resources/admins/extensions/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Admin Tools",
+    "name": "Enonic XP Admin Tool descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/admin/tools/*/*.yaml",
+      "**/src/main/resources/admin/tools/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-application-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Applications",
+    "name": "Enonic XP Application descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-application-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-application-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/application.yaml",
+      "**/src/main/resources/application.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-cms-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP CMS configuration",
+    "name": "Enonic XP CMS descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-cms-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-cms-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/cms.yaml",
+      "**/src/main/resources/cms/cms.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Content Types",
+    "name": "Enonic XP Content Type descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/content-types/*/*.yaml",
+      "**/src/main/resources/cms/content-types/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Form Fragments",
+    "name": "Enonic XP Form Fragment descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/form-fragments/*/*.yaml",
+      "**/src/main/resources/cms/form-fragments/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP ID Providers",
+    "name": "Enonic XP ID Provider descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/idprovider/idprovider.yaml",
+      "**/src/main/resources/idprovider/idprovider.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-layout-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Layouts",
+    "name": "Enonic XP Layout descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-layout-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-layout-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/layouts/*/*.yaml",
+      "**/src/main/resources/cms/layouts/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-macro-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Macros",
+    "name": "Enonic XP Macro descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-macro-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-macro-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/macros/*/*.yaml",
+      "**/src/main/resources/cms/macros/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Mixins",
+    "name": "Enonic XP Mixin descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/mixins/*/*.yaml",
+      "**/src/main/resources/cms/mixins/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-page-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Pages",
+    "name": "Enonic XP Page descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-page-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-page-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/pages/*/*.yaml",
+      "**/src/main/resources/cms/pages/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-part-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Parts",
+    "name": "Enonic XP Part descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-part-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-part-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/parts/*/*.yaml",
+      "**/src/main/resources/cms/parts/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-service-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Services",
+    "name": "Enonic XP Service descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-service-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-service-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/services/*/*.yaml",
+      "**/src/main/resources/services/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-site-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Sites",
+    "name": "Enonic XP Site descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-site-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-site-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/site.yaml",
+      "**/src/main/resources/cms/site.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-style-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Styles",
+    "name": "Enonic XP Style descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-style-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-style-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/cms/style/style.yaml",
+      "**/src/main/resources/cms/style/style.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-task-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Tasks",
+    "name": "Enonic XP Task descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-task-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-task-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/tasks/*/*.yaml",
+      "**/src/main/resources/tasks/*/*.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B4.json",
+    "description": "YAML descriptor for Enonic XP Webapps",
+    "name": "Enonic XP Webapp descriptor",
+    "versions": {
+      "latest": "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B4.json",
+      "8.0.0-B4": "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B4.json"
+    },
+    "fileMatch": [
+      "**/src/main/resources/webapp/webapp.yaml",
+      "**/src/main/resources/webapp/webapp.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/esmrc.json",
     "description": "Configuration files for the esm module/package in Node.js",
     "name": ".esmrc.json",
@@ -12175,6 +12409,78 @@ export const schemata =
     "fileMatch": [
       "dacier.yml",
       "dacier.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/project.schema.json",
+    "description": "QTCP project definition",
+    "name": "Qlik Talend Cloud Pipeline - Project",
+    "fileMatch": [
+      "**/qtcp_project.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.schema.json",
+    "description": "Task definition within QTCP project",
+    "name": "Qlik Talend Cloud Pipeline - Task",
+    "fileMatch": [
+      "**/qtcp_tasks/*/task.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.dataset.schema.json",
+    "description": "Dataset definition within QTCP task",
+    "name": "Qlik Talend Cloud Pipeline - Dataset",
+    "fileMatch": [
+      "**/qtcp_tasks/*/datasets/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.schedule.schema.json",
+    "description": "Scheduling definition for QTCP tasks",
+    "name": "Qlik Talend Cloud Pipeline - Schedule",
+    "fileMatch": [
+      "**/qtcp_tasks/*/schedule.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.model.schema.json",
+    "description": "Data model definition for QTCP tasks",
+    "name": "Qlik Talend Cloud Pipeline - Data Model",
+    "fileMatch": [
+      "**/qtcp_tasks/*/model.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.sourceselection.schema.json",
+    "description": "Source selection definition for QTCP tasks",
+    "name": "Qlik Talend Cloud Pipeline - Source Selection",
+    "fileMatch": [
+      "**/qtcp_tasks/*/sourceselection.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.transformation.rules.schema.json",
+    "description": "Transformation rules definition for QTCP tasks",
+    "name": "Qlik Talend Cloud Pipeline - Transformation Rules",
+    "fileMatch": [
+      "**/qtcp_tasks/*/transformationrules.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.transformationdataflow.schema.json",
+    "description": "Transformation data flow definition for QTCP tasks",
+    "name": "Qlik Talend Cloud Pipeline - Transformation Data Flow",
+    "fileMatch": [
+      "**/qtcp_tasks/*/transformationdataflow/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/newtaskdefaults.schema.json",
+    "description": "Default configurations for creating new QTCP tasks (via the UI)",
+    "name": "Qlik Talend Cloud Pipeline - New Task Defaults",
+    "fileMatch": [
+      "**/qtcp_tasks/newtaskdefaults.yaml"
     ]
   }
 ]
