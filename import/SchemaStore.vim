@@ -10191,6 +10191,9 @@ export const schemata =
     "description": "Updatecli Compose file, more information on https://www.updatecli.io/docs/core/compose/",
     "name": "Updatecli Compose",
     "fileMatch": [
+      "**/updatecli-compose.d/**/*.yaml",
+      "**/updatecli-compose.d/**/*.yml",
+      "**/updatecli-compose.d/**/*.json",
       "update-compose.yaml",
       "updatecli-compose.yaml"
     ]
@@ -12456,7 +12459,7 @@ export const schemata =
     "description": "Source selection definition for QTCP tasks",
     "name": "Qlik Talend Cloud Pipeline - Source Selection",
     "fileMatch": [
-      "**/qtcp_tasks/*/sourceselection.yaml"
+      "**/qtcp_tasks/*/sourceSelection.yaml"
     ]
   },
   {
@@ -12464,7 +12467,7 @@ export const schemata =
     "description": "Transformation rules definition for QTCP tasks",
     "name": "Qlik Talend Cloud Pipeline - Transformation Rules",
     "fileMatch": [
-      "**/qtcp_tasks/*/transformationrules.yaml"
+      "**/qtcp_tasks/*/transformationRules.yaml"
     ]
   },
   {
@@ -12472,7 +12475,7 @@ export const schemata =
     "description": "Transformation data flow definition for QTCP tasks",
     "name": "Qlik Talend Cloud Pipeline - Transformation Data Flow",
     "fileMatch": [
-      "**/qtcp_tasks/*/transformationdataflow/*.yaml"
+      "**/qtcp_tasks/*/transformationDataflow/*.yaml"
     ]
   },
   {
@@ -12480,7 +12483,7 @@ export const schemata =
     "description": "Default configurations for creating new QTCP tasks (via the UI)",
     "name": "Qlik Talend Cloud Pipeline - New Task Defaults",
     "fileMatch": [
-      "**/qtcp_tasks/newtaskdefaults.yaml"
+      "**/qtcp_tasks/newTaskDefaults.yaml"
     ]
   }
 ]
