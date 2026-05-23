@@ -7890,6 +7890,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/solarxy-config.json",
+    "description": "Solarxy 3D model viewer and validator project configuration",
+    "name": "Solarxy project config",
+    "fileMatch": [
+      "solarxy.toml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/solidaritySchema.json",
     "description": "CLI config for enforcing environment settings",
     "name": "Solidarity",
