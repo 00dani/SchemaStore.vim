@@ -104,6 +104,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/algovoi-compliance-receipt-v1.json",
+    "description": "Categorical compliance screening receipt for agentic-payment flows; emitted at admission time and retained as part of an audit chain under UK MLR 2017, EU AMLD5/6, MiCA Art 80, AMLR Art 56, DORA Art 14",
+    "name": "AlgoVoi Compliance Receipt v1",
+    "fileMatch": [
+      "algovoi-compliance-receipt.json",
+      "algovoi-compliance-receipt-*.json",
+      "**/algovoi/compliance-receipt-*.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/accelerator.json",
     "description": "Application Accelerator for VMware Tanzu",
     "name": "Application Accelerator",
@@ -4342,6 +4352,15 @@ export const schemata =
     "name": "Goreleaser Pro"
   },
   {
+    "url": "https://tj-smith47.github.io/anodizer/schema.json",
+    "description": "Anodizer Rust release-automation configuration file",
+    "name": "Anodizer",
+    "fileMatch": [
+      ".anodizer.yaml",
+      ".anodizer.yml"
+    ]
+  },
+  {
     "url": "https://github.com/goss-org/goss/raw/master/docs/schema.yaml",
     "description": "Goss - Quick and Easy server validation",
     "name": "Goss",
@@ -6590,6 +6609,14 @@ export const schemata =
       "submol*.json",
       "submol*.yml",
       "submol*.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/pgrls.json",
+    "description": "Configuration for pgrls, the Postgres Row-Level Security linter (pgrls.toml)",
+    "name": "pgrls",
+    "fileMatch": [
+      "pgrls.toml"
     ]
   },
   {
@@ -10944,7 +10971,8 @@ export const schemata =
     "description": "GlazeWM settings",
     "name": "GlazeWM settings",
     "fileMatch": [
-      "**/.glaze-wm/config.yaml"
+      "**/.glaze-wm/config.yaml",
+      "**/glazewm/config.yaml"
     ]
   },
   {
@@ -12483,7 +12511,7 @@ export const schemata =
     "description": "Transformation data flow definition for QTCP tasks",
     "name": "Qlik Talend Cloud Pipeline - Transformation Data Flow",
     "fileMatch": [
-      "**/qtcp_tasks/*/transformationDataflow/*.yaml"
+      "**/qtcp_tasks/*/transformationDataFlows/*.yaml"
     ]
   },
   {
@@ -12492,6 +12520,14 @@ export const schemata =
     "name": "Qlik Talend Cloud Pipeline - New Task Defaults",
     "fileMatch": [
       "**/qtcp_tasks/newTaskDefaults.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/quikrun.json",
+    "description": "Configuration for QuikRun",
+    "name": "QuikRun Configuration",
+    "fileMatch": [
+      "quikrun.toml"
     ]
   }
 ]
