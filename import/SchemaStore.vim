@@ -12529,6 +12529,26 @@ export const schemata =
     "fileMatch": [
       "quikrun.toml"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/caido/schemas/main/.schemastore/proxy/config.schema.json",
+    "description": "Caido Proxy configuration file",
+    "name": "Caido Proxy Configuration",
+    "fileMatch": [
+      "caido.yml",
+      "caido.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/AmxxModularEcosystem/amxx-builder/master/schema/amxbuild.schema.json",
+    "description": "amxx-builder (amxb) project manifest",
+    "name": "amxx-builder manifest",
+    "fileMatch": [
+      "amxbuild.yml",
+      "amxbuild.yaml",
+      "amxbuild.*.yml",
+      "amxbuild.*.yaml"
+    ]
   }
 ]
 export const schemas = schemata
