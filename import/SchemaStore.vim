@@ -8803,6 +8803,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://spec.umpire.tools/umpire.schema.json",
+    "description": "Umpire form-logic configuration",
+    "name": "umpire.json",
+    "fileMatch": [
+      "*.umpire.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/evg4b/uncors/main/schema.json",
     "description": "Configuration file for UNCORS reverse proxy",
     "name": "UNCORS configuration",
