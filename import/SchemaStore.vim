@@ -6523,6 +6523,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/oss-review-toolkit/ort/refs/heads/main/integrations/schemas/ort-project-schema.json",
+    "description": "ORT project package manager definition file for describing a project when using a custom or non-supported package manager with ORT",
+    "name": "OSS Review Toolkit project package manager definition",
+    "fileMatch": [
+      "ortproject.yml",
+      "ortproject.yaml",
+      "ortproject.json",
+      "*.ortproject.yml",
+      "*.ortproject.yaml",
+      "*.ortproject.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/repository-configuration-schema.json",
     "description": "ORT's repository configuration file",
     "name": "OSS Review Toolkit repository configuration",
