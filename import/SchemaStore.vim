@@ -12467,8 +12467,8 @@ export const schemata =
     "description": "Dacier configuration file",
     "name": "dacier.yml",
     "fileMatch": [
-      "dacier.yml",
-      "dacier.yaml"
+      "*.dacier.yml",
+      "*.dacier.yaml"
     ]
   },
   {
