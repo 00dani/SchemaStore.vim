@@ -3309,11 +3309,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-api-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-api-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Universal and Harmonized APIs",
     "name": "Enonic XP API descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-api-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-api-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-api-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-api-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-api-8.0.0-B5.json"
     },
@@ -3323,11 +3324,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Admin Extensions",
     "name": "Enonic XP Admin Extension descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B5.json"
     },
@@ -3337,11 +3339,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Admin Tools",
     "name": "Enonic XP Admin Tool descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B5.json"
     },
@@ -3351,11 +3354,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-application-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-application-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Applications",
     "name": "Enonic XP Application descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-application-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-application-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-application-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-application-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-application-8.0.0-B5.json"
     },
@@ -3365,11 +3369,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-cms-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-cms-8.0.0.json",
     "description": "YAML descriptor for Enonic XP CMS configuration",
     "name": "Enonic XP CMS descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-cms-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-cms-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-cms-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-cms-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-cms-8.0.0-B5.json"
     },
@@ -3379,11 +3384,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-content-type-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Content Types",
     "name": "Enonic XP Content Type descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-content-type-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-content-type-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B5.json"
     },
@@ -3393,11 +3399,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Form Fragments",
     "name": "Enonic XP Form Fragment descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B5.json"
     },
@@ -3407,11 +3414,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0.json",
     "description": "YAML descriptor for Enonic XP ID Providers",
     "name": "Enonic XP ID Provider descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B5.json"
     },
@@ -3421,11 +3429,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-layout-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-layout-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Layouts",
     "name": "Enonic XP Layout descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-layout-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-layout-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-layout-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-layout-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-layout-8.0.0-B5.json"
     },
@@ -3435,11 +3444,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-macro-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-macro-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Macros",
     "name": "Enonic XP Macro descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-macro-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-macro-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-macro-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-macro-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-macro-8.0.0-B5.json"
     },
@@ -3449,11 +3459,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-mixin-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Mixins",
     "name": "Enonic XP Mixin descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-mixin-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-mixin-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B5.json"
     },
@@ -3463,11 +3474,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-page-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-page-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Pages",
     "name": "Enonic XP Page descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-page-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-page-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-page-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-page-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-page-8.0.0-B5.json"
     },
@@ -3477,11 +3489,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-part-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-part-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Parts",
     "name": "Enonic XP Part descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-part-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-part-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-part-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-part-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-part-8.0.0-B5.json"
     },
@@ -3491,11 +3504,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-service-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-service-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Services",
     "name": "Enonic XP Service descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-service-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-service-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-service-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-service-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-service-8.0.0-B5.json"
     },
@@ -3505,11 +3519,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-site-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-site-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Sites",
     "name": "Enonic XP Site descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-site-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-site-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-site-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-site-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-site-8.0.0-B5.json"
     },
@@ -3519,11 +3534,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-style-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-style-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Styles",
     "name": "Enonic XP Style descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-style-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-style-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-style-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-style-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-style-8.0.0-B5.json"
     },
@@ -3533,11 +3549,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-task-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-task-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Tasks",
     "name": "Enonic XP Task descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-task-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-task-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-task-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-task-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-task-8.0.0-B5.json"
     },
@@ -3547,11 +3564,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B5.json",
+    "url": "https://www.schemastore.org/enonic-xp-webapp-8.0.0.json",
     "description": "YAML descriptor for Enonic XP Webapps",
     "name": "Enonic XP Webapp descriptor",
     "versions": {
-      "latest": "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B5.json",
+      "latest": "https://www.schemastore.org/enonic-xp-webapp-8.0.0.json",
+      "8.0.0": "https://www.schemastore.org/enonic-xp-webapp-8.0.0.json",
       "8.0.0-B4": "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B4.json",
       "8.0.0-B5": "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B5.json"
     },
@@ -12047,6 +12065,7 @@ export const schemata =
     "versions": {
       "6.0-preview": "https://www.schemastore.org/aio-connector-metadata-6.0-preview.json",
       "8.0-preview": "https://www.schemastore.org/aio-connector-metadata-8.0-preview.json",
+      "11.0-preview": "https://www.schemastore.org/aio-connector-metadata-11.0-preview.json",
       "5.0-preview": "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
       "7.0-preview": "https://www.schemastore.org/aio-connector-metadata-7.0-preview.json",
       "10.0-preview": "https://www.schemastore.org/aio-connector-metadata-10.0-preview.json",
