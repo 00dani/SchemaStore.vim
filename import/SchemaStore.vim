@@ -4760,6 +4760,26 @@ export const schemata =
     ]
   },
   {
+    "url": "https://infinispan.org/schemas/infinispan-config.json",
+    "description": "Infinispan distributed cache configuration",
+    "name": "Infinispan Configuration",
+    "fileMatch": [
+      "infinispan.json",
+      "infinispan.yaml",
+      "infinispan.yml"
+    ]
+  },
+  {
+    "url": "https://infinispan.org/schemas/infinispan-server.json",
+    "description": "Infinispan Server configuration",
+    "name": "Infinispan Server Configuration",
+    "fileMatch": [
+      "infinispan-server.json",
+      "infinispan-server.yaml",
+      "infinispan-server.yml"
+    ]
+  },
+  {
     "url": "https://schema.infrahub.app/python-sdk/repository-config/latest.json",
     "description": "Repository config definition for Infrahub by OpsMill",
     "name": "Infrahub",
@@ -6291,10 +6311,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.0.0/opentelemetry_configuration.json",
+    "url": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.1.0/opentelemetry_configuration.json",
     "description": "OpenTelemetry declarative configuration for SDKs and instrumentation",
     "name": "OpenTelemetry Declarative Configuration",
     "versions": {
+      "1.1.0": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.1.0/opentelemetry_configuration.json",
       "1.0.0": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.0.0/opentelemetry_configuration.json"
     },
     "fileMatch": [
@@ -6643,6 +6664,15 @@ export const schemata =
     "fileMatch": [
       "*.pactspec.json",
       "*.pactspec.yaml"
+    ]
+  },
+  {
+    "url": "https://panache.bz/panache.schema.json",
+    "description": "Configuration file for Panache, a language server, formatter, and linter for Markdown, Quarto, and R Markdown documents",
+    "name": "Panache",
+    "fileMatch": [
+      "panache.toml",
+      ".panache.toml"
     ]
   },
   {
@@ -9680,6 +9710,14 @@ export const schemata =
       "**/.yamllint",
       "**/.yamllint.yaml",
       "**/.yamllint.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/yap.json",
+    "description": "YAP (Yet Another Packager) multi-package project file",
+    "name": "yap.json",
+    "fileMatch": [
+      "yap.json"
     ]
   },
   {
