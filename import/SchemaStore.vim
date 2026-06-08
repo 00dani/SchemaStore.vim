@@ -3774,6 +3774,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/eslint-suppressions.json",
+    "description": "ESLint bulk suppressions file",
+    "name": "ESLint Suppressions",
+    "fileMatch": [
+      "eslint-suppressions.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/fabric.mod.json",
     "description": "Metadata file used by the Fabric mod loader",
     "name": "fabric.mod.json",
@@ -11429,6 +11437,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/emmet.json",
+    "description": "Emmet snippets file",
+    "name": "Emmet"
+  },
+  {
     "url": "https://www.schemastore.org/cloud-run-v1.json",
     "description": "Specification for Cloud Run Admin API v1",
     "name": "Cloud Run Spec v1",
@@ -12656,6 +12669,15 @@ export const schemata =
       "amxbuild.*.yml",
       "amxbuild.*.yaml"
     ]
+  },
+  {
+    "url": "https://www.schemastore.org/podman-desktop-extension.json",
+    "description": "Podman Desktop extension package.json manifest",
+    "name": "Podman Desktop Extension",
+    "versions": {
+      "1.27": "https://www.schemastore.org/podman-desktop-extension-1.27.json"
+    },
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
