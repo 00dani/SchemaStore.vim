@@ -2302,6 +2302,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://static.hex.site/hex-file-schema.json",
+    "description": "Hex notebook file format - create and maintain data notebooks on Hex.tech",
+    "name": "Hex file",
+    "fileMatch": [
+      "*.hex.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/circleciconfig.json",
     "description": "CircleCI config files",
     "name": "CircleCI config.yml",
