@@ -2,6 +2,14 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://www.schemastore.org/sigmacv.json",
+    "description": "SigmaCV canonical academic-CV object — open, machine-readable CV metadata (publications, positions, education, funding and narrative sections) generated from open research information",
+    "name": "SigmaCV CV",
+    "fileMatch": [
+      "**/*.sigmacv.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/revola.json",
     "description": "Configuration file for Revola",
     "name": "revola.json",
@@ -74,7 +82,9 @@ export const schemata =
     "fileMatch": [
       ".platform.app.yml",
       ".platform.app.yaml",
-      "**/.platform.app.yml"
+      "**/.platform.app.yml",
+      "**/.platform/applications.yml",
+      "**/.platform/applications.yaml"
     ]
   },
   {
@@ -2407,6 +2417,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/codex-skill-metadata.json",
+    "description": "OpenAI Codex skill metadata file",
+    "name": "Codex Skill Metadata",
+    "fileMatch": [
+      "**/agents/openai.yaml"
+    ]
+  },
+  {
     "url": "https://codemagic.io/codemagic-schema.json",
     "description": "Codemagic CI/CD file configuration",
     "name": "codemagic",
@@ -2988,9 +3006,11 @@ export const schemata =
   },
   {
     "url": "https://www.schemastore.org/dependabot-2.0.json",
-    "description": "GitHub Actions' dependabot.yml files",
+    "description": "Dependabot v2 configuration files",
     "name": "dependabot-v2.json",
     "fileMatch": [
+      "**/.azuredevops/dependabot.yml",
+      "**/.azuredevops/dependabot.yaml",
       "**/.github/dependabot.yml",
       "**/.github/dependabot.yaml"
     ]
@@ -12463,6 +12483,14 @@ export const schemata =
     },
     "fileMatch": [
       "**/agentcore/agentcore.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/abhiyoheswaran1/AgentLoopKit/main/schema/agentloop.config.schema.json",
+    "description": "Configuration file for AgentLoopKit, a repo-level engineering loop for coding agents",
+    "name": "AgentLoopKit",
+    "fileMatch": [
+      "agentloop.config.json"
     ]
   },
   {
