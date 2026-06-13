@@ -4078,6 +4078,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/glamour-style.json",
+    "description": "Style configuration for Charmbracelet Glamour and Glow Markdown rendering",
+    "name": "Glamour style",
+    "fileMatch": [
+      ".glamour-style.json",
+      "*.glamour-style.json",
+      "*.glamour.json",
+      "*.glow-style.json",
+      "glamour-style.json",
+      "glow-style.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/gpc.json",
     "description": "Configuration for GPC, so a site can convey its support for the Global Privacy Control",
     "name": "Global Privacy Control",
@@ -9972,6 +9985,14 @@ export const schemata =
       "*-clab.yml",
       "*.clab.yaml",
       "*.clab.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lxman/ContractGuard/main/schema/contractguard.schema.json",
+    "description": "ContractGuard API contract prescribing the signatures a built .NET assembly must expose",
+    "name": "ContractGuard",
+    "fileMatch": [
+      "*.contract.json"
     ]
   },
   {
