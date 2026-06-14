@@ -2443,12 +2443,20 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+    "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.base.schema.json",
     "description": "dev container configuration files",
     "name": "devcontainer.json",
     "fileMatch": [
       "devcontainer.json",
       ".devcontainer.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json",
+    "description": "Dev Container Feature metadata files",
+    "name": "devcontainer-feature.json",
+    "fileMatch": [
+      "devcontainer-feature.json"
     ]
   },
   {
