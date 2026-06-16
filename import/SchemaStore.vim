@@ -5872,6 +5872,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/modelparams.json",
+    "description": "Model Parameters Convention entry for one model variant in the modelparams.dev catalog. Documentation: https://modelparams.dev",
+    "name": "modelparams.dev Model",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/software-t-rex/monospace/main/apps/monospace/schemas/monospace.schema.json",
     "description": "MonoSpace configuration file",
     "name": "monospace.yml",
