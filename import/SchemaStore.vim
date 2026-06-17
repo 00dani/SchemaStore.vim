@@ -2772,6 +2772,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/commit-check.json",
+    "description": "Configuration for commit-check, a commit message, branch naming, and push linter",
+    "name": "commit-check",
+    "fileMatch": [
+      "cchk.toml",
+      "commit-check.toml",
+      "**/.github/cchk.toml",
+      "**/.github/commit-check.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/crate-ci/committed/master/config.schema.json",
     "description": "committed configuration file",
     "name": "committed.toml",
