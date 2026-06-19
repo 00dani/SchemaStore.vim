@@ -1456,6 +1456,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/bosh-bpm-config.json",
+    "description": "Config for Jobs in BOSH Releases to utilize BPM",
+    "name": "BOSH BPM Config",
+    "fileMatch": [
+      "**/jobs/*/config/bpm.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/bosh-cpi-config.json",
     "description": "CPI-specific config for BOSH Director",
     "name": "BOSH CPI Config"
@@ -2101,6 +2109,15 @@ export const schemata =
     "name": "Debian Upstream Metadata file",
     "fileMatch": [
       "**/debian/upstream/metadata"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ColumbusLabs/DebtLens/main/schema/debtlens.config.schema.json",
+    "description": "Configuration file for the DebtLens maintainability scanner",
+    "name": "DebtLens",
+    "fileMatch": [
+      "debtlens.config.json",
+      ".debtlensrc.json"
     ]
   },
   {
