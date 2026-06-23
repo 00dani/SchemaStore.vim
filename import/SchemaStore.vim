@@ -275,13 +275,14 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-inventory-module-data-5.2.0.json",
+    "url": "https://www.schemastore.org/abc-inventory-module-data-5.3.0.json",
     "description": "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
     "name": "ABCInventoryModuleData",
     "versions": {
       "4.0.0": "https://www.schemastore.org/abc-inventory-module-data-4.0.0.json",
       "5.2.0": "https://www.schemastore.org/abc-inventory-module-data-5.2.0.json",
       "5.1.0": "https://www.schemastore.org/abc-inventory-module-data-5.1.0.json",
+      "5.3.0": "https://www.schemastore.org/abc-inventory-module-data-5.3.0.json",
       "1.0.0": "https://www.schemastore.org/abc-inventory-module-data-1.0.0.json",
       "2.0.0": "https://www.schemastore.org/abc-inventory-module-data-2.0.0.json",
       "3.0.0": "https://www.schemastore.org/abc-inventory-module-data-3.0.0.json"
@@ -291,11 +292,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json",
+    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-5.0.0.json",
     "description": "ABCClinicalDemandForecast defining the structure of clinical trial demand forecasting data in ABC-Plan",
     "name": "ABCClinicalDemandForecast",
     "versions": {
       "4.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json",
+      "5.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-5.0.0.json",
       "1.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
       "2.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-2.0.0.json",
       "3.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json"
@@ -305,7 +307,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-supply-plan-13.0.0.json",
+    "url": "https://www.schemastore.org/abc-supply-plan-14.0.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
@@ -325,6 +327,7 @@ export const schemata =
       "4.0.0": "https://www.schemastore.org/abc-supply-plan-4.0.0.json",
       "10.0.0": "https://www.schemastore.org/abc-supply-plan-10.0.0.json",
       "8.0.0": "https://www.schemastore.org/abc-supply-plan-8.0.0.json",
+      "14.0.0": "https://www.schemastore.org/abc-supply-plan-14.0.0.json",
       "11.1.0": "https://www.schemastore.org/abc-supply-plan-11.1.0.json",
       "3.0.0": "https://www.schemastore.org/abc-supply-plan-3.0.0.json"
     },
@@ -382,6 +385,15 @@ export const schemata =
     "name": "ACP Variables File",
     "fileMatch": [
       ".acp.vars.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/actionlint.json",
+    "description": "Configuration file for actionlint",
+    "name": "actionlint",
+    "fileMatch": [
+      "actionlint.yaml",
+      "actionlint.yml"
     ]
   },
   {
@@ -873,7 +885,9 @@ export const schemata =
       "0.12.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.12.0/bottom.json",
       "nightly": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json",
       "0.11": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.11/bottom.json",
+      "0.14.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.0/bottom.json",
       "0.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.9/bottom.json",
+      "0.13.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.13.0/bottom.json",
       "0.10": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.10/bottom.json"
     },
     "fileMatch": [
