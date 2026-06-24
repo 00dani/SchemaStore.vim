@@ -2,6 +2,15 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://raw.githubusercontent.com/Custos-com/Burnless/main/schema/sre.schema.json",
+    "description": "Burnless sre.yaml — SLOs, error budgets, runbooks, on-call, and dashboards as code",
+    "name": "Burnless SRE config",
+    "fileMatch": [
+      "sre.yaml",
+      "sre.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/sigmacv.json",
     "description": "SigmaCV canonical academic-CV object — open, machine-readable CV metadata (publications, positions, education, funding and narrative sections) generated from open research information",
     "name": "SigmaCV CV",
