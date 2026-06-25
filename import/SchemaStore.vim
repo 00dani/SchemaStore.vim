@@ -12803,6 +12803,15 @@ export const schemata =
       "1.27": "https://www.schemastore.org/podman-desktop-extension-1.27.json"
     },
     "fileMatch": []
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hudson-trading/slang-server/refs/heads/main/clients/vscode/resources/config.schema.json",
+    "description": "Configuration file for the slang-server SystemVerilog language server. Documentation: https://hudson-trading.github.io/slang-server",
+    "name": "Slang Server Configuration",
+    "fileMatch": [
+      "**/.slang/server.json",
+      "**/.slang/local/server.json"
+    ]
   }
 ]
 export const schemas = schemata
