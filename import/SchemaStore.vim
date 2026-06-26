@@ -6086,6 +6086,30 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json",
+    "description": "Conda environment file for an nf-core Nextflow module",
+    "name": "nf-core module environment.yml",
+    "fileMatch": [
+      "**/modules/nf-core/**/environment.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/modules/master/modules/meta-schema.json",
+    "description": "Metadata file for an nf-core Nextflow module",
+    "name": "nf-core module meta.yml",
+    "fileMatch": [
+      "**/modules/nf-core/**/meta.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nf-core/modules/master/subworkflows/yaml-schema.json",
+    "description": "Metadata file for an nf-core Nextflow subworkflow",
+    "name": "nf-core subworkflow meta.yml",
+    "fileMatch": [
+      "**/subworkflows/nf-core/**/meta.yml"
+    ]
+  },
+  {
     "url": "https://nfpm.goreleaser.com/static/schema.json",
     "description": "nFPM configuration file",
     "name": "nFPM",
