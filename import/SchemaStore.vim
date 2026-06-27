@@ -2458,6 +2458,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/codex-plugin-manifest.json",
+    "description": "OpenAI Codex plugin manifest file",
+    "name": "Codex Plugin Manifest",
+    "fileMatch": [
+      "**/.codex-plugin/plugin.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/codex-skill-metadata.json",
     "description": "OpenAI Codex skill metadata file",
     "name": "Codex Skill Metadata",
@@ -5959,6 +5967,15 @@ export const schemata =
       ".*-ms2rescore.toml",
       ".*-ms2rescore-config.json",
       ".*-ms2rescore-config.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/testfx/main/docs/testconfig.schema.json",
+    "description": "Configuration file for MSTest and Microsoft.Testing.Platform",
+    "name": "MSTest testconfig.json",
+    "fileMatch": [
+      "testconfig.json",
+      "*.testconfig.json"
     ]
   },
   {
@@ -10843,14 +10860,15 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/pantsbuild-2.31.0.json",
+    "url": "https://www.schemastore.org/pantsbuild-2.32.0.json",
     "description": "Pantsbuild configuration file",
     "name": "Pantsbuild",
     "versions": {
       "2.16.0": "https://www.schemastore.org/pantsbuild-2.16.0.json",
       "2.18.0": "https://www.schemastore.org/pantsbuild-2.18.0.json",
+      "2.32.0": "https://www.schemastore.org/pantsbuild-2.32.0.json",
       "2.26.0": "https://www.schemastore.org/pantsbuild-2.26.0.json",
-      "2.31.0": "https://www.schemastore.org/pantsbuild-2.30.0.json",
+      "2.31.0": "https://www.schemastore.org/pantsbuild-2.31.0.json",
       "2.21.0": "https://www.schemastore.org/pantsbuild-2.21.0.json",
       "2.15.0": "https://www.schemastore.org/pantsbuild-2.15.0.json",
       "2.24.0": "https://www.schemastore.org/pantsbuild-2.24.0.json",
