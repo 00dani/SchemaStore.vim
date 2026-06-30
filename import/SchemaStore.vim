@@ -2,6 +2,14 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://specpin.ohnice.app/schema/v1.json",
+    "description": "Specpin business-spec file (.specs/*.spec.json): rules, descriptions, and acceptance criteria pinned to UI elements",
+    "name": "Specpin spec file",
+    "fileMatch": [
+      "**/.specs/*.spec.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/Custos-com/Burnless/main/schema/sre.schema.json",
     "description": "Burnless sre.yaml — SLOs, error budgets, runbooks, on-call, and dashboards as code",
     "name": "Burnless SRE config",
@@ -685,13 +693,14 @@ export const schemata =
     "fileMatch": []
   },
   {
-    "url": "https://www.schemastore.org/aurora-1.3.json",
+    "url": "https://www.schemastore.org/aurora-2.0.json",
     "description": "Yaml for Aurora Agile Meta-Framework",
     "name": "Aurora Agile Meta-Framework",
     "versions": {
       "1.1": "https://www.schemastore.org/aurora-1.1.json",
       "1.2": "https://www.schemastore.org/aurora-1.2.json",
       "1.3": "https://www.schemastore.org/aurora-1.3.json",
+      "2.0": "https://www.schemastore.org/aurora-2.0.json",
       "1.0": "https://www.schemastore.org/aurora-1.0.json"
     },
     "fileMatch": [
@@ -5074,10 +5083,11 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://www.schemastore.org/jreleaser-1.24.0.json",
+    "url": "https://www.schemastore.org/jreleaser-1.25.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
+      "1.25.0": "https://www.schemastore.org/jreleaser-1.25.0.json",
       "1.20.0": "https://www.schemastore.org/jreleaser-1.20.0.json",
       "1.19.0": "https://www.schemastore.org/jreleaser-1.19.0.json",
       "1.14.0": "https://www.schemastore.org/jreleaser-1.14.0.json",
@@ -7969,6 +7979,14 @@ export const schemata =
     }
   },
   {
+    "url": "https://www.schemastore.org/evidence-bundle.json",
+    "description": "Auditable release-readiness evidence bundle produced by the Secure SDLC Evidence Collector",
+    "name": "Secure SDLC Evidence Bundle",
+    "fileMatch": [
+      "**/*.evidence-bundle.json"
+    ]
+  },
+  {
     "url": "https://cdn.sdf.com/schemas/sdf-schema-1.3.json",
     "description": "SDF blocks",
     "name": "Semantic Data Fabric (SDF) file",
@@ -8408,6 +8426,19 @@ export const schemata =
     "name": "Sponge Mixin configuration",
     "fileMatch": [
       "*.mixins.json"
+    ]
+  },
+  {
+    "url": "https://api-commons.github.io/spotlight-spec/schema/v1/spotlight-ruleset.schema.json",
+    "description": "Spotlight (Spectral-compatible) ruleset for linting OpenAPI, AsyncAPI, Arazzo, APIs.json and other JSON/YAML API descriptions",
+    "name": "Spotlight Ruleset",
+    "fileMatch": [
+      "*.spotlight.json",
+      "*.spotlight.yaml",
+      "*.spotlight.yml",
+      "spotlight-ruleset.json",
+      "spotlight-ruleset.yaml",
+      "spotlight-ruleset.yml"
     ]
   },
   {
