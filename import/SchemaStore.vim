@@ -271,7 +271,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/aiproj-1.10.json",
+    "url": "https://www.schemastore.org/aiproj-1.11.json",
     "description": "Settings for project analysis by the Application Inspector",
     "name": ".aiproj.json",
     "versions": {
@@ -285,10 +285,19 @@ export const schemata =
       "1.8": "https://www.schemastore.org/aiproj-1.8.json",
       "1.9": "https://www.schemastore.org/aiproj-1.9.json",
       "1.10": "https://www.schemastore.org/aiproj-1.10.json",
+      "1.11": "https://www.schemastore.org/aiproj-1.11.json",
       "1.0": "https://www.schemastore.org/aiproj-1.0.json"
     },
     "fileMatch": [
       ".aiproj.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/abtop.json",
+    "description": "abtop configuration file",
+    "name": "abtop",
+    "fileMatch": [
+      "**/abtop/config.toml"
     ]
   },
   {
@@ -411,6 +420,22 @@ export const schemata =
     "fileMatch": [
       "actionlint.yaml",
       "actionlint.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/aih-config.json",
+    "description": "Repository bootstrap-intent marker for ai-harness, including context directory, resolved AI coding targets, and posture",
+    "name": "AI Harness config",
+    "fileMatch": [
+      ".aih-config.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/aih-org-policy.json",
+    "description": "Repository governance policy for ai-harness command guardrails, MCP policy, and trust gates",
+    "name": "AI Harness org policy",
+    "fileMatch": [
+      "aih-org-policy.json"
     ]
   },
   {
@@ -4100,6 +4125,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/gama.json",
+    "description": "GAMA configuration file",
+    "name": "GAMA",
+    "fileMatch": [
+      "**/gama/config.yaml",
+      ".gama.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/gaspar-3.0.json",
     "description": "Configuration for Gaspar",
     "name": "Gaspar",
@@ -4175,7 +4209,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://gitversion.net/schemas/6.7/GitVersion.configuration.json",
+    "url": "https://gitversion.net/schemas/6.8/GitVersion.configuration.json",
     "description": "Configuration file for GitVersion",
     "name": "GitVersion",
     "versions": {
@@ -4183,6 +4217,7 @@ export const schemata =
       "6.5": "https://gitversion.net/schemas/6.5/GitVersion.configuration.json",
       "6.6": "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
       "6.7": "https://gitversion.net/schemas/6.7/GitVersion.configuration.json",
+      "6.8": "https://gitversion.net/schemas/6.8/GitVersion.configuration.json",
       "5.12": "https://gitversion.net/schemas/5.12/GitVersion.configuration.json",
       "6.0": "https://gitversion.net/schemas/6.0/GitVersion.configuration.json",
       "6.1": "https://gitversion.net/schemas/6.1/GitVersion.configuration.json",
@@ -4327,6 +4362,17 @@ export const schemata =
     "name": "Gitpod Configuration",
     "fileMatch": [
       ".gitpod.yml"
+    ]
+  },
+  {
+    "url": "https://gitresume.co/schema/resume.schema.json",
+    "description": "GitResume resume-as-code definition file",
+    "name": "GitResume",
+    "fileMatch": [
+      "gitresume.yaml",
+      "gitresume.yml",
+      "*.gitresume.yaml",
+      "*.gitresume.yml"
     ]
   },
   {
@@ -4484,6 +4530,14 @@ export const schemata =
     "fileMatch": [
       ".custom-gcl.yml",
       ".custom-gcl.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/gollama.json",
+    "description": "gollama configuration file",
+    "name": "gollama",
+    "fileMatch": [
+      "**/gollama/config.json"
     ]
   },
   {
@@ -9992,7 +10046,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-15.json",
+    "url": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-16.json",
     "description": "Gradle Enterprise configuration",
     "name": "Gradle Enterprise",
     "versions": {
@@ -10006,6 +10060,7 @@ export const schemata =
       "13.0": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-13.json",
       "1.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-1.json",
       "9.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-9.json",
+      "16.0": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-16.json",
       "4.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-4.json",
       "11.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-11.json",
       "7.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-7.json",
@@ -12817,7 +12872,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.transformation.rules.schema.json",
+    "url": "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.transformationrules.schema.json",
     "description": "Transformation rules definition for QTCP tasks",
     "name": "Qlik Talend Cloud Pipeline - Transformation Rules",
     "fileMatch": [
