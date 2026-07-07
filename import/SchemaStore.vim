@@ -4232,6 +4232,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/gitleaks.json",
+    "description": "Gitleaks configuration file",
+    "name": "Gitleaks",
+    "fileMatch": [
+      "gitleaks.toml",
+      ".gitleaks.toml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/gitea-issue-config.json",
     "description": "YAML configuring Gitea Issue Templates",
     "name": "Gitea Issue Template configuration",
@@ -6245,6 +6254,15 @@ export const schemata =
     "name": ".nodehawkrc",
     "fileMatch": [
       ".nodehawkrc"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/supernovae-st/nika-spec/main/schemas/workflow.schema.json",
+    "description": "Nika workflow language (*.nika.yaml) · the nika: v1 envelope, four verbs, stdlib builtins",
+    "name": "Nika workflow",
+    "fileMatch": [
+      "*.nika.yaml",
+      "*.nika.yml"
     ]
   },
   {
@@ -9603,6 +9621,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/lychee.json",
+    "description": "lychee link checker configuration file",
+    "name": "lychee",
+    "fileMatch": [
+      "lychee.toml",
+      ".lychee.toml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/lintstagedrc.schema.json",
     "description": "lint-staged config",
     "name": "lint-staged (.lintstagedrc)",
@@ -12931,6 +12958,21 @@ export const schemata =
       "1.27": "https://www.schemastore.org/podman-desktop-extension-1.27.json"
     },
     "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/packwiz-index.json",
+    "description": "The index file of the modpack, storing references to every file to be downloaded in the pack",
+    "name": "index.toml (packwiz)"
+  },
+  {
+    "url": "https://www.schemastore.org/packwiz-mod.json",
+    "description": "A metadata file which references an external file from a URL",
+    "name": "mod.pw.toml (packwiz)"
+  },
+  {
+    "url": "https://www.schemastore.org/packwiz-pack.json",
+    "description": "The main modpack file for a packwiz modpack",
+    "name": "pack.toml (packwiz)"
   },
   {
     "url": "https://raw.githubusercontent.com/hudson-trading/slang-server/refs/heads/main/clients/vscode/resources/config.schema.json",
