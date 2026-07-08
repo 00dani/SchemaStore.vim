@@ -4241,6 +4241,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/git-cliff.json",
+    "description": "git-cliff configuration file",
+    "name": "git-cliff",
+    "fileMatch": [
+      "cliff.toml",
+      ".cliff.toml",
+      "**/.config/cliff.toml",
+      "cliff.yaml",
+      "cliff.yml",
+      ".cliff.yaml",
+      ".cliff.yml",
+      "**/.config/cliff.yaml",
+      "**/.config/cliff.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/gitea-issue-config.json",
     "description": "YAML configuring Gitea Issue Templates",
     "name": "Gitea Issue Template configuration",
@@ -4761,6 +4777,14 @@ export const schemata =
       "hazelcast*.json",
       "hz-*.yaml",
       "hz-*.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/NodeJSmith/hassette/main/hassette.schema.json",
+    "description": "Configuration file for Hassette, an async Python framework for Home Assistant automations",
+    "name": "hassette.toml",
+    "fileMatch": [
+      "hassette.toml"
     ]
   },
   {
@@ -6008,6 +6032,11 @@ export const schemata =
     "description": "Model Parameters Convention entry for one model variant in the modelparams.dev catalog. Documentation: https://modelparams.dev",
     "name": "modelparams.dev Model",
     "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/modelsdev.json",
+    "description": "models CLI configuration file",
+    "name": "models CLI"
   },
   {
     "url": "https://raw.githubusercontent.com/software-t-rex/monospace/main/apps/monospace/schemas/monospace.schema.json",
