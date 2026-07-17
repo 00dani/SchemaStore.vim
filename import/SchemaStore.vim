@@ -2,6 +2,16 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://mermaid.js.org/schemas/config.schema.json",
+    "description": "Configuration for Mermaid diagrams and charts",
+    "name": "Mermaid config",
+    "fileMatch": [
+      "mermaid.config.json",
+      ".mermaidrc.json",
+      "mermaidrc.json"
+    ]
+  },
+  {
     "url": "https://specpin.ohnice.app/schema/v1.json",
     "description": "Specpin business-spec file (.specs/*.spec.json): rules, descriptions, and acceptance criteria pinned to UI elements",
     "name": "Specpin spec file",
@@ -146,6 +156,16 @@ export const schemata =
     "name": "Application Accelerator",
     "fileMatch": [
       "accelerator.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/s3-bucket-cors.json",
+    "description": "JSON CORS configuration for Amazon S3 buckets",
+    "name": "Amazon S3 bucket CORS",
+    "fileMatch": [
+      "**/s3-cors.json",
+      "**/s3-bucket-cors.json",
+      "**/s3-cors-configuration.json"
     ]
   },
   {
@@ -5683,6 +5703,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/madge.json",
+    "description": "Madge module dependency analysis configuration file",
+    "name": "Madge configuration",
+    "fileMatch": [
+      ".madgerc"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/akiomik/mado/refs/heads/main/pkg/json-schema/mado.json",
     "description": "Mado markdown linter configuration file",
     "name": "Mado configuration",
@@ -6483,7 +6511,10 @@ export const schemata =
     "fileMatch": [
       "openapi.json",
       "openapi.yml",
-      "openapi.yaml"
+      "openapi.yaml",
+      "*.openapi.json",
+      "*.openapi.yml",
+      "*.openapi.yaml"
     ]
   },
   {
@@ -8944,6 +8975,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/aquasecurity/trivy/main/schema/trivy-config.json",
+    "description": "Configuration file for Trivy security scanner (trivy.yaml)",
+    "name": "Trivy",
+    "fileMatch": [
+      "trivy.yaml",
+      "trivy.yml",
+      ".trivy.yaml",
+      ".trivy.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/truescript.json",
     "description": "The Ultimate Script Language for monday.com - © 2024 MakeITSimple",
     "name": "TrueScript for *.tscript files",
@@ -9678,6 +9720,17 @@ export const schemata =
       ".mdxlintrc.json",
       ".mdxlintrc.yaml",
       ".mdxlintrc.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/rasinmuhammed/misata/main/schema/misata.schema.json",
+    "description": "Misata synthetic-data declaration: tables, relationships, exact aggregate curves, and identities for the misata generator",
+    "name": "misata.yaml",
+    "fileMatch": [
+      "misata.yaml",
+      "misata.yml",
+      "*.misata.yaml",
+      "*.misata.yml"
     ]
   },
   {
@@ -13010,6 +13063,17 @@ export const schemata =
     "fileMatch": [
       "**/.slang/server.json",
       "**/.slang/local/server.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/okf-0.1.json",
+    "description": "Graph generated for an OKF bundle",
+    "name": "OKF Graph",
+    "versions": {
+      "0.1": "https://www.schemastore.org/okf-0.1.json"
+    },
+    "fileMatch": [
+      "okf.json"
     ]
   }
 ]
