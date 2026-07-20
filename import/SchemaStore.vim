@@ -182,7 +182,7 @@ export const schemata =
     "description": "Structured JSON format for professional profiles, resumes, and CVs with skills, experience, education, and certifications",
     "name": "Applicant Profile Protocol",
     "fileMatch": [
-      "*.app.json"
+      "*.app-profile.json"
     ]
   },
   {
@@ -3431,6 +3431,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/editorconfig-checker/editorconfig-checker/main/.editorconfig-checker.schema.json",
+    "description": "editorconfig-checker configuration file",
+    "name": "editorconfig-checker",
+    "versions": {
+      "3.8.0": "https://raw.githubusercontent.com/editorconfig-checker/editorconfig-checker/v3.8.0/.editorconfig-checker.schema.json"
+    },
+    "fileMatch": [
+      ".editorconfig-checker.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/weaveworks/eksctl/main/pkg/apis/eksctl.io/v1alpha5/assets/schema.json",
     "description": "eksctl cluster configuration file",
     "name": "eksctl"
@@ -4191,11 +4202,7 @@ export const schemata =
   {
     "url": "https://www.schemastore.org/gcp-blueprint-metadata.json",
     "description": "Blueprint Solutions for Google Cloud",
-    "name": "GCP Blueprint Metadata",
-    "fileMatch": [
-      "metadata.yaml",
-      "metadata.display.yaml"
-    ]
+    "name": "GCP Blueprint Metadata"
   },
   {
     "url": "https://raw.githubusercontent.com/google-gemini/gemini-cli/refs/heads/main/schemas/settings.schema.json",
@@ -5519,6 +5526,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/kind-cluster.json",
+    "description": "Configuration file for kind (Kubernetes IN Docker) clusters",
+    "name": "kind cluster",
+    "fileMatch": [
+      "kind.yaml",
+      "kind.yml",
+      "**/kind-config.yaml",
+      "**/kind-config.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/kustomization.json",
     "description": "Kubernetes native configuration management",
     "name": "kustomization.yaml",
@@ -6044,6 +6062,11 @@ export const schemata =
       "mocks.yaml",
       "mocks.yml"
     ]
+  },
+  {
+    "url": "https://www.mock-server.com/schema/expectation.json",
+    "description": "MockServer expectation configuration defining a single request matcher and response action. For files holding an array of expectations, use the \"MockServer Expectations\" entry. See https://www.mock-server.com",
+    "name": "MockServer Expectation"
   },
   {
     "url": "https://www.mock-server.com/schema/expectations.json",
@@ -13063,6 +13086,14 @@ export const schemata =
     "fileMatch": [
       "**/.slang/server.json",
       "**/.slang/local/server.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/heloisa-marketplace.json",
+    "description": "Validation rules for the Heloísa assistant's plugin catalog",
+    "name": "Heloisa Assistant Plugins Marketplace",
+    "fileMatch": [
+      "heloisa-marketplace.json"
     ]
   },
   {
