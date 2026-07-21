@@ -673,6 +673,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/attw.json",
+    "description": "Configuration for the Are The Types Wrong? CLI",
+    "name": "Are The Types Wrong?",
+    "fileMatch": [
+      ".attw.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/bergercookie/asm-lsp/master/asm-lsp_config_schema.json",
     "description": "Configuration file for asm-lsp",
     "name": "asm-lsp",
@@ -1256,6 +1264,30 @@ export const schemata =
     "fileMatch": [
       "loki.yml",
       "loki.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/lsd-config.json",
+    "description": "Configuration for lsd, the next-generation ls command",
+    "name": "lsd config",
+    "fileMatch": [
+      "**/.config/lsd/config.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/lsd-colors.json",
+    "description": "Color theme configuration for lsd",
+    "name": "lsd colors",
+    "fileMatch": [
+      "**/.config/lsd/colors.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/lsd-icons.json",
+    "description": "Icon theme configuration for lsd",
+    "name": "lsd icons",
+    "fileMatch": [
+      "**/.config/lsd/icons.yaml"
     ]
   },
   {
@@ -4324,6 +4356,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/github-prompt.json",
+    "description": "YAML prompt files for GitHub Models (.prompt.yml / .prompt.yaml)",
+    "name": "GitHub Prompt",
+    "fileMatch": [
+      "**/*.prompt.yml",
+      "**/*.prompt.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/github-funding.json",
     "description": "YAML GitHub Funding",
     "name": "GitHub Funding",
@@ -4356,6 +4397,14 @@ export const schemata =
     "url": "https://www.schemastore.org/github-pages-jekyll.json",
     "description": "YAML Jekyll configuration for sites built by GitHub Pages",
     "name": "GitHub Pages Jekyll"
+  },
+  {
+    "url": "https://www.schemastore.org/github-secret-scanning.json",
+    "description": "YAML configuration for GitHub secret scanning exclusions",
+    "name": "GitHub Secret Scanning",
+    "fileMatch": [
+      "**/.github/secret_scanning.yml"
+    ]
   },
   {
     "url": "https://www.schemastore.org/github-workflow.json",
@@ -4860,6 +4909,12 @@ export const schemata =
     "fileMatch": [
       ".htmlvalidate.json"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SpectoLabs/hoverfly/master/core/handlers/v2/schema.json",
+    "description": "Hoverfly API simulation file for captured or authored HTTP request-response pairs",
+    "name": "Hoverfly Simulation",
+    "fileMatch": []
   },
   {
     "url": "https://raw.githubusercontent.com/ory/hydra/master/.schema/version.schema.json",
@@ -6477,6 +6532,30 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/odgs-standard-metrics.json",
+    "description": "Open Data Governance Standard (ODGS) metric definitions — KPI logic, lineage, and compliance mappings",
+    "name": "ODGS Standard Metrics",
+    "fileMatch": [
+      "*.odgs-metrics.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/odgs-data-rules.json",
+    "description": "ODGS validation and permissibility rules — mechanically executable data governance constraints",
+    "name": "ODGS Data Rules",
+    "fileMatch": [
+      "*.odgs-rules.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/odgs-ontology-graph.json",
+    "description": "ODGS business-entity ontology graph for AI graph traversal",
+    "name": "ODGS Ontology Graph",
+    "fileMatch": [
+      "*.odgs-ontology.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/ogen.json",
     "description": "ogen code generator configuration, see https://ogen.dev/docs/config",
     "name": "ogen",
@@ -7482,7 +7561,7 @@ export const schemata =
     "description": "A GitHub Action for automatically labelling pull requests",
     "name": "Pull Request Labeler",
     "versions": {
-      "4": "https://www.schemastore.org/pull-request-labeler.json",
+      "4": "https://www.schemastore.org/pull-request-labeler-4.json",
       "5": "https://www.schemastore.org/pull-request-labeler-5.json"
     },
     "fileMatch": [
@@ -12923,6 +13002,14 @@ export const schemata =
     "name": "Acton",
     "fileMatch": [
       "Acton.toml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/act3.json",
+    "description": "act3 configuration file",
+    "name": "act3",
+    "fileMatch": [
+      "**/act3/act3.yml"
     ]
   },
   {
