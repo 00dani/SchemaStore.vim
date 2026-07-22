@@ -7839,6 +7839,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Vivswan/repo-settings-as-code/main/lib/settings.schema.json",
+    "description": "Declarative GitHub repository settings applied by the repo-settings-as-code action; accepts Probot Settings app files as-is. Documentation: https://github.com/Vivswan/repo-settings-as-code",
+    "name": "repo-settings-as-code",
+    "fileMatch": [
+      "**/.github/settings.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/package/schemas/reposets.config.schema.json",
     "description": "Configuration for the reposets CLI tool for syncing GitHub repository settings",
     "name": "reposets Configuration",
