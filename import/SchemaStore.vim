@@ -1905,6 +1905,18 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/chezmoi.json",
+    "description": "JSON, JSONC, TOML, and YAML configuration for chezmoi",
+    "name": "chezmoi configuration",
+    "fileMatch": [
+      "chezmoi.json",
+      "chezmoi.jsonc",
+      "chezmoi.toml",
+      "chezmoi.yaml",
+      "chezmoi.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/ChordPro/chordpro/master/lib/ChordPro/res/config/config.schema",
     "description": "Configuration files for ChordPro",
     "name": "ChordPro Configuration",
@@ -2106,6 +2118,86 @@ export const schemata =
     "name": "CVE Record Format",
     "fileMatch": [
       "CVE-*.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/personal.schema.json",
+    "description": "Identity and contact details for a CVX CV (name, title, contact rows)",
+    "name": "CVX personal.yaml",
+    "fileMatch": [
+      "**/cv-content/personal.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/summary.schema.json",
+    "description": "Professional-summary bullets for a CVX CV",
+    "name": "CVX summary.yaml",
+    "fileMatch": [
+      "**/cv-content/summary.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/experience.schema.json",
+    "description": "Work history entries for a CVX CV (roles, progression, impact bullets)",
+    "name": "CVX experience.yaml",
+    "fileMatch": [
+      "**/cv-content/experience.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/education.schema.json",
+    "description": "Education entries for a CVX CV",
+    "name": "CVX education.yaml",
+    "fileMatch": [
+      "**/cv-content/education.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/competencies.schema.json",
+    "description": "Skill tags for a CVX CV",
+    "name": "CVX competencies.yaml",
+    "fileMatch": [
+      "**/cv-content/competencies.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/achievements.schema.json",
+    "description": "Awards and recognitions for a CVX CV",
+    "name": "CVX achievements.yaml",
+    "fileMatch": [
+      "**/cv-content/achievements.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/referees.schema.json",
+    "description": "References for a CVX CV",
+    "name": "CVX referees.yaml",
+    "fileMatch": [
+      "**/cv-content/referees.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/keywords.schema.json",
+    "description": "ATS keywords embedded in CVX PDF metadata",
+    "name": "CVX keywords.yaml",
+    "fileMatch": [
+      "**/cv-content/keywords.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/config.schema.json",
+    "description": "CVX build configuration (theme, layout, pagination, ATS keywords)",
+    "name": "CVX config.yaml",
+    "fileMatch": [
+      "**/cv-content/config.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hrtips/cvx/main/schema/v1/layout.schema.json",
+    "description": "Custom page layout for a CVX CV (section placement per page)",
+    "name": "CVX layout",
+    "fileMatch": [
+      "**/cv-content/layouts/*.yaml"
     ]
   },
   {
@@ -3142,6 +3234,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://draugr.dev/schema/draugr.saga.schema.json",
+    "description": "Draugr Saga - a declarative account of an application's security surface and the controls that must pass",
+    "name": "Draugr Saga",
+    "fileMatch": [
+      "*.saga.yaml",
+      "*.saga.yml",
+      ".saga.yaml",
+      ".saga.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json",
     "description": "A JSON representation of a Deno configuration file",
     "name": "Deno Config (deno.json)",
@@ -3386,6 +3489,15 @@ export const schemata =
     "fileMatch": [
       "*.dstack.yml",
       "*.dstack.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/dust.json",
+    "description": "TOML configuration for Dust",
+    "name": "Dust configuration",
+    "fileMatch": [
+      ".dust.toml",
+      "**/.config/dust/config.toml"
     ]
   },
   {
@@ -4133,12 +4245,19 @@ export const schemata =
     ]
   },
   {
-    "url": "https://unpkg.com/knip@5/schema.json",
-    "description": "Knip configuration files",
+    "url": "https://unpkg.com/knip@6/schema.json",
+    "description": "Knip JSON configuration files",
     "name": "Knip",
     "fileMatch": [
       "knip.json",
-      ".knip.json",
+      ".knip.json"
+    ]
+  },
+  {
+    "url": "https://unpkg.com/knip@6/schema-jsonc.json",
+    "description": "Knip JSONC configuration files",
+    "name": "Knip JSONC",
+    "fileMatch": [
       "knip.jsonc",
       ".knip.jsonc"
     ]
@@ -4338,12 +4457,40 @@ export const schemata =
     ]
   },
   {
+    "url": "https://gh-dash.dev/schema.json",
+    "description": "Configuration for the gh-dash GitHub CLI dashboard",
+    "name": "gh-dash",
+    "fileMatch": [
+      ".gh-dash.yml",
+      ".gh-dash.yaml",
+      "**/gh-dash/config.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/github-action.json",
     "description": "YAML GitHub Actions",
     "name": "GitHub Action",
     "fileMatch": [
       "action.yml",
       "action.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/github-cli-config.json",
+    "description": "Global configuration for the GitHub CLI",
+    "name": "GitHub CLI configuration",
+    "fileMatch": [
+      "**/gh/config.yml",
+      "**/GitHub CLI/config.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/github-cli-hosts.json",
+    "description": "Authentication and per-host configuration for the GitHub CLI",
+    "name": "GitHub CLI hosts",
+    "fileMatch": [
+      "**/gh/hosts.yml",
+      "**/GitHub CLI/hosts.yml"
     ]
   },
   {
@@ -5797,7 +5944,7 @@ export const schemata =
   },
   {
     "url": "https://www.schemastore.org/maestro-flow.json",
-    "description": "Maestro mobile and web UI test flow (YAML)",
+    "description": "Maestro mobile and web UI test flow (YAML) with full command definitions for IDE autocomplete (tapOn, extendedWaitUntil, runFlow, launchApp, and more)",
     "name": "Maestro Flow",
     "fileMatch": [
       "**/.maestro/**/*.yaml",
@@ -9998,7 +10145,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/release-drafter/release-drafter/master/schema.json",
+    "url": "https://raw.githubusercontent.com/release-drafter/release-drafter/refs/heads/main/drafter/schema.json",
     "description": "Release Drafter configuration file",
     "name": "release drafter",
     "fileMatch": [
@@ -13203,6 +13350,14 @@ export const schemata =
     },
     "fileMatch": [
       "okf.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/claude-code-launch.json",
+    "description": "Configuration for preview servers in Claude Code Desktop",
+    "name": "Claude Code Launch Preview",
+    "fileMatch": [
+      "**/.claude/launch.json"
     ]
   }
 ]
