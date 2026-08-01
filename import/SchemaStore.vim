@@ -6870,9 +6870,7 @@ export const schemata =
     },
     "fileMatch": [
       "opentelemetry*.yaml",
-      "opentelemetry*.yml",
-      "otel*.yaml",
-      "otel*.yml"
+      "opentelemetry*.yml"
     ]
   },
   {
@@ -8071,6 +8069,7 @@ export const schemata =
       "40": "https://www.schemastore.org/renovate-40.json",
       "41": "https://www.schemastore.org/renovate-41.json",
       "42": "https://www.schemastore.org/renovate-42.json",
+      "43": "https://www.schemastore.org/renovate-43.json",
       "39": "https://www.schemastore.org/renovate-39.json"
     },
     "fileMatch": [
@@ -8091,7 +8090,8 @@ export const schemata =
     "name": "Renovate global configuration",
     "versions": {
       "41": "https://www.schemastore.org/renovate-global-schema-41.json",
-      "42": "https://www.schemastore.org/renovate-global-schema-42.json"
+      "42": "https://www.schemastore.org/renovate-global-schema-42.json",
+      "43": "https://www.schemastore.org/renovate-global-schema-43.json"
     },
     "fileMatch": []
   },
@@ -8100,7 +8100,8 @@ export const schemata =
     "description": "Renovate configuration file (with Inherit Config options). Documentation: https://docs.renovatebot.com/configuration-options",
     "name": "Renovate inherited configuration",
     "versions": {
-      "42": "https://www.schemastore.org/renovate-inherited-schema-42.json"
+      "42": "https://www.schemastore.org/renovate-inherited-schema-42.json",
+      "43": "https://www.schemastore.org/renovate-inherited-schema-43.json"
     },
     "fileMatch": []
   },
@@ -8529,6 +8530,36 @@ export const schemata =
     "name": "size-limit configuration",
     "fileMatch": [
       ".size-limit.json"
+    ]
+  },
+  {
+    "url": "https://skill-map.ai/spec/v1/extensions/extension-manifest.schema.json",
+    "description": "Declarative manifest of a skill-map plugin extension (version, description, stability, defaultEnabled), read before any code is imported",
+    "name": "skill-map plugin extension manifest",
+    "fileMatch": [
+      "**/.skill-map/plugins/*/providers/*/extension.json",
+      "**/.skill-map/plugins/*/extractors/*/extension.json",
+      "**/.skill-map/plugins/*/analyzers/*/extension.json",
+      "**/.skill-map/plugins/*/actions/*/extension.json",
+      "**/.skill-map/plugins/*/formatters/*/extension.json",
+      "**/.skill-map/plugins/*/hooks/*/extension.json"
+    ]
+  },
+  {
+    "url": "https://skill-map.ai/spec/v1/project-config.schema.json",
+    "description": "Per-project skill-map configuration (.skill-map/settings.json and its .local partner)",
+    "name": "skill-map project settings",
+    "fileMatch": [
+      "**/.skill-map/settings.json",
+      "**/.skill-map/settings.local.json"
+    ]
+  },
+  {
+    "url": "https://skill-map.ai/spec/v1/extensions/provider-kind.schema.json",
+    "description": "Node-kind descriptor a skill-map Provider plugin declares",
+    "name": "skill-map provider kind",
+    "fileMatch": [
+      "**/.skill-map/plugins/*/kinds/*/kind.json"
     ]
   },
   {
@@ -9267,6 +9298,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/tsbuild.json",
+    "description": "Configuration for the tsbuild TypeScript build system",
+    "name": "tsbuild",
+    "fileMatch": [
+      "tsbuild.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/tsconfig.json",
     "description": "TypeScript compiler configuration file",
     "name": "tsconfig.json",
@@ -9658,6 +9697,17 @@ export const schemata =
     "name": "vim-addon-info",
     "fileMatch": [
       "**/*vim*/addon-info.json"
+    ]
+  },
+  {
+    "url": "https://vogi-control-plane-265712319769.us-central1.run.app/integrations/schema.v1.json",
+    "description": "Repository configuration for Vogi agents",
+    "name": "Vogi",
+    "versions": {
+      "1": "https://vogi-control-plane-265712319769.us-central1.run.app/integrations/schema.v1.json"
+    },
+    "fileMatch": [
+      ".vogi.yaml"
     ]
   },
   {
@@ -13012,7 +13062,8 @@ export const schemata =
     "description": "Configuration file for Oxfmt, a high-performance formatter for the JavaScript ecosystem",
     "name": "oxfmt",
     "fileMatch": [
-      "**/.oxfmtrc.json"
+      "**/.oxfmtrc.json",
+      "**/.oxfmtrc.jsonc"
     ]
   },
   {
@@ -13020,7 +13071,8 @@ export const schemata =
     "description": "Configuration file for Oxlint, a high-performance linter for JavaScript and TypeScript built on the Oxc compiler stack",
     "name": "oxlint",
     "fileMatch": [
-      "**/.oxlintrc.json"
+      "**/.oxlintrc.json",
+      "**/.oxlintrc.jsonc"
     ]
   },
   {
