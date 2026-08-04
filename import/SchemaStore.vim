@@ -650,6 +650,38 @@ export const schemata =
     ]
   },
   {
+    "url": "https://archival.dev/schemas/archival_editor.schema.json",
+    "description": "Per-object editor configuration for an archival site",
+    "name": "Archival editor configuration",
+    "fileMatch": [
+      "archival_editor.toml"
+    ]
+  },
+  {
+    "url": "https://archival.dev/schemas/objects.schema.json",
+    "description": "Object definitions for an archival site",
+    "name": "Archival object definitions",
+    "fileMatch": [
+      "archival_objects.toml"
+    ]
+  },
+  {
+    "url": "https://archival.dev/schemas/manifest.schema.json",
+    "description": "Site configuration for an archival site",
+    "name": "Archival site configuration",
+    "fileMatch": [
+      "archival.toml"
+    ]
+  },
+  {
+    "url": "https://archival.dev/schemas/archival_template.schema.json",
+    "description": "Metadata describing an archival site template",
+    "name": "Archival template definition",
+    "fileMatch": [
+      "archival_template.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/argoproj/argo-schema-generator/main/schema/argo_cd_kustomize_schema.json",
     "description": "Argo CD base resources",
     "name": "Argo CD"
@@ -4464,6 +4496,17 @@ export const schemata =
       ".gh-dash.yml",
       ".gh-dash.yaml",
       "**/gh-dash/config.yml"
+    ]
+  },
+  {
+    "url": "https://linnea-bakshi.github.io/gha-doctor/schema/gha-doctor-config.schema.json",
+    "description": "Configuration for gha-doctor, the GitHub Actions health checker (speed, cost, and reliability of your workflows)",
+    "name": "gha-doctor",
+    "fileMatch": [
+      ".gha-doctor.yml",
+      ".gha-doctor.yaml",
+      "**/.github/gha-doctor.yml",
+      "**/.github/gha-doctor.yaml"
     ]
   },
   {
@@ -12382,7 +12425,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/gematik-test-hcpis.json",
+    "url": "https://www.schemastore.org/gematik-test-insurances.json",
     "description": "A list of health care insurances in german telemedicine",
     "name": "gematik health care insurance list",
     "fileMatch": [
