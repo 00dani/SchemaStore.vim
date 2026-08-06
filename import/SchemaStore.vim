@@ -6913,7 +6913,9 @@ export const schemata =
     },
     "fileMatch": [
       "opentelemetry*.yaml",
-      "opentelemetry*.yml"
+      "opentelemetry*.yml",
+      "otel-sdk*.yaml",
+      "otel-sdk*.yml"
     ]
   },
   {
