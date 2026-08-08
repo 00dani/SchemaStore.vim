@@ -4637,14 +4637,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://app.gitpod.io/jsonschema/v1/automations_file.jsonschema.json",
-    "description": "Configuration for Gitpod Automations",
-    "name": "Gitpod Automations",
+    "url": "https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/raw/main/duo_workflow_service/schemas/v1/flow_config.schema.json",
+    "description": "YAML configuration for GitLab Duo Workflows",
+    "name": "GitLab Duo Workflow",
     "fileMatch": [
-      "**/.gitpod/automations.json",
-      "**/.gitpod/automations.yaml",
-      "**/.gitpod/automations.yml",
-      "**/.gitpod/automation.yaml"
+      "**/.gitlab/duo/flows/*.yaml"
     ]
   },
   {
@@ -4840,6 +4837,15 @@ export const schemata =
       "*.goff.yaml",
       "*.goff.json",
       "*.goff.toml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/detroitpro/gojo/main/packages/contracts/schemas/gojo.project.schema.json",
+    "description": "gojo project manifest (profiles, agents, schedules)",
+    "name": "gojo.yaml",
+    "fileMatch": [
+      "gojo.yaml",
+      "**/.gojo/project.yaml"
     ]
   },
   {
@@ -6789,14 +6795,16 @@ export const schemata =
     ]
   },
   {
-    "url": "https://app.ona.com/jsonschema/v1/automations_file.jsonschema.json",
-    "description": "Configuration for Ona Automations",
-    "name": "Ona Automations",
+    "url": "https://app.gitpod.io/jsonschema/v1/ona_config.jsonschema.json",
+    "description": "Tasks and services configuration for Ona environments",
+    "name": "Ona Tasks and Services",
     "fileMatch": [
-      "**/.ona/automations.json",
+      "**/.ona/config.yaml",
+      "**/.ona/config.yml",
       "**/.ona/automations.yaml",
       "**/.ona/automations.yml",
-      "**/.ona/automation.yaml"
+      "**/.gitpod/automations.yaml",
+      "**/.gitpod/automations.yml"
     ]
   },
   {
@@ -6943,6 +6951,14 @@ export const schemata =
     "fileMatch": [
       "*.odps.yaml",
       "*.odps.yml"
+    ]
+  },
+  {
+    "url": "https://cairnsecurity.com/opf/schema/opf-1.1.schema.json",
+    "description": "OPF finding library or engagement export (*.opf.json): portable penetration test findings",
+    "name": "Open Pentest Format",
+    "fileMatch": [
+      "*.opf.json"
     ]
   },
   {
