@@ -2,6 +2,14 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://raw.githubusercontent.com/johncarmack1984/glslint/main/schema/glslint.schema.json",
+    "description": "glslint project config and shader-dialect preset (glslint.toml): ecosystem detection, #pragma expansion, shared-library and injected-define declarations",
+    "name": "glslint config",
+    "fileMatch": [
+      "glslint.toml"
+    ]
+  },
+  {
     "url": "https://mermaid.js.org/schemas/config.schema.json",
     "description": "Configuration for Mermaid diagrams and charts",
     "name": "Mermaid config",
@@ -3118,6 +3126,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/crucible-code-schema.json",
+    "description": "Settings for the crucible coding agent",
+    "name": "crucible",
+    "fileMatch": [
+      "**/.crucible/config.json",
+      "**/.crucible/config.local.json"
+    ]
+  },
+  {
     "url": "https://on.cypress.io/cypress.schema.json",
     "description": "Cypress.io test runner configuration file",
     "name": "cypress.json",
@@ -5572,6 +5589,14 @@ export const schemata =
       "*.patch.yml",
       "*.patch.yaml"
     ]
+  },
+  {
+    "url": "https://www.schemastore.org/jsontron-0.1.json",
+    "description": "Jsontron vocabulary: rules and assert keywords using jq expressions for cross-field validation",
+    "name": "Jsontron",
+    "versions": {
+      "0.1": "https://www.schemastore.org/jsontron-0.1.json"
+    }
   },
   {
     "url": "https://www.schemastore.org/jsconfig.json",
@@ -8048,9 +8073,9 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/Vivswan/repo-settings-as-code/main/lib/settings.schema.json",
-    "description": "Declarative GitHub repository settings applied by the repo-settings-as-code action; accepts Probot Settings app files as-is. Documentation: https://github.com/Vivswan/repo-settings-as-code",
-    "name": "repo-settings-as-code",
+    "url": "https://raw.githubusercontent.com/Vivswan/github-settings-as-code/main/lib/settings.schema.json",
+    "description": "Declarative GitHub repository settings applied by the github-settings-as-code action; accepts Probot Settings app files as-is. Documentation: https://github.com/Vivswan/github-settings-as-code",
+    "name": "github-settings-as-code",
     "fileMatch": [
       "**/.github/settings.yml"
     ]
@@ -13471,6 +13496,17 @@ export const schemata =
     "name": "Claude Code Launch Preview",
     "fileMatch": [
       "**/.claude/launch.json"
+    ]
+  },
+  {
+    "url": "https://ayeshlk.github.io/archsmith/schema/latest/diagram-schema.json",
+    "description": "Intermediate representation consumed by ArchSmith to validate and render architecture diagrams",
+    "name": "ArchSmith diagram IR",
+    "versions": {
+      "0.3.0": "https://ayeshlk.github.io/archsmith/schema/0.3.0/diagram-schema.json"
+    },
+    "fileMatch": [
+      "*.archsmith.json"
     ]
   }
 ]
