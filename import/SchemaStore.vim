@@ -9689,7 +9689,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/venvironment-schema-v5.0.0.json",
+    "url": "https://www.schemastore.org/venvironment-schema-v5.1.0.json",
     "description": "Simulation and test environment for Vector CANoe Server Editions",
     "name": "venvironment.yaml",
     "versions": {
@@ -9702,6 +9702,7 @@ export const schemata =
       "1.1.1": "https://www.schemastore.org/venvironment-schema-v1.1.1.json",
       "3.1.0": "https://www.schemastore.org/venvironment-schema-v3.1.0.json",
       "4.1.0": "https://www.schemastore.org/venvironment-schema-v4.1.0.json",
+      "5.1.0": "https://www.schemastore.org/venvironment-schema-v5.1.0.json",
       "2.1.0": "https://www.schemastore.org/venvironment-schema-v2.1.0.json",
       "1.0.0": "https://www.schemastore.org/venvironment-schema-v1.0.0.json",
       "2.0.0": "https://www.schemastore.org/venvironment-schema-v2.0.0.json",
@@ -9717,12 +9718,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/venvplus-schema-v1.1.0.json",
+    "url": "https://www.schemastore.org/venvplus-schema-v1.2.0.json",
     "description": "venvplus settings of Vector CANoe Server Editions",
     "name": "venvplus.yaml",
     "versions": {
       "1.1.0": "https://www.schemastore.org/venvplus-schema-v1.1.0.json",
-      "1.0.0": "https://www.schemastore.org/venvplus-schema-v1.0.0.json"
+      "1.0.0": "https://www.schemastore.org/venvplus-schema-v1.0.0.json",
+      "1.2.0": "https://www.schemastore.org/venvplus-schema-v1.2.0.json"
     },
     "fileMatch": [
       "venvplus.yaml",
