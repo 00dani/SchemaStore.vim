@@ -997,8 +997,9 @@ export const schemata =
       "nightly": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json",
       "0.11": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.11/bottom.json",
       "0.14.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.0/bottom.json",
-      "0.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.9/bottom.json",
       "0.13.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.13.0/bottom.json",
+      "0.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.9/bottom.json",
+      "0.14.7": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.7/bottom.json",
       "0.10": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.10/bottom.json"
     },
     "fileMatch": [
@@ -13482,11 +13483,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/okf-0.1.json",
+    "url": "https://www.schemastore.org/okf-0.2.json",
     "description": "Graph generated for an OKF bundle",
     "name": "OKF Graph",
     "versions": {
-      "0.1": "https://www.schemastore.org/okf-0.1.json"
+      "0.1": "https://www.schemastore.org/okf-0.1.json",
+      "0.2": "https://www.schemastore.org/okf-0.2.json"
     },
     "fileMatch": [
       "okf.json"
