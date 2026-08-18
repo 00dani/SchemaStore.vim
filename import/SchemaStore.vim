@@ -329,12 +329,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-inventory-module-data-5.3.0.json",
+    "url": "https://www.schemastore.org/abc-inventory-module-data-5.4.0.json",
     "description": "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
     "name": "ABCInventoryModuleData",
     "versions": {
       "4.0.0": "https://www.schemastore.org/abc-inventory-module-data-4.0.0.json",
       "5.2.0": "https://www.schemastore.org/abc-inventory-module-data-5.2.0.json",
+      "5.4.0": "https://www.schemastore.org/abc-inventory-module-data-5.4.0.json",
       "5.1.0": "https://www.schemastore.org/abc-inventory-module-data-5.1.0.json",
       "5.3.0": "https://www.schemastore.org/abc-inventory-module-data-5.3.0.json",
       "1.0.0": "https://www.schemastore.org/abc-inventory-module-data-1.0.0.json",
@@ -346,12 +347,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-5.0.0.json",
+    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-5.1.0.json",
     "description": "ABCClinicalDemandForecast defining the structure of clinical trial demand forecasting data in ABC-Plan",
     "name": "ABCClinicalDemandForecast",
     "versions": {
       "4.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json",
       "5.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-5.0.0.json",
+      "5.1.0": "https://www.schemastore.org/abc-clinical-demand-forecast-5.1.0.json",
       "1.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
       "2.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-2.0.0.json",
       "3.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json"
@@ -361,7 +363,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-supply-plan-14.0.0.json",
+    "url": "https://www.schemastore.org/abc-supply-plan-14.1.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
@@ -373,6 +375,7 @@ export const schemata =
       "6.0.0": "https://www.schemastore.org/abc-supply-plan-6.0.0.json",
       "12.0.0": "https://www.schemastore.org/abc-supply-plan-12.0.0.json",
       "11.2.0": "https://www.schemastore.org/abc-supply-plan-11.2.0.json",
+      "14.1.0": "https://www.schemastore.org/abc-supply-plan-14.1.0.json",
       "1.0.0": "https://www.schemastore.org/abc-supply-plan-1.0.0.json",
       "5.0.0": "https://www.schemastore.org/abc-supply-plan-5.0.0.json",
       "11.0.0": "https://www.schemastore.org/abc-supply-plan-11.0.0.json",
@@ -2431,6 +2434,14 @@ export const schemata =
     "name": "Devbox Plugin",
     "fileMatch": [
       "devbox-plugin.json"
+    ]
+  },
+  {
+    "url": "https://devconcurrent.paholg.com/devconcurrent.schema.json",
+    "description": "Easily manage multiple, isolated development environments",
+    "name": "devconcurrent",
+    "fileMatch": [
+      "**/devconcurrent/config.toml"
     ]
   },
   {
@@ -7840,15 +7851,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/rancher-fleet-0.8.json",
+    "url": "https://raw.githubusercontent.com/rancher/fleet/main/schemas/fleet.yaml.json",
     "description": "Rancher Fleet fleet.yaml configuration file",
     "name": "Rancher Fleet",
-    "versions": {
-      "0.5": "https://www.schemastore.org/rancher-fleet-0.5.json",
-      "0.8": "https://www.schemastore.org/rancher-fleet-0.8.json"
-    },
     "fileMatch": [
-      "fleet.yaml"
+      "**/fleet.yaml"
     ]
   },
   {
@@ -13511,6 +13518,15 @@ export const schemata =
     },
     "fileMatch": [
       "*.archsmith.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/orieg/yaml-workflow/main/schema/workflow-schema.json",
+    "description": "Workflow definition for the yaml-workflow engine — params, tasks, steps, imports, and flows",
+    "name": "yaml-workflow",
+    "fileMatch": [
+      "**/*.yaml-workflow.yaml",
+      "**/*.yaml-workflow.yml"
     ]
   }
 ]
