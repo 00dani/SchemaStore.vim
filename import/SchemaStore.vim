@@ -2738,6 +2738,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://devprune.vkrishna04.me/schemas/v1/devprune.schema.json",
+    "description": "Per-repository configuration for dev-prune, the lockfile-verified workspace cleaner",
+    "name": ".devprune.json",
+    "fileMatch": [
+      ".devprune.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/codecov.json",
     "description": "codecov.yml files",
     "name": "Codecov configuration files",
@@ -5171,7 +5179,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.10.2.json",
+    "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.11.0.json",
     "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
     "name": "IBM Zapp document",
     "versions": {
@@ -5184,6 +5192,7 @@ export const schemata =
       "1.3.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.3.0.json",
       "1.10.2": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.10.2.json",
       "1.5.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.5.0.json",
+      "1.11.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.11.0.json",
       "1.7.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.7.0.json",
       "1.0.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.0.0.json",
       "1.9.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.9.0.json",
@@ -9120,6 +9129,40 @@ export const schemata =
     "name": "Swagger API 2.0",
     "fileMatch": [
       "swagger.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/symfony/symfony/8.1/src/Symfony/Component/Routing/Loader/schema/routing.schema.json",
+    "description": "Symfony routing configuration file (config/routes)",
+    "name": "Symfony Routing Configuration",
+    "fileMatch": [
+      "**/config/routes.yaml",
+      "**/config/routes/**/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/symfony/symfony/8.1/src/Symfony/Component/Serializer/Mapping/Loader/schema/serialization.schema.json",
+    "description": "Symfony serializer mapping configuration file",
+    "name": "Symfony Serializer Mapping",
+    "fileMatch": [
+      "**/config/serializer/**/*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/symfony/symfony/8.1/src/Symfony/Component/DependencyInjection/Loader/schema/services.schema.json",
+    "description": "Symfony parameters and services configuration file (config/services)",
+    "name": "Symfony Services Configuration",
+    "fileMatch": [
+      "**/config/services.yaml",
+      "**/config/services_*.yaml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/symfony/symfony/8.1/src/Symfony/Component/Validator/Mapping/Loader/schema/validation.schema.json",
+    "description": "Symfony validation mapping configuration file",
+    "name": "Symfony Validation Mapping",
+    "fileMatch": [
+      "**/config/validator/**/*.yaml"
     ]
   },
   {
