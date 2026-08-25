@@ -5964,6 +5964,24 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://liquilens.in/protocol/liquilens-evidence-carrier-v1.schema.json",
+    "description": "Transport-neutral, content-addressed financial evidence carrier",
+    "name": "LiquiLens Evidence Carrier v1",
+    "fileMatch": [
+      "liquilens-evidence-carrier.json",
+      "*.liquilens-evidence-carrier.json"
+    ]
+  },
+  {
+    "url": "https://liquilens.in/protocol/liquilens-evidence-carrier-reference-v1.schema.json",
+    "description": "Policy-redacted reference to a verified LiquiLens Evidence Carrier",
+    "name": "LiquiLens Evidence Carrier Reference v1",
+    "fileMatch": [
+      "liquilens-evidence-carrier-reference.json",
+      "*.liquilens-evidence-carrier-reference.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/rocksdanister/lively/core-separation/schemas/livelyPropertiesSchema.json",
     "description": "Lively Wallpaper configuration file. Documentation: https://github.com/rocksdanister/lively/wiki/Web-Guide-IV-:-Interaction#lively-properties",
     "name": "Lively Properties",
