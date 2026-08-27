@@ -2273,6 +2273,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/momentiq-ai/cerebe/main/schemas/darkfactory/v1.json",
+    "description": "Unified darkfactory.yaml for the Cerebe / Dark Factory CLI (doctrine, deny, hooks, MCP, critics, policy)",
+    "name": "Dark Factory consumer config",
+    "fileMatch": [
+      "darkfactory.yaml",
+      "darkfactory.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/connections.schema.json",
     "description": "Collection of defined source and target connections used within DataYoga jobs",
     "name": "DataYoga Connections",
