@@ -1003,6 +1003,7 @@ export const schemata =
       "0.13.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.13.0/bottom.json",
       "0.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.9/bottom.json",
       "0.14.7": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.7/bottom.json",
+      "0.14.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.9/bottom.json",
       "0.10": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.10/bottom.json"
     },
     "fileMatch": [
@@ -1625,6 +1626,27 @@ export const schemata =
     "url": "https://www.schemastore.org/bosh-deploy-config.json",
     "description": "Deploy config for BOSH CLI",
     "name": "BOSH Deploy Config"
+  },
+  {
+    "url": "https://www.schemastore.org/bosh-job-spec.json",
+    "description": "Job Spec for BOSH Releases",
+    "name": "BOSH Job Spec",
+    "fileMatch": [
+      "**/jobs/*/spec"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/bosh-package-spec.json",
+    "description": "Package Spec for BOSH Releases",
+    "name": "BOSH Package Spec",
+    "fileMatch": [
+      "**/packages/*/spec"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/bosh-ops-file.json",
+    "description": "Ops File for BOSH CLI",
+    "name": "BOSH Ops File"
   },
   {
     "url": "https://www.schemastore.org/boyka-config.json",
@@ -2420,6 +2442,16 @@ export const schemata =
       "**/.deploystack/config.yml",
       "**/.deploystack/config.yaml"
     ]
+  },
+  {
+    "url": "https://www.designtokens.org/schemas/2025.10/format.json",
+    "description": "Design token files using the DTCG format",
+    "name": "Design Tokens Community Group format"
+  },
+  {
+    "url": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+    "description": "DTCG resolver documents",
+    "name": "Design Tokens Community Group resolver"
   },
   {
     "url": "https://deta.space/assets/spacefile.schema.json",
@@ -3489,7 +3521,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/master/Schemas/Tenancy.Configuration/tenant-map.json",
+    "url": "https://raw.githubusercontent.com/dolittle-obsolete/DotNET.Fundamentals/v4.10.0/Schemas/Tenancy.Configuration/tenant-map.json",
     "description": "A Dolittle bounded context's tenant mapping configurations",
     "name": "Dolittle Tenant Map Configuration",
     "fileMatch": [
@@ -3497,7 +3529,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/master/Schemas/Applications.Configuration/topology.json",
+    "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/v5.0.0/Schemas/Applications.Configuration/topology.json",
     "description": "A Dolittle bounded context's topology",
     "name": "Dolittle Topology",
     "fileMatch": [
@@ -3593,7 +3625,7 @@ export const schemata =
     "versions": {
       "2.2.0": "https://raw.githubusercontent.com/devfile/api/v2.2.0/schemas/latest/devfile.json",
       "2.1.0": "https://raw.githubusercontent.com/devfile/api/v2.1.0/schemas/latest/devfile.json",
-      "1.0.0": "https://raw.githubusercontent.com/eclipse-che/che-server/master/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json",
+      "1.0.0": "https://raw.githubusercontent.com/eclipse-che/che-server/7.80.0/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json",
       "2.0.0": "https://raw.githubusercontent.com/devfile/api/v2.0.0/schemas/latest/devfile.json"
     },
     "fileMatch": [
@@ -4935,7 +4967,7 @@ export const schemata =
     "name": "Grafana 5.x Dashboard"
   },
   {
-    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/docs/assets/schemas/config.schema.json",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/docs/src/assets/schemas/config.schema.json",
     "description": "tree-sitter grammar.json",
     "name": "tree-sitter grammar.json",
     "fileMatch": [
@@ -5580,7 +5612,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://jsonapi.org/schema",
+    "url": "https://raw.githubusercontent.com/json-api/json-api/v1.1/schema",
     "description": "JSON API document",
     "name": "JSON-API"
   },
@@ -8475,30 +8507,33 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/structure-message/tools/schemas/2.0.0/sdmx-json-structure-schema.json",
+    "url": "https://json.sdmx.org/2.1/sdmx-json-structure-schema.json",
     "description": "Statistical Data and Metadata eXchange (ISO 17369) structure message",
     "name": "SDMX structure message",
     "versions": {
-      "2.0.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/structure-message/tools/schemas/2.0.0/sdmx-json-structure-schema.json",
-      "1.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/structure-message/tools/schemas/1.0/sdmx-json-structure-schema.json"
+      "2.1": "https://json.sdmx.org/2.1/sdmx-json-structure-schema.json",
+      "2.0.0": "https://json.sdmx.org/2.0.0/sdmx-json-structure-schema.json",
+      "1.0": "https://json.sdmx.org/1.0/sdmx-json-structure-schema.json"
     }
   },
   {
-    "url": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/metadata-message/tools/schemas/2.0.0/sdmx-json-metadata-schema.json",
+    "url": "https://json.sdmx.org/2.1/sdmx-json-metadata-schema.json",
     "description": "Statistical Data and Metadata eXchange (ISO 17369) metadata message",
     "name": "SDMX metadata message",
     "versions": {
-      "2.0.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/metadata-message/tools/schemas/2.0.0/sdmx-json-metadata-schema.json",
-      "1.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/metadata-message/tools/schemas/1.0/sdmx-json-metadata-schema.json"
+      "2.1": "https://json.sdmx.org/2.1/sdmx-json-metadata-schema.json",
+      "2.0.0": "https://json.sdmx.org/2.0.0/sdmx-json-metadata-schema.json",
+      "1.0": "https://json.sdmx.org/1.0/sdmx-json-metadata-schema.json"
     }
   },
   {
-    "url": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/data-message/tools/schemas/2.0.0/sdmx-json-data-schema.json",
+    "url": "https://json.sdmx.org/2.1/sdmx-json-data-schema.json",
     "description": "Statistical Data and Metadata eXchange (ISO 17369) data message",
     "name": "SDMX data message",
     "versions": {
-      "2.0.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/data-message/tools/schemas/2.0.0/sdmx-json-data-schema.json",
-      "1.0": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/data-message/tools/schemas/1.0/sdmx-json-data-schema.json"
+      "2.1": "https://json.sdmx.org/2.1/sdmx-json-data-schema.json",
+      "2.0.0": "https://json.sdmx.org/2.0.0/sdmx-json-data-schema.json",
+      "1.0": "https://json.sdmx.org/1.0/sdmx-json-data-schema.json"
     }
   },
   {
@@ -9193,7 +9228,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/synadia-io/connect/main/schemas/component.json",
+    "url": "https://raw.githubusercontent.com/synadia-io/connect/b647c6bc4448f7790c5a97ce39daae405ead0f0a/schemas/component.json",
     "description": "Synadia Connect component definition",
     "name": "Synadia Connect Component",
     "fileMatch": [
@@ -13290,6 +13325,33 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/itslab42/agentctl/main/schemas/config.schema.json",
+    "description": "agentctl config file (.ai/config.yaml): runtimes, project name, and sync settings for AI coding-agent configuration",
+    "name": "AgentCtl config",
+    "fileMatch": [
+      "**/.ai/config.yaml",
+      "**/.ai/config.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/itslab42/agentctl/main/schemas/mcp.schema.json",
+    "description": "agentctl MCP server declarations (.ai/mcp.yaml): Model Context Protocol servers rendered into each runtime's format",
+    "name": "AgentCtl MCP",
+    "fileMatch": [
+      "**/.ai/mcp.yaml",
+      "**/.ai/mcp.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/itslab42/agentctl/main/schemas/permissions.schema.json",
+    "description": "agentctl runtime-neutral permissions (.ai/permissions.yaml): filesystem and shell rules using deny-over-allow precedence",
+    "name": "AgentCtl permissions",
+    "fileMatch": [
+      "**/.ai/permissions.yaml",
+      "**/.ai/permissions.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/abhiyoheswaran1/AgentLoopKit/main/schema/agentloop.config.schema.json",
     "description": "Configuration file for AgentLoopKit, a repo-level engineering loop for coding agents",
     "name": "AgentLoopKit",
@@ -13597,6 +13659,15 @@ export const schemata =
     "fileMatch": [
       "**/*.yaml-workflow.yaml",
       "**/*.yaml-workflow.yml"
+    ]
+  },
+  {
+    "url": "https://www.akkaldhami.com.np/schema/servercn.config.json",
+    "description": "Servercn is the backend component registry for node.js inspired by shadcn/ui",
+    "name": "servercn",
+    "fileMatch": [
+      "servercn.config.json",
+      "servercn.json"
     ]
   }
 ]
