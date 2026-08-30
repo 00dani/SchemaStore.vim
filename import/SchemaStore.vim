@@ -9803,6 +9803,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://vee.navbytes.io/schemas/json-output.schema.json",
+    "description": "Structured JSON printed by a Vee menu-bar plugin, the alternative to the xbar/SwiftBar text protocol",
+    "name": "Vee JSON menu output"
+  },
+  {
     "url": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v6.4.0.json",
     "description": "Vega visualization specification file",
     "name": "vega.json",
@@ -9813,7 +9818,7 @@ export const schemata =
       "v5.12.2": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.12.2.json",
       "v5.21.0": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.21.0.json",
       "v5.19.0": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.19.0.json",
-      "v5.32.0": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.32.0.json",
+      "v5.5.0": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.5.0.json",
       "v5.19.1": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.19.1.json",
       "v2.6.0": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.6.0.json",
       "v2.6.1": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.6.1.json",
@@ -9929,6 +9934,7 @@ export const schemata =
       "v4.0.0-rc.1": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.0.0-rc.1.json",
       "v4.0.0-rc.2": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.0.0-rc.2.json",
       "v4.0.0-rc.3": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.0.0-rc.3.json",
+      "v5.32.0": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.32.0.json",
       "v5.14.0": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.14.0.json",
       "v5.28.0": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.28.0.json",
       "v3.1.0": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.1.0.json",
