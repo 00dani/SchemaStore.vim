@@ -2,6 +2,18 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://raw.githubusercontent.com/crystal-ameba/ameba/master/.ameba.yml.schema.json",
+    "description": "Configuration file for Ameba, a Crystal linter and formatter",
+    "name": "Ameba",
+    "versions": {
+      "1.7.0": "https://raw.githubusercontent.com/crystal-ameba/ameba/v1.7.0/.ameba.yml.schema.json"
+    },
+    "fileMatch": [
+      ".ameba.yml",
+      ".ameba.*.yml"
+    ]
+  },
+  {
     "url": "https://contextpassport.com/schema/v2.json",
     "description": "Tamper-evident record of an AI agent event: what the agent was asked, what it decided, and a SHA-256 chain linking it to the record before it",
     "name": "Context Passport",
@@ -9341,6 +9353,42 @@ export const schemata =
     "name": "templatsources.json",
     "fileMatch": [
       "templatesources.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/tfpowershell-provider.json",
+    "description": "Custom provider-block attributes of a Terraform provider built on terraform-provider-powershell",
+    "name": "Terraform PowerShell provider block manifest",
+    "fileMatch": [
+      "provider.tfps.json",
+      "**/provider.tfps.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/tfpowershell-datasource.json",
+    "description": "Typed attribute declarations for one data source in a Terraform provider built on terraform-provider-powershell",
+    "name": "Terraform PowerShell provider data source manifest",
+    "fileMatch": [
+      "datasource.tfps.json",
+      "**/datasource.tfps.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/tfpowershell-resource.json",
+    "description": "Typed attribute declarations for one resource in a Terraform provider built on terraform-provider-powershell",
+    "name": "Terraform PowerShell provider resource manifest",
+    "fileMatch": [
+      "resource.tfps.json",
+      "**/resource.tfps.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/tfpowershell-settings.json",
+    "description": "Name and registry address of a Terraform provider built on terraform-provider-powershell",
+    "name": "Terraform PowerShell provider settings",
+    "fileMatch": [
+      "settings.tfps.json",
+      "**/settings.tfps.json"
     ]
   },
   {
