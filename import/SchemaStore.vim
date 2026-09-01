@@ -5570,7 +5570,7 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://www.schemastore.org/jreleaser-1.25.0.json",
+    "url": "https://www.schemastore.org/jreleaser-1.26.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
@@ -5582,6 +5582,7 @@ export const schemata =
       "1.23.0": "https://www.schemastore.org/jreleaser-1.23.0.json",
       "1.17.0": "https://www.schemastore.org/jreleaser-1.17.0.json",
       "1.12.0": "https://www.schemastore.org/jreleaser-1.12.0.json",
+      "1.26.0": "https://www.schemastore.org/jreleaser-1.26.0.json",
       "1.21.0": "https://www.schemastore.org/jreleaser-1.21.0.json",
       "1.15.0": "https://www.schemastore.org/jreleaser-1.15.0.json",
       "1.8.0": "https://www.schemastore.org/jreleaser-1.8.0.json",
@@ -6166,7 +6167,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-configuration.jsonschema.json",
+    "url": "https://raw.githubusercontent.com/oxsecurity/megalinter/main/megalinter/descriptors/schemas/megalinter-configuration.jsonschema.json",
     "description": "Mega-Linter configuration file (for Mega-Linter users)",
     "name": "MegaLinter configuration",
     "fileMatch": [
@@ -6177,7 +6178,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-custom-flavor.jsonschema.json",
+    "url": "https://raw.githubusercontent.com/oxsecurity/megalinter/main/megalinter/descriptors/schemas/megalinter-custom-flavor.jsonschema.json",
     "description": "MegaLinter Custom Flavor definition file",
     "name": "MegaLinter Custom Flavor",
     "fileMatch": [
@@ -6185,7 +6186,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-descriptor.jsonschema.json",
+    "url": "https://raw.githubusercontent.com/oxsecurity/megalinter/main/megalinter/descriptors/schemas/megalinter-descriptor.jsonschema.json",
     "description": "MegaLinter descriptor files (for MegaLinter contributors)",
     "name": "MegaLinter descriptor",
     "fileMatch": [
@@ -9389,6 +9390,15 @@ export const schemata =
     "fileMatch": [
       "settings.tfps.json",
       "**/settings.tfps.json"
+    ]
+  },
+  {
+    "url": "https://docs.pasteurlabs.ai/projects/tesseract-core/stable/tesseract_config.schema.json",
+    "description": "Configuration file for a Tesseract (tesseract_config.yaml)",
+    "name": "Tesseract configuration",
+    "fileMatch": [
+      "tesseract_config.yaml",
+      "tesseract_config.yml"
     ]
   },
   {
