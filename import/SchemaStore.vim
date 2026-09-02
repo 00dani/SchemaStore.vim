@@ -729,6 +729,14 @@ export const schemata =
     "name": "Argo Workflows"
   },
   {
+    "url": "https://arity.cc/arity.schema.json",
+    "description": "Configuration file for Arity, a language server, formatter, and linter for R",
+    "name": "Arity",
+    "fileMatch": [
+      "arity.toml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/artifacthub-repo.json",
     "description": "Artifact Hub repository metadata file",
     "name": "artifacthub-repo.yml",
@@ -1374,6 +1382,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://fatou.dev/fatou.schema.json",
+    "description": "Configuration file for Fatou, a language server, formatter, and linter for Julia",
+    "name": "Fatou",
+    "fileMatch": [
+      "fatou.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/Use-Tusk/fence/refs/heads/main/docs/schema/fence.schema.json",
     "description": "Configuration file for fence, a lightweight, container-free sandbox for running commands with network and filesystem restrictions",
     "name": "Fence configuration",
@@ -1470,6 +1486,14 @@ export const schemata =
     "name": ".backportrc.json",
     "fileMatch": [
       ".backportrc.json"
+    ]
+  },
+  {
+    "url": "https://badness.dev/badness.schema.json",
+    "description": "Configuration file for Badness, a language server, formatter, and linter for LaTeX",
+    "name": "Badness",
+    "fileMatch": [
+      "badness.toml"
     ]
   },
   {
@@ -2082,6 +2106,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/reasoning-formats/reasoning-formats/main/crf/schema/crf-schema.json",
+    "description": "Organizational context as a graph of entities - organizations, systems, policies, facts, capabilities - that decision records reference and are validated against",
+    "name": "Context Reasoning Format (CRF)",
+    "fileMatch": [
+      "*.crf.yaml",
+      "*.crf.yml",
+      "*.crf.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/get-convex/convex-backend/refs/heads/main/npm-packages/convex/schemas/convex.schema.json",
     "description": "Configuration for Convex project settings",
     "name": "Convex",
@@ -2415,6 +2449,16 @@ export const schemata =
     "fileMatch": [
       "debtlens.config.json",
       ".debtlensrc.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/reasoning-formats/reasoning-formats/main/drf/schema/drf-schema.json",
+    "description": "Decision record capturing the reasoning behind a decision - constraints, objectives, assumptions, tensions and synthesis - as structured, validatable fields",
+    "name": "Decision Reasoning Format (DRF)",
+    "fileMatch": [
+      "*.drf.yaml",
+      "*.drf.yml",
+      "*.drf.json"
     ]
   },
   {
@@ -6061,6 +6105,14 @@ export const schemata =
     "fileMatch": [
       "liquilens-evidence-carrier-reference.json",
       "*.liquilens-evidence-carrier-reference.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/litertlm_manifest.json",
+    "description": "Deployment manifest for Hugging Face model repos that ship .litertlm bundles for the LiteRT-LM runtime: per-device file selection, verified backends, requirements, and measured performance",
+    "name": "litertlm_manifest.json",
+    "fileMatch": [
+      "litertlm_manifest.json"
     ]
   },
   {
@@ -14067,6 +14119,49 @@ export const schemata =
     "fileMatch": [
       "**/.slang/server.json",
       "**/.slang/local/server.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/cfgd-config-0.5.0.json",
+    "description": "cfgd root configuration file (cfgd.yaml)",
+    "name": "cfgd Config",
+    "versions": {
+      "0.5.0": "https://www.schemastore.org/cfgd-config-0.5.0.json"
+    },
+    "fileMatch": [
+      "cfgd.yaml",
+      "cfgd.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/cfgd-module-0.5.0.json",
+    "description": "cfgd Module definition document",
+    "name": "cfgd Module",
+    "versions": {
+      "0.5.0": "https://www.schemastore.org/cfgd-module-0.5.0.json"
+    },
+    "fileMatch": [
+      "**/modules/*/module.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/cfgd-profile-0.5.0.json",
+    "description": "cfgd Profile definition document",
+    "name": "cfgd Profile",
+    "versions": {
+      "0.5.0": "https://www.schemastore.org/cfgd-profile-0.5.0.json"
+    }
+  },
+  {
+    "url": "https://www.schemastore.org/cfgd-configsource-0.5.0.json",
+    "description": "cfgd multi-source configuration manifest (cfgd-source.yaml)",
+    "name": "cfgd ConfigSource",
+    "versions": {
+      "0.5.0": "https://www.schemastore.org/cfgd-configsource-0.5.0.json"
+    },
+    "fileMatch": [
+      "cfgd-source.yaml",
+      "cfgd-source.yml"
     ]
   },
   {
