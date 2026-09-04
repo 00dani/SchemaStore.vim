@@ -14229,6 +14229,16 @@ export const schemata =
       ".hias-hitf.json",
       ".hias-hitf.jsonc"
     ]
+  },
+  {
+    "url": "https://github.com/vidispine/hull/blob/main/hull/values.schema.json",
+    "description": "Configuration options for HULL based Helm charts",
+    "name": "HULL - Helm Uniform Layer Library",
+    "versions": {
+      "1.36": "https://github.com/vidispine/hull/blob/release-1.36/hull/values.schema.json",
+      "1.34": "https://github.com/vidispine/hull/blob/release-1.34/hull/values.schema.json",
+      "1.35": "https://github.com/vidispine/hull/blob/release-1.35/hull/values.schema.json"
+    }
   }
 ]
 export const schemas = schemata
