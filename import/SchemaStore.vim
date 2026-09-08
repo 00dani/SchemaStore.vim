@@ -14122,10 +14122,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-config-0.5.0.json",
+    "url": "https://www.schemastore.org/cfgd-config-0.10.0.json",
     "description": "cfgd root configuration file (cfgd.yaml)",
     "name": "cfgd Config",
     "versions": {
+      "0.10.0": "https://www.schemastore.org/cfgd-config-0.10.0.json",
       "0.5.0": "https://www.schemastore.org/cfgd-config-0.5.0.json"
     },
     "fileMatch": [
@@ -14134,10 +14135,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-module-0.5.0.json",
+    "url": "https://www.schemastore.org/cfgd-module-0.10.0.json",
     "description": "cfgd Module definition document",
     "name": "cfgd Module",
     "versions": {
+      "0.10.0": "https://www.schemastore.org/cfgd-module-0.10.0.json",
       "0.5.0": "https://www.schemastore.org/cfgd-module-0.5.0.json"
     },
     "fileMatch": [
@@ -14145,18 +14147,25 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-profile-0.5.0.json",
+    "url": "https://www.schemastore.org/cfgd-profile-0.10.0.json",
     "description": "cfgd Profile definition document",
     "name": "cfgd Profile",
     "versions": {
+      "0.10.0": "https://www.schemastore.org/cfgd-profile-0.10.0.json",
       "0.5.0": "https://www.schemastore.org/cfgd-profile-0.5.0.json"
-    }
+    },
+    "fileMatch": [
+      "**/profiles/*/profile.yaml",
+      "**/profiles/*.yaml",
+      "**/profiles/*.yml"
+    ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-configsource-0.5.0.json",
+    "url": "https://www.schemastore.org/cfgd-configsource-0.10.0.json",
     "description": "cfgd multi-source configuration manifest (cfgd-source.yaml)",
     "name": "cfgd ConfigSource",
     "versions": {
+      "0.10.0": "https://www.schemastore.org/cfgd-configsource-0.10.0.json",
       "0.5.0": "https://www.schemastore.org/cfgd-configsource-0.5.0.json"
     },
     "fileMatch": [
@@ -14239,6 +14248,15 @@ export const schemata =
       "1.34": "https://github.com/vidispine/hull/blob/release-1.34/hull/values.schema.json",
       "1.35": "https://github.com/vidispine/hull/blob/release-1.35/hull/values.schema.json"
     }
+  },
+  {
+    "url": "https://www.schemastore.org/urai-ecma.json",
+    "description": "Configuration file for urai-ecma: AST commentary, pruning, and LLM context packaging engine for ECMAScript codebases",
+    "name": "urai-ecma",
+    "fileMatch": [
+      "urai.config.jsonc",
+      "urai.config.json"
+    ]
   }
 ]
 export const schemas = schemata
