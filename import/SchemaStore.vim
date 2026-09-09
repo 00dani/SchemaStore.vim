@@ -3393,6 +3393,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://datavzrd.github.io/schema/latest/datavzrd.schema.json",
+    "description": "Configuration file for datavzrd, a tool to create visual and interactive HTML reports from tabular data",
+    "name": "datavzrd",
+    "fileMatch": [
+      "*.datavzrd.yaml",
+      "*.datavzrd.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/ddev/ddev/master/pkg/globalconfig/schema.json",
     "description": "DDEV global configuration file",
     "name": "ddev-global",
@@ -14256,6 +14265,14 @@ export const schemata =
     "fileMatch": [
       "urai.config.jsonc",
       "urai.config.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SHARProduction/production-delivery-manifest-schema/v1.0.0/schema.json",
+    "description": "Rights-labelled video-production delivery manifest",
+    "name": "Production delivery manifest",
+    "fileMatch": [
+      "production-delivery-manifest.json"
     ]
   }
 ]
