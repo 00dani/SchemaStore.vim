@@ -14274,6 +14274,14 @@ export const schemata =
     "fileMatch": [
       "production-delivery-manifest.json"
     ]
+  },
+  {
+    "url": "https://defakto-security.github.io/build-actions/ci.schema.json",
+    "description": "CI configuration files used at Defakto Security",
+    "name": "Defakto CI",
+    "fileMatch": [
+      "**/.defakto/ci.yaml"
+    ]
   }
 ]
 export const schemas = schemata
