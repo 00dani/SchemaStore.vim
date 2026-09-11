@@ -2865,22 +2865,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/codeship-services.json",
-    "description": "codeship-services.yml files",
-    "name": "CodeShip Pro services configuration files",
-    "fileMatch": [
-      "codeship-services.yml"
-    ]
-  },
-  {
-    "url": "https://www.schemastore.org/codeship-steps.json",
-    "description": "codeship-steps.yml files",
-    "name": "CodeShip Pro steps configuration files",
-    "fileMatch": [
-      "codeship-steps.yml"
-    ]
-  },
-  {
     "url": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
     "description": "vcpkg manifest file",
     "name": "vcpkg manifest file",
