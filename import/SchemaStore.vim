@@ -5178,6 +5178,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/brettinternet/hum/main/hum.schema.json",
+    "description": "Hum project process manifest",
+    "name": "hum",
+    "fileMatch": [
+      "hum.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/j2inn/hayson/master/hayson-json-schema.json",
     "description": "Project Haystack data",
     "name": "Hayson",
@@ -7103,12 +7111,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.1.0/opentelemetry_configuration.json",
+    "url": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.2.0/opentelemetry_configuration.json",
     "description": "OpenTelemetry declarative configuration for SDKs and instrumentation",
     "name": "OpenTelemetry Declarative Configuration",
     "versions": {
       "1.1.0": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.1.0/opentelemetry_configuration.json",
-      "1.0.0": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.0.0/opentelemetry_configuration.json"
+      "1.0.0": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.0.0/opentelemetry_configuration.json",
+      "1.2.0": "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.2.0/opentelemetry_configuration.json"
     },
     "fileMatch": [
       "opentelemetry*.yaml",
