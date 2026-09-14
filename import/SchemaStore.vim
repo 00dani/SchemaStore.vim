@@ -5182,7 +5182,11 @@ export const schemata =
     "description": "Hum project process manifest",
     "name": "hum",
     "fileMatch": [
-      "hum.yaml"
+      "hum.yaml",
+      "hum.*.yaml",
+      "*.hum.yaml",
+      "hum.yml",
+      "*.hum.yml"
     ]
   },
   {
@@ -10783,6 +10787,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://mise.jdx.dev/schema/mise-task.json",
+    "description": "mise config for `task_config.includes` tasks",
+    "name": "mise task"
+  },
+  {
     "url": "https://www.schemastore.org/mta.json",
     "description": "A MTA projects v3.3",
     "name": "mta.yaml",
@@ -10818,7 +10827,7 @@ export const schemata =
   },
   {
     "url": "https://www.schemastore.org/xs-app.json",
-    "description": "the SAP Application Router v8.2.2",
+    "description": "SAP Application Router configuration file",
     "name": "xs-app.json",
     "fileMatch": [
       "xs-app.json"
