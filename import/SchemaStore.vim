@@ -297,6 +297,11 @@ export const schemata =
     ]
   },
   {
+    "url": "https://arsentev.ai/schemas/agent-run-metrics.json",
+    "description": "Report in the Agent Run Metrics format for resource accounting of language-model agent runs (IETF Internet-Draft draft-arsentev-agent-run-metrics)",
+    "name": "Agent Run Metrics"
+  },
+  {
     "url": "https://www.schemastore.org/agripparc-1.4.json",
     "description": "the Agrippa config file",
     "name": ".agripparc.json",
@@ -488,6 +493,14 @@ export const schemata =
     "name": "AI Harness org policy",
     "fileMatch": [
       "aih-org-policy.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/petrsx/aibench/main/schema/aibench.schema.json",
+    "description": "aibench config (aibench.yaml): endpoint profiles and the prompt sets tested against them",
+    "name": "aibench",
+    "fileMatch": [
+      "aibench.yaml"
     ]
   },
   {
@@ -1965,6 +1978,23 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.canvasxpress.org/schema/cxplot-1.0.schema.json",
+    "description": "CanvasXpress materialized grammar-of-graphics figure (layers, scales, coordinates, facets)",
+    "name": "CanvasXpress cxplot",
+    "fileMatch": [
+      "*.cxplot.json"
+    ]
+  },
+  {
+    "url": "https://www.canvasxpress.org/schema/cxfigure-1.0.schema.json",
+    "description": "Portable, self-describing CanvasXpress figure ({data, config}): a reproducible chart interchange format",
+    "name": "CanvasXpress figure",
+    "fileMatch": [
+      "*.cxfigure.json",
+      "*.cx.json"
+    ]
+  },
+  {
     "url": "https://carafe.fm/schema/draft-02/bundle.schema.json",
     "description": "Carafe compatible JavaScript Bundles",
     "name": "Carafe",
@@ -1972,6 +2002,15 @@ export const schemata =
       "draft-01": "https://carafe.fm/schema/draft-01/bundle.schema.json",
       "draft-02": "https://carafe.fm/schema/draft-02/bundle.schema.json"
     }
+  },
+  {
+    "url": "https://www.schemastore.org/cargo-config.json",
+    "description": "Configuration for Cargo, the Rust package manager and build tool",
+    "name": "Cargo Config",
+    "fileMatch": [
+      "**/.cargo/config",
+      "**/.cargo/config.toml"
+    ]
   },
   {
     "url": "https://www.schemastore.org/cargo.json",
