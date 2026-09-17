@@ -6016,6 +6016,28 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/replacement-transformer.json",
+    "description": "Configuration file for the Kustomize ReplacementTransformer built-in, referenced from the transformers field of a kustomization.yaml file",
+    "name": "replacement-transformer.yaml",
+    "fileMatch": [
+      "replacement-transformer.yaml",
+      "replacement-transformer.yml",
+      "replacementtransformer.yaml",
+      "replacementtransformer.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/value-add-transformer.json",
+    "description": "Configuration file for the Kustomize ValueAddTransformer built-in, referenced from the transformers field of a kustomization.yaml file",
+    "name": "value-add-transformer.yaml",
+    "fileMatch": [
+      "value-add-transformer.yaml",
+      "value-add-transformer.yml",
+      "valueaddtransformer.yaml",
+      "valueaddtransformer.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/label-commenter-config.json",
     "description": "A the configuration of the Label Commenter GitHub Action",
     "name": "label-commenter-config.yml",
@@ -14172,12 +14194,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-config-0.10.0.json",
+    "url": "https://www.schemastore.org/cfgd-config-0.11.0.json",
     "description": "cfgd root configuration file (cfgd.yaml)",
     "name": "cfgd Config",
     "versions": {
       "0.10.0": "https://www.schemastore.org/cfgd-config-0.10.0.json",
-      "0.5.0": "https://www.schemastore.org/cfgd-config-0.5.0.json"
+      "0.5.0": "https://www.schemastore.org/cfgd-config-0.5.0.json",
+      "0.11.0": "https://www.schemastore.org/cfgd-config-0.11.0.json"
     },
     "fileMatch": [
       "cfgd.yaml",
@@ -14185,24 +14208,26 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-module-0.10.0.json",
+    "url": "https://www.schemastore.org/cfgd-module-0.11.0.json",
     "description": "cfgd Module definition document",
     "name": "cfgd Module",
     "versions": {
       "0.10.0": "https://www.schemastore.org/cfgd-module-0.10.0.json",
-      "0.5.0": "https://www.schemastore.org/cfgd-module-0.5.0.json"
+      "0.5.0": "https://www.schemastore.org/cfgd-module-0.5.0.json",
+      "0.11.0": "https://www.schemastore.org/cfgd-module-0.11.0.json"
     },
     "fileMatch": [
       "**/modules/*/module.yaml"
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-profile-0.10.0.json",
+    "url": "https://www.schemastore.org/cfgd-profile-0.11.0.json",
     "description": "cfgd Profile definition document",
     "name": "cfgd Profile",
     "versions": {
       "0.10.0": "https://www.schemastore.org/cfgd-profile-0.10.0.json",
-      "0.5.0": "https://www.schemastore.org/cfgd-profile-0.5.0.json"
+      "0.5.0": "https://www.schemastore.org/cfgd-profile-0.5.0.json",
+      "0.11.0": "https://www.schemastore.org/cfgd-profile-0.11.0.json"
     },
     "fileMatch": [
       "**/profiles/*/profile.yaml",
@@ -14211,12 +14236,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-configsource-0.10.0.json",
+    "url": "https://www.schemastore.org/cfgd-configsource-0.11.0.json",
     "description": "cfgd multi-source configuration manifest (cfgd-source.yaml)",
     "name": "cfgd ConfigSource",
     "versions": {
       "0.10.0": "https://www.schemastore.org/cfgd-configsource-0.10.0.json",
-      "0.5.0": "https://www.schemastore.org/cfgd-configsource-0.5.0.json"
+      "0.5.0": "https://www.schemastore.org/cfgd-configsource-0.5.0.json",
+      "0.11.0": "https://www.schemastore.org/cfgd-configsource-0.11.0.json"
     },
     "fileMatch": [
       "cfgd-source.yaml",
