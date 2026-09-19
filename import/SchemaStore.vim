@@ -4459,6 +4459,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/brajevicm/klin/main/schemas/klin.json",
+    "description": "klin quality policy configuration",
+    "name": "klin.json",
+    "fileMatch": [
+      "klin.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/knative/func/latest-release/schema/func_yaml-schema.json",
     "description": "Knative Functions func.yaml files",
     "name": "Knative Functions - func.yaml",
