@@ -6285,6 +6285,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/MCDReforged/schema/master/schemas/mcdreforged-plugin-metadata.json",
+    "description": "MCDReforged multi-file plugin metadata file",
+    "name": "mcdreforged.plugin.json",
+    "fileMatch": [
+      "mcdreforged.plugin.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/MCDReforged/schema/master/schemas/mcdreforged-link-directory-plugin.json",
+    "description": "MCDReforged linked directory plugin configuration file",
+    "name": "mcdreforged.linked_directory_plugin.json",
+    "fileMatch": [
+      "mcdreforged.linked_directory_plugin.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/micro.json",
     "description": "A micro editor config",
     "name": "A micro editor config",
@@ -8012,6 +8028,17 @@ export const schemata =
     "fileMatch": [
       "alertmanager.yml",
       "alertmanager.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/promtail.json",
+    "description": "An agent which ships the contents of local logs to a private Grafana Loki instance or Grafana Cloud",
+    "name": "Promtail",
+    "fileMatch": [
+      "promtail.yaml",
+      "promtail.yml",
+      "promtail-config.yaml",
+      "promtail-config.yml"
     ]
   },
   {
@@ -11221,7 +11248,9 @@ export const schemata =
     "description": "djLint configuration file",
     "name": "djlint",
     "fileMatch": [
-      ".djlintrc"
+      ".djlintrc",
+      "djlint.toml",
+      ".djlint.toml"
     ]
   },
   {
