@@ -389,7 +389,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-supply-plan-14.1.0.json",
+    "url": "https://www.schemastore.org/abc-supply-plan-14.2.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
@@ -406,6 +406,7 @@ export const schemata =
       "5.0.0": "https://www.schemastore.org/abc-supply-plan-5.0.0.json",
       "11.0.0": "https://www.schemastore.org/abc-supply-plan-11.0.0.json",
       "9.0.0": "https://www.schemastore.org/abc-supply-plan-9.0.0.json",
+      "14.2.0": "https://www.schemastore.org/abc-supply-plan-14.2.0.json",
       "11.3.0": "https://www.schemastore.org/abc-supply-plan-11.3.0.json",
       "4.0.0": "https://www.schemastore.org/abc-supply-plan-4.0.0.json",
       "10.0.0": "https://www.schemastore.org/abc-supply-plan-10.0.0.json",
@@ -1712,6 +1713,15 @@ export const schemata =
     "name": "Boyka Framework",
     "fileMatch": [
       "boyka-config.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/brickKit/brickKit/main/schemas/brickkit.schema.json",
+    "description": "BrickKit project configuration (brickkit.yaml): declares components, install sources, deploy target and resource bindings",
+    "name": "BrickKit",
+    "fileMatch": [
+      "brickkit.yaml",
+      "brickkit.*.yaml"
     ]
   },
   {
@@ -10614,6 +10624,14 @@ export const schemata =
       ".v8rrc.json",
       ".v8rrc.yaml",
       ".v8rrc.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/thunderbird-extension.json",
+    "description": "Thunderbird add-on manifest.json (Manifest V3)",
+    "name": "Thunderbird Extension",
+    "fileMatch": [
+      "thunderbird-extension.json"
     ]
   },
   {
