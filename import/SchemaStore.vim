@@ -10422,53 +10422,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/venvironment-schema-v5.1.0.json",
-    "description": "Simulation and test environment for Vector CANoe Server Editions",
-    "name": "venvironment.yaml",
-    "versions": {
-      "2.2.0": "https://www.schemastore.org/venvironment-schema-v2.2.0.json",
-      "3.2.0": "https://www.schemastore.org/venvironment-schema-v3.2.0.json",
-      "4.2.0": "https://www.schemastore.org/venvironment-schema-v4.2.0.json",
-      "4.0.0": "https://www.schemastore.org/venvironment-schema-v4.0.0.json",
-      "5.0.0": "https://www.schemastore.org/venvironment-schema-v5.0.0.json",
-      "1.1.0": "https://www.schemastore.org/venvironment-schema-v1.1.0.json",
-      "1.1.1": "https://www.schemastore.org/venvironment-schema-v1.1.1.json",
-      "3.1.0": "https://www.schemastore.org/venvironment-schema-v3.1.0.json",
-      "4.1.0": "https://www.schemastore.org/venvironment-schema-v4.1.0.json",
-      "5.1.0": "https://www.schemastore.org/venvironment-schema-v5.1.0.json",
-      "2.1.0": "https://www.schemastore.org/venvironment-schema-v2.1.0.json",
-      "1.0.0": "https://www.schemastore.org/venvironment-schema-v1.0.0.json",
-      "2.0.0": "https://www.schemastore.org/venvironment-schema-v2.0.0.json",
-      "3.0.0": "https://www.schemastore.org/venvironment-schema-v3.0.0.json"
-    },
-    "fileMatch": [
-      "venvironment.yaml",
-      "*.venvironment.yaml",
-      "venvironment.yml",
-      "*.venvironment.yml",
-      "venvironment.json",
-      "*.venvironment.json"
-    ]
-  },
-  {
-    "url": "https://www.schemastore.org/venvplus-schema-v1.2.0.json",
-    "description": "venvplus settings of Vector CANoe Server Editions",
-    "name": "venvplus.yaml",
-    "versions": {
-      "1.1.0": "https://www.schemastore.org/venvplus-schema-v1.1.0.json",
-      "1.0.0": "https://www.schemastore.org/venvplus-schema-v1.0.0.json",
-      "1.2.0": "https://www.schemastore.org/venvplus-schema-v1.2.0.json"
-    },
-    "fileMatch": [
-      "venvplus.yaml",
-      "*.venvplus.yaml",
-      "venvplus.yml",
-      "*.venvplus.yml",
-      "venvplus.json",
-      "*.venvplus.json"
-    ]
-  },
-  {
     "url": "https://raw.githubusercontent.com/eliashaeussler/version-bumper/refs/heads/main/res/version-bumper.schema.json",
     "description": "Configuration for Version Bumper, a Composer plugin to bump project versions during release preparations",
     "name": "Version Bumper config",
@@ -10586,34 +10539,6 @@ export const schemata =
     "name": "vss-extension.json",
     "fileMatch": [
       "vss-extension.json"
-    ]
-  },
-  {
-    "url": "https://www.schemastore.org/vtesttree-schema-v2.4.0.json",
-    "description": "Vector test execution tree description",
-    "name": "vtesttree.yaml",
-    "versions": {
-      "2.2.0": "https://www.schemastore.org/vtesttree-schema-v2.2.0.json",
-      "2.4.0": "https://www.schemastore.org/vtesttree-schema-v2.4.0.json",
-      "2.1.0": "https://www.schemastore.org/vtesttree-schema-v2.1.0.json",
-      "2.3.0": "https://www.schemastore.org/vtesttree-schema-v2.3.0.json",
-      "1.0.0": "https://www.schemastore.org/vtesttree-schema-v1.0.0.json",
-      "2.0.0": "https://www.schemastore.org/vtesttree-schema-v2.0.0.json"
-    },
-    "fileMatch": [
-      "*.vtesttree.yaml",
-      "*.vtesttree.yml",
-      "*.vtesttree.json"
-    ]
-  },
-  {
-    "url": "https://www.schemastore.org/vtestunit-schema.json",
-    "description": "Vector test unit description",
-    "name": "vtestunit.yaml",
-    "fileMatch": [
-      "*.vtestunit.yaml",
-      "*.vtestunit.yml",
-      "*.vtestunit.json"
     ]
   },
   {
@@ -14404,6 +14329,16 @@ export const schemata =
     "fileMatch": [
       "**/.defakto/ci.yaml"
     ]
+  },
+  {
+    "url": "https://aaes.ai/spec/v1/export.schema.json",
+    "description": "One JSON value in an aaes.export/v1 JSON Lines evidence export: a header, entry, or anchor line recording authorization decisions for AI agent actions; cryptographic verification is separate from structural validation",
+    "name": "AAES evidence export (aaes.export/v1)"
+  },
+  {
+    "url": "https://aaes.ai/spec/v1/evidence-pack-manifest.schema.json",
+    "description": "Manifest for an AAES evidence pack directory: stated population, explicit coverage exclusions, and file inventory for examiner review of AI agent action evidence",
+    "name": "AAES evidence pack manifest (aaes.evidence-pack/1)"
   }
 ]
 export const schemas = schemata
