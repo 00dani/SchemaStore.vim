@@ -11227,10 +11227,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-16.json",
+    "url": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-17.json",
     "description": "Gradle Enterprise configuration",
     "name": "Gradle Enterprise",
     "versions": {
+      "17.0": "https://docs.gradle.com/downloads/gradle-enterprise-config-schema/gradle-enterprise-config-schema-17.json",
       "5.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-5.json",
       "12.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-12.json",
       "8.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-8.json",
