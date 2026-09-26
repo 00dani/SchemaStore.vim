@@ -4251,7 +4251,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/expo-53.0.0.json",
+    "url": "https://www.schemastore.org/expo-57.0.0.json",
     "description": "Expo SDK app manifest",
     "name": "Expo SDK",
     "versions": {
@@ -4264,6 +4264,10 @@ export const schemata =
       "46.0.0": "https://www.schemastore.org/expo-46.0.0.json",
       "52.0.0": "https://www.schemastore.org/expo-52.0.0.json",
       "53.0.0": "https://www.schemastore.org/expo-53.0.0.json",
+      "54.0.0": "https://www.schemastore.org/expo-54.0.0.json",
+      "55.0.0": "https://www.schemastore.org/expo-55.0.0.json",
+      "56.0.0": "https://www.schemastore.org/expo-56.0.0.json",
+      "57.0.0": "https://www.schemastore.org/expo-57.0.0.json",
       "42.0.0": "https://www.schemastore.org/expo-42.0.0.json"
     },
     "fileMatch": []
@@ -6730,6 +6734,15 @@ export const schemata =
     "name": "mycode.json",
     "fileMatch": [
       "mycode.json"
+    ]
+  },
+  {
+    "url": "https://schemas.nais.io/editor.json",
+    "description": "Nais manifest files",
+    "name": "Nais manifests",
+    "fileMatch": [
+      "nais.yaml",
+      "**/.nais/*.yaml"
     ]
   },
   {
@@ -14341,6 +14354,74 @@ export const schemata =
     "url": "https://aaes.ai/spec/v1/evidence-pack-manifest.schema.json",
     "description": "Manifest for an AAES evidence pack directory: stated population, explicit coverage exclusions, and file inventory for examiner review of AI agent action evidence",
     "name": "AAES evidence pack manifest (aaes.evidence-pack/1)"
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-action.json",
+    "description": "Allstar action policy configuration",
+    "name": "Allstar Action",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-admin.json",
+    "description": "Allstar repository administrator policy configuration",
+    "name": "Allstar Administrators",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-binary.json",
+    "description": "Allstar binary artifacts policy configuration",
+    "name": "Allstar Binary Artifacts",
+    "fileMatch": [
+      "binary_artifacts.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-branch.json",
+    "description": "Allstar branch protection policy configuration",
+    "name": "Allstar Branch Protection",
+    "fileMatch": [
+      "branch_protection.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-codeowners.json",
+    "description": "Allstar CODEOWNERS policy configuration",
+    "name": "Allstar CODEOWNERS",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-config.json",
+    "description": "Allstar organization-level configuration file",
+    "name": "Allstar Configuration",
+    "fileMatch": [
+      "allstar.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-workflow.json",
+    "description": "Allstar dangerous workflow policy configuration",
+    "name": "Allstar Dangerous Workflow",
+    "fileMatch": [
+      "dangerous_workflow.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-outside.json",
+    "description": "Allstar outside collaborators policy configuration",
+    "name": "Allstar Outside Collaborators",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-scorecard.json",
+    "description": "Allstar Scorecard policy configuration",
+    "name": "Allstar Scorecard",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/allstar-security.json",
+    "description": "Allstar security policy configuration",
+    "name": "Allstar Security",
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
