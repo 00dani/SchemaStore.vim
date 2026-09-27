@@ -5618,6 +5618,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Tech-Byte-Frontier/jevgate/main/jevgate.schema.json",
+    "description": "JevGate code-review gate configuration",
+    "name": "JevGate",
+    "fileMatch": [
+      "jevgate.toml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/sergxerj/jdownloader2-crawler-rule-json-schema/main/jd2cr.schema.json",
     "description": "A validating a single jdownloader2 rule",
     "name": "JDownloader2 crawler single-rules",
