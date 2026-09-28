@@ -1716,6 +1716,48 @@ export const schemata =
     ]
   },
   {
+    "url": "https://breadkit.github.io/breadkit/schema/board-v1.json",
+    "description": "Board geometry and electrical strip definitions for Breadkit",
+    "name": "Breadkit board definition",
+    "fileMatch": [
+      "*.bkboard.yml",
+      "*.bkboard.yaml"
+    ]
+  },
+  {
+    "url": "https://breadkit.github.io/breadkit/schema/ir-v1.json",
+    "description": "Resolved single-board Breadkit circuit interchange format",
+    "name": "Breadkit circuit IR",
+    "fileMatch": [
+      "*.bkir.json"
+    ]
+  },
+  {
+    "url": "https://breadkit.github.io/breadkit/schema/ir-v2.json",
+    "description": "Resolved multi-board Breadkit circuit interchange format",
+    "name": "Breadkit circuit IR v2",
+    "fileMatch": [
+      "*.bkir-v2.json"
+    ]
+  },
+  {
+    "url": "https://breadkit.github.io/breadkit-lint/schemas/lint-v1.json",
+    "description": "JSON results produced by the Breadkit circuit linter",
+    "name": "Breadkit lint results",
+    "fileMatch": [
+      "*.bklint.json"
+    ]
+  },
+  {
+    "url": "https://breadkit.github.io/breadkit/schema/part-v1.json",
+    "description": "Part pin, footprint, and rendering definitions for Breadkit",
+    "name": "Breadkit part definition",
+    "fileMatch": [
+      "*.bkpart.yml",
+      "*.bkpart.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/brickKit/brickKit/main/schemas/brickkit.schema.json",
     "description": "BrickKit project configuration (brickkit.yaml): declares components, install sources, deploy target and resource bindings",
     "name": "BrickKit",
@@ -13011,12 +13053,105 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/moonrepo/moon/master/website/static/schemas/project.json",
-    "description": "Moonrepo project configuration file",
+    "url": "https://moonrepo.dev/schemas/v2/project.json",
+    "description": "moon (moonrepo) project configuration file",
     "name": "moon.yml",
+    "versions": {
+      "1": "https://moonrepo.dev/schemas/v1/project.json",
+      "2": "https://moonrepo.dev/schemas/v2/project.json"
+    },
     "fileMatch": [
-      "moon.yml"
+      "moon.yml",
+      "moon.yaml",
+      "moon.json",
+      "moon.jsonc",
+      "moon.toml"
     ]
+  },
+  {
+    "url": "https://moonrepo.dev/schemas/v2/workspace.json",
+    "description": "moon (moonrepo) workspace configuration file",
+    "name": "moon workspace",
+    "versions": {
+      "1": "https://moonrepo.dev/schemas/v1/workspace.json",
+      "2": "https://moonrepo.dev/schemas/v2/workspace.json"
+    },
+    "fileMatch": [
+      "**/.moon/workspace.yml",
+      "**/.moon/workspace.yaml",
+      "**/.moon/workspace.json",
+      "**/.moon/workspace.jsonc",
+      "**/.moon/workspace.toml",
+      "**/.config/moon/workspace.yml",
+      "**/.config/moon/workspace.yaml",
+      "**/.config/moon/workspace.json",
+      "**/.config/moon/workspace.jsonc",
+      "**/.config/moon/workspace.toml"
+    ]
+  },
+  {
+    "url": "https://moonrepo.dev/schemas/v2/toolchains.json",
+    "description": "moon (moonrepo) toolchains configuration file",
+    "name": "moon toolchains",
+    "fileMatch": [
+      "**/.moon/toolchains.yml",
+      "**/.moon/toolchains.yaml",
+      "**/.moon/toolchains.json",
+      "**/.moon/toolchains.jsonc",
+      "**/.moon/toolchains.toml",
+      "**/.config/moon/toolchains.yml",
+      "**/.config/moon/toolchains.yaml",
+      "**/.config/moon/toolchains.json",
+      "**/.config/moon/toolchains.jsonc",
+      "**/.config/moon/toolchains.toml"
+    ]
+  },
+  {
+    "url": "https://moonrepo.dev/schemas/v2/extensions.json",
+    "description": "moon (moonrepo) extensions configuration file",
+    "name": "moon extensions",
+    "fileMatch": [
+      "**/.moon/extensions.yml",
+      "**/.moon/extensions.yaml",
+      "**/.moon/extensions.json",
+      "**/.moon/extensions.jsonc",
+      "**/.moon/extensions.toml",
+      "**/.config/moon/extensions.yml",
+      "**/.config/moon/extensions.yaml",
+      "**/.config/moon/extensions.json",
+      "**/.config/moon/extensions.jsonc",
+      "**/.config/moon/extensions.toml"
+    ]
+  },
+  {
+    "url": "https://moonrepo.dev/schemas/v2/tasks.json",
+    "description": "moon (moonrepo) inherited tasks configuration file",
+    "name": "moon tasks",
+    "versions": {
+      "1": "https://moonrepo.dev/schemas/v1/tasks.json",
+      "2": "https://moonrepo.dev/schemas/v2/tasks.json"
+    },
+    "fileMatch": [
+      "**/.moon/tasks/**/*.yml",
+      "**/.moon/tasks/**/*.yaml",
+      "**/.moon/tasks/**/*.json",
+      "**/.moon/tasks/**/*.jsonc",
+      "**/.moon/tasks/**/*.toml",
+      "**/.config/moon/tasks/**/*.yml",
+      "**/.config/moon/tasks/**/*.yaml",
+      "**/.config/moon/tasks/**/*.json",
+      "**/.config/moon/tasks/**/*.jsonc",
+      "**/.config/moon/tasks/**/*.toml"
+    ]
+  },
+  {
+    "url": "https://moonrepo.dev/schemas/v2/template.json",
+    "description": "moon (moonrepo) code generation template configuration file (template.yml)",
+    "name": "moon template",
+    "versions": {
+      "1": "https://moonrepo.dev/schemas/v1/template.json",
+      "2": "https://moonrepo.dev/schemas/v2/template.json"
+    }
   },
   {
     "url": "https://raw.githubusercontent.com/wiremock/wiremock/refs/heads/master/schemas/wiremock-stub-mapping-or-mappings.json",
