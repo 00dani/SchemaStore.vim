@@ -1794,6 +1794,12 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/partial-inwards.json",
+    "description": "Inwards architecture linter configuration for pyproject.toml",
+    "name": "partial-inwards.json",
+    "fileMatch": []
+  },
+  {
     "url": "https://www.schemastore.org/bozr.json",
     "description": "Bozr test suite file",
     "name": "bozr.suite.json",
