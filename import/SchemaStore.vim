@@ -1320,6 +1320,22 @@ export const schemata =
     ]
   },
   {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-initial-site-settings.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing build settings and site mode for new sites",
+    "name": "CloudCannon Initial Site Settings",
+    "fileMatch": [
+      "**/.cloudcannon/initial-site-settings.json"
+    ]
+  },
+  {
+    "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-routing.schema.json",
+    "description": "Supporting configuration file for CloudCannon containing an array of route rules for redirects and rewrites",
+    "name": "CloudCannon Routing",
+    "fileMatch": [
+      "**/.cloudcannon/routing.json"
+    ]
+  },
+  {
     "url": "https://lando-community.github.io/lando-spec/landofile-spec.json",
     "description": "The configuration file for a Lando app. Documentation: https://github.com/lando-community/lando-spec",
     "name": "Lando (landofile)",
@@ -2093,6 +2109,18 @@ export const schemata =
     "fileMatch": [
       "catalog-info.yaml",
       "*.catalog-info.yaml"
+    ]
+  },
+  {
+    "url": "https://opencausal.org/causaljson/0.2/causaljson.schema.json",
+    "description": "Open Causal Graph Format: causal graphs (DAGs, ADMGs, MAGs, PAGs, causal loop diagrams) with citation metadata",
+    "name": "CausalJSON",
+    "versions": {
+      "0.1": "https://opencausal.org/causaljson/0.1/causaljson.schema.json",
+      "0.2": "https://opencausal.org/causaljson/0.2/causaljson.schema.json"
+    },
+    "fileMatch": [
+      "*.causal.json"
     ]
   },
   {
