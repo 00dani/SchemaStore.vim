@@ -8925,6 +8925,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/serve.json",
+    "description": "Configuration file for Vercel's serve static file server",
+    "name": "serve.json",
+    "fileMatch": [
+      "vercel.serve.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/settings.job.json",
     "description": "Azure Webjob settings file",
     "name": "settings.job",
@@ -11311,12 +11319,13 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/apollo-router-2.9.0.json",
+    "url": "https://www.schemastore.org/apollo-router-2.17.0.json",
     "description": "Apollo Router: The runtime for graph-based API orchestration",
     "name": "Apollo Router",
     "versions": {
       "2.8.1": "https://www.schemastore.org/apollo-router-2.8.1.json",
       "2.8.2": "https://www.schemastore.org/apollo-router-2.8.2.json",
+      "2.17.0": "https://www.schemastore.org/apollo-router-2.17.0.json",
       "2.9.0": "https://www.schemastore.org/apollo-router-2.9.0.json"
     },
     "fileMatch": [
@@ -14523,9 +14532,9 @@ export const schemata =
     ]
   },
   {
-    "url": "https://aaes.ai/spec/v1/export.schema.json",
-    "description": "One JSON value in an aaes.export/v1 JSON Lines evidence export: a header, entry, or anchor line recording authorization decisions for AI agent actions; cryptographic verification is separate from structural validation",
-    "name": "AAES evidence export (aaes.export/v1)"
+    "url": "https://aaes.ai/spec/v2/export.schema.json",
+    "description": "One JSON value in an aaes.export/v2 JSON Lines evidence export: a header, entry, or anchor line recording authorization decisions for AI agent actions; cryptographic verification is separate from structural validation",
+    "name": "AAES evidence export (aaes.export/v2)"
   },
   {
     "url": "https://aaes.ai/spec/v1/evidence-pack-manifest.schema.json",
