@@ -8460,18 +8460,24 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/package/schemas/reposets.config.schema.json",
+    "url": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/schemas/3.0/config.json",
     "description": "Configuration for the reposets CLI tool for syncing GitHub repository settings",
-    "name": "reposets Configuration",
+    "name": "reposets.config.toml",
+    "versions": {
+      "3.0": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/schemas/3.0/config.json"
+    },
     "fileMatch": [
       "reposets.config.toml",
       "reposets.config.json"
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/package/schemas/reposets.credentials.schema.json",
+    "url": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/schemas/3.0/credentials.json",
     "description": "Authentication profiles for the reposets CLI tool",
-    "name": "reposets Credentials",
+    "name": "reposets.credentials.toml",
+    "versions": {
+      "3.0": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/schemas/3.0/credentials.json"
+    },
     "fileMatch": [
       "reposets.credentials.toml",
       "reposets.credentials.json"
