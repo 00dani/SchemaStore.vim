@@ -14479,11 +14479,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-config-0.11.0.json",
+    "url": "https://www.schemastore.org/cfgd-config-0.12.0.json",
     "description": "cfgd root configuration file (cfgd.yaml)",
     "name": "cfgd Config",
     "versions": {
       "0.10.0": "https://www.schemastore.org/cfgd-config-0.10.0.json",
+      "0.12.0": "https://www.schemastore.org/cfgd-config-0.12.0.json",
       "0.5.0": "https://www.schemastore.org/cfgd-config-0.5.0.json",
       "0.11.0": "https://www.schemastore.org/cfgd-config-0.11.0.json"
     },
@@ -14493,11 +14494,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-module-0.11.0.json",
+    "url": "https://www.schemastore.org/cfgd-module-0.12.0.json",
     "description": "cfgd Module definition document",
     "name": "cfgd Module",
     "versions": {
       "0.10.0": "https://www.schemastore.org/cfgd-module-0.10.0.json",
+      "0.12.0": "https://www.schemastore.org/cfgd-module-0.12.0.json",
       "0.5.0": "https://www.schemastore.org/cfgd-module-0.5.0.json",
       "0.11.0": "https://www.schemastore.org/cfgd-module-0.11.0.json"
     },
@@ -14506,11 +14508,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-profile-0.11.0.json",
+    "url": "https://www.schemastore.org/cfgd-profile-0.12.0.json",
     "description": "cfgd Profile definition document",
     "name": "cfgd Profile",
     "versions": {
       "0.10.0": "https://www.schemastore.org/cfgd-profile-0.10.0.json",
+      "0.12.0": "https://www.schemastore.org/cfgd-profile-0.12.0.json",
       "0.5.0": "https://www.schemastore.org/cfgd-profile-0.5.0.json",
       "0.11.0": "https://www.schemastore.org/cfgd-profile-0.11.0.json"
     },
@@ -14521,11 +14524,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/cfgd-configsource-0.11.0.json",
+    "url": "https://www.schemastore.org/cfgd-configsource-0.12.0.json",
     "description": "cfgd multi-source configuration manifest (cfgd-source.yaml)",
     "name": "cfgd ConfigSource",
     "versions": {
       "0.10.0": "https://www.schemastore.org/cfgd-configsource-0.10.0.json",
+      "0.12.0": "https://www.schemastore.org/cfgd-configsource-0.12.0.json",
       "0.5.0": "https://www.schemastore.org/cfgd-configsource-0.5.0.json",
       "0.11.0": "https://www.schemastore.org/cfgd-configsource-0.11.0.json"
     },
