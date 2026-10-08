@@ -1477,6 +1477,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://format.dev/schema/format-config.json",
+    "description": "Configuration file for Format, for making PDFs with web technologies. Documentation: https://format.dev/docs/studio/configuration",
+    "name": "Format config",
+    "fileMatch": [
+      "format.config.json",
+      "format.config.*.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.2.json",
     "description": "Freifunk.de Community API. Documentation: https://github.com/freifunk/directory.api.freifunk.net",
     "name": "Freifunk.de Community API",
