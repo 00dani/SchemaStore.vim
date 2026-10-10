@@ -1486,6 +1486,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://formhaus.dev/schema/form-definition.json",
+    "description": "Declarative JSON form definition for Formhaus, a headless form engine. Documentation: https://formhaus.dev",
+    "name": "Formhaus form definition",
+    "fileMatch": [
+      "*.formhaus.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.2.json",
     "description": "Freifunk.de Community API. Documentation: https://github.com/freifunk/directory.api.freifunk.net",
     "name": "Freifunk.de Community API",
@@ -6465,9 +6473,19 @@ export const schemata =
     "name": "MegaLinter configuration",
     "fileMatch": [
       ".mega-linter.yml",
+      ".mega-linter.yaml",
       ".megalinter.yml",
+      ".megalinter.yaml",
       "*.mega-linter-config.yml",
-      "*.megalinter-config.yml"
+      "*.megalinter-config.yml",
+      "**/.config/mega-linter.yml",
+      "**/.config/mega-linter.yaml",
+      "**/.config/.mega-linter.yml",
+      "**/.config/.mega-linter.yaml",
+      "**/.config/megalinter.yml",
+      "**/.config/megalinter.yaml",
+      "**/.config/.megalinter.yml",
+      "**/.config/.megalinter.yaml"
     ]
   },
   {
@@ -8458,6 +8476,11 @@ export const schemata =
       ".rehyperc.yaml",
       ".rehyperc.yml"
     ]
+  },
+  {
+    "url": "https://xn--jonas-gebudereinigung-e2b.de/wp-content/uploads/2026/08/reinigungsplan-schema-1.0.0.json",
+    "description": "Structured cleaning plans with areas, services, recurrence, responsibilities and quality criteria",
+    "name": "Reinigungsplan"
   },
   {
     "url": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
@@ -14725,6 +14748,24 @@ export const schemata =
     "description": "Allstar security policy configuration",
     "name": "Allstar Security",
     "fileMatch": []
+  },
+  {
+    "url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim/main/debim.schema.json",
+    "description": "Declarative BIM (Building-as-Code) project manifest",
+    "name": "debim",
+    "versions": {
+      "1.0": "https://raw.githubusercontent.com/PRIDA-TAKON/debim/main/debim.schema.json"
+    },
+    "fileMatch": [
+      "*.debim",
+      "*.debim.yaml",
+      "*.debim.yml",
+      "*.dbim",
+      "*.dbim.yaml",
+      "*.dbim.yml",
+      "project.debim",
+      "project.debim.yaml"
+    ]
   }
 ]
 export const schemas = schemata
