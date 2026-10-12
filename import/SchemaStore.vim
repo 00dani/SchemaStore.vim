@@ -10042,7 +10042,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/twee-ts.config.json",
+    "url": "https://unpkg.com/@rohal12/twee-ts/schemas/twee-ts.config.schema.json",
     "description": "twee-ts compiler configuration file",
     "name": "twee-ts",
     "fileMatch": [
@@ -10774,6 +10774,14 @@ export const schemata =
     "fileMatch": [
       "manifest.json",
       "*.webmanifest"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/webjea.json",
+    "description": "Configuration file for WebJEA, a web-based PowerShell JEA execution framework",
+    "name": "WebJEA configuration",
+    "fileMatch": [
+      "webjea.json"
     ]
   },
   {
