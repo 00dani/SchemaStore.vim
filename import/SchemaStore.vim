@@ -6843,13 +6843,16 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/Mergifyio/docs/main/public/mergify-configuration-schema.json",
+    "url": "https://docs.mergify.com/mergify-configuration-schema.json",
     "description": "Mergify configuration file",
     "name": "Mergify Configuration",
     "fileMatch": [
       ".mergify.yml",
+      ".mergify.yaml",
       "**/.github/mergify.yml",
-      "**/.mergify/config.yml"
+      "**/.github/mergify.yaml",
+      "**/.mergify/config.yml",
+      "**/.mergify/config.yaml"
     ]
   },
   {
@@ -10964,7 +10967,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/lychee.json",
+    "url": "https://github.com/lycheeverse/lychee/releases/latest/download/schema.json",
     "description": "lychee link checker configuration file",
     "name": "lychee",
     "fileMatch": [
@@ -11014,6 +11017,15 @@ export const schemata =
       "*.mirrord.toml",
       "*.mirrord.yaml",
       "*.mirrord.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/metalbear-co/mirrord/main/mirrord-up-schema.json",
+    "description": "mirrord up configuration file",
+    "name": "mirrord up config",
+    "fileMatch": [
+      "mirrord-up.yaml",
+      "mirrord-up.yml"
     ]
   },
   {
