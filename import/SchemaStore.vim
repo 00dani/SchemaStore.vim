@@ -569,6 +569,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://microsoft.github.io/apm/specs/schemas/policy-v0.1.schema.json",
+    "description": "Agent Package Manager (APM) organization policy file",
+    "name": "apm-policy.yml",
+    "fileMatch": [
+      "apm-policy.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/apple-app-site-association.json",
     "description": "Apple Universal Link, App Site Association",
     "name": "apple-app-site-association",
@@ -6799,6 +6807,14 @@ export const schemata =
     "url": "https://www.schemastore.org/modelsdev.json",
     "description": "models CLI configuration file",
     "name": "models CLI"
+  },
+  {
+    "url": "https://modlabguides.online/schemas/modlab-mindustry-run-log-v1.schema.json",
+    "description": "ModLab Mindustry homing lab single-run log (Universal Modder worked example)",
+    "name": "modlab-last-run.json",
+    "fileMatch": [
+      "modlab-last-run.json"
+    ]
   },
   {
     "url": "https://raw.githubusercontent.com/software-t-rex/monospace/main/apps/monospace/schemas/monospace.schema.json",
