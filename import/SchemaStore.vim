@@ -5711,6 +5711,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/jdx/jactionlint/main/schema/jactionlint-config.json",
+    "description": "Configuration file for jactionlint",
+    "name": "jactionlint",
+    "fileMatch": [
+      "**/.github/jactionlint.yaml",
+      "**/.github/jactionlint.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/jasmine.json",
     "description": "jasmine JSON config file",
     "name": "Jasmine",
@@ -6439,6 +6448,15 @@ export const schemata =
       "**/.maestro/**/*.yml",
       "**/*.flow.yaml",
       "**/*.flow.yml"
+    ]
+  },
+  {
+    "url": "https://ordu1453.github.io/mapcan/schema/v1.json",
+    "description": "mapcan CAN signal map: buses, devices, frames and signals (CAN, CAN FD, CANopen, SAE J1939)",
+    "name": "mapcan",
+    "fileMatch": [
+      "*.mapcan.yaml",
+      "*.mapcan.yml"
     ]
   },
   {
