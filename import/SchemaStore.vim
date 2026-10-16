@@ -102,6 +102,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://hol.org/schema/policy/v1alpha1",
+    "description": "Policy file for HOL Guard, which decides what AI coding agents may run",
+    "name": "HOL Guard Policy",
+    "fileMatch": [
+      "guard-policy.yaml",
+      "guard-policy.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/teneplaysofficial/release-hub/main/schema/release-hub.schema.json",
     "description": "Configuration file for Release Hub",
     "name": "release-hub.json",
@@ -14820,6 +14829,68 @@ export const schemata =
       "project.debim",
       "project.debim.yaml"
     ]
+  },
+  {
+    "url": "https://www.schemastore.org/haijun-code-settings.json",
+    "description": "Configuration settings for Haijun Code, an AI coding assistant CLI",
+    "name": "Haijun Code Settings",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/haijun-code-marketplace.json",
+    "description": "Marketplace plugin manifest for Haijun Code",
+    "name": "Haijun Code Marketplace",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/haijun-code-plugin-manifest.json",
+    "description": "Plugin manifest (.haijun-plugin/plugin.json) for a Haijun Code plugin",
+    "name": "Haijun Code Plugin Manifest",
+    "fileMatch": [
+      "**/.haijun-plugin/plugin.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/haijun-tracks-discovery.json",
+    "description": "Discovery index for Haijun Tracks, listing published tracks with metadata, distribution URLs, and integrity digests",
+    "name": "Haijun Tracks Discovery",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/haijun-box.json",
+    "description": "Haijun Box plugin manifest for extending the Haijun Box CLI",
+    "name": "Haijun Box Plugin",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/haijun-voice.json",
+    "description": "Haijun Voice extension manifest for cross-platform AI voice communication",
+    "name": "Haijun Voice Extension",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/tracks.json",
+    "description": "Tracks knowledge-base format for AI agents (Markdown-based knowledge modules)",
+    "name": "Tracks",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/haijun-turborepo.json",
+    "description": "Turborepo configuration for Haijun projects (turbo.json)",
+    "name": "Haijun Turborepo",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/haijun-changesets.json",
+    "description": "Changesets configuration for Haijun projects (.changeset/config.json)",
+    "name": "Haijun Changesets",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/haijun-release-please.json",
+    "description": "Release Please configuration for Haijun projects (release-please-config.json)",
+    "name": "Haijun Release Please",
+    "fileMatch": []
   }
 ]
 export const schemas = schemata
