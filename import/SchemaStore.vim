@@ -729,6 +729,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/ynishi/arch-lint/main/schema/arch-lint.schema.json",
+    "description": "Configuration file for arch-lint, an architecture linter for Rust and multi-language projects",
+    "name": "arch-lint.toml",
+    "fileMatch": [
+      "arch-lint.toml",
+      ".arch-lint.toml"
+    ]
+  },
+  {
     "url": "https://archival.dev/schemas/archival_editor.schema.json",
     "description": "Per-object editor configuration for an archival site",
     "name": "Archival editor configuration",
@@ -3375,6 +3384,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://cosmoner.com/schemas/app.schema.json",
+    "description": "Cosmoner app deployment template",
+    "name": "Cosmoner app",
+    "fileMatch": [
+      "**/.cosmoner/deployment.yaml",
+      "**/.cosmoner/deployment.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/crowdin.json",
     "description": "Crowdin, a crowd-translation platform. Documentation: https://support.crowdin.com/configuration-file/",
     "name": "crowdin.yml",
@@ -5361,6 +5379,14 @@ export const schemata =
     "fileMatch": [
       "**/grunt/*.json",
       "*-tasks.json"
+    ]
+  },
+  {
+    "url": "https://generativespotting.com/gspot.schema.json",
+    "description": "gspot settings file that selects linters and agent rules for a repository",
+    "name": "gspot",
+    "fileMatch": [
+      "gspot.toml"
     ]
   },
   {
@@ -9238,6 +9264,12 @@ export const schemata =
     "fileMatch": [
       "*.map"
     ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/simonvanlierde/sourceledger/main/src/sourceledger/sources.schema.json",
+    "description": "Manifest of the public sources a sourceledger dataset is built from",
+    "name": "sourceledger sources.toml",
+    "fileMatch": []
   },
   {
     "url": "https://www.schemastore.org/sourcery_yaml_schema.json",
