@@ -46,6 +46,18 @@ export const schemata =
     ]
   },
   {
+    "url": "https://measure-map.github.io/specification/schema/latest/measuremap.schema.json",
+    "description": "MeasureMap: the measure (bar) structure of a music score, used to align different editions and encodings of a piece",
+    "name": "MeasureMap",
+    "versions": {
+      "1.0.0": "https://measure-map.github.io/specification/schema/1.0.0/measuremap.schema.json",
+      "1.0.1": "https://measure-map.github.io/specification/schema/1.0.1/measuremap.schema.json"
+    },
+    "fileMatch": [
+      "*.mm.json"
+    ]
+  },
+  {
     "url": "https://mermaid.js.org/schemas/config.schema.json",
     "description": "Configuration for Mermaid diagrams and charts",
     "name": "Mermaid config",
@@ -6100,7 +6112,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/kestra-0.19.0.json",
+    "url": "https://api.kestra.io/v1/plugins/schemas/flow",
     "description": "Kestra Flow definition file, see: kestra.io/docs/workflow-components/flow#flow-sample",
     "name": "Kestra flow file",
     "versions": {
