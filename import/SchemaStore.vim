@@ -9573,6 +9573,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://cdn.jsdelivr.net/npm/@jagreehal/stamp/.stamp/policy.schema.json",
+    "description": "Merge-gate policy for stamp, the approve-first PR reviewer. Documentation: https://github.com/jagreehal/stamp",
+    "name": "stamp policy",
+    "fileMatch": [
+      "**/.stamp/policy.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/veepee-oss/json-schema/refs/heads/main/starfish/1-latest/starfish-schema.json",
     "description": "Configuration file for Starfish",
     "name": "Starfish",
