@@ -2,6 +2,14 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://raw.githubusercontent.com/squid-farm/talewright/main/tooling/vscode-talewright/schemas/story.schema.json",
+    "description": "Talewright story manifest (story.talewright.yaml) for Tale interactive stories",
+    "name": "Talewright story manifest",
+    "fileMatch": [
+      "*.talewright.yaml"
+    ]
+  },
+  {
     "url": "https://aigeoradar.com/schemas/aipm/1.2/page-manifest.schema.json",
     "description": "AI Page Manifest (AIPM) v1.2.0, per-page .ai.json metadata for AI crawlers and answer engines",
     "name": "AI Page Manifest",
@@ -2083,6 +2091,15 @@ export const schemata =
       "cache-warmup.json",
       "cache-warmup.yaml",
       "cache-warmup.yml"
+    ]
+  },
+  {
+    "url": "https://ericchantc.github.io/crs-specification/crs-v0.1-schema.json",
+    "description": "13-field structured attestation protocol for AI agent calibration disclosure in regulated financial systems. Implements ISO 42001 Clause 9.1 for agentic AI",
+    "name": "Calibration Reporting Standard (CRS) v0.1",
+    "fileMatch": [
+      "crs-attestation.json",
+      "*.crs-attestation.json"
     ]
   },
   {
@@ -6459,6 +6476,15 @@ export const schemata =
     "fileMatch": [
       "*.lsdl.yaml",
       "*.lsdl.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+    "description": "Lua language server (LuaLS) settings file. Documentation: https://luals.github.io/wiki/settings/",
+    "name": ".luarc.json",
+    "fileMatch": [
+      ".luarc.json",
+      ".luarc.jsonc"
     ]
   },
   {
@@ -14476,7 +14502,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/JasonFinestone/runspec/main/schema/runspec.schema.json",
+    "url": "https://runspec.app/runspec.schema.json",
     "description": "Interface specification for anything runnable — scripts, apps, and MCP tools",
     "name": "runspec",
     "fileMatch": [
