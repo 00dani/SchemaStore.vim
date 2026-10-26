@@ -2,6 +2,17 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://wavedrom.com/schema/wavedrom.json",
+    "description": "WaveJSON: WaveDrom digital timing diagram, bit-field (register) and logic circuit description",
+    "name": "WaveDrom",
+    "fileMatch": [
+      "*.wavedrom.json",
+      "*.wavedrom.json5",
+      "*.wavejson",
+      "*.wd.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/squid-farm/talewright/main/tooling/vscode-talewright/schemas/story.schema.json",
     "description": "Talewright story manifest (story.talewright.yaml) for Tale interactive stories",
     "name": "Talewright story manifest",
@@ -418,13 +429,16 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-5.1.0.json",
+    "url": "https://www.schemastore.org/abc-clinical-demand-forecast-6.0.0.json",
     "description": "ABCClinicalDemandForecast defining the structure of clinical trial demand forecasting data in ABC-Plan",
     "name": "ABCClinicalDemandForecast",
     "versions": {
       "4.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json",
       "5.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-5.0.0.json",
+      "6.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-6.0.0.json",
+      "5.2.0": "https://www.schemastore.org/abc-clinical-demand-forecast-5.2.0.json",
       "5.1.0": "https://www.schemastore.org/abc-clinical-demand-forecast-5.1.0.json",
+      "5.3.0": "https://www.schemastore.org/abc-clinical-demand-forecast-5.3.0.json",
       "1.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
       "2.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-2.0.0.json",
       "3.0.0": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json"
@@ -434,10 +448,11 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/abc-supply-plan-14.2.0.json",
+    "url": "https://www.schemastore.org/abc-supply-plan-14.3.0.json",
     "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
     "name": "ABCSupplyPlan",
     "versions": {
+      "14.3.0": "https://www.schemastore.org/abc-supply-plan-14.3.0.json",
       "7.0.0": "https://www.schemastore.org/abc-supply-plan-7.0.0.json",
       "13.0.0": "https://www.schemastore.org/abc-supply-plan-13.0.0.json",
       "11.4.0": "https://www.schemastore.org/abc-supply-plan-11.4.0.json",
