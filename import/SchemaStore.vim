@@ -3141,6 +3141,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/complexipy.json",
+    "description": "complexipy cognitive complexity analyzer configuration file",
+    "name": "complexipy",
+    "fileMatch": [
+      "complexipy.toml",
+      ".complexipy.toml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/commands.json",
     "description": "Config file for Command Task Runner",
     "name": "commands.json",
@@ -8630,6 +8639,15 @@ export const schemata =
     "fileMatch": [
       "release-plz.toml",
       ".release-plz.toml"
+    ]
+  },
+  {
+    "url": "https://relwolf.lupiq.io/schema.json",
+    "description": "relwolf release bot configuration file for GitLab and GitHub",
+    "name": "relwolf",
+    "fileMatch": [
+      "relwolf.yaml",
+      "relwolf.yml"
     ]
   },
   {
