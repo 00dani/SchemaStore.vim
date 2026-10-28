@@ -2,6 +2,14 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://ramoira.com/schema/v3/SPEC.schema.json",
+    "description": "A brand's meaning and rules in the open Ramoira format (spec 3.x)",
+    "name": "Ramoira brand file",
+    "fileMatch": [
+      "**/ramoira/brand.schema.json"
+    ]
+  },
+  {
     "url": "https://wavedrom.com/schema/wavedrom.json",
     "description": "WaveJSON: WaveDrom digital timing diagram, bit-field (register) and logic circuit description",
     "name": "WaveDrom",
@@ -350,6 +358,14 @@ export const schemata =
     "name": "Aerleon Policy",
     "fileMatch": [
       "**/policies/**/*.yaml"
+    ]
+  },
+  {
+    "url": "https://zambo.dev/aer-1/schema.json",
+    "description": "Verifiable execution receipt for AI agent tool calls (AER-1, IETF draft-zambo-aer1-26)",
+    "name": "AER-1 agent execution receipt",
+    "fileMatch": [
+      "*.aer1.json"
     ]
   },
   {
@@ -10177,17 +10193,22 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/ttheme-market.json",
-    "description": "Market file of ttheme, which names a repository of terminal palettes",
-    "name": "ttheme market",
+    "url": "https://www.schemastore.org/ttheme-marketplace.json",
+    "description": "Marketplace file of ttheme, which names a repository of terminal palettes",
+    "name": "ttheme marketplace",
     "fileMatch": [
-      "ttheme-market.toml"
+      "ttheme-marketplace.toml"
     ]
   },
   {
     "url": "https://www.schemastore.org/ttheme-palette.json",
     "description": "Terminal palette file of ttheme",
     "name": "ttheme palette"
+  },
+  {
+    "url": "https://www.schemastore.org/ttheme-work.json",
+    "description": "Work file of ttheme: a work and its characters, which terminal palettes are of",
+    "name": "ttheme work"
   },
   {
     "url": "https://raw.githubusercontent.com/rliebz/tusk/main/tusk.schema.json",
