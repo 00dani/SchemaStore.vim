@@ -2468,6 +2468,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://cdn.jsdelivr.net/npm/@claudexor/schema@4.8.1/generated/ProjectConfig.schema.json",
+    "description": "Project settings for the Claudexor coding-agent control plane",
+    "name": "Claudexor Project Configuration",
+    "fileMatch": [
+      "**/.claudexor/config.yaml"
+    ]
+  },
+  {
     "url": "https://cmakefmt.dev/schemas/latest/schema.json",
     "description": "Configuration file for cmakefmt, a fast native CMake formatter",
     "name": "cmakefmt",
@@ -4737,6 +4745,14 @@ export const schemata =
     "fileMatch": [
       "knip.jsonc",
       ".knip.jsonc"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/varabyte/kobweb/main/schemas/kobweb-conf.schema.json",
+    "description": "Configuration file for a Kobweb (Kotlin web framework) site",
+    "name": "Kobweb conf.yaml",
+    "fileMatch": [
+      "**/.kobweb/conf.yaml"
     ]
   },
   {
