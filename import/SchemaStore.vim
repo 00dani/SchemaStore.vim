@@ -5125,6 +5125,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/glsec/glsec/main/schema/glsec.schema.json",
+    "description": "Configuration file for glsec, a security linter for GitLab CI/CD pipelines. Documentation: https://github.com/glsec/glsec#configuration-file",
+    "name": "glsec",
+    "fileMatch": [
+      ".glsec.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/execution-environment.json",
     "description": "Ansible execution-environment.yml file",
     "name": "Ansible Execution Environment",
