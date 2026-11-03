@@ -1133,14 +1133,15 @@ export const schemata =
     "name": "bottom configuration",
     "versions": {
       "0.12.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.12.0/bottom.json",
+      "0.10": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.10/bottom.json",
       "nightly": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json",
       "0.11": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.11/bottom.json",
-      "0.14.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.0/bottom.json",
+      "0.14.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.9/bottom.json",
       "0.13.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.13.0/bottom.json",
       "0.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.9/bottom.json",
       "0.14.7": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.7/bottom.json",
-      "0.14.9": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.9/bottom.json",
-      "0.10": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.10/bottom.json"
+      "0.15.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.15.0/bottom.json",
+      "0.14.0": "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.0/bottom.json"
     },
     "fileMatch": [
       "bottom.toml"
@@ -2741,6 +2742,14 @@ export const schemata =
     "name": "Dein Config",
     "fileMatch": [
       "dein.toml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/dep-sync.json",
+    "description": "Manifest for dep_sync Git multi-repository workspace synchronization",
+    "name": "dep_sync workspace manifest",
+    "fileMatch": [
+      "**/.dep-sync/manifest.yaml"
     ]
   },
   {
@@ -4702,6 +4711,30 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/k2f-manifest.json",
+    "description": "K2F (Key-to-Flow) v0.3 package manifest — page size, margins, and engine version for the ZIP document format. https://k2f.dev · https://github.com/suzheng/k2f/blob/main/docs/spec/k2f-v0.3.md",
+    "name": "K2F package manifest",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/k2f-nodes.json",
+    "description": "K2F v0.3 semantic tree node JSON (content/root.json and included content files). https://k2f.dev",
+    "name": "K2F semantic node",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/k2f-styles.json",
+    "description": "K2F v0.3 role-based theme (styles/theme.json). https://k2f.dev",
+    "name": "K2F theme",
+    "fileMatch": []
+  },
+  {
+    "url": "https://www.schemastore.org/partial-k2f-signatures.json",
+    "description": "K2F v0.3 Ed25519 signature record (signatures/v1.json in packed packages). https://k2f.dev",
+    "name": "K2F signatures record",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/karakum-team/karakum/master/karakum-schema/karakum-schema.json",
     "description": "configuring Karakum, a converter of TypeScript declaration files to Kotlin declarations",
     "name": "Karakum configuration file",
@@ -5970,7 +6003,7 @@ export const schemata =
     "name": "Jovo Language Models"
   },
   {
-    "url": "https://www.schemastore.org/jreleaser-1.26.0.json",
+    "url": "https://www.schemastore.org/jreleaser-1.27.0.json",
     "description": "JReleaser config file",
     "name": "JReleaser",
     "versions": {
@@ -5988,9 +6021,10 @@ export const schemata =
       "1.8.0": "https://www.schemastore.org/jreleaser-1.8.0.json",
       "1.10.0": "https://www.schemastore.org/jreleaser-1.10.0.json",
       "1.24.0": "https://www.schemastore.org/jreleaser-1.24.0.json",
+      "1.13.1": "https://www.schemastore.org/jreleaser-1.13.1.json",
       "1.18.0": "https://www.schemastore.org/jreleaser-1.18.0.json",
       "1.13.0": "https://www.schemastore.org/jreleaser-1.13.0.json",
-      "1.13.1": "https://www.schemastore.org/jreleaser-1.13.1.json",
+      "1.27.0": "https://www.schemastore.org/jreleaser-1.27.0.json",
       "1.6.0": "https://www.schemastore.org/jreleaser-1.6.0.json",
       "1.22.0": "https://www.schemastore.org/jreleaser-1.22.0.json",
       "1.16.0": "https://www.schemastore.org/jreleaser-1.16.0.json",
@@ -6585,6 +6619,34 @@ export const schemata =
       "**/.maestro/**/*.yml",
       "**/*.flow.yaml",
       "**/*.flow.yml"
+    ]
+  },
+  {
+    "url": "https://mandrelproject.ai/v1/mandrel-spec.schema.json",
+    "description": "Declarative contract for autonomous AI agent governance (Mandrel Spec source contract)",
+    "name": "Mandrel Agent Spec",
+    "fileMatch": [
+      "mandrel.yaml",
+      "mandrel.yml",
+      "*.mandrel.yaml",
+      "*.mandrel.yml",
+      "mandrel-spec.yaml",
+      "mandrel-spec.yml",
+      "*.mandrel-spec.yaml",
+      "*.mandrel-spec.yml"
+    ]
+  },
+  {
+    "url": "https://mandrelproject.ai/v1/mandrel-realized-spec.schema.json",
+    "description": "Baked and signed declarative contract for autonomous AI agent runtime enforcement (Mandrel Realized Spec)",
+    "name": "Mandrel Realized Spec",
+    "fileMatch": [
+      "realized-spec.yaml",
+      "realized-spec.yml",
+      "*.realized-spec.yaml",
+      "*.realized-spec.yml",
+      "*.realized.yaml",
+      "*.realized.yml"
     ]
   },
   {
@@ -7807,6 +7869,38 @@ export const schemata =
     },
     "fileMatch": [
       "oscal*ssp.json"
+    ]
+  },
+  {
+    "url": "https://w3id.org/osd/0.5/device.schema.json",
+    "description": "Open Synth Descriptors: how a synthesizer, drum machine, controller or music software speaks MIDI or OSC (https://github.com/roomi-fields/open-synth-descriptors)",
+    "name": "OSD device descriptor",
+    "versions": {
+      "0.4": "https://w3id.org/osd/0.4/device.schema.json",
+      "0.5": "https://w3id.org/osd/0.5/device.schema.json"
+    }
+  },
+  {
+    "url": "https://w3id.org/osd/0.5/fingerprint.schema.json",
+    "description": "Open Synth Descriptors: how a music device is recognised",
+    "name": "OSD fingerprint"
+  },
+  {
+    "url": "https://w3id.org/osd/0.5/firmware.schema.json",
+    "description": "Open Synth Descriptors: what a firmware changes on a music device",
+    "name": "OSD firmware descriptor"
+  },
+  {
+    "url": "https://w3id.org/osd/0.5/profile.schema.json",
+    "description": "Open Synth Descriptors: what a maker's music devices share",
+    "name": "OSD maker profile"
+  },
+  {
+    "url": "https://w3id.org/osd/0.5/sound.schema.json",
+    "description": "Open Synth Descriptors: a shared sound for a music device, its author and licence",
+    "name": "OSD sound descriptor",
+    "fileMatch": [
+      "*.osd.json"
     ]
   },
   {
@@ -11225,6 +11319,18 @@ export const schemata =
     "fileMatch": [
       "mirrord-up.yaml",
       "mirrord-up.yml"
+    ]
+  },
+  {
+    "url": "https://fnox.jdx.dev/schema.json",
+    "description": "fnox config, encrypted/remote secret manager",
+    "name": "fnox",
+    "fileMatch": [
+      ".fnox.toml",
+      ".fnox.*.toml",
+      "fnox.toml",
+      "fnox.*.toml",
+      "**/.config/fnox/config.toml"
     ]
   },
   {
@@ -15047,6 +15153,21 @@ export const schemata =
     "description": "Release Please configuration for Haijun projects (release-please-config.json)",
     "name": "Haijun Release Please",
     "fileMatch": []
+  },
+  {
+    "url": "https://yazi-rs.github.io/schemas/yazi.json",
+    "description": "Yazi file manager's general configutraion file",
+    "name": "Yazi yazi.toml"
+  },
+  {
+    "url": "https://yazi-rs.github.io/schemas/keymap.json",
+    "description": "Yazi file manager's kebindings configutraion file",
+    "name": "Yazi keymap.toml"
+  },
+  {
+    "url": "https://yazi-rs.github.io/schemas/theme.json",
+    "description": "Yazi file manager's color scheme configutraion file",
+    "name": "Yazi theme.toml"
   }
 ]
 export const schemas = schemata
