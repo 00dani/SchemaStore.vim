@@ -2637,6 +2637,24 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest_fusion/catalogs-latest-fusion.json",
+    "description": "dbt's catalogs.yml file for catalog integrations such as Apache Iceberg",
+    "name": "dbt Catalogs",
+    "fileMatch": [
+      "**/*dbt*/catalogs.yaml",
+      "**/*dbt*/catalogs.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest_fusion/dbt_cloud-latest-fusion.json",
+    "description": "dbt's dbt_cloud.yml file with credentials for the dbt platform",
+    "name": "dbt Cloud",
+    "fileMatch": [
+      "dbt_cloud.yaml",
+      "dbt_cloud.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest_fusion/dependencies-latest-fusion.json",
     "description": "dbt's dependencies.yml file for external packages and cross-project refs",
     "name": "dbt Dependencies",
@@ -8054,6 +8072,21 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/sandialabs/sceptre-phenix/main/schemas/phenix.schema.json",
+    "description": "Config files for the phenix cyber-physical orchestration framework. See https://phenix.sceptre.dev/latest/ for documentation",
+    "name": "phenix",
+    "fileMatch": [
+      "**/phenix-configs/**/*.yml",
+      "**/phenix-configs/**/*.yaml",
+      "**/phenix-images/*.yml",
+      "**/phenix-images/*.yaml",
+      "**/sceptre-phenix-topologies/**/*.yml",
+      "**/sceptre-phenix-topologies/**/*.yaml",
+      "phenix.yml",
+      ".phenix.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/pattern.json",
     "description": "Patternplate pattern manifest file",
     "name": "pattern.json",
@@ -9857,6 +9890,16 @@ export const schemata =
       ".stylelintrc.yml",
       ".stylelintrc.yaml",
       ".stylelintrc.json"
+    ]
+  },
+  {
+    "url": "https://supabase.com/schemas/config/v1.json",
+    "description": "Configuration file for the Supabase CLI",
+    "name": "Supabase CLI config",
+    "fileMatch": [
+      "**/supabase/config.toml",
+      "**/supabase/config.json",
+      "**/supabase/config.jsonc"
     ]
   },
   {
