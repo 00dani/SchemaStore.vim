@@ -7145,6 +7145,15 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/mykso/myks/main/schema/myks.schema.json",
+    "description": "myks project configuration file",
+    "name": "myks",
+    "fileMatch": [
+      ".myks.yaml",
+      ".myks.yml"
+    ]
+  },
+  {
     "url": "https://schemas.nais.io/editor.json",
     "description": "Nais manifest files",
     "name": "Nais manifests",
