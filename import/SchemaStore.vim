@@ -65,6 +65,19 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/falco.json",
+    "description": "Falco runtime security rules. See https://falco.org/docs/rules/ for documentation",
+    "name": "Falco rules",
+    "fileMatch": [
+      "falco_rules.yaml",
+      "falco_rules.yml",
+      "*falco-rules.yaml",
+      "*falco-rules.yml",
+      "*falco_rules.yaml",
+      "*falco_rules.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/johncarmack1984/glslint/main/schema/glslint.schema.json",
     "description": "glslint project config and shader-dialect preset (glslint.toml): ecosystem detection, #pragma expansion, shared-library and injected-define declarations",
     "name": "glslint config",
