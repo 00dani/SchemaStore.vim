@@ -2,6 +2,15 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://raw.githubusercontent.com/Freezedon/scutiqo/main/schemas/rfq-package.schema.json",
+    "description": "A request-for-quotation package sent to a manufacturer: the parts to be priced, the documents that describe them, the bill of materials, and the commercial and quality requirements",
+    "name": "RFQ package",
+    "fileMatch": [
+      "rfq-package.json",
+      "*.rfq-package.json"
+    ]
+  },
+  {
     "url": "https://ramoira.com/schema/v3/SPEC.schema.json",
     "description": "A brand's meaning and rules in the open Ramoira format (spec 3.x)",
     "name": "Ramoira brand file",
@@ -10198,6 +10207,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/Tempo-Organization/tempo-cli/refs/heads/gh-pages/schema/latest/tempo.schema.json",
+    "description": "Unreal Engine modding tool, that covers project management, automated builds, and more",
+    "name": "tempo.json",
+    "fileMatch": [
+      "**/*tempo.json"
+    ]
+  },
+  {
     "url": "https://turborepo.org/schema.json",
     "description": "Turborepo, a tool for managing monorepos",
     "name": "Turborepo",
@@ -10419,15 +10436,6 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/typo3.json",
-    "description": "the Typo3 CMS",
-    "name": "typo3.json",
-    "fileMatch": [
-      "**/sites/*/config.yaml",
-      "**/sites/*/config.yml"
-    ]
-  },
-  {
     "url": "https://raw.githubusercontent.com/eliashaeussler/typo3-vendor-bundler/refs/heads/main/res/typo3-vendor-bundler.schema.json",
     "description": "Configuration for TYPO3 Vendor Bundler, a Composer library to bundle vendor libraries for TYPO3 extensions in classic mode",
     "name": "TYPO3 Vendor Bundler config",
@@ -10435,6 +10443,79 @@ export const schemata =
       "typo3-vendor-bundler.json",
       "typo3-vendor-bundler.yaml",
       "typo3-vendor-bundler.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/typo3.json",
+    "description": "TYPO3 CMS site configuration in config/sites/<identifier>/config.yaml",
+    "name": "TYPO3 site configuration",
+    "fileMatch": [
+      "**/sites/*/config.yaml",
+      "**/sites/*/config.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/typo3-site-csp.json",
+    "description": "TYPO3 CMS Content Security Policy of a site in config/sites/<identifier>/csp.yaml",
+    "name": "TYPO3 site CSP configuration",
+    "fileMatch": [
+      "**/sites/*/csp.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/typo3-set-config.json",
+    "description": "TYPO3 CMS site set definition in Configuration/Sets/<SetFolder>/config.yaml",
+    "name": "TYPO3 site set",
+    "fileMatch": [
+      "**/Configuration/Sets/*/config.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/typo3-set-settings-definitions.json",
+    "description": "TYPO3 CMS settings definitions of a site set in Configuration/Sets/<SetFolder>/settings.definitions.yaml",
+    "name": "TYPO3 site set settings definitions",
+    "fileMatch": [
+      "**/Configuration/Sets/*/settings.definitions.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/typo3-set-route-enhancers.json",
+    "description": "TYPO3 CMS route enhancers of a site set in Configuration/Sets/<SetFolder>/route-enhancers.yaml",
+    "name": "TYPO3 site set route enhancers",
+    "fileMatch": [
+      "**/Configuration/Sets/*/route-enhancers.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/typo3-file-storages.json",
+    "description": "TYPO3 CMS file storage configuration in config/system/file-storages.yaml",
+    "name": "TYPO3 file storages",
+    "fileMatch": [
+      "**/config/system/file-storages.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/typo3-rte-preset.json",
+    "description": "TYPO3 CMS rich text editor (CKEditor) preset in Configuration/RTE/<Name>.yaml",
+    "name": "TYPO3 CKEditor preset",
+    "fileMatch": [
+      "**/Configuration/RTE/*.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/typo3-form-definition.json",
+    "description": "TYPO3 CMS form definition (*.form.yaml)",
+    "name": "TYPO3 form definition",
+    "fileMatch": [
+      "*.form.yaml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/typo3-form-config.json",
+    "description": "TYPO3 CMS form framework configuration in Configuration/Form/<SetFolder>/config.yaml",
+    "name": "TYPO3 form set",
+    "fileMatch": [
+      "**/Configuration/Form/*/config.yaml"
     ]
   },
   {
