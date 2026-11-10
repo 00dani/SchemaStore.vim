@@ -696,6 +696,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/tw93/appfiles/main/appfiles.schema.json",
+    "description": "Declares the files an app leaves outside its package and what each one is, for backup, migration, cleanup and uninstall tools",
+    "name": "appfiles.json",
+    "fileMatch": [
+      "appfiles.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/appsscript.json",
     "description": "Google Apps Script manifest file",
     "name": "appsscript.json",
@@ -1943,6 +1951,12 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/partial-workers.json",
+    "description": "Background workers configuration for pyproject.toml",
+    "name": "partial-workers.json",
+    "fileMatch": []
+  },
+  {
     "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/partial-inwards.json",
     "description": "Inwards architecture linter configuration for pyproject.toml",
     "name": "partial-inwards.json",
@@ -2145,15 +2159,6 @@ export const schemata =
       "cache-warmup.json",
       "cache-warmup.yaml",
       "cache-warmup.yml"
-    ]
-  },
-  {
-    "url": "https://ericchantc.github.io/crs-specification/crs-v0.1-schema.json",
-    "description": "13-field structured attestation protocol for AI agent calibration disclosure in regulated financial systems. Implements ISO 42001 Clause 9.1 for agentic AI",
-    "name": "Calibration Reporting Standard (CRS) v0.1",
-    "fileMatch": [
-      "crs-attestation.json",
-      "*.crs-attestation.json"
     ]
   },
   {
@@ -6829,6 +6834,16 @@ export const schemata =
     "name": "mimetypes.json",
     "fileMatch": [
       "mimetypes.json"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/mikrotik-mcp.json",
+    "description": "MikroTik MCP server configuration",
+    "name": "MikroTik MCP",
+    "fileMatch": [
+      "mikrotik-mcp.json",
+      "mikrotik-mcp.config.json",
+      "**/.mikrotik-mcp/config.json"
     ]
   },
   {
