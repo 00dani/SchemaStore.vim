@@ -967,7 +967,8 @@ export const schemata =
     },
     "fileMatch": [
       "*.aurora.yaml",
-      "*.aurora.yml"
+      "*.aurora.yml",
+      "**/cliter/*/*.module.yaml"
     ]
   },
   {
@@ -6173,11 +6174,12 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/jsontron-0.1.json",
-    "description": "Jsontron vocabulary: rules and assert keywords using jq expressions for cross-field validation",
+    "url": "https://www.schemastore.org/jsontron-0.2.json",
+    "description": "Jsontron vocabulary: Schematron-like rules, assert, report, and let keywords with id/flag/role metadata, over JSON Schema, using jq expressions",
     "name": "Jsontron",
     "versions": {
-      "0.1": "https://www.schemastore.org/jsontron-0.1.json"
+      "0.1": "https://www.schemastore.org/jsontron-0.1.json",
+      "0.2": "https://www.schemastore.org/jsontron-0.2.json"
     }
   },
   {
@@ -9514,6 +9516,15 @@ export const schemata =
     "fileMatch": [
       "**/.snowflake/connections.toml",
       "**/snowflake/connections.toml"
+    ]
+  },
+  {
+    "url": "https://solaria.sh/schemas/v1alpha1/solaria.json",
+    "description": "Solaria agent, environment and MCP server definitions",
+    "name": "Solaria",
+    "fileMatch": [
+      "solaria.yaml",
+      "solaria.yml"
     ]
   },
   {
