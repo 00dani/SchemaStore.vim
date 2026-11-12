@@ -2734,6 +2734,12 @@ export const schemata =
     ]
   },
   {
+    "url": "https://cdn.jsdelivr.net/npm/ddreport-designer/template.schema.json",
+    "description": "Report template for ddreport, rendered to PDF, HTML, XLSX, CSV, PNG or receipt printers",
+    "name": "DdDesignReport template",
+    "fileMatch": []
+  },
+  {
     "url": "https://salsa.debian.org/debian/debian-json-schemas/-/raw/main/schemas/debian-upstream-metadata/debian-upstream-metadata-latest.json",
     "description": "Debian packaging file for describing metadata about the upstream project",
     "name": "Debian Upstream Metadata file",
@@ -5643,6 +5649,14 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://hosait.com/schema/hosait.json",
+    "description": "Hosait deploy configuration (hosait.json)",
+    "name": "Hosait",
+    "fileMatch": [
+      "hosait.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/host.json",
     "description": "Azure Functions host.json files",
     "name": "host.json",
@@ -7176,6 +7190,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://docs.mutastic.io/schemas/mutastic-yaml/v1.json",
+    "description": "mutastic mutation testing configuration, for Java and Rust projects",
+    "name": "mutastic.yaml",
+    "fileMatch": [
+      "mutastic.yaml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/mycode.json",
     "description": "mycode.js files",
     "name": "mycode.json",
@@ -7741,6 +7763,18 @@ export const schemata =
       "*.reliability.yml",
       ".opensrm.yaml",
       ".opensrm.yml"
+    ]
+  },
+  {
+    "url": "https://openskopos.org/schema/artifact/0.1.json",
+    "description": "OpenSkopos document: the decisions that a team makes before an AI agent builds the work",
+    "name": "OpenSkopos",
+    "versions": {
+      "0.1": "https://openskopos.org/schema/artifact/0.1.json"
+    },
+    "fileMatch": [
+      "*.skopos.json",
+      "*.skopos.yaml"
     ]
   },
   {
@@ -14341,12 +14375,28 @@ export const schemata =
   },
   {
     "url": "https://www.schemastore.org/zarf.json",
-    "description": "Zarf Packages contain a comprehensive description of system software and all of it's components for declaratively deploying in a disconnected environment",
+    "description": "Zarf package definition, describing system software and its components for declarative deployment to disconnected environments",
     "name": "Zarf Package Configuration",
     "fileMatch": [
-      "**/zarf.yaml",
-      "**/zarf.yml"
+      "zarf.yaml",
+      "zarf.yml",
+      "zarf.gen.yaml"
     ]
+  },
+  {
+    "url": "https://www.schemastore.org/uds-bundle.json",
+    "description": "UDS CLI bundle definition, grouping Zarf packages for deployment as a single unit",
+    "name": "UDS Bundle",
+    "fileMatch": [
+      "uds-bundle.yaml",
+      "uds-bundle.yml"
+    ]
+  },
+  {
+    "url": "https://www.schemastore.org/maru-tasks.json",
+    "description": "Task file for the Maru task runner, also used by UDS CLI's 'uds run'",
+    "name": "Maru Tasks",
+    "fileMatch": []
   },
   {
     "url": "https://raw.githubusercontent.com/space-wizards/RobustToolbox/refs/heads/master/Schemas/rsi.json",
