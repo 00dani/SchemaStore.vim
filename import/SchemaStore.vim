@@ -704,6 +704,20 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/appium/appium/appium@3.9.0/packages/schema/lib/appium-config.schema.json",
+    "description": "Configuration file for the Appium automation server",
+    "name": "Appium configuration",
+    "versions": {
+      "3.9.0": "https://raw.githubusercontent.com/appium/appium/appium@3.9.0/packages/schema/lib/appium-config.schema.json"
+    },
+    "fileMatch": [
+      ".appiumrc",
+      ".appiumrc.json",
+      ".appiumrc.yaml",
+      ".appiumrc.yml"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/appsscript.json",
     "description": "Google Apps Script manifest file",
     "name": "appsscript.json",
@@ -3333,7 +3347,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json",
+    "url": "https://raw.githubusercontent.com/aws/serverless-application-model/main/schema_source/cloudformation.schema.json",
     "description": "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment",
     "name": "AWS CloudFormation",
     "fileMatch": [
@@ -5179,7 +5193,9 @@ export const schemata =
       "**/.gitlab-ci.yml",
       "**/.gitlab-ci.yaml",
       "**/*.gitlab-ci.yml",
-      "**/*.gitlab-ci.yaml"
+      "**/*.gitlab-ci.yaml",
+      "**/.gitlab/ci/*.yml",
+      "**/.gitlab/ci/*.yaml"
     ]
   },
   {
@@ -8237,6 +8253,17 @@ export const schemata =
     "fileMatch": []
   },
   {
+    "url": "https://plotdown.cc/schema/plot.schema.json",
+    "description": "A plot block of plotdown: the options of Observable Plot's Plot.plot() as strict JSON, rendered as a chart in Markdown",
+    "name": "plotdown",
+    "versions": {
+      "0.1": "https://plotdown.cc/schema/0.1/plot.schema.json"
+    },
+    "fileMatch": [
+      "*.plotdown.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/Songmu/podbard/main/schema.yaml",
     "description": "Configuration file for Podbard - a podcast site generator",
     "name": "podbard.yaml",
@@ -8323,7 +8350,7 @@ export const schemata =
   },
   {
     "url": "https://spec.falsify.dev/schema/prml-v0.1.schema.json",
-    "description": "Pre-Registered ML Manifest — open spec for committing ML evaluation claims to a SHA-256 hash before the run (CC BY 4.0). https://spec.falsify.dev/v0.1",
+    "description": "Pre-Registered ML Manifest: open specification for recording ML evaluation criteria (metric, threshold, dataset, seed) under a SHA-256 hash (Community Specification License 1.0). https://spec.falsify.dev/v0.1",
     "name": "PRML manifest",
     "versions": {
       "v0.2-rfc": "https://spec.falsify.dev/schema/prml-v0.2.schema.json",
