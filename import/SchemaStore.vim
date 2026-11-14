@@ -6770,6 +6770,16 @@ export const schemata =
     ]
   },
   {
+    "url": "https://cdn.jsdelivr.net/npm/@mdq-format/schema@0/mdq.schema.json",
+    "description": "Questions and exams of the MDQ format",
+    "name": "MDQ",
+    "fileMatch": [
+      "*.mdq.yaml",
+      "*.mdq.yml",
+      "*.mdq.json"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/oxsecurity/megalinter/main/megalinter/descriptors/schemas/megalinter-configuration.jsonschema.json",
     "description": "Mega-Linter configuration file (for Mega-Linter users)",
     "name": "MegaLinter configuration",
@@ -11336,6 +11346,14 @@ export const schemata =
     "fileMatch": [
       "web-types.json",
       "*.web-types.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/windmill-labs/windmill/main/cli/wmill.schema.json",
+    "description": "Windmill CLI configuration file",
+    "name": "Windmill wmill.yaml",
+    "fileMatch": [
+      "wmill.yaml"
     ]
   },
   {
