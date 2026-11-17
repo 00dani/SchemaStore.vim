@@ -2,6 +2,14 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://cerclique.github.io/wirdigen/wirdigen.schema.json",
+    "description": "Wirdigen protocol description, generated into a Wireshark Lua dissector",
+    "name": "Wirdigen Protocol Description",
+    "fileMatch": [
+      "*.wirdigen.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/Freezedon/scutiqo/main/schemas/rfq-package.schema.json",
     "description": "A request-for-quotation package sent to a manufacturer: the parts to be priced, the documents that describe them, the bill of materials, and the commercial and quality requirements",
     "name": "RFQ package",
@@ -1706,6 +1714,18 @@ export const schemata =
     "fileMatch": [
       "**/bamboo-specs/*.yaml",
       "**/bamboo-specs/*.yml"
+    ]
+  },
+  {
+    "url": "https://bayesboard.com/schema/v1.3.json",
+    "description": "BayesBoard decision board (hypotheses, evidence, typed edges and likelihood ratios)",
+    "name": "BayesBoard",
+    "versions": {
+      "1.2": "https://bayesboard.com/schema/v1.2.json",
+      "1.3": "https://bayesboard.com/schema/v1.3.json"
+    },
+    "fileMatch": [
+      "*.bayesboard.json"
     ]
   },
   {
@@ -15435,6 +15455,36 @@ export const schemata =
     "url": "https://yazi-rs.github.io/schemas/theme.json",
     "description": "Yazi file manager's color scheme configutraion file",
     "name": "Yazi theme.toml"
+  },
+  {
+    "url": "https://werf.io/docs/v3/schemas/werf.json",
+    "description": "werf configuration file",
+    "name": "werf.yaml",
+    "fileMatch": [
+      "werf.yaml",
+      "werf.yml"
+    ]
+  },
+  {
+    "url": "https://werf.io/docs/v3/schemas/werf-giterminism.json",
+    "description": "werf giterminism configuration file",
+    "name": "werf-giterminism.yaml",
+    "fileMatch": [
+      "werf-giterminism.yaml"
+    ]
+  },
+  {
+    "url": "https://werf.io/docs/v3/schemas/werf-includes.json",
+    "description": "werf includes configuration file",
+    "name": "werf-includes.yaml",
+    "fileMatch": [
+      "werf-includes.yaml"
+    ]
+  },
+  {
+    "url": "https://werf.io/docs/v3/schemas/chart.json",
+    "description": "Chart.yaml of a chart deployed with werf, with the werf export-values extension, to select manually instead of Helm Chart.yaml",
+    "name": "werf Chart.yaml"
   }
 ]
 export const schemas = schemata
