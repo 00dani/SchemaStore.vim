@@ -2,6 +2,19 @@ vim9script
 export const schemata =
 [
   {
+    "url": "https://raw.githubusercontent.com/thanhtrieunguyen/ai-policy-kit/main/schema/v0.1/ai-policy.schema.json",
+    "description": "AI contribution policy configuration for software repositories (ai-policy-kit)",
+    "name": "AI Policy",
+    "fileMatch": [
+      "ai-policy.yml",
+      "ai-policy.yaml",
+      "ai-policy.json",
+      "**/.github/ai-policy.yml",
+      "**/.github/ai-policy.yaml",
+      "**/.github/ai-policy.json"
+    ]
+  },
+  {
     "url": "https://cerclique.github.io/wirdigen/wirdigen.schema.json",
     "description": "Wirdigen protocol description, generated into a Wireshark Lua dissector",
     "name": "Wirdigen Protocol Description",
