@@ -5012,7 +5012,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://gitversion.net/schemas/6.8/GitVersion.configuration.json",
+    "url": "https://gitversion.net/schemas/7.0/GitVersion.configuration.json",
     "description": "Configuration file for GitVersion",
     "name": "GitVersion",
     "versions": {
@@ -5021,6 +5021,7 @@ export const schemata =
       "6.6": "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
       "6.7": "https://gitversion.net/schemas/6.7/GitVersion.configuration.json",
       "6.8": "https://gitversion.net/schemas/6.8/GitVersion.configuration.json",
+      "7.0": "https://gitversion.net/schemas/7.0/GitVersion.configuration.json",
       "5.12": "https://gitversion.net/schemas/5.12/GitVersion.configuration.json",
       "6.0": "https://gitversion.net/schemas/6.0/GitVersion.configuration.json",
       "6.1": "https://gitversion.net/schemas/6.1/GitVersion.configuration.json",
@@ -7729,6 +7730,39 @@ export const schemata =
     "fileMatch": [
       "ops.yml",
       "ops.yaml"
+    ]
+  },
+  {
+    "url": "https://opstruss.github.io/schema/project.json",
+    "description": "OpsTruss project file",
+    "name": "OpsTruss",
+    "versions": {
+      "1.0": "https://opstruss.github.io/v1.0/schema/project.json"
+    },
+    "fileMatch": [
+      "opstruss.yaml"
+    ]
+  },
+  {
+    "url": "https://opstruss.github.io/schema/plugin.json",
+    "description": "OpsTruss plugin file",
+    "name": "OpsTruss plugin",
+    "versions": {
+      "1.0": "https://opstruss.github.io/v1.0/schema/plugin.json"
+    },
+    "fileMatch": [
+      "opstruss.plugin.yaml"
+    ]
+  },
+  {
+    "url": "https://opstruss.github.io/schema/catalog.json",
+    "description": "OpsTruss catalog file",
+    "name": "OpsTruss catalog",
+    "versions": {
+      "1.0": "https://opstruss.github.io/v1.0/schema/catalog.json"
+    },
+    "fileMatch": [
+      "opstruss.catalog.yaml"
     ]
   },
   {
