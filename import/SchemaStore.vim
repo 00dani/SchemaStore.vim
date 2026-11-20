@@ -816,6 +816,23 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/nao1215/atago/refs/heads/main/schema/atago.schema.json",
+    "description": "atago black-box behavior spec files",
+    "name": "atago",
+    "fileMatch": [
+      "*.atago.yaml",
+      "*.atago.yml"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nao1215/atago/refs/heads/main/schema/atago.project.schema.json",
+    "description": "directory-level configuration for a tree of atago specs",
+    "name": "atago.project.yaml",
+    "fileMatch": [
+      "atago.project.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/google/app-resource-bundle/main/schema/arb.json",
     "description": "Application Resource Bundle",
     "name": "arb.json",
