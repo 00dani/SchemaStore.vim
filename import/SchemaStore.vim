@@ -15549,6 +15549,42 @@ export const schemata =
     "url": "https://werf.io/docs/v3/schemas/chart.json",
     "description": "Chart.yaml of a chart deployed with werf, with the werf export-values extension, to select manually instead of Helm Chart.yaml",
     "name": "werf Chart.yaml"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Presencis-com/bom-schemas/main/schemas/ai-bom.schema.json",
+    "description": "Presencis AI Bill of Materials (presencis-ai-bom-v1)",
+    "name": "Presencis AI-BOM",
+    "fileMatch": [
+      "*.ai-bom.json",
+      "ai-bom.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Presencis-com/bom-schemas/main/schemas/cbom.schema.json",
+    "description": "Presencis Cryptographic Bill of Materials (presencis-cbom-v1)",
+    "name": "Presencis CBOM",
+    "fileMatch": [
+      "*.cbom.json",
+      "cbom.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Presencis-com/bom-schemas/main/schemas/vsbom.schema.json",
+    "description": "Presencis Verified Software Bill of Materials (presencis-vsbom-v1)",
+    "name": "Presencis VSBOM",
+    "fileMatch": [
+      "*.vsbom.json",
+      "vsbom.json"
+    ]
+  },
+  {
+    "url": "https://raw.githubusercontent.com/BotMakerDev/sluice/main/sluice.schema.json",
+    "description": "sluice release configuration for a multi-repo Maven umbrella",
+    "name": "sluice",
+    "fileMatch": [
+      "sluice.yml",
+      "sluice.yaml"
+    ]
   }
 ]
 export const schemas = schemata
