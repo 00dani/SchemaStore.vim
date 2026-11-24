@@ -2704,6 +2704,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://www.schemastore.org/databricks-metric-view.json",
+    "description": "Databricks Unity Catalog metric view YAML definition",
+    "name": "Databricks metric view",
+    "fileMatch": [
+      "*.metric_view.yaml",
+      "*.metric_view.yml",
+      "*.metric-view.yaml",
+      "*.metric-view.yml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/connections.schema.json",
     "description": "Collection of defined source and target connections used within DataYoga jobs",
     "name": "DataYoga Connections",
@@ -4713,6 +4724,17 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/gbenm/fire/main/schemas/fire.schema.json",
+    "description": "Fire CLI task runner configuration (fire.yaml, *.fire.yaml)",
+    "name": "Fire CLI",
+    "fileMatch": [
+      "fire.yml",
+      "fire.yaml",
+      "*.fire.yml",
+      "*.fire.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/firebase/firebase-tools/master/schema/firebase-config.json",
     "description": "firebase",
     "name": "Firebase",
@@ -4955,6 +4977,15 @@ export const schemata =
     "fileMatch": [
       "**/gama/config.yaml",
       ".gama.yaml"
+    ]
+  },
+  {
+    "url": "https://schema.gantrydeploy.com/gantry.yml/v1.json",
+    "description": "Gantry deployment configuration (gantry.yml)",
+    "name": "Gantry",
+    "fileMatch": [
+      "gantry.yml",
+      "gantry.yaml"
     ]
   },
   {
@@ -7475,6 +7506,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://raw.githubusercontent.com/mgantlett/nomos/refs/heads/main/nomos.schema.json",
+    "description": "Nomos deterministic engineering substrate and AST verification configuration",
+    "name": "nomos.yaml",
+    "fileMatch": [
+      "nomos.yaml"
+    ]
+  },
+  {
     "url": "https://raw.githubusercontent.com/BookkeepersMC/notebook-schemas/master/notebook.mod.json/schemas/main.json",
     "description": "Metadata file for notebook mods",
     "name": "notebook.mod.json",
@@ -8082,33 +8121,55 @@ export const schemata =
     ]
   },
   {
-    "url": "https://w3id.org/osd/0.5/device.schema.json",
+    "url": "https://w3id.org/osd/0.6/assembly.schema.json",
+    "description": "Open Synth Descriptors: a firmware a person runs, as its builder wrote it: a stock firmware and the modules applied to it",
+    "name": "OSD assembly descriptor"
+  },
+  {
+    "url": "https://w3id.org/osd/0.6/device.schema.json",
     "description": "Open Synth Descriptors: how a synthesizer, drum machine, controller or music software speaks MIDI or OSC (https://github.com/roomi-fields/open-synth-descriptors)",
     "name": "OSD device descriptor",
     "versions": {
       "0.4": "https://w3id.org/osd/0.4/device.schema.json",
-      "0.5": "https://w3id.org/osd/0.5/device.schema.json"
+      "0.5": "https://w3id.org/osd/0.5/device.schema.json",
+      "0.6": "https://w3id.org/osd/0.6/device.schema.json"
     }
   },
   {
-    "url": "https://w3id.org/osd/0.5/fingerprint.schema.json",
+    "url": "https://w3id.org/osd/0.6/fingerprint.schema.json",
     "description": "Open Synth Descriptors: how a music device is recognised",
-    "name": "OSD fingerprint"
+    "name": "OSD fingerprint",
+    "versions": {
+      "0.5": "https://w3id.org/osd/0.5/fingerprint.schema.json",
+      "0.6": "https://w3id.org/osd/0.6/fingerprint.schema.json"
+    }
   },
   {
-    "url": "https://w3id.org/osd/0.5/firmware.schema.json",
+    "url": "https://w3id.org/osd/0.6/firmware.schema.json",
     "description": "Open Synth Descriptors: what a firmware changes on a music device",
-    "name": "OSD firmware descriptor"
+    "name": "OSD firmware descriptor",
+    "versions": {
+      "0.5": "https://w3id.org/osd/0.5/firmware.schema.json",
+      "0.6": "https://w3id.org/osd/0.6/firmware.schema.json"
+    }
   },
   {
-    "url": "https://w3id.org/osd/0.5/profile.schema.json",
+    "url": "https://w3id.org/osd/0.6/profile.schema.json",
     "description": "Open Synth Descriptors: what a maker's music devices share",
-    "name": "OSD maker profile"
+    "name": "OSD maker profile",
+    "versions": {
+      "0.5": "https://w3id.org/osd/0.5/profile.schema.json",
+      "0.6": "https://w3id.org/osd/0.6/profile.schema.json"
+    }
   },
   {
-    "url": "https://w3id.org/osd/0.5/sound.schema.json",
+    "url": "https://w3id.org/osd/0.6/sound.schema.json",
     "description": "Open Synth Descriptors: a shared sound for a music device, its author and licence",
     "name": "OSD sound descriptor",
+    "versions": {
+      "0.5": "https://w3id.org/osd/0.5/sound.schema.json",
+      "0.6": "https://w3id.org/osd/0.6/sound.schema.json"
+    },
     "fileMatch": [
       "*.osd.json"
     ]
@@ -15585,6 +15646,11 @@ export const schemata =
       "sluice.yml",
       "sluice.yaml"
     ]
+  },
+  {
+    "url": "https://ultrafast.mov/schema/v1.json",
+    "description": "A video for the ultrafast GPU video engine: format, node graph and output node",
+    "name": "ultrafast document"
   }
 ]
 export const schemas = schemata
