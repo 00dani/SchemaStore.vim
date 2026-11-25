@@ -1018,9 +1018,7 @@ export const schemata =
       "1.0": "https://www.schemastore.org/aurora-1.0.json"
     },
     "fileMatch": [
-      "*.aurora.yaml",
-      "*.aurora.yml",
-      "**/cliter/*/*.module.yaml"
+      "**/blueprint/*/*.module.yaml"
     ]
   },
   {
@@ -10899,6 +10897,14 @@ export const schemata =
     ]
   },
   {
+    "url": "https://schemas.metatoy.com/validonce/rules-file-v1.json",
+    "description": "Cross-field validation rules file written by validonce extract",
+    "name": "validonce rules",
+    "fileMatch": [
+      "*.validonce.json"
+    ]
+  },
+  {
     "url": "https://www.schemastore.org/vector.json",
     "description": "Configuration file for Vector, an observability data pipeline agent and aggregator",
     "name": "Vector",
@@ -12472,6 +12478,64 @@ export const schemata =
     "name": "Mason Registry",
     "fileMatch": [
       "**/packages/*/package.yaml"
+    ]
+  },
+  {
+    "url": "https://maxoperf.com/schemas/resources/v1/resource.json",
+    "description": "MaxoPerf tests-as-code: tests, configs, datasets, virtual services and other resources under .maxoperf/<kind>/",
+    "name": "MaxoPerf resources",
+    "fileMatch": [
+      "**/.maxoperf/workspaces/*.yml",
+      "**/.maxoperf/workspaces/*.yaml",
+      "**/.maxoperf/projects/*.yml",
+      "**/.maxoperf/projects/*.yaml",
+      "**/.maxoperf/configs/*.yml",
+      "**/.maxoperf/configs/*.yaml",
+      "**/.maxoperf/secrets/*.yml",
+      "**/.maxoperf/secrets/*.yaml",
+      "**/.maxoperf/datasets/*.yml",
+      "**/.maxoperf/datasets/*.yaml",
+      "**/.maxoperf/data-entities/*.yml",
+      "**/.maxoperf/data-entities/*.yaml",
+      "**/.maxoperf/transform-snippets/*.yml",
+      "**/.maxoperf/transform-snippets/*.yaml",
+      "**/.maxoperf/tests/*.yml",
+      "**/.maxoperf/tests/*.yaml",
+      "**/.maxoperf/virtual-services/*.yml",
+      "**/.maxoperf/virtual-services/*.yaml",
+      "**/.maxoperf/virtual-service-packs/*.yml",
+      "**/.maxoperf/virtual-service-packs/*.yaml",
+      "**/.maxoperf/dashboards/*.yml",
+      "**/.maxoperf/dashboards/*.yaml",
+      "**/.maxoperf/alert-rules/*.yml",
+      "**/.maxoperf/alert-rules/*.yaml",
+      "**/.maxoperf/alert-maintenance-windows/*.yml",
+      "**/.maxoperf/alert-maintenance-windows/*.yaml",
+      "**/.maxoperf/notification-integrations/*.yml",
+      "**/.maxoperf/notification-integrations/*.yaml",
+      "**/.maxoperf/notification-rules/*.yml",
+      "**/.maxoperf/notification-rules/*.yaml",
+      "**/.maxoperf/deploy-hooks/*.yml",
+      "**/.maxoperf/deploy-hooks/*.yaml",
+      "**/.maxoperf/apm-integrations/*.yml",
+      "**/.maxoperf/apm-integrations/*.yaml",
+      "**/.maxoperf/git-connections/*.yml",
+      "**/.maxoperf/git-connections/*.yaml",
+      "**/.maxoperf/private-datacenters/*.yml",
+      "**/.maxoperf/private-datacenters/*.yaml",
+      "**/.maxoperf/browser-fleets/*.yml",
+      "**/.maxoperf/browser-fleets/*.yaml",
+      "**/.maxoperf/account-settings/*.yml",
+      "**/.maxoperf/account-settings/*.yaml"
+    ]
+  },
+  {
+    "url": "https://maxoperf.com/schemas/resources/v1/targets.json",
+    "description": "MaxoPerf targets file: named targets for .maxoperf resources",
+    "name": "MaxoPerf targets",
+    "fileMatch": [
+      "**/.maxoperf/targets.yml",
+      "**/.maxoperf/targets.yaml"
     ]
   },
   {
