@@ -15715,6 +15715,14 @@ export const schemata =
     "url": "https://ultrafast.mov/schema/v1.json",
     "description": "A video for the ultrafast GPU video engine: format, node graph and output node",
     "name": "ultrafast document"
+  },
+  {
+    "url": "https://docs.itero.sh/schema/itero.config.json",
+    "description": "itero workspace config: what the workspace is, how it runs, and an entry per workflow, action and connector",
+    "name": "itero.config.json",
+    "fileMatch": [
+      "itero.config.json"
+    ]
   }
 ]
 export const schemas = schemata
