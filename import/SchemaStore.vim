@@ -9692,7 +9692,7 @@ export const schemata =
     ]
   },
   {
-    "url": "https://www.schemastore.org/slack-app-manifest.json",
+    "url": "https://raw.githubusercontent.com/slackapi/manifest-schema/main/manifest.schema.json",
     "description": "A manifest file containing the settings for a Slack app",
     "name": "Slack app manifest"
   },
