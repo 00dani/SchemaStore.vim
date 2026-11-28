@@ -9184,11 +9184,12 @@ export const schemata =
     "description": "Renovate configuration file. Documentation: https://docs.renovatebot.com/configuration-options",
     "name": "Renovate",
     "versions": {
+      "39": "https://www.schemastore.org/renovate-39.json",
       "40": "https://www.schemastore.org/renovate-40.json",
       "41": "https://www.schemastore.org/renovate-41.json",
       "42": "https://www.schemastore.org/renovate-42.json",
       "43": "https://www.schemastore.org/renovate-43.json",
-      "39": "https://www.schemastore.org/renovate-39.json"
+      "44": "https://www.schemastore.org/renovate-44.json"
     },
     "fileMatch": [
       "renovate.json",
@@ -9209,7 +9210,8 @@ export const schemata =
     "versions": {
       "41": "https://www.schemastore.org/renovate-global-schema-41.json",
       "42": "https://www.schemastore.org/renovate-global-schema-42.json",
-      "43": "https://www.schemastore.org/renovate-global-schema-43.json"
+      "43": "https://www.schemastore.org/renovate-global-schema-43.json",
+      "44": "https://www.schemastore.org/renovate-global-schema-44.json"
     },
     "fileMatch": []
   },
@@ -9219,7 +9221,8 @@ export const schemata =
     "name": "Renovate inherited configuration",
     "versions": {
       "42": "https://www.schemastore.org/renovate-inherited-schema-42.json",
-      "43": "https://www.schemastore.org/renovate-inherited-schema-43.json"
+      "43": "https://www.schemastore.org/renovate-inherited-schema-43.json",
+      "44": "https://www.schemastore.org/renovate-inherited-schema-44.json"
     },
     "fileMatch": []
   },
